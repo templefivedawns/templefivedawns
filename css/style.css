@@ -106,9 +106,7 @@ a {
 	height: auto;
 }
 
-.addon-date {
-	width: 100%;
-}
+
 
 .addon {
 	float: left;
@@ -118,7 +116,7 @@ a {
 	overflow: auto; */
 }
 
-.addon-date {
+.guide-date {
 	float: right;
 	width: 50%;
 	text-align: right;
@@ -167,9 +165,9 @@ a {
 .nav-bar {
   background: #111a1a;
 	position: sticky;
-	top: 0;
+	top: 6%;
 	border-bottom: #9d9063 solid 1px;
-	border-top: 1px solid #9d9063;
+	
 }
 
 .menu {
