@@ -62,11 +62,11 @@ for (var i=0; i<5000; ++i) {
 	$(".support").hover(function () {
 
 		$(this).animate({
-			bottom: '+=4'
-	}, 800);
+			bottom: '+=5'
+	}, 500);
 	$(this).animate({
-		bottom: '-=4'
-}, 800);
+		bottom: '-=5'
+}, 500);
 } );
 
 	}
