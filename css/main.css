@@ -163,7 +163,7 @@ z-index: 2;
 
 .dropdownMenuContainer {
 	position: absolute;
-	border:#00FF98 solid 0.2vw;
+	border:#00FF98 solid 0.3vw;
 	height: 3.5vw;
 	width: 9vw;
 	z-index: 4;
