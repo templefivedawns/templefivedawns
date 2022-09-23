@@ -24,13 +24,16 @@ h1 {
 
 h2 {
 	color: #9d9063;
-	font-size: 1.5vw;
+	font-size: 1.2vw;
 	font-family: MontserratBold;
 	text-decoration: none;
 	font-weight: inherit;
 	margin-block-start: 0;
 	margin-block-end: 0;
 	text-transform: uppercase;
+	/* text-align: left; */
+	padding-top: 0.3vw;
+	padding-left: 1vw;
 }
 
 p {
@@ -65,13 +68,17 @@ a {
   text-decoration: none;
   font-size: 0.8vw; 
   line-height: 55%;
-  font-family: Montserrat;
+  font-family: MontserratBold;
 	margin-top: 2%;
 }
 
 .header-right {
   float: right;
   margin-right: 15%;
+}
+
+.header-right a:hover {
+	color: #00FF99;
 }
 
 .logo {
@@ -106,8 +113,6 @@ a {
 	height: auto;
 }
 
-
-
 .addon {
 	float: left;
 	width: 50%;
@@ -134,7 +139,7 @@ a {
 	background-size: 100%;
   height: 2.03vw;
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	/* overflow: auto;
 	position: relative; */
 
@@ -165,14 +170,14 @@ a {
 .nav-bar {
   background: #111a1a;
 	position: sticky;
-	top: 6%;
+	top: 6.7%;
 	border-bottom: #9d9063 solid 1px;
 	
 }
 
 .menu {
   margin: 0;
-  padding-left: 0.8vw;
+  padding-left: 1vw;
 	padding-top: 0.3vw;
 	padding-bottom: 0.3vw;
   list-style: none;
@@ -191,18 +196,36 @@ a {
 }
 
 .menu a {
-  text-align: left;
-  /* display: flex; */
-  text-decoration: none;
-  font-size: 0.9vw;
-  line-height: 1.5vw;
-  color: #9d9063;
-  height: 100%;
-  justify-content: center;
-  align-items: center
+	text-align: left;
+	/* display: flex; */
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 0.7vw;
+	line-height: 1.5vw;
+	color: #9d9063;
+	height: 100%;
+	justify-content: center;
+	align-items: center
 }
 
 .menu a:hover {
+	color: #00FF99;
+}
+
+.select-item-menu {
+	margin: 0;
+}
+
+.select-item-submenu {
+	margin: 0;
+	padding-left: 4%;
+}
+
+.select-item-submenu:hover {
+	color: #00FF99;
+}
+
+.select-item-menu:hover {
 	color: #00FF99;
 }
 
@@ -279,16 +302,20 @@ a {
 } */
 
 #footer {
-	height: 12vw;
-	padding-top: 6vw;
+	height: 10vw;
+	padding-top: 5vw;
 }
 
 .footer-copyr {
 	text-align: center;
+	padding-top: 0;
+	padding-left: 0;
 }
 
 .footer-discname {
 	text-align: center;
+	padding-top: 0;
+	padding-left: 0;
 }
 
 @media only screen and (max-width: 2000px){
