@@ -12,8 +12,8 @@ body {
 h1 {
 	color: #9d9063;
 	font-size: 2.5vw;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 0.5vw;
+	padding-bottom: 0.5vw;
 	font-family: MontserratBold;
 	text-decoration: none;
 	font-weight: inherit;
@@ -24,7 +24,7 @@ h1 {
 
 h2 {
 	color: #9d9063;
-	font-size: 1.2vw;
+	font-size: 1.3vw;
 	font-family: MontserratBold;
 	text-decoration: none;
 	font-weight: inherit;
@@ -32,12 +32,16 @@ h2 {
 	margin-block-end: 0;
 	text-transform: uppercase;
 	/* text-align: left; */
-	padding-top: 0.3vw;
+	padding-top: 0.2vw;
+	padding-bottom: 0.2vw;
 	padding-left: 1vw;
 }
 
 p {
 	color: #9d9063;
+	font-size: 0.8vw;
+	font-weight: 500;
+	margin: 0;
 }
 
 a {
@@ -56,7 +60,6 @@ a {
 	position: sticky;
 	top: 0;
 	background-size: contain;
-	
 }
 
 .header-right a{
@@ -99,7 +102,8 @@ a {
 #containerMain {
 	width: 79.9%;
 	background-color: #111a1a;
-	padding: 20px;
+	padding: 1.5vw;
+	margin: 0;
 	color: #9d9063;
 	font-family: Montserrat;
 	float:left;
@@ -130,7 +134,7 @@ a {
 
 .divider1 {
 	width: 100%;
-	padding-bottom: 10px;
+	/* padding-bottom: 10px; */
 }
 
 .frame-red {
@@ -139,20 +143,56 @@ a {
   height: 2.03vw;
 	width: 100%;
 	text-align: left;
-	/* overflow: auto;
-	position: relative; */
-
+	margin-top: 0.5vw;
+	margin-bottom: 0.5vw;
 }
 
-/* .containerH{
+.frame-red-button {
+	background:url(../img/frame.png) no-repeat;
+	background-size: 100%;
+  height: 2.03vw;
+	width: 100%;
+	text-align: center;
+	margin-top: 2vw;
+	margin-bottom: 0.5vw;
+}
+
+.frame-red-button a {
+	color: #9d9063;
+}
+
+.frame-red-button a:hover {
+	color: #00FF99;
+}
+
+/* аккордеон начало */
+.accordion {
+	background-color: #111a1a;
 	font-family: MontserratBold;
-	background-color: #112626;
-	overflow: auto;
-	padding-left: 1.2%;
-	line-height: 0.4;
-	border-bottom: solid 1px #9d9063;
-	font-size: 0.9vw;
-} */
+	font-size: 1.4vw;
+	text-decoration: none;
+	margin: 0;
+	padding: 1.5% 0% 1.5% 0%;
+	color: #9d9063;
+	cursor: pointer;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+}
+
+.accordion:hover {
+	color: #00FF99;
+}
+
+.panel {
+	display: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+/* аккордеон конец */
 
 #containerRed {
 	background:url(../img/backgroundred.png) 100% 0 repeat;
@@ -171,7 +211,6 @@ a {
 	position: sticky;
 	top: 6.7%;
 	border-bottom: #9d9063 solid 1px;
-	
 }
 
 .menu {
@@ -213,6 +252,7 @@ a {
 
 .select-item-menu {
 	margin: 0;
+	text-transform: uppercase;
 }
 
 .select-item-submenu {
@@ -273,31 +313,6 @@ a {
   border-radius: 5px;
   box-shadow: none;
   border: none;
-} */
-
-/* .containerRedLinks{
-	margin-top: 1.3%;
-	position: relative;
-	z-index: 1;
-	overflow: auto;
-}
-
-.containerRedLinks a {
-	color: #9d9063;
-	font-family: MontserratBold;
-	text-decoration: none;
-	margin-right: 0.4%;
-	margin-left: 0.2%;
-}
-
-.containerHRed{
-	font-family: MontserratBold;
-	background-color: #112626;
-	overflow: auto;
-	padding-left: 5%;
-	line-height: 0.4;
-	border-bottom: solid 1px #9d9063 ;
-	font-size: 0.9vw;
 } */
 
 #footer {
