@@ -42,7 +42,6 @@ p {
 
 a {
 	text-decoration: none;
-	color: #9d9063;
 }
 
 #headerContainer {
@@ -316,6 +315,10 @@ a {
 	text-align: center;
 	padding-top: 0;
 	padding-left: 0;
+}
+
+.footer-discname a {
+	color: #9d9063;
 }
 
 @media only screen and (max-width: 2000px){
