@@ -126,15 +126,17 @@ a {
 	height: auto;
 }
 
-.addon {
+.collum-l {
 	float: left;
-	width: 50%;
+	width: 45%;
+	margin-right: 5%;
 	align-content: left;
 }
 
-.guide-date {
+.collum-r {
 	float: right;
-	width: 50%;
+	width: 45%;
+	margin-left: 5%;
 	text-align: right;
 }
 
