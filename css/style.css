@@ -11,101 +11,111 @@ body {
 
 h1 {
 	color: #9d9063;
-	font-size: 2.5vw;
-	padding-top: 0.5vw;
-	padding-bottom: 0.5vw;
+	font-size: 2.1vw;
 	font-family: MontserratBold;
+	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: inherit;
-	margin-block-start: 0;
-	margin-block-end: 0;
-	text-transform: uppercase;
+		/* padding-top: 0.5vw;
+	padding-bottom: 0.5vw; */
+	padding: 0;
+	margin: 0;
 }
 
 h2 {
 	color: #9d9063;
-	font-size: 1.3vw;
+	font-size: 1.4vw;
 	font-family: MontserratBold;
+	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: inherit;
-	margin-block-start: 0;
-	margin-block-end: 0;
+	/* padding-top: 0.2vw;
+	padding-bottom: 0.2vw; */
+	padding: 0vw 0vw 0vw 1vw;
+	margin: 0;
+}
+
+h3 {
+	color: #9d9063;
+	font-size: 1vw;
+	font-family: MontserratBold;
 	text-transform: uppercase;
-	/* text-align: left; */
-	padding-top: 0.2vw;
-	padding-bottom: 0.2vw;
-	padding-left: 1vw;
+	text-decoration: none;
+	font-weight: inherit;
+	/* padding-top: 0.1vw;
+	padding-bottom: 0.1vw; */
+	padding: 0;
+	margin: 0;
 }
 
 p {
 	color: #9d9063;
-	font-size: 0.8vw;
-	font-weight: 500;
+	font-family: Montserrat;
+	font-size: 0.7vw;
+	line-height: 1.2vw;
+	font-weight: 400;
 	margin: 0;
+	padding: 0;
 }
 
 a {
 	text-decoration: none;
+	color: #00FF99;
 }
 
-#headerContainer {
-	width: 100%;
-	overflow: hidden;
-}
+/* НАСТРОЙКИ БАДИ НАЧАЛО */
 
 #header {
 	background:url("../img/headerempty.png") fixed no-repeat ;
-	height: 115px;
+	height: 4.5vw;
 	width: auto;
 	position: sticky;
+	z-index: 100;
 	top: 0;
 	background-size: contain;
 }
 
-.header-right a{
-  float: left;
-  color: #9d9063;
-  text-align: center;
-  padding: 0.7vw 0vw 0.7vw 1vw;
-  text-decoration: none;
-  font-size: 0.8vw; 
-  line-height: 55%;
-  font-family: MontserratBold;
-	margin-top: 2%;
-}
-
-.header-right {
-  float: right;
-  margin-right: 15%;
-}
-
-.header-right a:hover {
-	color: #00FF99;
-}
-
-.logo {
+.logo { /*логотип в хэдере*/
 	float: left;
-  margin-left: 14.7%;
+	margin-left: 14.8%;
 	height: 4.5vw;
 	width: 4.8vw;
 }
 
-#container {
-	margin-left: 15%;
+.header-right { /*мейн меню хэдера*/
+	float: right;
 	margin-right: 15%;
+}
+
+.header-right a{ /*настройки ссылок в мейн меню хэдера*/
+	float: left;
+	font-family: MontserratBold;
+	color: #9d9063;
+	font-size: 0.8vw; 
+	line-height: 55%;
+	text-align: center;
+	padding: 0.7vw 0vw 0.7vw 1vw;
+	text-decoration: none;
+	margin-top: 0.6vw;
+}
+
+.header-right a:hover {
+	color: #00FF99; /*цвет мейн меню хэдера при наведении*/
+}
+
+/* ХЭДЕР ЗАКОНЧИЛСЯ */
+
+#container {
+	margin: 2vw 15% 2vw 15%;
 	background-color: #111a1a;
 	border: solid 1px #9d9063;
-	/* margin-bottom: 10%; */
 	display: flex;
 }
 
 #containerMain {
 	width: 79.9%;
-	background-color: #111a1a;
 	padding: 1.5vw;
 	margin: 0;
-	color: #9d9063;
-	font-family: Montserrat;
 	float:left;
 	align-content: center;
 	overflow: auto;
@@ -120,21 +130,17 @@ a {
 	float: left;
 	width: 50%;
 	align-content: left;
-	/* position: relative;
-	overflow: auto; */
 }
 
 .guide-date {
 	float: right;
 	width: 50%;
 	text-align: right;
-	/* position: relative;
-	overflow: auto; */
 }
 
 .divider1 {
 	width: 100%;
-	/* padding-bottom: 10px; */
+	margin: 0.2vw 0vw 0.2vw 0vw;
 }
 
 .frame-red {
@@ -143,8 +149,8 @@ a {
   height: 2.03vw;
 	width: 100%;
 	text-align: left;
-	margin-top: 0.5vw;
-	margin-bottom: 0.5vw;
+	margin: 0.2vw 0vw 0.2vw 0vw;
+	padding-top: 0.1vw;
 }
 
 .frame-red-button {
@@ -153,8 +159,8 @@ a {
   height: 2.03vw;
 	width: 100%;
 	text-align: center;
-	margin-top: 2vw;
-	margin-bottom: 0.5vw;
+	margin: 0.2vw 0vw 0.2vw 0vw;
+	padding-top: 0.1vw;
 }
 
 .frame-red-button a {
@@ -169,10 +175,9 @@ a {
 .accordion {
 	background-color: #111a1a;
 	font-family: MontserratBold;
-	font-size: 1.4vw;
+	font-size: 1vw;
 	text-decoration: none;
-	margin: 0;
-	padding: 1.5% 0% 1.5% 0%;
+	margin: 0.4vw 0vw 0vw 0vw;
 	color: #9d9063;
 	cursor: pointer;
 	width: 100%;
@@ -198,52 +203,35 @@ a {
 	background:url(../img/backgroundred.png) 100% 0 repeat;
 	background-size: 300%;
 	align-content: center;
-	font-size: 0.7vw;
-	color: #9d9063;
-	font-family: Montserrat;
 	height: auto;
 	float:right;
 	width: 20%;
 }
 
 .nav-bar {
-  background: #111a1a;
+	background: #111a1a;
 	position: sticky;
-	top: 6.7%;
+	top: 3.1vw;
 	border-bottom: #9d9063 solid 1px;
 }
 
 .menu {
-  margin: 0;
-  padding-left: 1vw;
-	padding-top: 0.3vw;
-	padding-bottom: 0.3vw;
-  list-style: none;
-  /* display: flex; */
-  justify-content: space-between;
-  align-items: stretch;
+	margin: 0;
+	padding: 0.3vw 0vw 0.3vw 1vw;
+	list-style: none;
 }
 
 .menu li {
-  /* border: 1px solid #000; */
-  position: relative;
+	position: relative;
 }
 
 .menu>li {
-  flex: 1;
+	flex: 1;
 }
 
 .menu a {
-	text-align: left;
-	/* display: flex; */
-	font-weight: 600;
 	text-decoration: none;
-	font-size: 0.7vw;
-	line-height: 1.5vw;
 	color: #9d9063;
-	height: 100%;
-	justify-content: center;
-	align-items: center
 }
 
 .menu a:hover {
@@ -252,12 +240,14 @@ a {
 
 .select-item-menu {
 	margin: 0;
+	padding: 0;
 	text-transform: uppercase;
 }
 
 .select-item-submenu {
 	margin: 0;
-	padding-left: 4%;
+	padding: 0;
+	padding-left: 0.4vw;
 }
 
 .select-item-submenu:hover {
@@ -269,67 +259,64 @@ a {
 }
 
 /* .menu li a div {
-  display: inline-block;
-  vertical-align: middle;
+	display: inline-block;
+	vertical-align: middle;
 } */
 
 /* .menu .sub-menu {
-  position: absolute;
-  display: none;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background-color: #D2908B;
-  z-index: 1;
+	position: absolute;
+	display: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: #D2908B;
+	z-index: 1;
 } */
 
 /* .menu .sub-menu a {
-  margin-bottom: -1px;
-  color: white;
-  text-decoration: none;
-  padding:3px 5px;
+	margin-bottom: -1px;
+	color: white;
+	text-decoration: none;
+	padding:3px 5px;
 } */
 
 /* .menu>li:hover .sub-menu {
-  display: block;
+	display: block;
 } */
 
 /* .search-form {
-  display: inline-block;
-  margin-right: 17px;
-  width: 300px;
+	display: inline-block;
+	margin-right: 17px;
+	width: 300px;
 }
 
 .search-form .search-text {
-  background-image: url(images/glass.png);
-  background-repeat: no-repeat;
-  background-position: 13px 5px;
-  text-indent: 56px;
-  width: 100%;
-  height: 35px;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  display: inline-block;
-  border-radius: 5px;
-  box-shadow: none;
-  border: none;
+	background-image: url(images/glass.png);
+	background-repeat: no-repeat;
+	background-position: 13px 5px;
+	text-indent: 56px;
+	width: 100%;
+	height: 35px;
+	font-size: 0.875rem;
+	line-height: 1.0625rem;
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: none;
+	border: none;
 } */
 
 #footer {
-	height: 10vw;
-	padding-top: 5vw;
+	padding: 0;
+	margin: 0;
 }
 
 .footer-copyr {
 	text-align: center;
-	padding-top: 0;
-	padding-left: 0;
 }
 
 .footer-discname {
 	text-align: center;
-	padding-top: 0;
-	padding-left: 0;
+	margin: 2vw 0vw 2vw 0vw;
 }
 
 .footer-discname a {
