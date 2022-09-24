@@ -419,7 +419,7 @@ a {
 
 	.collum-l, .collum-r {
 		width: 100%;
-		padding: 0;
+		padding-top: 3vw;
 		margin: 0;
 		text-align: left;
 	}
@@ -458,7 +458,7 @@ a {
 		width: 7vw;
 		padding: 2vw 20px 2vw 24px;
 		margin: 0;
-		/* border-radius: 38%; */
+		border-radius: 10%;
 	}
 }
 
