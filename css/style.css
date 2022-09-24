@@ -370,15 +370,11 @@ a {
 	}
 
 	p {
-		font-size: 2.5vw;
-		line-height: 4vw;
+		font-size: 3vw;
+		line-height: 5vw;
 	}
 
 	#header {
-		display: none;
-	}
-
-	#footer {
 		display: none;
 	}
 
@@ -397,22 +393,12 @@ a {
 	}
 
 	#containerMain{
-		width: 99.9%;
+		width: 100%;
 		border: none;
 	}
 
 	.accordion {
-		background-color: #111a1a;
-		font-family: MontserratBold;
 		font-size: 3vw;
-		text-decoration: none;
-		margin: 0.4vw 0vw 0vw 0vw;
-		color: #9d9063;
-		cursor: pointer;
-		width: 100%;
-		text-align: left;
-		border: none;
-		outline: none;
 	}
 
 	.frame-red {
@@ -422,7 +408,7 @@ a {
 		height: 6.8vw;
 		/* width: 150%; */
 		text-align: left;
-		/* margin: 0.2vw 0vw 0.2vw 0vw; */
+		margin: 0.2vw 0vw 0.2vw 0vw;
 		/* padding-top: 0.1vw; */
 	}
 
@@ -433,6 +419,32 @@ a {
 
 	#containerRed{
 		display: none;
+	}
+
+	#footer {
+		display: none;
+	}
+
+	#footer-mob {
+		background-color: #090e0e;
+		height: 14vw;
+		width: auto;
+		position: sticky;
+		z-index: 100;
+		bottom: 0;
+		/* РАЗОБРАТЬСЯ С МАКСИМАЛЬНОЙ ШИРИНОЙ ХЭДЕРА 1440PX */
+	}
+
+	#footer-mob-buttons {
+		/* padding: 0.7vw 0vw 0.7vw 1vw;
+		margin-top: 0.6vw; */
+
+	}
+
+	.footer-item {
+		height: 8vw;
+		width: 8vw;
+padding: 2vw 20px 2vw 20px;
 	}
 }
 
