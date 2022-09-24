@@ -399,7 +399,7 @@ a {
 	#containerMain{
 		width: 100%;
 		border: none;
-		padding: 4vw;
+		padding: 3vw;
 	}
 
 	.accordion {
@@ -458,7 +458,7 @@ a {
 		width: 7vw;
 		padding: 2vw 20px 2vw 24px;
 		margin: 0;
-		border-radius: 8%;
+		border-radius: 38%;
 	}
 }
 
