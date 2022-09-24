@@ -76,6 +76,10 @@ a {
 	/* РАЗОБРАТЬСЯ С МАКСИМАЛЬНОЙ ШИРИНОЙ ХЭДЕРА 1440PX */
 }
 
+#header-mob {
+	display: none;
+}
+
 .logo { /*логотип в хэдере*/
 	float: left;
 	margin-left: 14.8%;
@@ -393,6 +397,63 @@ a {
 		display: none;
 	}
 
+	#header-mob {
+		display: block;
+		background-color: #111a1a;
+		box-shadow: 0vw 0vw 4vw 2vw rgba(0,0,0,0.6);
+		height: 16vw;
+		margin: 0;
+		padding: 0;
+		width: auto;
+		position: sticky;
+		z-index: 100;
+		top: 0;
+		display:flex;
+    align-items: center;
+		justify-content: center;
+		/* РАЗОБРАТЬСЯ С МАКСИМАЛЬНОЙ ШИРИНОЙ ХЭДЕРА 1440PX */
+	}
+
+	#header-mob-buttons-l {
+		/* padding: 0.7vw 0vw 0.7vw 1vw;
+		margin-top: 0.6vw; */
+		margin-right: 50%;
+		padding: 0;
+		/* display:flex;
+    align-items: center; */
+		/* position: relative; */
+	}
+
+	#header-mob-buttons-r {
+		/* padding: 0.7vw 0vw 0.7vw 1vw;
+		margin-top: 0.6vw; */
+		padding: 0;
+		/* display:flex;
+    align-items: center; */
+		/* position: relative; */
+	}
+
+	.header-mob-item-l {
+		float: left;
+		/* width: 50%; */
+		height: 7vw;
+		width: 7vw;
+		padding: 2vw 3vw 2vw 1vw;
+		margin: 0;
+		border-radius: 10%;
+	}
+
+	.header-mob-item-r {
+		float: right;
+		/* width: 50%; */
+		height: 7vw;
+		width: 8vw;
+		/* justify-content: right; */
+		padding: 2vw 3vw 2vw 1vw;
+		margin: 0;
+		border-radius: 10%;
+	}
+
 	.logo { /*логотип в хэдере*/
 		margin-left: 3vw;
 	}
@@ -447,29 +508,30 @@ a {
 		display: block;
 		background-color: #111a1a;
 		box-shadow: 0vw 0vw 4vw 2vw rgba(0,0,0,0.6);
-		height: 12vw;
+		height: 16vw;
 		margin: 0;
 		padding: 0;
-		width: auto;
 		position: sticky;
 		z-index: 100;
 		bottom: 0;
+		display:flex;
+    align-items: center;
 		/* РАЗОБРАТЬСЯ С МАКСИМАЛЬНОЙ ШИРИНОЙ ХЭДЕРА 1440PX */
 	}
 
-	#footer-mob-buttons {
-		/* padding: 0.7vw 0vw 0.7vw 1vw;
-		margin-top: 0.6vw; */
-		margin: 0;
+	.footer-mob-buttons {
+		width: 100vw;
+		display: flex;
+		margin: 3vw;
+		justify-content: space-between;
 		padding: 0;
 	}
 
-	.footer-item {
-		height: 7vw;
-		width: 7vw;
-		padding: 2vw 20px 2vw 24px;
+	.footer-mob-item {
+		height: 10vw;
+		width: 10vw;
 		margin: 0;
-		border-radius: 10%;
+		padding: 0;
 	}
 }
 
