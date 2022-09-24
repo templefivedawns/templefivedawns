@@ -327,6 +327,10 @@ a {
 .footer-discname a {
 	color: #9d9063;
 }
+
+#footer-mob {
+	display: none;
+}
 /* конец футера */
 
 /* 1440PX И МЕНЬШЕ */
@@ -429,6 +433,7 @@ a {
 	}
 
 	#footer-mob {
+		display: block;
 		background-color: #111a1a;
 		box-shadow: 0vw 0vw 4vw 2vw rgba(0,0,0,0.6);
 		height: 12vw;
@@ -451,8 +456,9 @@ a {
 	.footer-item {
 		height: 7vw;
 		width: 7vw;
-		padding: 2vw 25px 2vw 25px;
+		padding: 2vw 20px 2vw 24px;
 		margin: 0;
+		border-radius: 8%;
 	}
 }
 
