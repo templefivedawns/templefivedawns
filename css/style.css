@@ -73,6 +73,7 @@ a {
 	z-index: 100;
 	top: 0;
 	background-size: contain;
+	/* РАЗОБРАТЬСЯ С МАКСИМАЛЬНОЙ ШИРИНОЙ ХЭДЕРА 1440PX */
 }
 
 .logo { /*логотип в хэдере*/
@@ -107,6 +108,7 @@ a {
 
 #container {
 	margin: 2vw 15% 2vw 15%;
+	max-width: 1440px;
 	background-color: #111a1a;
 	border: solid 1px #9d9063;
 	display: flex;
@@ -327,9 +329,116 @@ a {
 }
 /* конец футера */
 
-@media only screen and (max-width: 2000px){
-	
+/* 1440PX И МЕНЬШЕ */
+@media only screen and (max-width: 1440px) {
+
+	p {
+		font-size: 1vw;
+	}
+
+	#container {
+		margin: 2vw 3vw 2vw 3vw;
+	}
+
+	.logo { /*логотип в хэдере*/
+		margin-left: 3vw;
+	}
+
+	.header-right { /*мейн меню хэдера*/
+		margin-right: 3vw;
+	}
+
+	.frame-red {
+		height: 2.6vw;
+		width: 100%;
+		text-align: left;
+		margin: 0.2vw 0vw 0.2vw 0vw;
+		padding-top: 0.5vw;
+	}
+}
+
+/* 480PX И МЕНЬШЕ */
+@media only screen and (max-width: 480px) {
+
+	h1 {
+		font-size: 7.5vw;
+	}
+
+	h2 {
+		font-size: 5vw;
+		margin-left: 1vw;
+	}
+
+	p {
+		font-size: 2.5vw;
+		line-height: 4vw;
+	}
+
 	#header {
+		display: none;
+	}
+
+	#footer {
+		display: none;
+	}
+
+	.logo { /*логотип в хэдере*/
+		margin-left: 3vw;
+	}
+
+	.header-right { /*мейн меню хэдера*/
+		margin-right: 3vw;
+		margin-top: 0.2vw;
+	}
+
+	#container {
+		margin: 0vw;
+		border: none;
+	}
+
+	#containerMain{
+		width: 99.9%;
+		border: none;
+	}
+
+	.accordion {
+		background-color: #111a1a;
+		font-family: MontserratBold;
+		font-size: 3vw;
+		text-decoration: none;
+		margin: 0.4vw 0vw 0vw 0vw;
+		color: #9d9063;
+		cursor: pointer;
+		width: 100%;
+		text-align: left;
+		border: none;
+		outline: none;
+	}
+
+	.frame-red {
+		/* background:url(../img/frame.png) no-repeat center; */
+		background-size: 200%;
+		background-position: center;
+		height: 6.8vw;
+		/* width: 150%; */
+		text-align: left;
+		/* margin: 0.2vw 0vw 0.2vw 0vw; */
+		/* padding-top: 0.1vw; */
+	}
+
+	.collum-l, .collum-r {
+		width: 100%;
+		text-align: left;
+	}
+
+	#containerRed{
+		display: none;
+	}
+}
+
+/* @media only screen and (max-width: 2000px){
+
+#header {
 	background:url("../img/headerempty.png") fixed no-repeat ;
 	height: 6.5vw;
 	width: auto;
@@ -337,39 +446,38 @@ a {
 	top: 0;
 	background-size: contain;
 	z-index: 10;
-}
-	
+	}
+
 	.header-right a{
 	margin-top: 2%;
 	font-size: 0.9vw;
-}
-	
+	}
+
 	.logo {
 	float: left;
-  margin-left: 14.7%;
+	margin-left: 14.7%;
 	height: 4.5vw;
 	width: 4.8vw;
-}
-	
-}
+	}
+} */
 
 @font-face {
 	font-family: Montserrat;
 	src:url(../fonts/Montserrat-Light.otf)
 }
 @font-face {
-font-family: MontserratSemiBold;
-src:url(../fonts/Montserrat-SemiBold.ttf)
+	font-family: MontserratSemiBold;
+	src:url(../fonts/Montserrat-SemiBold.ttf)
 }
 @font-face {
-font-family: MontserratBold;
-src:url(../fonts/Montserrat-Bold.ttf)
+	font-family: MontserratBold;
+	src:url(../fonts/Montserrat-Bold.ttf)
 }
 @font-face {
-font-family: MontserratMedium;
-src:url(../fonts/Montserrat-Medium.ttf)
+	font-family: MontserratMedium;
+	src:url(../fonts/Montserrat-Medium.ttf)
 }
 @font-face {
-font-family: MontserratItalic;
-src:url(../fonts/Montserrat-Italic.ttf)
+	font-family: MontserratItalic;
+	src:url(../fonts/Montserrat-Italic.ttf)
 }
