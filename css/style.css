@@ -6,6 +6,7 @@ body {
 	padding: 0;
 	min-width: 100%;
 	overflow: auto;
+	
 	background-color: #090e0e;
 }
 
@@ -112,7 +113,7 @@ a {
 
 #container {
 	margin: 2vw 15% 2vw 15%;
-	max-width: 1440px;
+	/* max-width: 1440px; */
 	background-color: #111a1a;
 	border: solid 1px #9d9063;
 	display: flex;
@@ -156,13 +157,13 @@ a {
 .frame-red {
 	background:url(../img/frame.png) no-repeat;
 	background-size: 100%;
-  /* height: 2.03vw; */
+  height: 2.03vw;
 	width: 100%;
 	text-align: left;
 	margin: 0.2vw 0vw 0.2vw 0vw;
 }
 
-.frame-red-button {
+/* .frame-red-button {
 	background:url(../img/frame.png) no-repeat;
 	background-size: 100%;
   height: 2.03vw;
@@ -178,7 +179,7 @@ a {
 
 .frame-red-button a:hover {
 	color: #00FF99;
-}
+} */
 
 /* аккордеон начало */
 .accordion {
@@ -521,7 +522,7 @@ a {
 		display: block;
 		background-color: #111a1a;
 		box-shadow: 0vw 0vw 4vw 2vw rgba(0,0,0,0.6);
-		height: 16vw;
+		height: 6vw;
 		margin: 0;
 		padding: 0;
 		position: sticky;
