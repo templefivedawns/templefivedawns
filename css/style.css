@@ -468,10 +468,8 @@ a {
     float: left;
     /* width: 50%; */
     height: 15.5vw;
-    /* padding: 2vw 3vw 2vw 1vw; */
     margin: 0;
     padding-left: 2.2vw;
-    border-radius: 10%;
   }
 
   .header-mob-item-discord {
@@ -479,7 +477,6 @@ a {
     /* width: 50%; */
     height: 8vw;
     width: 9vw;
-    /* justify-content: right; */
     padding: 1.5vw 3vw 0vw 0vw;
     margin: 0;
     /* border-radius: 10%; */
@@ -490,10 +487,8 @@ a {
     /* width: 50%; */
     height: 8vw;
     width: 6vw;
-    /* justify-content: right; */
     padding: 1.5vw 3vw 0vw 0vw;
     margin: 0;
-    /* border-radius: 10%; */
   }
 
   .logo {
