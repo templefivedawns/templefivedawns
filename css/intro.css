@@ -211,7 +211,7 @@ a {
   display: none;
   overflow: hidden;
   margin-bottom: 1%;
-	margin-top: 1%;
+  margin-top: 1%;
   padding: 0;
   text-decoration: none;
 }
@@ -239,11 +239,11 @@ a {
   list-style: none;
 }
 ul {
-	padding: 0;
+  padding: 0;
 }
 .menu li {
   position: relative;
-	margin-left: 5%;
+  margin-left: 5%;
 }
 
 .menu > li {
@@ -260,35 +260,35 @@ ul {
 }
 
 .select-item-menu {
-	background-color: rgba(3, 19, 19, 0.7) ;
-	/* background-color: rgba(9, 14, 14, 0.7) ; */
-	position: relative;
-	z-index: 100 !important;
-	padding: 0;
-	margin: 0;
-	border: #9d9063 outset 0.01vw;
+  background-color: rgba(3, 19, 19, 0.7);
+  /* background-color: rgba(9, 14, 14, 0.7) ; */
+  position: relative;
+  z-index: 100 !important;
+  padding: 0;
+  margin: 0;
+  border: #9d9063 outset 0.01vw;
 }
 
-.select-item-menu p:hover{
-	color: #00ff99;
+.select-item-menu p:hover {
+  color: #00ff99;
 }
 
 .select-item-menu p {
   text-transform: uppercase;
-	font-family: MontserratBlack;
-	margin-left: 0%;
-	position: relative;
-	z-index: 100;
+  font-family: MontserratBlack;
+  margin-left: 0%;
+  position: relative;
+  z-index: 100;
 }
 
-/*цвет и скролл вверх выбранного итема меню*/ 
+/*цвет и скролл вверх выбранного итема меню*/
 .select p {
-	color: #00ff99;
+  color: #00ff99;
 }
 .select:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
-/*цвет и скролл вверх выбранного итема меню*/ 
+/*цвет и скролл вверх выбранного итема меню*/
 
 .select-item-submenu {
   margin: 0;
