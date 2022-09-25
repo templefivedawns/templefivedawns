@@ -474,11 +474,22 @@ a {
     border-radius: 10%;
   }
 
-  .header-mob-item-r {
+  .header-mob-item-discord {
     float: right;
     /* width: 50%; */
     height: 8vw;
     width: 9vw;
+    /* justify-content: right; */
+    padding: 1.5vw 3vw 0vw 0vw;
+    margin: 0;
+    /* border-radius: 10%; */
+  }
+
+  .header-mob-item-boosty {
+    float: right;
+    /* width: 50%; */
+    height: 8vw;
+    width: 6vw;
     /* justify-content: right; */
     padding: 1.5vw 3vw 0vw 0vw;
     margin: 0;
