@@ -537,7 +537,7 @@ ul {
 
   .popup {
     top: 11.1vw;
-    display: block;
+    display: none;
     position: absolute;
     padding: 0;
     width: 100%;
