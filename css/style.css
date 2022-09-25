@@ -408,26 +408,39 @@ a {
 		position: sticky;
 		z-index: 100;
 		top: 0;
-		display:flex;
+		/* display:flex;
     align-items: center;
-		justify-content: center;
+		justify-content: center; */
 		/* РАЗОБРАТЬСЯ С МАКСИМАЛЬНОЙ ШИРИНОЙ ХЭДЕРА 1440PX */
 	}
 
-	#header-mob-buttons-l {
+	.fa-bars {
+   margin-top: 4.5%;
+   margin-left: 3.5%;
+	 float: left;
+	 font-size: 7vw;
+	 color: #9d9063;
+	}
+
+	.header-mob-buttons-l {
 		/* padding: 0.7vw 0vw 0.7vw 1vw;
 		margin-top: 0.6vw; */
-		margin-right: 50%;
+		margin-left: 2%;
 		padding: 0;
+		float: left;
+		margin-top: 3%;
 		/* display:flex;
     align-items: center; */
 		/* position: relative; */
 	}
 
-	#header-mob-buttons-r {
+	.header-mob-buttons-r {
 		/* padding: 0.7vw 0vw 0.7vw 1vw;
 		margin-top: 0.6vw; */
 		padding: 0;
+		float: right;
+		margin-right: 0.5%;
+		margin-top: 2.5%;
 		/* display:flex;
     align-items: center; */
 		/* position: relative; */
