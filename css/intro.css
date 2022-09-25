@@ -375,6 +375,12 @@ ul {
 }
 /* конец футера */
 
+/* попап хмелевар начало */
+.popup {
+  display: none;
+}
+/* попап хмелевар конец */
+
 /* 1440PX И МЕНЬШЕ */
 @media only screen and (max-width: 1440px) {
   h1 {
@@ -527,6 +533,25 @@ ul {
     /*мейн меню хэдера*/
     margin-right: 3vw;
     margin-top: 0.2vw;
+  }
+
+  .popup {
+    top: 11.1vw;
+    display: block;
+    position: absolute;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(9, 14, 14, 0.7);
+    z-index: 90;
+  }
+
+  .popup-menu {
+    padding-left: 3vw;
+    border-right: #9d9063 solid 1px;
+    background-color: #090e0e;
+    width: 60%;
+    margin: 0;
   }
 
   #container {
