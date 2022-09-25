@@ -14,6 +14,20 @@ $(".accordion").click(function(){
 // аккордеон конец
 
 
+$(".mobHeaderDots").click(function(){
+
+	if($(".popup").css('display') == 'none')
+	{
+		$(".popup").slideDown(200);
+	}
+	else {
+		$(".popup").slideUp(200);
+	}
+});
+
+
+
+
 
 /*скролл вверх выбранного итема меню*/ 
 $(".select").click(function(){
