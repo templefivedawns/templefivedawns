@@ -384,6 +384,10 @@ a {
 /* 480PX И МЕНЬШЕ */
 @media only screen and (max-width: 480px) {
 
+	body {
+		background:#111a1a;
+	}
+
 	h1 {
 		font-size: 12vw;
 	}
@@ -404,12 +408,11 @@ a {
 
 	#header-mob {
 		display: block;
-		background: url(../img/headerempty.png);
-		background-size: 375vw;
+		background: url(../img/header480px.png) fixed no-repeat;
+		background-size: 100%;
 		/* border: #00FF99 solid 1px; */
-
-		box-shadow: 0vw 0vw 4vw 2vw rgba(0,0,0,0.6);
-		height: 12vw;
+		/* box-shadow: 0vw 0vw 4vw 2vw rgba(0,0,0,0.6); */
+		height: 12.5vw;
 		margin: 0;
 		padding: 0;
 		width: auto;
@@ -437,9 +440,9 @@ a {
 	.header-mob-buttons-l {
 		/* padding: 0.7vw 0vw 0.7vw 1vw;
 		margin-top: 0.6vw; */
-		margin-left: 2%;
+		/* margin-left: 2%;
 		padding: 0;
-		float: left;
+		float: left; */
 		/* margin-top: 3%; */
 		/* display:flex;
     align-items: center; */
@@ -461,9 +464,8 @@ a {
 	.header-mob-item-l {
 		float: left;
 		/* width: 50%; */
-		height: 7vw;
-		width: 7vw;
-		padding: 2vw 3vw 2vw 1vw;
+		height: 15.5vw;
+		/* padding: 2vw 3vw 2vw 1vw; */
 		margin: 0;
 		border-radius: 10%;
 	}
@@ -493,12 +495,14 @@ a {
 		width: 100%;
 		border: none;
 		padding: 0;
+		box-shadow: none;
 	}
 
 	#containerMain{
 		width: 100%;
 		border: none;
 		padding: 3vw;
+		box-shadow: none;
 	}
 
 	.accordion {
