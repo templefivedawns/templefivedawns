@@ -477,8 +477,7 @@ a {
     /* width: 50%; */
     height: 8vw;
     width: 9vw;
-    padding: 1.5vw 3vw 0vw 0vw;
-    margin: 0;
+    margin: 1.5vw 3vw 0vw 0vw;
     /* border-radius: 10%; */
   }
 
@@ -487,8 +486,7 @@ a {
     /* width: 50%; */
     height: 8vw;
     width: 6vw;
-    padding: 1.5vw 3vw 0vw 0vw;
-    margin: 0;
+    margin: 1.5vw 3vw 0vw 0vw;
   }
 
   .logo {
