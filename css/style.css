@@ -400,9 +400,12 @@ a {
 
 	#header-mob {
 		display: block;
-		background-color: #111a1a;
+		background: url(../img/headerempty.png);
+		background-size: 375vw;
+		/* border: #00FF99 solid 1px; */
+
 		box-shadow: 0vw 0vw 4vw 2vw rgba(0,0,0,0.6);
-		height: 16vw;
+		height: 12vw;
 		margin: 0;
 		padding: 0;
 		width: auto;
@@ -416,7 +419,7 @@ a {
 	}
 
 	.fa-bars {
-	margin-top: 4.5%;
+	margin-top: 1.5%;
 	margin-left: 3.5%;
 	float: left;
 	font-size: 7vw;
@@ -429,7 +432,7 @@ a {
 		margin-left: 2%;
 		padding: 0;
 		float: left;
-		margin-top: 3%;
+		/* margin-top: 3%; */
 		/* display:flex;
     align-items: center; */
 		/* position: relative; */
@@ -441,7 +444,7 @@ a {
 		padding: 0;
 		float: right;
 		margin-right: 0.5%;
-		margin-top: 2.5%;
+		/* margin-top: 2.5%; */
 		/* display:flex;
     align-items: center; */
 		/* position: relative; */
@@ -478,8 +481,10 @@ a {
 	}
 
 	#container {
-		margin: 0vw;
+		margin: 0;
+		width: 100%;
 		border: none;
+		padding: 0;
 	}
 
 	#containerMain{
@@ -529,8 +534,7 @@ a {
 		z-index: 100;
 		bottom: 0;
 		display:flex;
-    align-items: center;
-		/* РАЗОБРАТЬСЯ С МАКСИМАЛЬНОЙ ШИРИНОЙ ХЭДЕРА 1440PX */
+		align-items: center;
 	}
 
 	.footer-mob-buttons {
@@ -546,15 +550,15 @@ a {
 
 	.footer-mob-buttons a {
 		color: #9d9063;
-		font-weight: 700;
+		font-family: MontserratBold;
 	}
 
-	.footer-mob-item {
+	/* .footer-mob-item {
 		height: 10vw;
 		width: 10vw;
 		margin: 0;
 		padding: 0;
-	}
+	} */
 }
 
 /* @media only screen and (max-width: 2000px){
