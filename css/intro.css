@@ -492,6 +492,13 @@ ul {
     margin-left: 2.2vw;
   }
 
+	.mobHeaderDots {
+		display: block;
+	}
+	.mobHeaderDotsHide {
+		display: none;
+	}
+
   .header-mob-item-discord {
     float: right;
     /* width: 50%; */
@@ -616,31 +623,34 @@ ul {
   /* НАЧАЛО ПОПАПА */
   .popup {
     top: 11.1vw;
-    display: none;
+    display: block;
     position: absolute;
     padding: 0;
-    width: 100%;
+    width: 60vw;
     height: 87.9vh;
     margin: 0;
     /* position: sticky; */
-    background-color: rgba(9, 14, 14, 0.7);
+    /* background-color: rgba(9, 14, 14, 0.7); */
     z-index: 80;
   }
 
-  /* .popupBackground {
+  .popupBackground {
 		background-color: rgba(9, 14, 14, 0.7);
 		height: 100%;
-		width: 100%;
+		width: 0%;
 		position: absolute;
-	} */
+		display: block;
+		z-index: 50;
+	}
 
   .popup-menu {
     padding: 5vw 0vw 0vw 0vw;
     border-right: #9d9063 solid 1px;
     background-color: #090e0e;
-    width: 60%;
+    width: 100%;
     height: 85.3vh;
     margin: 0;
+		display: none;
   }
 
   /* .popup-menu li {
