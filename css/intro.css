@@ -6,7 +6,6 @@ body {
   padding: 0;
   min-width: 100%;
   overflow: auto;
-
   background-color: #090e0e;
 }
 
@@ -114,13 +113,18 @@ a {
 
 /* ХЭДЕР ЗАКОНЧИЛСЯ */
 
-#container {
+.container {
   margin: 2vw 15% 2vw 15%;
   /* max-width: 1440px; */
   background-color: #111a1a;
   border: solid 1px #9d9063;
   display: flex;
+	overflow: auto;
+	position: auto;
 }
+
+
+
 
 #containerMain {
   width: 79.9%;
@@ -547,6 +551,13 @@ ul {
     z-index: 90;
   }
 
+	/* .popupBackground {
+		background-color: rgba(9, 14, 14, 0.7);
+		height: 100%;
+		width: 100%;
+		position: absolute;
+	} */
+
   .popup-menu {
     padding: 5vw 0vw 0vw 0vw;
     border-right: #9d9063 solid 1px;
@@ -615,13 +626,17 @@ ul {
     color: #00ff99;
   }
 
-  #container {
+  .container {
     margin: 0;
     width: 100%;
     border: none;
     padding: 0;
     box-shadow: none;
+		position: auto;
   }
+.fixed {
+	position: fixed;
+}
 
   #containerMain {
     width: 100%;

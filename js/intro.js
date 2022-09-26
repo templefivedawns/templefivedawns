@@ -16,14 +16,67 @@ $(".accordion").click(function(){
 
 $(".mobHeaderDots").click(function(){
 
-	if($(".popup").css('display') == 'none')
-	{
-		$(".popup").slideDown(200);
-	}
-	else {
-		$(".popup").slideUp(200);
-	}
+	
+	
+		$(".popup").animate({
+			width: "toggle"
+	}, 150);
+	
+	
 });
+
+// $(".mobHeaderDots").click(function(){
+
+// 	if($(".popup").css('display') == 'block')
+// 	{
+// 		$(".container").css({position: "fixed"});
+// 	}
+// 	else {
+// 		$(".container").css({position: "auto"});
+// 	}
+	
+
+// });
+
+
+$(".mobHeaderDots").click(function(){
+
+		$(".container").toggleClass("fixed");
+	
+});
+
+$(".popup").click(function(){
+
+	$(".popup").css("display", "none");
+
+});
+
+
+// $(".mobHeaderDots").click(function(){
+
+// 	if($(".popup").css('display') == 'none')
+// 	{
+// 		$(".container").css("position", "auto");
+// 		$(".popup").animate({
+// 			width: "toggle"
+// 	}, 150);
+// 	}
+// 	else {
+// 		$(".container").css("position", "fixed");
+// 		$(".popup").animate({
+// 			width: "toggle"
+// 	}, 150);
+// 	}
+	
+
+// });
+
+
+
+
+
+
+
 
 
 
