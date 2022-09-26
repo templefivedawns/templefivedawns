@@ -157,9 +157,14 @@ a {
   padding-left: 0.4vw;
 }
 
-.divider1 {
+.divider-main {
+  display: block;
   width: 100%;
   margin: 0.2vw 0vw 0.2vw 0vw;
+}
+
+.divider-mob {
+  display: none;
 }
 
 .frame-red {
@@ -398,7 +403,7 @@ ul {
     line-height: 1.5vw;
   }
 
-  #container {
+  .container {
     margin: 2vw 3vw 2vw 3vw;
   }
 
@@ -534,6 +539,16 @@ ul {
     /*мейн меню хэдера*/
     margin-right: 3vw;
     margin-top: 0.2vw;
+  }
+
+  .divider-main {
+    display: none;
+  }
+
+  .divider-mob {
+    display: block;
+    width: 100%;
+    margin: 1vw 0vw 1vw 0vw;
   }
 
   /* НАЧАЛО ПОПАПА */
