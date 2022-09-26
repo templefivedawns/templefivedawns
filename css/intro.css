@@ -257,7 +257,7 @@ ul {
   padding: 0;
 }
 .menu li {
-  position: relative;
+  /* position: relative; */
   margin-left: 5%;
 }
 
@@ -278,7 +278,7 @@ ul {
   background-color: rgba(3, 19, 19, 0.7);
   /* background-color: rgba(9, 14, 14, 0.7) ; */
   position: relative;
-  z-index: 100 !important;
+  /* z-index: 100; */
   padding: 0;
   margin: 0;
   border: #9d9063 outset 0.01vw;
@@ -292,8 +292,8 @@ ul {
   text-transform: uppercase;
   font-family: MontserratBlack;
   margin-left: 0%;
-  position: relative;
-  z-index: 100;
+  /* position: relative; */
+  /* z-index: 100; */
 }
 
 /*цвет и скролл вверх выбранного итема меню*/
@@ -319,31 +319,30 @@ ul {
   color: #00ff99;
 }
 
-/* .menu li a div {
-	display: inline-block;
-	vertical-align: middle;
-} */
+.menu li a div {
+  display: inline-block;
+  /* vertical-align: middle; */
+}
 
-/* .menu .sub-menu {
-	position: absolute;
-	display: none;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	background-color: #D2908B;
-	z-index: 1;
-} */
+.menu .sub-menu {
+  position: absolute;
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #d2908b;
+}
 
-/* .menu .sub-menu a {
-	margin-bottom: -1px;
-	color: white;
-	text-decoration: none;
-	padding:3px 5px;
-} */
+.menu .sub-menu a {
+  margin-bottom: -1px;
+  color: white;
+  text-decoration: none;
+  padding: 3px 5px;
+}
 
-/* .menu>li:hover .sub-menu {
-	display: block;
-} */
+.menu > li:hover .sub-menu {
+  display: block;
+}
 
 /* .search-form {
 	display: inline-block;
