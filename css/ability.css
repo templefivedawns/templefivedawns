@@ -63,6 +63,16 @@ a {
   color: #00ff99;
 }
 
+li {
+  color: #9d9063;
+  font-family: Montserrat;
+  font-size: 1vw;
+  line-height: 2vw;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
 /* НАСТРОЙКИ БАДИ НАЧАЛО */
 
 #header {
