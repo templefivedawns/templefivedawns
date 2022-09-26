@@ -80,6 +80,10 @@ a {
   display: none;
 }
 
+#popup-header-mob {
+  display: none;
+}
+
 .logo {
   /*логотип в хэдере*/
   float: left;
@@ -455,6 +459,7 @@ ul {
     line-height: 6vw;
   }
 
+  /* МОБИЛЬНЫЙ ХЭДЕР */
   #header {
     display: none;
   }
@@ -463,8 +468,6 @@ ul {
     display: block;
     background: url(../img/header480px.png) fixed no-repeat;
     background-size: 100%;
-    /* border: #00FF99 solid 1px; */
-    /* box-shadow: 0vw 0vw 4vw 2vw rgba(0,0,0,0.6); */
     height: 13.5vw;
     padding: 0;
     margin: 0;
@@ -472,46 +475,13 @@ ul {
     position: sticky;
     z-index: 100;
     top: 0;
-    /* display:flex;
-		align-items: center;
-		justify-content: center; */
     /* РАЗОБРАТЬСЯ С МАКСИМАЛЬНОЙ ШИРИНОЙ ХЭДЕРА 1440PX */
   }
 
-  .fa-caret-down {
-    padding-left: 1vw;
-  }
-
-  .fa-bars {
-    margin-top: 1.5%;
-    margin-left: 3.5%;
-    float: left;
-    font-size: 7vw;
-    color: #9d9063;
-  }
-
-  /* .header-mob-buttons-l {
-    padding: 0.7vw 0vw 0.7vw 1vw;
-		margin-top: 0.6vw; */
-  /* margin-left: 2%;
-		padding: 0;
-		float: left; */
-  /* margin-top: 3%; */
-  /* display:flex;
-    align-items: center; */
-  /* position: relative;
-  } */
-
   .header-mob-buttons-r {
-    /* padding: 0.7vw 0vw 0.7vw 1vw;
-		margin-top: 0.6vw; */
     padding: 0;
     float: right;
     margin-right: 0.5%;
-    /* margin-top: 2.5%; */
-    /* display:flex;
-    align-items: center; */
-    /* position: relative; */
   }
 
   .header-mob-item-l {
@@ -548,6 +518,89 @@ ul {
     /*мейн меню хэдера*/
     margin-right: 3vw;
     margin-top: 0.2vw;
+  }
+
+  /* .header-mob-buttons-l {
+    padding: 0.7vw 0vw 0.7vw 1vw;
+		margin-top: 0.6vw; */
+  /* margin-left: 2%;
+		padding: 0;
+		float: left; */
+  /* margin-top: 3%; */
+  /* display:flex;
+    align-items: center; */
+  /* position: relative;
+  } */
+  /* МОБИЛЬНЫЙ ХЭДЕР */
+
+  /* МОБИЛЬНЫЙ ПОПАП ХЭДЕР */
+  #popup-header-mob {
+    display: none;
+    background: url(../img/header480px.png) fixed no-repeat;
+    background-size: 100%;
+    height: 13.5vw;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    /* РАЗОБРАТЬСЯ С МАКСИМАЛЬНОЙ ШИРИНОЙ ХЭДЕРА 1440PX */
+  }
+
+  .popup-header-mob-buttons-r {
+    padding: 0;
+    float: right;
+    margin-right: 0.5%;
+  }
+
+  .popup-header-mob-item-l {
+    float: left;
+    /* width: 50%; */
+    height: 15.5vw;
+    margin: 0;
+    margin-left: 2.2vw;
+  }
+
+  .popup-header-mob-item-discord {
+    float: right;
+    /* width: 50%; */
+    height: 8vw;
+    width: 9vw;
+    margin: 1.5vw 3vw 0vw 0vw;
+    /* border-radius: 10%; */
+  }
+
+  .popup-header-mob-item-boosty {
+    float: right;
+    /* width: 50%; */
+    height: 8vw;
+    width: 6vw;
+    margin: 1.5vw 3vw 0vw 0vw;
+  }
+
+  .logo {
+    /*логотип в хэдере*/
+    margin-left: 3vw;
+  }
+
+  .popup-header-right {
+    /*мейн меню хэдера*/
+    margin-right: 3vw;
+    margin-top: 0.2vw;
+  }
+  /* МОБИЛЬНЫЙ ПОПАП ХЭДЕР */
+
+  .fa-caret-down {
+    padding-left: 1vw;
+  }
+
+  .fa-bars {
+    margin-top: 1.5%;
+    margin-left: 3.5%;
+    float: left;
+    font-size: 7vw;
+    color: #9d9063;
   }
 
   .divider-main {

@@ -34,21 +34,25 @@ $(".mobHeaderDots").click(function(){
 });
 // работа попапа
 
+// трай свапа хэдера
+$(".mobHeaderDots").click(function(){
+	if($("#header-mob").css('display') == 'block')
+	{
+		$("#popup-header-mob").attr('display', 'block');
+		$("#header-mob").attr('display', 'none');
+	}
+	else {
+		$("#header-mob").attr('display', 'block');
+		$("#popup-header-mob").attr('display', 'none');
+	}
+});
+// трай свапа хэдера
+
 // скрытие попапа по попапу
 // $(".popup").click(function(){
 // 	$(".popup").css("display", "none");
 // });
 // скрытие попапа по попапу
-
-// $(".mobHeaderDots").click(function(){
-// 	if($(".popup").css('display') == 'block')
-// 	{
-// 		$(".container").css({position: "fixed"});
-// 	}
-// 	else {
-// 		$(".container").css({position: "auto"});
-// 	}
-// });
 
 // $(".mobHeaderDots").click(function(){
 // 	if($(".popup").css('display') == 'none')
