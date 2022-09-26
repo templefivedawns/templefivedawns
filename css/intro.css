@@ -620,7 +620,7 @@ ul {
     display: block;
     position: absolute;
     padding: 0;
-    width: 60vw;
+    width: 0vw;
     height: 87.9vh;
     margin: 0;
     /* position: sticky; */

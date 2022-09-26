@@ -38,7 +38,7 @@ $(".mobHeaderDotsHide").click(function(){
 
 $(".mobHeaderDots").click(function(){
 	$(".popup").animate({
-		width: "60vw"
+		width: "70vw"
 }, 150);
 
 $(".popupBackground").animate({
