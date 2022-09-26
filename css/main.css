@@ -154,6 +154,7 @@ z-index: 2;
 	font-family: MontserratMedium;
 	font-size: 0.65vw;
 	padding-left: 0.5%;
+	border:#cadf0e solid 0.01vw;
 }
 
 .dropdownMenu2 {
@@ -163,11 +164,11 @@ z-index: 2;
 
 .dropdownMenuContainer {
 	position: absolute;
-	border:#00FF98 solid 0.2vw;
+	border:#00FF98 solid 0.01vw;
 	height: 3.5vw;
 	width: 9vw;
 	z-index: 4;
-	margin-top: 13.2%;
+	margin-top: 13.4%;
 	margin-left: 6%;
 }
 
@@ -181,6 +182,8 @@ z-index: 2;
 	margin-left: 10.8%;
 	z-index: 10;
 	display: none;
+	width: 0;
+	height: 0;
 }
 
 .dropdownMenu p {

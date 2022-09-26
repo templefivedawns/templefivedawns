@@ -121,11 +121,16 @@ $(".dropdownMenuContainer1").css("display", "none");
 });
 
 $(".second").hover(function () {
-
+	var widthContainer = $(".dropdownMenu2").outerWidth()
+	var heightContainer = $(".dropdownMenu2").outerHeight()
+	var widthWindow = $( window ).width();
 	$(".dropdownMenu2").fadeIn(100);
 	$(".dropdownMenuContainer2").css("display", "block");
+	$(".dropdownMenuContainer2").css("width", (100 * widthContainer / widthWindow) + "vw");
+	$(".dropdownMenuContainer2").css("height", (100 * heightContainer / widthWindow) + 0.4 +"vw");
 
 } );
+
 
 
 
@@ -156,6 +161,19 @@ $(".dropdownMenuContainer").mouseleave(function () {
 	$(".dropdownMenuContainer2").css("display", "none");
 
 } );
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
