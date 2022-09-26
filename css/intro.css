@@ -119,12 +119,9 @@ a {
   background-color: #111a1a;
   border: solid 1px #9d9063;
   display: flex;
-	overflow: auto;
-	position: auto;
+  overflow: auto;
+  position: auto;
 }
-
-
-
 
 #containerMain {
   width: 79.9%;
@@ -479,17 +476,17 @@ ul {
     color: #9d9063;
   }
 
-  .header-mob-buttons-l {
-    /* padding: 0.7vw 0vw 0.7vw 1vw;
+  /* .header-mob-buttons-l {
+    padding: 0.7vw 0vw 0.7vw 1vw;
 		margin-top: 0.6vw; */
-    /* margin-left: 2%;
+  /* margin-left: 2%;
 		padding: 0;
 		float: left; */
-    /* margin-top: 3%; */
-    /* display:flex;
+  /* margin-top: 3%; */
+  /* display:flex;
     align-items: center; */
-    /* position: relative; */
-  }
+  /* position: relative;
+  } */
 
   .header-mob-buttons-r {
     /* padding: 0.7vw 0vw 0.7vw 1vw;
@@ -539,6 +536,7 @@ ul {
     margin-top: 0.2vw;
   }
 
+  /* НАЧАЛО ПОПАПА */
   .popup {
     top: 11.1vw;
     display: none;
@@ -547,11 +545,12 @@ ul {
     width: 100%;
     height: 100vh;
     margin: 0;
+    /* position: sticky; */
     background-color: rgba(9, 14, 14, 0.7);
     z-index: 90;
   }
 
-	/* .popupBackground {
+  /* .popupBackground {
 		background-color: rgba(9, 14, 14, 0.7);
 		height: 100%;
 		width: 100%;
@@ -567,64 +566,52 @@ ul {
     margin: 0;
   }
 
-  .popup-menu li {
+  /* .popup-menu li {
     position: relative;
-    margin-left: 5%;
     text-decoration: none;
     margin: 0;
     padding: 0;
-  }
+  } */
 
-  .popup-menu > li {
+  /* .popup-menu > li {
     flex: 1;
-  }
+  } */
 
-  .popup-menu a {
+  /* .popup-menu a {
     text-decoration: none;
     color: #9d9063;
-    margin: 0;
-    padding: 0;
-  }
-
+  } */
+  /* 
   .popup-menu a:hover {
     color: #00ff99;
-  }
+  } */
 
   .popup-select-item-menu {
     background-color: rgba(3, 19, 19, 0.7);
-    /* background-color: rgba(9, 14, 14, 0.7) ; */
-    position: relative;
-    z-index: 100 !important;
-    padding: 0;
-    margin: 0;
     border: #9d9063 outset 0.01vw;
-  }
-
-  .popup-select-item-menu p:hover {
-    color: #00ff99;
+    padding-left: 3vw;
   }
 
   .popup-select-item-menu p {
     text-transform: uppercase;
     font-family: MontserratBlack;
     margin-left: 0%;
-    position: relative;
     z-index: 100;
   }
 
+  .popup-select-item-menu p:hover {
+    color: #00ff99;
+  }
+
   .popup-select-item-submenu {
-    margin: 0;
-    padding: 0;
-    padding-left: 2vw;
+    padding-left: 5vw;
+    text-transform: capitalize;
   }
 
   .popup-select-item-submenu:hover {
     color: #00ff99;
   }
-
-  .popup-select-item-submenu:hover {
-    color: #00ff99;
-  }
+  /* КОНЕЦ ПОПАПА */
 
   .container {
     margin: 0;
@@ -632,11 +619,11 @@ ul {
     border: none;
     padding: 0;
     box-shadow: none;
-		position: auto;
+    position: auto;
   }
-.fixed {
-	position: fixed;
-}
+  .fixed {
+    position: fixed;
+  }
 
   #containerMain {
     width: 100%;
@@ -677,7 +664,7 @@ ul {
   }
 
   #footer-mob {
-    display: block;
+    display: none;
     background-color: #111a1a;
     box-shadow: 0vw 0vw 4vw 2vw rgba(0, 0, 0, 0.6);
     height: 7vw;
