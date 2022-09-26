@@ -562,7 +562,7 @@ ul {
     border-right: #9d9063 solid 1px;
     background-color: #090e0e;
     width: 60%;
-    height: 83.9vh;
+    height: 86.9vh;
     margin: 0;
   }
 
@@ -588,7 +588,9 @@ ul {
 
   .popup-select-item-menu {
     background-color: rgba(3, 19, 19, 0.7);
-    border: #9d9063 outset 0.01vw;
+    border-right: #9d9063 outset 0.01vw;
+    border-top: #9d9063 outset 0.01vw;
+    border-bottom: #9d9063 outset 0.01vw;
     padding-left: 3vw;
   }
 
