@@ -123,8 +123,8 @@ a {
   background-color: #111a1a;
   border: solid 1px #9d9063;
   display: flex;
-  overflow: auto;
   position: auto;
+	overflow: visible;
 }
 
 #containerMain {
@@ -239,25 +239,28 @@ a {
   height: auto;
   float: right;
   width: 20%;
+	overflow: visible;
 }
 
 .nav-bar {
   background: #111a1a;
+	z-index: 50;
   position: sticky;
   top: 3.1vw;
   border-bottom: #9d9063 solid 1px;
+	width: 100%;
 }
 
-.menu {
+/* .menu {
   margin: 0;
-  /* padding: 0.3vw 0vw 0.3vw 1vw; */
+  padding: 0.3vw 0vw 0.3vw 1vw;
   list-style: none;
 }
 ul {
   padding: 0;
 }
 .menu li {
-  /* position: relative; */
+  position: relative;
   margin-left: 5%;
 }
 
@@ -272,7 +275,7 @@ ul {
 
 .menu a:hover {
   color: #00ff99;
-}
+} */
 
 .select-item-menu {
   background-color: rgba(3, 19, 19, 0.7);
@@ -291,7 +294,7 @@ ul {
 .select-item-menu p {
   text-transform: uppercase;
   font-family: MontserratBlack;
-  margin-left: 0%;
+  margin-left: 5%;
   /* position: relative; */
   /* z-index: 100; */
 }
@@ -306,7 +309,7 @@ ul {
 /*цвет и скролл вверх выбранного итема меню*/
 
 .select-item-submenu {
-  margin: 0;
+  margin-left: 6%;
   padding: 0;
   padding-left: 0.4vw;
 }
@@ -319,9 +322,9 @@ ul {
   color: #00ff99;
 }
 
-.menu li a div {
+/* .menu li a div {
   display: inline-block;
-  /* vertical-align: middle; */
+  vertical-align: middle;
 }
 
 .menu .sub-menu {
@@ -342,7 +345,7 @@ ul {
 
 .menu > li:hover .sub-menu {
   display: block;
-}
+} */
 
 /* .search-form {
 	display: inline-block;
