@@ -48,6 +48,10 @@ h3 {
   margin: 0;
 }
 
+/* li {
+  text-decoration: none;
+} */
+
 p {
   color: #9d9063;
   font-family: Montserrat;
@@ -562,7 +566,7 @@ ul {
     border-right: #9d9063 solid 1px;
     background-color: #090e0e;
     width: 60%;
-    height: 85.2vh;
+    height: 85.3vh;
     margin: 0;
   }
 
