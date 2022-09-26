@@ -36,7 +36,7 @@ $(".mobHeaderDots").click(function(){
 
 // трай свапа хэдера
 $(".mobHeaderDots").click(function(){
-	if($("#header-mob").css('display') == 'block')
+	if($("#header-mob").attr('display') == 'block')
 	{
 		$("#popup-header-mob").attr('display', 'block');
 		$("#header-mob").attr('display', 'none');
