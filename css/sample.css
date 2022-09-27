@@ -44,6 +44,11 @@ h3 {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #00ff99;
+}
+
 p {
   color: #9d9063;
   font-family: Montserrat;
@@ -64,9 +69,18 @@ li {
   padding: 0;
 }
 
-a {
-  text-decoration: none;
-  color: #00ff99;
+code {
+  font-family: Montserrat;
+}
+
+.format-code {
+  background-color: #071515;
+  border: #9d9063 outset 1px;
+  padding: 1vw;
+  color: #9d9063;
+  font-weight: 500;
+  font-size: 1vw;
+  margin: 0.5vw 0vw 0.5vw 0vw;
 }
 
 /* ХЭДЕР НАЧАЛО*/
@@ -146,14 +160,20 @@ a {
   height: auto;
 }
 
-#containerRed {
-  background: url(../img/backgroundred.png) 100% 0 repeat;
-  background-size: 300%;
-  align-content: center;
-  height: auto;
+.collum-l {
+  float: left;
+  width: 45%;
+  padding-top: 1vw;
+  margin-right: 5%;
+  align-content: left;
+}
+
+.collum-r {
   float: right;
-  width: 20%;
-  overflow: visible;
+  width: 45%;
+  padding-top: 1vw;
+  margin-left: 5%;
+  text-align: right;
 }
 
 .divider-main {
@@ -178,6 +198,20 @@ a {
 
 .frame-red-mob {
   display: none;
+}
+
+.popup {
+  display: none;
+}
+
+#containerRed {
+  background: url(../img/backgroundred.png) 100% 0 repeat;
+  background-size: 300%;
+  align-content: center;
+  height: auto;
+  float: right;
+  width: 20%;
+  overflow: visible;
 }
 
 /* ПРАВОЕ МЕНЮ НАВИГАЦИИ НАЧАЛО */
@@ -232,9 +266,6 @@ a {
 }
 /*цвет и скролл вверх выбранного итема меню*/
 /* ПРАВОЕ МЕНЮ НАВИГАЦИИ КОНЕЦ */
-.popup {
-  display: none;
-}
 /* БАДИ КОНЕЦ */
 
 /* НАЧАЛО МЕЙН ФУТЕРА */
@@ -288,9 +319,6 @@ a {
     line-height: 1.5vw;
   }
 
-  .container {
-    margin: 2vw 3vw 2vw 3vw;
-  }
   .logo {
     /*логотип в хэдере*/
     margin-left: 3vw;
@@ -299,6 +327,10 @@ a {
   .header-right {
     /*мейн меню хэдера*/
     margin-right: 3vw;
+  }
+
+  .container {
+    margin: 3vw 3vw 3vw 3vw;
   }
 
   .frame-red {
@@ -331,6 +363,11 @@ a {
 
   p {
     font-size: 4vw;
+    line-height: 6vw;
+  }
+
+  li {
+    font-size: 3.5vw;
     line-height: 6vw;
   }
 
@@ -477,6 +514,20 @@ a {
     padding-top: 1.5vw;
   }
 
+  /* ШИРОКИЙ КРАСНЫЙ БОРДЕР ПОД ДВОЙНУЮ СТРОКУ ЗАГОЛОВКА */
+  .frame-red-weight-mob {
+    background: url(../img/frame-mob.png) no-repeat center;
+    height: 13.5vw;
+    width: 100%;
+    background-size: 100%;
+  }
+
+  .frame-red-weight-mob h2 {
+    line-height: 4.6vw;
+    margin-top: 1.5vw;
+  }
+  /* ШИРОКИЙ КРАСНЫЙ БОРДЕР ПОД ДВОЙНУЮ СТРОКУ ЗАГОЛОВКА */
+
   /* НАЧАЛО ПОПАП-МЕНЮ */
   .popup {
     top: 11.1vw;
@@ -538,6 +589,14 @@ a {
   }
   /* КОНЕЦ ПОПАП-МЕНЮ */
 
+  .collum-l,
+  .collum-r {
+    width: 100%;
+    padding-top: 3vw;
+    margin: 0;
+    text-align: left;
+  }
+
   .container {
     margin: 0;
     width: 100%;
@@ -574,7 +633,6 @@ a {
     height: 7vw;
     margin: 0;
     padding: 0;
-    /* position: sticky; */
     z-index: 100;
     bottom: 0;
     display: flex;
@@ -596,7 +654,7 @@ a {
     color: #9d9063;
     font-family: MontserratBold;
   }
-  /* КУНЕЦ МОБИЛЬНОГО ФУТЕРА */
+  /* КОНЕЦ МОБИЛЬНОГО ФУТЕРА */
 }
 
 @font-face {
