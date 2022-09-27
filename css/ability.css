@@ -749,6 +749,13 @@ ul {
     padding-top: 1.5vw;
   }
 
+  .border-weight {
+    background: url(../img/frame-mob.png) no-repeat center;
+    height: 13.5vw;
+    width: 100%;
+    background-size: 100%;
+  }
+
   .collum-l,
   .collum-r {
     width: 100%;
