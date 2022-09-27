@@ -7,7 +7,7 @@ $(document).ready(function() {
 	}, 200);
 	});  
 	// скролл вверх выбранного итема меню
-	
+
 	
 	$(".mobHeaderDots").click(function(){
 		
@@ -26,7 +26,7 @@ $(document).ready(function() {
 	
 	$(".mobHeaderDots").click(function(){
 		$(".popup").animate({
-			width: "60vw"
+			width: "70vw"
 	}, 150);
 	
 	$(".popupBackground").animate({
