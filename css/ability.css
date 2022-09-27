@@ -471,6 +471,11 @@ ul {
     line-height: 6vw;
   }
 
+  li {
+    font-size: 3.5vw;
+    line-height: 6vw;
+  }
+
   /* МОБИЛЬНЫЙ ХЭДЕР */
   #header {
     display: none;
