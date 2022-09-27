@@ -68,7 +68,7 @@ li {
   font-family: Montserrat;
   font-size: 1vw;
   line-height: 2vw;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0;
   padding: 0;
 }
@@ -195,24 +195,6 @@ li {
   display: none;
 }
 
-/* .frame-red-button {
-	background:url(../img/frame.png) no-repeat;
-	background-size: 100%;
-  height: 2.03vw;
-	width: 100%;
-	text-align: center;
-	margin: 0.2vw 0vw 0.2vw 0vw;
-	padding-top: 0.1vw;
-}
-
-.frame-red-button a {
-	color: #9d9063;
-}
-
-.frame-red-button a:hover {
-	color: #00FF99;
-} */
-
 /* аккордеон начало */
 .accordion {
   background-color: #111a1a;
@@ -261,35 +243,8 @@ li {
   width: 100%;
 }
 
-/* .menu {
-  margin: 0;
-  padding: 0.3vw 0vw 0.3vw 1vw;
-  list-style: none;
-}
-ul {
-  padding: 0;
-}
-.menu li {
-  position: relative;
-  margin-left: 5%;
-}
-
-.menu > li {
-  flex: 1;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #9d9063;
-}
-
-.menu a:hover {
-  color: #00ff99;
-} */
-
 .select-item-menu {
   background-color: rgba(3, 19, 19, 0.7);
-  /* background-color: rgba(9, 14, 14, 0.7) ; */
   position: relative;
   /* z-index: 100; */
   padding: 0;
@@ -332,65 +287,22 @@ ul {
   color: #00ff99;
 }
 
-/* .menu li a div {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.menu .sub-menu {
-  position: absolute;
-  display: none;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background-color: #d2908b;
-}
-
-.menu .sub-menu a {
-  margin-bottom: -1px;
-  color: white;
-  text-decoration: none;
-  padding: 3px 5px;
-}
-
-.menu > li:hover .sub-menu {
-  display: block;
-} */
-
-/* .search-form {
-	display: inline-block;
-	margin-right: 17px;
-	width: 300px;
-}
-
-.search-form .search-text {
-	background-image: url(images/glass.png);
-	background-repeat: no-repeat;
-	background-position: 13px 5px;
-	text-indent: 56px;
-	width: 100%;
-	height: 35px;
-	font-size: 0.875rem;
-	line-height: 1.0625rem;
-	display: inline-block;
-	border-radius: 5px;
-	box-shadow: none;
-	border: none;
-} */
-
 /* начало футера */
 #footer {
   padding: 0;
   margin: 0;
 }
 
-.footer-copyr {
+.footer-copyr p {
   text-align: center;
+  font-weight: 100;
+  font-family: Montserrat;
+  font-size: 0.8vw;
 }
 
 .footer-discname {
   text-align: center;
-  margin: 2vw 0vw 2vw 0vw;
+  margin: 1vw 0vw 2vw 0vw;
 }
 
 .footer-discname a {
@@ -425,7 +337,7 @@ ul {
   }
 
   .container {
-    margin: 2vw 3vw 2vw 3vw;
+    margin: 3vw 3vw 3vw 3vw;
   }
 
   .logo {
@@ -543,18 +455,6 @@ ul {
     margin-right: 3vw;
     margin-top: 0.2vw;
   }
-
-  /* .header-mob-buttons-l {
-    padding: 0.7vw 0vw 0.7vw 1vw;
-		margin-top: 0.6vw; */
-  /* margin-left: 2%;
-		padding: 0;
-		float: left; */
-  /* margin-top: 3%; */
-  /* display:flex;
-    align-items: center; */
-  /* position: relative;
-  } */
   /* МОБИЛЬНЫЙ ХЭДЕР */
 
   /* МОБИЛЬНЫЙ ПОПАП ХЭДЕР */
@@ -661,26 +561,6 @@ ul {
     margin: 0;
     display: none;
   }
-
-  /* .popup-menu li {
-    position: relative;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-  } */
-
-  /* .popup-menu > li {
-    flex: 1;
-  } */
-
-  /* .popup-menu a {
-    text-decoration: none;
-    color: #9d9063;
-  } */
-  /* 
-  .popup-menu a:hover {
-    color: #00ff99;
-  } */
 
   .popup-select-item-menu {
     background-color: rgba(3, 19, 19, 0.7);
@@ -806,39 +686,7 @@ ul {
     color: #9d9063;
     font-family: MontserratBold;
   }
-
-  /* .footer-mob-item {
-		height: 10vw;
-		width: 10vw;
-		margin: 0;
-		padding: 0;
-	} */
 }
-
-/* @media only screen and (max-width: 2000px){
-
-#header {
-	background:url("../img/headerempty.png") fixed no-repeat ;
-	height: 6.5vw;
-	width: auto;
-	position: sticky;
-	top: 0;
-	background-size: contain;
-	z-index: 10;
-	}
-
-	.header-right a{
-	margin-top: 2%;
-	font-size: 0.9vw;
-	}
-
-	.logo {
-	float: left;
-	margin-left: 14.7%;
-	height: 4.5vw;
-	width: 4.8vw;
-	}
-} */
 
 @font-face {
   font-family: Montserrat;
