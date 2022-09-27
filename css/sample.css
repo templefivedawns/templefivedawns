@@ -545,7 +545,7 @@ code {
     position: absolute;
     padding: 0;
     width: 0vw;
-    height: 87.9vh;
+    height: 100%;
     margin: 0;
     /* position: sticky; */
     /* background-color: rgba(9, 14, 14, 0.7); */
@@ -553,6 +553,7 @@ code {
   }
 
   .popupBackground {
+    top: 11.1vw;
     background-color: rgba(9, 14, 14, 0.7);
     height: 100%;
     width: 0%;
@@ -566,7 +567,7 @@ code {
     border-right: #9d9063 solid 1px;
     background-color: #090e0e;
     width: 100%;
-    height: 85.3vh;
+    height: 100%;
     margin: 0;
     display: none;
   }
