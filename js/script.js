@@ -100,8 +100,13 @@ for (var i=0; i<5000; ++i) {
 
 $(".first").hover(function () {
 
+	var widthContainer1 = $(".dropdownMenu1").outerWidth()
+	var heightContainer1 = $(".dropdownMenu1").outerHeight()
+	var widthWindow = $( window ).width();
 	$(".dropdownMenu1").fadeIn(100);
 	$(".dropdownMenuContainer1").css("display", "block");
+	$(".dropdownMenuContainer1").css("width", (100 * widthContainer1 / widthWindow) + "vw");
+	$(".dropdownMenuContainer1").css("height", (100 * heightContainer1 / widthWindow) + 0.4 +"vw");
 
 } );
 
@@ -121,13 +126,13 @@ $(".dropdownMenuContainer1").css("display", "none");
 });
 
 $(".second").hover(function () {
-	var widthContainer = $(".dropdownMenu2").outerWidth()
-	var heightContainer = $(".dropdownMenu2").outerHeight()
+	var widthContainer2 = $(".dropdownMenu2").outerWidth()
+	var heightContainer2 = $(".dropdownMenu2").outerHeight()
 	var widthWindow = $( window ).width();
 	$(".dropdownMenu2").fadeIn(100);
 	$(".dropdownMenuContainer2").css("display", "block");
-	$(".dropdownMenuContainer2").css("width", (100 * widthContainer / widthWindow) + "vw");
-	$(".dropdownMenuContainer2").css("height", (100 * heightContainer / widthWindow) + 0.4 +"vw");
+	$(".dropdownMenuContainer2").css("width", (100 * widthContainer2 / widthWindow) + "vw");
+	$(".dropdownMenuContainer2").css("height", (100 * heightContainer2 / widthWindow) + 0.4 +"vw");
 
 } );
 
