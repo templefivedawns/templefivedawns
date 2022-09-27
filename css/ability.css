@@ -756,6 +756,11 @@ ul {
     background-size: 100%;
   }
 
+  .border-weight h2 {
+    line-height: 4.6vw;
+    margin-top: 1.5vw;
+  }
+
   .collum-l,
   .collum-r {
     width: 100%;
