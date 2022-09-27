@@ -100,14 +100,19 @@ for (var i=0; i<5000; ++i) {
 
 $(".first").hover(function () {
 
+	
+
 	var widthContainer1 = $(".dropdownMenu1").outerWidth()
 	var heightContainer1 = $(".dropdownMenu1").outerHeight()
+	var marginLeft1 = $(".dropdownMenu1").css("marginLeft");
 	var widthWindow = $( window ).width();
 	$(".dropdownMenu1").fadeIn(100);
 	$(".dropdownMenuContainer1").css("display", "block");
 	$(".dropdownMenuContainer1").css("width", (100 * widthContainer1 / widthWindow) + "vw");
-	$(".dropdownMenuContainer1").css("height", (100 * heightContainer1 / widthWindow) + 0.4 +"vw");
-
+	$(".dropdownMenuContainer1").css("height", (100 * heightContainer1 / widthWindow) + 0.45 +"vw");
+	$(".dropdownMenuContainer1").css("marginLeft", marginLeft1);
+	
+	
 } );
 
 $(".first").mouseleave(function (){
@@ -128,11 +133,13 @@ $(".dropdownMenuContainer1").css("display", "none");
 $(".second").hover(function () {
 	var widthContainer2 = $(".dropdownMenu2").outerWidth()
 	var heightContainer2 = $(".dropdownMenu2").outerHeight()
+	var marginLeft2 = $(".dropdownMenu2").css("marginLeft");
 	var widthWindow = $( window ).width();
 	$(".dropdownMenu2").fadeIn(100);
 	$(".dropdownMenuContainer2").css("display", "block");
 	$(".dropdownMenuContainer2").css("width", (100 * widthContainer2 / widthWindow) + "vw");
-	$(".dropdownMenuContainer2").css("height", (100 * heightContainer2 / widthWindow) + 0.4 +"vw");
+	$(".dropdownMenuContainer2").css("height", (100 * heightContainer2 / widthWindow) + 0.45 +"vw");
+	$(".dropdownMenuContainer2").css("marginLeft", marginLeft2);
 
 } );
 
@@ -162,8 +169,7 @@ $(".second").mouseleave(function (){
 
 $(".dropdownMenuContainer").mouseleave(function () {
 	$(".dropdownMenu").fadeOut(100);
-	$(".dropdownMenuContainer1").css("display", "none");
-	$(".dropdownMenuContainer2").css("display", "none");
+	$(".dropdownMenuContainer").css("display", "none");
 
 } );
 
