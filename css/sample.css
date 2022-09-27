@@ -1,26 +1,28 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* body {
+body {
   margin: 0;
   padding: 0;
   min-width: 100%;
   overflow: auto;
   background-color: #090e0e;
-} */
+}
 
-/* h1 {
+h1 {
   color: #9d9063;
   font-size: 2.1vw;
   font-family: MontserratBold;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: inherit;
+  /* padding-top: 0.5vw;
+	padding-bottom: 0.5vw; */
   padding: 0;
   margin: 0;
-} */
+}
 
-/* h2 {
+h2 {
   color: #9d9063;
   font-size: 1.4vw;
   font-family: MontserratBold;
@@ -29,9 +31,9 @@
   font-weight: inherit;
   padding: 0vw 0vw 0vw 1vw;
   margin: 0;
-} */
+}
 
-/* h3 {
+h3 {
   color: #9d9063;
   font-size: 1vw;
   font-family: MontserratBold;
@@ -40,9 +42,9 @@
   font-weight: inherit;
   padding: 0;
   margin: 0;
-} */
+}
 
-/* p {
+p {
   color: #9d9063;
   font-family: Montserrat;
   font-size: 0.7vw;
@@ -50,16 +52,25 @@
   font-weight: 400;
   margin: 0;
   padding: 0;
-} */
+}
 
-/* a {
+li {
+  color: #9d9063;
+  font-family: Montserrat;
+  font-size: 1vw;
+  line-height: 2vw;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+a {
   text-decoration: none;
   color: #00ff99;
-} */
+}
 
-/* НАСТРОЙКИ БАДИ НАЧАЛО */
-
-/* #header {
+/* ХЭДЕР НАЧАЛО*/
+#header {
   background: url("../img/headerempty.png") fixed no-repeat;
   height: 3.6vw;
   width: auto;
@@ -67,6 +78,7 @@
   z-index: 90;
   top: 0;
   background-size: contain;
+  /* РАЗОБРАТЬСЯ С МАКСИМАЛЬНОЙ ШИРИНОЙ ХЭДЕРА 1440PX */
 }
 
 #header-mob {
@@ -78,6 +90,7 @@
 }
 
 .logo {
+  /*логотип в хэдере*/
   float: left;
   margin-left: 14.8%;
   height: 4.5vw;
@@ -85,11 +98,13 @@
 }
 
 .header-right {
+  /*мейн меню хэдера*/
   float: right;
   margin-right: 15%;
 }
 
 .header-right a {
+  /*настройки ссылок в мейн меню хэдера*/
   float: left;
   font-family: MontserratBold;
   color: #9d9063;
@@ -102,13 +117,14 @@
 }
 
 .header-right a:hover {
-  color: #00ff99;
-} */
-
+  color: #00ff99; /*цвет мейн меню хэдера при наведении*/
+}
 /* ХЭДЕР ЗАКОНЧИЛСЯ */
 
-/* .container {
+/* НАСТРОЙКИ БАДИ НАЧАЛО */
+.container {
   margin: 2vw 15% 2vw 15%;
+  /* max-width: 1440px; */
   background-color: #111a1a;
   border: solid 1px #9d9063;
   display: flex;
@@ -128,29 +144,19 @@
   position: relative;
   z-index: 1;
   height: auto;
-} */
-
-.collum-l {
-  float: left;
-  width: 45%;
-  padding-top: 1vw;
-  margin-right: 5%;
-  align-content: left;
 }
 
-.collum-r {
+#containerRed {
+  background: url(../img/backgroundred.png) 100% 0 repeat;
+  background-size: 300%;
+  align-content: center;
+  height: auto;
   float: right;
-  width: 45%;
-  padding-top: 1vw;
-  margin-left: 5%;
-  text-align: right;
+  width: 20%;
+  overflow: visible;
 }
 
-.fa-caret-down {
-  padding-left: 0.4vw;
-}
-
-/* .divider-main {
+.divider-main {
   display: block;
   width: 100%;
   margin: 0.4vw 0vw 0.4vw 0vw;
@@ -172,101 +178,19 @@
 
 .frame-red-mob {
   display: none;
-} */
-
-/* .frame-red-button {
-	background:url(../img/frame.png) no-repeat;
-	background-size: 100%;
-  height: 2.03vw;
-	width: 100%;
-	text-align: center;
-	margin: 0.2vw 0vw 0.2vw 0vw;
-	padding-top: 0.1vw;
 }
 
-.frame-red-button a {
-	color: #9d9063;
-}
-
-.frame-red-button a:hover {
-	color: #00FF99;
-} */
-
-/* аккордеон начало */
-.accordion {
-  background-color: #111a1a;
-  font-family: MontserratBold;
-  font-size: 1vw;
-  text-decoration: none;
-  margin: 0.4vw 0vw 0vw 0vw;
-  color: #9d9063;
-  cursor: pointer;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-}
-
-.accordion:hover {
-  color: #00ff99;
-}
-
-.panel {
-  display: none;
-  overflow: hidden;
-  margin-bottom: 1%;
-  margin-top: 1%;
-  padding: 0;
-  text-decoration: none;
-}
-/* аккордеон конец */
-
-/* #containerRed {
-  background: url(../img/backgroundred.png) 100% 0 repeat;
-  background-size: 300%;
-  align-content: center;
-  height: auto;
-  float: right;
-  width: 20%;
-  overflow: visible;
-} */
-
-/* .nav-bar {
+/* ПРАВОЕ МЕНЮ НАВИГАЦИИ НАЧАЛО */
+.nav-bar {
   background: #111a1a;
   z-index: 50;
   position: sticky;
   top: 3.1vw;
   border-bottom: #9d9063 solid 1px;
   width: 100%;
-} */
-
-/* .menu {
-  margin: 0;
-  padding: 0.3vw 0vw 0.3vw 1vw;
-  list-style: none;
-}
-ul {
-  padding: 0;
-}
-.menu li {
-  position: relative;
-  margin-left: 5%;
 }
 
-.menu > li {
-  flex: 1;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #9d9063;
-}
-
-.menu a:hover {
-  color: #00ff99;
-} */
-
-/* .select-item-menu {
+.select-item-menu {
   background-color: rgba(3, 19, 19, 0.7);
   position: relative;
   padding: 0;
@@ -282,19 +206,9 @@ ul {
   text-transform: uppercase;
   font-family: MontserratBlack;
   margin-left: 5%;
-} */
+}
 
-/*цвет и скролл вверх выбранного итема меню*/
-/* .select p {
-  color: #00ff99;
-} */
-
-/* .select:hover {
-  cursor: pointer;
-} */
-/*цвет и скролл вверх выбранного итема меню*/
-
-/* .select-item-submenu {
+.select-item-submenu {
   margin-left: 6%;
   padding: 0;
   padding-left: 0.4vw;
@@ -306,56 +220,25 @@ ul {
 
 .select-item-menu:hover {
   color: #00ff99;
-} */
-
-/* .menu li a div {
-  display: inline-block;
-  vertical-align: middle;
 }
 
-.menu .sub-menu {
-  position: absolute;
+/*цвет и скролл вверх выбранного итема меню*/
+.select p {
+  color: #00ff99;
+}
+
+.select:hover {
+  cursor: pointer;
+}
+/*цвет и скролл вверх выбранного итема меню*/
+/* ПРАВОЕ МЕНЮ НАВИГАЦИИ КОНЕЦ */
+.popup {
   display: none;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background-color: #d2908b;
 }
+/* БАДИ КОНЕЦ */
 
-.menu .sub-menu a {
-  margin-bottom: -1px;
-  color: white;
-  text-decoration: none;
-  padding: 3px 5px;
-}
-
-.menu > li:hover .sub-menu {
-  display: block;
-} */
-
-/* .search-form {
-	display: inline-block;
-	margin-right: 17px;
-	width: 300px;
-}
-
-.search-form .search-text {
-	background-image: url(images/glass.png);
-	background-repeat: no-repeat;
-	background-position: 13px 5px;
-	text-indent: 56px;
-	width: 100%;
-	height: 35px;
-	font-size: 0.875rem;
-	line-height: 1.0625rem;
-	display: inline-block;
-	border-radius: 5px;
-	box-shadow: none;
-	border: none;
-} */
-
-/* начало футера */
-/* #footer {
+/* НАЧАЛО МЕЙН ФУТЕРА */
+#footer {
   padding: 0;
   margin: 0;
 }
@@ -378,18 +261,20 @@ ul {
 
 #footer-mob {
   display: none;
-} */
-/* конец футера */
+}
+/* КОНЕЦ МЕЙН ФУТЕРА */
 
-/* попап хмелевар начало */
-/* .popup {
-  display: none;
-} */
-/* попап хмелевар конец */
+/*
+/////////
+/////////
+АДАПТАЦИЯ
+/////////
+/////////
+*/
 
 /* 1440PX И МЕНЬШЕ */
 @media only screen and (max-width: 1440px) {
-  /* h1 {
+  h1 {
     font-size: 3.3vw;
   }
 
@@ -406,12 +291,13 @@ ul {
   .container {
     margin: 2vw 3vw 2vw 3vw;
   }
-
   .logo {
+    /*логотип в хэдере*/
     margin-left: 3vw;
   }
 
   .header-right {
+    /*мейн меню хэдера*/
     margin-right: 3vw;
   }
 
@@ -420,16 +306,17 @@ ul {
     width: 100%;
     text-align: left;
     margin: 0.2vw 0vw 1vw 0vw;
+    /* padding-top: 0.5vw; */
   }
 
   .frame-red-mob {
     display: none;
-  } */
+  }
 }
 
 /* 480PX И МЕНЬШЕ */
 @media only screen and (max-width: 480px) {
-  /* body {
+  body {
     background: #111a1a;
   }
 
@@ -445,10 +332,10 @@ ul {
   p {
     font-size: 4vw;
     line-height: 6vw;
-  } */
+  }
 
-  /* МОБИЛЬНЫЙ ХЭДЕР */
-  /* #header {
+  /* МОБИЛЬНЫЙ МЕЙН ХЭДЕР */
+  #header {
     display: none;
   }
 
@@ -473,6 +360,7 @@ ul {
 
   .header-mob-item-l {
     float: left;
+    /* width: 50%; */
     height: 15.5vw;
     margin: 0;
     margin-left: 2.2vw;
@@ -487,42 +375,35 @@ ul {
 
   .header-mob-item-discord {
     float: right;
+    /* width: 50%; */
     height: 8vw;
     width: 9vw;
     margin: 1.5vw 3vw 0vw 0vw;
+    /* border-radius: 10%; */
   }
 
   .header-mob-item-boosty {
     float: right;
+    /* width: 50%; */
     height: 8vw;
     width: 6vw;
     margin: 1.5vw 3vw 0vw 0vw;
   }
 
   .logo {
+    /*логотип в хэдере*/
     margin-left: 3vw;
   }
 
   .header-right {
+    /*мейн меню хэдера*/
     margin-right: 3vw;
     margin-top: 0.2vw;
-  } */
-
-  /* .header-mob-buttons-l {
-    padding: 0.7vw 0vw 0.7vw 1vw;
-		margin-top: 0.6vw; */
-  /* margin-left: 2%;
-		padding: 0;
-		float: left; */
-  /* margin-top: 3%; */
-  /* display:flex;
-    align-items: center; */
-  /* position: relative;
-  } */
-  /* МОБИЛЬНЫЙ ХЭДЕР */
+  }
+  /* МОБИЛЬНЫЙ МЕЙН ХЭДЕР */
 
   /* МОБИЛЬНЫЙ ПОПАП ХЭДЕР */
-  /* #popup-header-mob {
+  #popup-header-mob {
     display: none;
     background: url(../img/header480px2.png) fixed no-repeat;
     background-size: 100%;
@@ -543,6 +424,7 @@ ul {
 
   .popup-header-mob-item-l {
     float: left;
+    /* width: 50%; */
     height: 15.5vw;
     margin: 0;
     margin-left: 2.2vw;
@@ -550,6 +432,7 @@ ul {
 
   .popup-header-mob-item {
     float: right;
+    /* width: 50%; */
     height: 9vw;
     width: 9vw;
     margin: 0.8vw 3vw 0vw 0vw;
@@ -557,28 +440,18 @@ ul {
   }
 
   .logo {
+    /*логотип в хэдере*/
     margin-left: 3vw;
   }
 
   .popup-header-right {
+    /*мейн меню хэдера*/
     margin-right: 3vw;
     margin-top: 0.2vw;
-  } */
+  }
   /* МОБИЛЬНЫЙ ПОПАП ХЭДЕР */
 
-  .fa-caret-down {
-    padding-left: 1vw;
-  }
-
-  .fa-bars {
-    margin-top: 1.5%;
-    margin-left: 3.5%;
-    float: left;
-    font-size: 7vw;
-    color: #9d9063;
-  }
-
-  /* .divider-main {
+  .divider-main {
     display: none;
   }
 
@@ -586,10 +459,26 @@ ul {
     display: block;
     width: 100%;
     margin: 1vw 0vw 1vw 0vw;
-  } */
+  }
 
-  /* НАЧАЛО ПОПАПА */
-  /* .popup {
+  .frame-red {
+    display: none;
+  }
+
+  .frame-red-mob {
+    display: block;
+    background: url(../img/frame-mob1.png) no-repeat center;
+    background-size: 100%;
+    background-position: center;
+    height: 8vw;
+    width: 100%;
+    text-align: left;
+    margin: 1vw 0vw 1vw 0vw;
+    padding-top: 1.5vw;
+  }
+
+  /* НАЧАЛО ПОПАП-МЕНЮ */
+  .popup {
     top: 11.1vw;
     display: block;
     position: absolute;
@@ -597,6 +486,8 @@ ul {
     width: 0vw;
     height: 87.9vh;
     margin: 0;
+    /* position: sticky; */
+    /* background-color: rgba(9, 14, 14, 0.7); */
     z-index: 80;
   }
 
@@ -617,29 +508,9 @@ ul {
     height: 85.3vh;
     margin: 0;
     display: none;
-  } */
+  }
 
-  /* .popup-menu li {
-    position: relative;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-  } */
-
-  /* .popup-menu > li {
-    flex: 1;
-  } */
-
-  /* .popup-menu a {
-    text-decoration: none;
-    color: #9d9063;
-  } */
-  /* 
-  .popup-menu a:hover {
-    color: #00ff99;
-  } */
-
-  /* .popup-select-item-menu {
+  .popup-select-item-menu {
     background-color: rgba(3, 19, 19, 0.7);
     border-top: #9d9063 outset 0.01vw;
     border-bottom: #9d9063 outset 0.01vw;
@@ -664,10 +535,10 @@ ul {
 
   .popup-select-item-submenu:hover {
     color: #00ff99;
-  } */
-  /* КОНЕЦ ПОПАПА */
+  }
+  /* КОНЕЦ ПОПАП-МЕНЮ */
 
-  /* .container {
+  .container {
     margin: 0;
     width: 100%;
     border: none;
@@ -684,51 +555,26 @@ ul {
     border: none;
     padding: 3vw;
     box-shadow: none;
-  } */
-
-  .accordion {
-    font-size: 4vw;
   }
 
-  /* .frame-red {
+  #containerRed {
     display: none;
   }
 
-  .frame-red-mob {
-    display: block;
-    background: url(../img/frame-mob1.png) no-repeat center;
-    background-size: 100%;
-    background-position: center;
-    height: 8vw;
-    width: 100%;
-    text-align: left;
-    margin: 1vw 0vw 1vw 0vw;
-    padding-top: 1.5vw;
-  } */
-
-  .collum-l,
-  .collum-r {
-    width: 100%;
-    padding-top: 3vw;
-    margin: 0;
-    text-align: left;
-  }
-
-  /* #containerRed {
-    display: none;
-  } */
-
-  /* #footer {
+  /* НАЧАЛО МОБИЛЬНОГО ФУТЕРА */
+  #footer {
     display: none;
   }
 
   #footer-mob {
     display: block;
     background-color: #111a1a;
+    /* box-shadow: 0vw 0vw 4vw 2vw rgba(0, 0, 0, 0.6); */
     border-top: #9d9063 solid 1px;
     height: 7vw;
     margin: 0;
     padding: 0;
+    /* position: sticky; */
     z-index: 100;
     bottom: 0;
     display: flex;
@@ -749,42 +595,11 @@ ul {
   .footer-mob-buttons a {
     color: #9d9063;
     font-family: MontserratBold;
-  } */
-
-  /* .footer-mob-item {
-		height: 10vw;
-		width: 10vw;
-		margin: 0;
-		padding: 0;
-	} */
+  }
+  /* КУНЕЦ МОБИЛЬНОГО ФУТЕРА */
 }
 
-/* @media only screen and (max-width: 2000px){
-
-#header {
-	background:url("../img/headerempty.png") fixed no-repeat ;
-	height: 6.5vw;
-	width: auto;
-	position: sticky;
-	top: 0;
-	background-size: contain;
-	z-index: 10;
-	}
-
-	.header-right a{
-	margin-top: 2%;
-	font-size: 0.9vw;
-	}
-
-	.logo {
-	float: left;
-	margin-left: 14.7%;
-	height: 4.5vw;
-	width: 4.8vw;
-	}
-} */
-
-/* @font-face {
+@font-face {
   font-family: Montserrat;
   src: url(../fonts/Montserrat-Light.otf);
 }
@@ -808,4 +623,4 @@ ul {
 @font-face {
   font-family: MontserratBlack;
   src: url(../fonts/Montserrat-Black.ttf);
-} */
+}
