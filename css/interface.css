@@ -1,0 +1,730 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  overflow: auto;
+  background-color: #090e0e;
+}
+
+h1 {
+  color: #9d9063;
+  font-size: 2.1vw;
+  font-family: MontserratBold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: inherit;
+  /* padding-top: 0.5vw;
+	padding-bottom: 0.5vw; */
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  color: #9d9063;
+  font-size: 1.4vw;
+  font-family: MontserratBold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: inherit;
+  /* padding-top: 0.2vw;
+	padding-bottom: 0.2vw; */
+  padding: 0vw 0vw 0vw 1vw;
+  margin: 0;
+}
+
+h3 {
+  color: #9d9063;
+  font-size: 1vw;
+  font-family: MontserratBold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: inherit;
+  /* padding-top: 0.1vw;
+	padding-bottom: 0.1vw; */
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: #9d9063;
+  font-family: Montserrat;
+  font-size: 0.7vw;
+  line-height: 1.2vw;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #00ff99;
+}
+
+li {
+  color: #9d9063;
+  font-family: Montserrat;
+  font-size: 1vw;
+  line-height: 2vw;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: Montserrat;
+}
+
+.format-code {
+  background-color: #071515;
+  border: #9d9063 outset 1px;
+  padding: 1vw;
+  color: #9d9063;
+  font-weight: 500;
+  font-size: 1vw;
+  margin: 0.5vw 0vw 0.5vw 0vw;
+}
+
+/* НАСТРОЙКИ БАДИ НАЧАЛО */
+
+#header {
+  background: url("../img/headerempty.png") fixed no-repeat;
+  height: 3.6vw;
+  width: auto;
+  position: sticky;
+  z-index: 90;
+  top: 0;
+  background-size: contain;
+  /* РАЗОБРАТЬСЯ С МАКСИМАЛЬНОЙ ШИРИНОЙ ХЭДЕРА 1440PX */
+}
+
+#header-mob {
+  display: none;
+}
+
+#popup-header-mob {
+  display: none;
+}
+
+.logo {
+  /*логотип в хэдере*/
+  float: left;
+  margin-left: 14.8%;
+  height: 4.5vw;
+  width: 4.8vw;
+}
+
+.header-right {
+  /*мейн меню хэдера*/
+  float: right;
+  margin-right: 15%;
+}
+
+.header-right a {
+  /*настройки ссылок в мейн меню хэдера*/
+  float: left;
+  font-family: MontserratBold;
+  color: #9d9063;
+  font-size: 0.8vw;
+  line-height: 55%;
+  text-align: center;
+  padding: 0.7vw 0vw 0.7vw 1vw;
+  text-decoration: none;
+  margin-top: 0.6vw;
+}
+
+.header-right a:hover {
+  color: #00ff99; /*цвет мейн меню хэдера при наведении*/
+}
+
+/* ХЭДЕР ЗАКОНЧИЛСЯ */
+
+.container {
+  margin: 2vw 15% 2vw 15%;
+  /* max-width: 1440px; */
+  background-color: #111a1a;
+  border: solid 1px #9d9063;
+  display: flex;
+  position: auto;
+  overflow: visible;
+}
+
+#containerMain {
+  width: 79.9%;
+  padding: 1.5vw;
+  margin: 0;
+  float: left;
+  align-content: center;
+  overflow: auto;
+  box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
+  border-right: solid 1px #9d9063;
+  position: relative;
+  z-index: 1;
+  height: auto;
+}
+
+.collum-l {
+  float: left;
+  width: 45%;
+  padding-top: 1vw;
+  margin-right: 5%;
+  align-content: left;
+}
+
+.collum-r {
+  float: right;
+  width: 45%;
+  padding-top: 1vw;
+  margin-left: 5%;
+  text-align: right;
+}
+
+.fa-caret-down {
+  padding-left: 0.4vw;
+}
+
+.divider-main {
+  display: block;
+  width: 100%;
+  margin: 0.4vw 0vw 0.4vw 0vw;
+}
+
+.divider-mob {
+  display: none;
+}
+
+.frame-red {
+  display: block;
+  background: url(../img/frame.png) no-repeat;
+  background-size: 100%;
+  height: 2.03vw;
+  width: 100%;
+  text-align: left;
+  margin: 0.2vw 0vw 0.2vw 0vw;
+}
+
+.frame-red-mob {
+  display: none;
+}
+
+/* аккордеон начало */
+.accordion {
+  background-color: #111a1a;
+  font-family: MontserratBold;
+  font-size: 1vw;
+  text-decoration: none;
+  margin: 0.4vw 0vw 0vw 0vw;
+  color: #9d9063;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+
+.accordion:hover {
+  color: #00ff99;
+}
+
+.panel {
+  display: none;
+  overflow: hidden;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  padding: 0;
+  text-decoration: none;
+}
+/* аккордеон конец */
+
+#containerRed {
+  background: url(../img/backgroundred.png) 100% 0 repeat;
+  background-size: 300%;
+  align-content: center;
+  height: auto;
+  float: right;
+  width: 20%;
+  overflow: visible;
+}
+
+.nav-bar {
+  background: #111a1a;
+  z-index: 50;
+  position: sticky;
+  top: 3.1vw;
+  border-bottom: #9d9063 solid 1px;
+  width: 100%;
+}
+
+.select-item-menu {
+  background-color: rgba(3, 19, 19, 0.7);
+  position: relative;
+  /* z-index: 100; */
+  padding: 0;
+  margin: 0;
+  border: #9d9063 outset 0.01vw;
+}
+
+.select-item-menu p:hover {
+  color: #00ff99;
+}
+
+.select-item-menu p {
+  text-transform: uppercase;
+  font-family: MontserratBlack;
+  margin-left: 5%;
+  /* position: relative; */
+  /* z-index: 100; */
+}
+
+/*цвет и скролл вверх выбранного итема меню*/
+.select p {
+  color: #00ff99;
+}
+.select:hover {
+  cursor: pointer;
+}
+/*цвет и скролл вверх выбранного итема меню*/
+
+.select-item-submenu {
+  margin-left: 6%;
+  padding: 0;
+  padding-left: 0.4vw;
+}
+
+.select-item-submenu:hover {
+  color: #00ff99;
+}
+
+.select-item-menu:hover {
+  color: #00ff99;
+}
+
+/* начало футера */
+#footer {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-copyr p {
+  text-align: center;
+  font-weight: 100;
+  font-family: Montserrat;
+  font-size: 0.8vw;
+}
+
+.footer-discname {
+  text-align: center;
+  margin: 1vw 0vw 2vw 0vw;
+}
+
+.footer-discname a {
+  color: #9d9063;
+}
+
+#footer-mob {
+  display: none;
+}
+/* конец футера */
+
+/* попап хмелевар начало */
+.popup {
+  display: none;
+}
+/* попап хмелевар конец */
+
+/* 1440PX И МЕНЬШЕ */
+@media only screen and (max-width: 1440px) {
+  h1 {
+    font-size: 3.3vw;
+  }
+
+  h2 {
+    font-size: 2.2vw;
+    margin-left: 1vw;
+  }
+
+  p {
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+  }
+
+  .container {
+    margin: 3vw 3vw 3vw 3vw;
+  }
+
+  .logo {
+    /*логотип в хэдере*/
+    margin-left: 3vw;
+  }
+
+  .header-right {
+    /*мейн меню хэдера*/
+    margin-right: 3vw;
+  }
+
+  .frame-red {
+    height: 2.7vw;
+    width: 100%;
+    text-align: left;
+    margin: 0.2vw 0vw 1vw 0vw;
+    /* padding-top: 0.5vw; */
+  }
+
+  .frame-red-mob {
+    display: none;
+  }
+}
+
+/* 480PX И МЕНЬШЕ */
+@media only screen and (max-width: 480px) {
+  body {
+    background: #111a1a;
+  }
+
+  h1 {
+    font-size: 12vw;
+  }
+
+  h2 {
+    font-size: 5vw;
+    margin-left: 2.4vw;
+  }
+
+  p {
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+
+  li {
+    font-size: 3.5vw;
+    line-height: 6vw;
+  }
+
+  /* МОБИЛЬНЫЙ ХЭДЕР */
+  #header {
+    display: none;
+  }
+
+  #header-mob {
+    display: block;
+    background: url(../img/header480px2.png) fixed no-repeat;
+    background-size: 100%;
+    height: 13.5vw;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    /* РАЗОБРАТЬСЯ С МАКСИМАЛЬНОЙ ШИРИНОЙ ХЭДЕРА 1440PX */
+  }
+
+  .header-mob-buttons-r {
+    padding: 0;
+    float: right;
+    margin-right: 0.5%;
+  }
+
+  .header-mob-item-l {
+    float: left;
+    /* width: 50%; */
+    height: 15.5vw;
+    margin: 0;
+    margin-left: 2.2vw;
+  }
+
+  .mobHeaderDots {
+    display: block;
+  }
+  .mobHeaderDotsHide {
+    display: none;
+  }
+
+  .header-mob-item-discord {
+    float: right;
+    /* width: 50%; */
+    height: 8vw;
+    width: 9vw;
+    margin: 1.5vw 3vw 0vw 0vw;
+    /* border-radius: 10%; */
+  }
+
+  .header-mob-item-boosty {
+    float: right;
+    /* width: 50%; */
+    height: 8vw;
+    width: 6vw;
+    margin: 1.5vw 3vw 0vw 0vw;
+  }
+
+  .logo {
+    /*логотип в хэдере*/
+    margin-left: 3vw;
+  }
+
+  .header-right {
+    /*мейн меню хэдера*/
+    margin-right: 3vw;
+    margin-top: 0.2vw;
+  }
+  /* МОБИЛЬНЫЙ ХЭДЕР */
+
+  /* МОБИЛЬНЫЙ ПОПАП ХЭДЕР */
+  #popup-header-mob {
+    display: none;
+    background: url(../img/header480px2.png) fixed no-repeat;
+    background-size: 100%;
+    height: 13.5vw;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    /* РАЗОБРАТЬСЯ С МАКСИМАЛЬНОЙ ШИРИНОЙ ХЭДЕРА 1440PX */
+  }
+
+  .popup-header-mob-buttons-r {
+    padding: 0;
+    float: right;
+    margin-right: 0.5%;
+  }
+
+  .popup-header-mob-item-l {
+    float: left;
+    /* width: 50%; */
+    height: 15.5vw;
+    margin: 0;
+    margin-left: 2.2vw;
+  }
+
+  .popup-header-mob-item {
+    float: right;
+    /* width: 50%; */
+    height: 9vw;
+    width: 9vw;
+    margin: 0.8vw 3vw 0vw 0vw;
+    border-radius: 15%;
+  }
+
+  .logo {
+    /*логотип в хэдере*/
+    margin-left: 3vw;
+  }
+
+  .popup-header-right {
+    /*мейн меню хэдера*/
+    margin-right: 3vw;
+    margin-top: 0.2vw;
+  }
+  /* МОБИЛЬНЫЙ ПОПАП ХЭДЕР */
+
+  .fa-caret-down {
+    padding-left: 1vw;
+  }
+
+  .fa-bars {
+    margin-top: 1.5%;
+    margin-left: 3.5%;
+    float: left;
+    font-size: 7vw;
+    color: #9d9063;
+  }
+
+  .divider-main {
+    display: none;
+  }
+
+  .divider-mob {
+    display: block;
+    width: 100%;
+    margin: 1vw 0vw 1vw 0vw;
+  }
+
+  /* НАЧАЛО ПОПАПА */
+  .popup {
+    top: 11.1vw;
+    display: block;
+    position: absolute;
+    padding: 0;
+    width: 60vw;
+    height: 87.9vh;
+    margin: 0;
+    /* position: sticky; */
+    /* background-color: rgba(9, 14, 14, 0.7); */
+    z-index: 80;
+  }
+
+  .popupBackground {
+    background-color: rgba(9, 14, 14, 0.7);
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    display: block;
+    z-index: 50;
+  }
+
+  .popup-menu {
+    padding: 5vw 0vw 0vw 0vw;
+    border-right: #9d9063 solid 1px;
+    background-color: #090e0e;
+    width: 100%;
+    height: 85.3vh;
+    margin: 0;
+    display: none;
+  }
+
+  .popup-select-item-menu {
+    background-color: rgba(3, 19, 19, 0.7);
+    border-top: #9d9063 outset 0.01vw;
+    border-bottom: #9d9063 outset 0.01vw;
+    padding-left: 3vw;
+  }
+
+  .popup-select-item-menu p {
+    text-transform: uppercase;
+    font-family: MontserratBlack;
+    margin-left: 0%;
+    z-index: 100;
+  }
+
+  .popup-select-item-menu p:hover {
+    color: #00ff99;
+  }
+
+  .popup-select-item-submenu {
+    padding-left: 5vw;
+    text-transform: capitalize;
+  }
+
+  .popup-select-item-submenu:hover {
+    color: #00ff99;
+  }
+  /* КОНЕЦ ПОПАПА */
+
+  .container {
+    margin: 0;
+    width: 100%;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    position: auto;
+  }
+  .fixed {
+    position: fixed;
+  }
+
+  #containerMain {
+    width: 100%;
+    border: none;
+    padding: 3vw;
+    box-shadow: none;
+  }
+
+  .accordion {
+    font-size: 4vw;
+  }
+
+  .frame-red {
+    display: none;
+  }
+
+  .frame-red-mob {
+    display: block;
+    background: url(../img/frame-mob1.png) no-repeat center;
+    background-size: 100%;
+    background-position: center;
+    height: 8vw;
+    width: 100%;
+    text-align: left;
+    margin: 1vw 0vw 1vw 0vw;
+    padding-top: 1.5vw;
+  }
+
+  .border-weight {
+    background: url(../img/frame-mob.png) no-repeat center;
+    height: 13.5vw;
+    width: 100%;
+    background-size: 100%;
+  }
+
+  .border-weight h2 {
+    line-height: 4.6vw;
+    margin-top: 1.5vw;
+  }
+
+  .collum-l,
+  .collum-r {
+    width: 100%;
+    padding-top: 3vw;
+    margin: 0;
+    text-align: left;
+  }
+
+  #containerRed {
+    display: none;
+  }
+
+  #footer {
+    display: none;
+  }
+
+  #footer-mob {
+    display: block;
+    background-color: #111a1a;
+    /* box-shadow: 0vw 0vw 4vw 2vw rgba(0, 0, 0, 0.6); */
+    border-top: #9d9063 solid 1px;
+    height: 7vw;
+    margin: 0;
+    padding: 0;
+    /* position: sticky; */
+    z-index: 100;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-mob-buttons {
+    width: 100vw;
+    display: flex;
+    margin: 3vw;
+    justify-content: space-between;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    justify-content: center;
+  }
+
+  .footer-mob-buttons a {
+    color: #9d9063;
+    font-family: MontserratBold;
+  }
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Light.otf);
+}
+@font-face {
+  font-family: MontserratSemiBold;
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: MontserratBold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: MontserratMedium;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: MontserratItalic;
+  src: url(../fonts/Montserrat-Italic.ttf);
+}
+
+@font-face {
+  font-family: MontserratBlack;
+  src: url(../fonts/Montserrat-Black.ttf);
+}
