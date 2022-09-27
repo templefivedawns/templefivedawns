@@ -395,7 +395,7 @@ li {
 
   #header-mob {
     display: block;
-    background: url(../img/header480px.png) fixed no-repeat;
+    background: url(../img/header480px2.png) fixed no-repeat;
     background-size: 100%;
     height: 13.5vw;
     padding: 0;
@@ -460,7 +460,7 @@ li {
   /* МОБИЛЬНЫЙ ПОПАП ХЭДЕР */
   #popup-header-mob {
     display: none;
-    background: url(../img/header480px.png) fixed no-repeat;
+    background: url(../img/header480px2.png) fixed no-repeat;
     background-size: 100%;
     height: 13.5vw;
     padding: 0;
