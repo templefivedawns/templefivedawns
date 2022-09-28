@@ -63,6 +63,7 @@
 }
 
 /* ТИР 1-4 */
+
 .talentsIcon1-4 {
   float: left;
   width: 45%;
@@ -88,12 +89,12 @@
   display: none;
 }
 
-.row1,
+/* .row1,
 .row2,
 .row3 {
   display: flex;
   justify-content: space-evenly;
-}
+} */
 
 .t1,
 .t2,
@@ -124,6 +125,13 @@
   .talents-container1-4 {
     width: 100%;
     margin: 1vw 0vw 1vw 0vw;
+    text-align: center;
+  }
+
+  .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 
