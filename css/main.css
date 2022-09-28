@@ -139,7 +139,7 @@ overflow: auto;
 box-shadow: 0vw 0.33vw 0.78vw 0.1vw rgba(0,0,0,0.6);
 z-index: 2;
 }
-.Slide2{
+.SlideMob{
 	width: 98%;
 	margin-top: 1%;
 	margin-left: 1%;
@@ -166,6 +166,7 @@ z-index: 2;
 	font-family: MontserratMedium;
 	font-size: 0.65vw;
 	padding-left: 0.5%;
+	line-height: 0.7;
 }
 
 .dropdownMenuII{
@@ -182,6 +183,7 @@ z-index: 2;
 	font-family: MontserratMedium;
 	font-size: 0.65vw;
 	padding-left: 0.5%;
+	line-height: 0.7;
 }
 
 .dropdownMenuIII{
@@ -198,6 +200,7 @@ z-index: 2;
 	font-family: MontserratMedium;
 	font-size: 0.65vw;
 	padding-left: 0.5%;
+	line-height: 0.7;
 }
 
 .dropdownMenu1, .dropdownMenuII1, .dropdownMenuIII1 {
@@ -230,6 +233,10 @@ z-index: 2;
 	display: none;
 }
 
+.dropdownMenu7, .dropdownMenuII7, .dropdownMenuIII7 {
+	margin-left: 40.15%;
+	display: none;
+}
 
 .dropdownMenuContainer {
 	position: absolute;
