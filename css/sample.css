@@ -62,8 +62,8 @@ p {
 li {
   color: #9d9063;
   font-family: Montserrat;
-  font-size: 1vw;
-  line-height: 2vw;
+  font-size: 0.7vw;
+  line-height: 1.2vw;
   font-weight: 500;
   margin: 0;
   padding: 0;
@@ -71,15 +71,17 @@ li {
 
 code {
   font-family: Montserrat;
+	font-size: 0.7vw;
+  line-height: 1.2vw;
 }
 
 .format-code {
   background-color: #071515;
   border: #9d9063 outset 1px;
-  padding: 1vw;
+  padding: 0.5vw;
   color: #9d9063;
   font-weight: 500;
-  font-size: 1vw;
+  font-size: 0.7vw;
   margin: 0.5vw 0vw 0.5vw 0vw;
 }
 
@@ -319,6 +321,16 @@ code {
     line-height: 1.5vw;
   }
 
+	li {
+		font-size: 1.1vw;
+		line-height: 1.5vw;
+	}
+
+	code {
+		font-size: 1.1vw;
+		line-height: 1.5vw;
+	}
+
   .logo {
     /*логотип в хэдере*/
     margin-left: 3vw;
@@ -370,6 +382,11 @@ code {
     font-size: 3.5vw;
     line-height: 6vw;
   }
+
+	code {
+    font-size: 3.5vw;
+    line-height: 6vw;
+	}
 
   /* настройки <code> */
   .format-code {
