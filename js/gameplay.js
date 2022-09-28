@@ -6,20 +6,7 @@ $(document).ready(function() {
 			scrollTop: 0
 	}, 200);
 	});  
-	// скролл вверх выбранного итема меню
-	
-	// аккордеон начало
-	$(".accordion").click(function(){
-		if($(".panel").css('display') == 'none')
-		{
-			$(".panel").slideDown(200);
-		}
-		else {
-			$(".panel").slideUp(200);
-		}
-	});  
-	// аккордеон конец
-	
+	// скролл вверх выбранного итема меню	
 	
 	$(".mobHeaderDots").click(function(){
 		

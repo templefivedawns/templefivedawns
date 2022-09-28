@@ -1,8 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+.tabs {
+}
+
 .btn-conten {
-  border: #9d9063 solid 1px;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -10,17 +12,28 @@
 
 .btn-l,
 .btn-r {
+  background-color: #111a1a;
+  border: none;
+  margin-bottom: 1vw;
+}
+
+.btn-l p,
+.btn-r p {
+  font-family: MontserratBold;
+}
+
+.btn-l:hover p,
+.btn-r:hover p {
+  color: #00ff99;
 }
 
 .tabs-content {
-  border: #9d9063 solid 1px;
   width: 100%;
 }
 
 .tab-l,
 .tab-r {
-  border: #9d9063 solid 1px;
-  margin: 3vw;
+  margin-bottom: 1vw;
 }
 
 .tab-l {
@@ -37,4 +50,30 @@
 
 /* 480PX И МЕНЬШЕ */
 @media only screen and (max-width: 480px) {
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Light.otf);
+}
+@font-face {
+  font-family: MontserratSemiBold;
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: MontserratBold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: MontserratMedium;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: MontserratItalic;
+  src: url(../fonts/Montserrat-Italic.ttf);
+}
+
+@font-face {
+  font-family: MontserratBlack;
+  src: url(../fonts/Montserrat-Black.ttf);
 }
