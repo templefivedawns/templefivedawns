@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+.btn-conten {
+  border: #9d9063 solid 1px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.btn-l,
+.btn-r {
+}
+
+.tabs-content {
+  border: #9d9063 solid 1px;
+  width: 100%;
+}
+
+.tab-l,
+.tab-r {
+  border: #9d9063 solid 1px;
+  margin: 3vw;
+}
+
+.tab-l {
+  display: block;
+}
+
+.tab-r {
+  display: none;
+}
+
+/* 1440PX И МЕНЬШЕ */
+@media only screen and (max-width: 1440px) {
+}
+
+/* 480PX И МЕНЬШЕ */
+@media only screen and (max-width: 480px) {
+}
