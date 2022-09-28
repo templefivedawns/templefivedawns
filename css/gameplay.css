@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+.select {
+  color: #00ff99;
+}
+
 .tabs {
 }
 
@@ -13,17 +17,22 @@
 .btn-l,
 .btn-r {
   background-color: #111a1a;
+  font-family: MontserratBold;
+  color: #9d9063;
   border: none;
   margin-bottom: 1vw;
 }
 
-.btn-l p,
-.btn-r p {
-  font-family: MontserratBold;
+.btn-l {
+  /* color: #00ff99; */
 }
 
-.btn-l:hover p,
-.btn-r:hover p {
+.btn-r {
+  /* color: #9d9063; */
+}
+
+.btn-l:hover,
+.btn-r:hover {
   color: #00ff99;
 }
 

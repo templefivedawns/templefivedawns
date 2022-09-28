@@ -554,6 +554,7 @@ code {
 
   .popupBackground {
     top: 11.1vw;
+    padding: 5vw 0vw 0vw 0vw;
     background-color: rgba(9, 14, 14, 0.7);
     height: 100%;
     width: 0%;
