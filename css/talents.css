@@ -116,6 +116,15 @@
 
 /* 480PX И МЕНЬШЕ */
 @media only screen and (max-width: 480px) {
+  .talentsIcon1-4 {
+    width: 100%;
+    margin: 1vw 0vw 1vw 0vw;
+  }
+
+  .talents-container1-4 {
+    width: 100%;
+    margin: 1vw 0vw 1vw 0vw;
+  }
 }
 
 @font-face {
