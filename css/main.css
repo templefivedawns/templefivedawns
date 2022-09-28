@@ -168,39 +168,72 @@ z-index: 2;
 	padding-left: 0.5%;
 }
 
-.dropdownMenu1 {
+.dropdownMenuII{
+	position: absolute;
+	background-color: #111a1a;
+	border: solid 0.1vw #9d9063 ;
+	z-index: 3;
+	display: none;
+	margin-top: 28.1%;
+	/* margin-left: 6%; */
+	box-shadow: 0vw 0vw 0.78vw 0.1vw rgba(0,0,0,0.6), 0vw 0vw 0.78vw 0.1vw rgba(0,0,0,0.6) ;
+	padding-right: 0.5%;
+	color: #9d9063;
+	font-family: MontserratMedium;
+	font-size: 0.65vw;
+	padding-left: 0.5%;
+}
+
+.dropdownMenuIII{
+	position: absolute;
+	background-color: #111a1a;
+	border: solid 0.1vw #9d9063 ;
+	z-index: 3;
+	display: none;
+	margin-top: 42.2%;
+	/* margin-left: 6%; */
+	box-shadow: 0vw 0vw 0.78vw 0.1vw rgba(0,0,0,0.6), 0vw 0vw 0.78vw 0.1vw rgba(0,0,0,0.6) ;
+	padding-right: 0.5%;
+	color: #9d9063;
+	font-family: MontserratMedium;
+	font-size: 0.65vw;
+	padding-left: 0.5%;
+}
+
+.dropdownMenu1, .dropdownMenuII1, .dropdownMenuIII1 {
 	margin-left: 5.7%;
-	display: block;
+	display: none;
 }
 
-.dropdownMenu2 {
+.dropdownMenu2, .dropdownMenuII2, .dropdownMenuIII2 {
 	margin-left: 10.3%;
-	display: block;
+	display: none;
 }
 
-.dropdownMenu3 {
+.dropdownMenu3, .dropdownMenuII3, .dropdownMenuIII3 {
 	margin-left: 16.4%;
-	display: block;
+	display: none;
 }
 
-.dropdownMenu4 {
+.dropdownMenu4, .dropdownMenuII4, .dropdownMenuIII4 {
 	margin-left: 20.7%;
-	display: block;
+	display: none;
 }
 
-.dropdownMenu5 {
+.dropdownMenu5, .dropdownMenuII5, .dropdownMenuIII5 {
 	margin-left: 26.45%;
-	display: block;
+	display: none;
 }
 
-.dropdownMenu6 {
+.dropdownMenu6, .dropdownMenuII6, .dropdownMenuIII6 {
 	margin-left: 34.1%;
-	display: block;
+	display: none;
 }
+
 
 .dropdownMenuContainer {
 	position: absolute;
-	border:#00FF98 solid 0.01vw;
+	/* border:#00FF98 solid 0.01vw; */
 	/* height: 3.5vw;
 	width: 9vw; */
 	z-index: 10;
@@ -209,19 +242,33 @@ z-index: 2;
 	display: none;
 }
 
-/* .dropdownMenuContainer1 {
-	z-index: 10;
+.dropdownMenuContainerII {
 	position: absolute;
+	/* border:#00FF98 solid 0.01vw; */
+	/* height: 3.5vw;
+	width: 9vw; */
+	z-index: 10;
+	margin-top: 27.5%;
+	margin-left: 0;
 	display: none;
 }
 
-.dropdownMenuContainer2 {
-	margin-left: 10.8%;
+.dropdownMenuContainerIII {
+	position: absolute;
+	/* border:#00FF98 solid 0.01vw; */
+	/* height: 3.5vw;
+	width: 9vw; */
 	z-index: 10;
+	margin-top: 41.65%;
+	margin-left: 0;
 	display: none;
-	width: 0;
-	height: 0;
-} */
+}
+
+
+
+
+
+
 
 .dropdownMenu p {
 	line-height: 0.7;
