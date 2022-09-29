@@ -7,7 +7,7 @@
 
 /* аккордеон начало */
 .accordion {
-  background-color: #111a1a;
+  background-color: rgba(17, 26, 26, 0);
   font-family: MontserratBold;
   font-size: 1vw;
   text-decoration: none;
