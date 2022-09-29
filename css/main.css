@@ -439,7 +439,7 @@ display: none;
 				border-bottom: solid 0.1vw #9d9063;
 				margin-top: 0;
 				overflow: auto;
-				padding-bottom: 6%;
+				padding-bottom: 7%;
 				margin-bottom: 0.6%;
 			}
 
@@ -451,7 +451,7 @@ display: none;
 				padding-left: 1.2%;
 				line-height: 0.4;
 				border-bottom: solid 0.1vw #9d9063;
-				font-size: 2.5vw;
+				font-size: 3vw;
 			}
 
 
@@ -459,12 +459,12 @@ display: none;
 				color: #9d9063;
 				text-align: center;
 				text-decoration: none;
-				font-size: 3vw; 
+				font-size: 4vw; 
 				font-family: MontserratMedium;
-				margin-top: 5%;
+				margin-top: 4.5%;
 				letter-spacing: 30%;
-				margin-left: 30%;
-				margin-right: 30%;
+				margin-left: 20%;
+				margin-right: 20%;
 				line-height: 0.1;
 			}
 
