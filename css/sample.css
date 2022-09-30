@@ -187,8 +187,9 @@ code {
 
 /* НАСТРОЙКИ БАДИ НАЧАЛО */
 .container {
-  background: url(../img/raids/vault-of-the-incarnates/vault-bg.webp) top left
+  background: url(../img/raids/vault-of-the-incarnates/vault-bg.png) top left
     no-repeat;
+  background-color: #111a1a;
   background-size: 81%;
   margin: 2vw 15% 2vw 15%;
 
@@ -220,8 +221,8 @@ code {
 #containerMain {
   background: linear-gradient(
     180deg,
-    rgba(17, 26, 26, 0.3) 0%,
-    rgba(17, 26, 26, 1) 10%
+    rgba(17, 26, 26, 0.4) 0%,
+    rgba(17, 26, 26, 1) 20%
   );
   width: 79.9%;
   padding: 1.5vw;
@@ -709,9 +710,9 @@ code {
 
   .container {
     /* background: rgb(17, 26, 26); */
-    background-color: #111a1a;
-    background: url(../img/raids/vault-of-the-incarnates/vault-bg.webp) top left
+    background: url(../img/raids/vault-of-the-incarnates/vault-bg.png) top left
       no-repeat;
+    background-color: #111a1a;
     background-size: 100%;
     margin: 0;
     width: 100%;
@@ -724,11 +725,18 @@ code {
     position: fixed;
   }
 
+  /* .img-header {
+    background: url(../img/raids/vault-of-the-incarnates/vault-bg.webp) top left
+      no-repeat;
+    background-size: 100%;
+    width: 100%;
+  } */
+
   #containerMain {
     background: linear-gradient(
       180deg,
-      rgba(17, 26, 26, 0.3) 0.4%,
-      rgba(17, 26, 26, 1) 20%
+      rgba(17, 26, 26, 0.4) 0%,
+      rgba(17, 26, 26, 1) 5%
     );
     width: 100%;
     border: none;
