@@ -615,15 +615,15 @@ display: none;
 			.popup-header-mob-item {
 				float: right;
 				/* width: 50%; */
-				height: 5vw;
-				width: 5vw;
+				height: 9vw;
+				width: 9vw;
 				margin: 0.8vw 3vw 0vw 0vw;
 				border-radius: 15%;
 			}
 
 
 			.popup {
-				top: 22.5vw;
+				top: 11vw;
 				display: block;
 				position: absolute;
 				padding: 0;
@@ -636,7 +636,7 @@ display: none;
 			}
 		
 			.popupBackground {
-				top: 22.5vw;
+				top: 12.5vw;
 				padding: 5vw 0vw 0vw 0vw;
 				background-color: rgba(9, 14, 14, 0.7);
 				height: 100%;
