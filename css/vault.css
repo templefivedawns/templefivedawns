@@ -646,6 +646,7 @@ code {
     display: block;
     background: url(../img/header480px2.png) fixed no-repeat;
     background-size: 100%;
+    margin: -4.5vw 0vw 0vw 0vw;
     height: 13.5vw;
     padding: 0;
     margin: 0;
