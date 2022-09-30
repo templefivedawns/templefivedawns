@@ -108,6 +108,52 @@ code {
   display: none;
 }
 
+/* ХЭДЕР МЕНЮ БРАШ */
+.BMbrush {
+  position: absolute;
+  z-index: 50;
+  margin-top: 0.4%;
+  width: 7.8vw;
+}
+
+.WWbrush {
+  position: absolute;
+  z-index: 50;
+  margin-top: 0.3%;
+  margin-left: 5.5%;
+  /* width: 13vw; */
+  width: 13vw;
+  /* height: 2.5vw; */
+  display: none;
+}
+
+.MWbrush {
+  position: absolute;
+  z-index: 50;
+  margin-top: 0.3%;
+  margin-left: 17.7%;
+  width: 8.5vw;
+  display: none;
+}
+
+.Supportbrush {
+  position: absolute;
+  z-index: 50;
+  margin-top: 0.45%;
+  margin-left: 25.3%;
+  width: 10.5vw;
+  display: none;
+}
+
+.BM,
+.WW,
+.MW,
+.Support {
+  position: relative;
+  z-index: 90;
+}
+/* ХЭДЕР МЕНЮ БРАШ */
+
 .logo {
   /*логотип в хэдере*/
   float: left;
