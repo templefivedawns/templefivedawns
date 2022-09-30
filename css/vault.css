@@ -232,7 +232,16 @@ code {
   font-family: MontserratBold;
   font-weight: 1.2vw;
   background-color: rgb(9, 14, 14, 0.4);
-  border: #9d9063 outset 1px;
+  /* border: #9d9063 outset 1px; */
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    to left top,
+    #9d9063 10%,
+    transparent 30%,
+    transparent 70%,
+    #9d9063 90%
+  );
+  border-image-slice: 1;
   margin: 0vw 0vw 0vw 0vw;
   /* font-weight: 600; */
   padding: 1vw;
@@ -247,6 +256,15 @@ code {
   background-color: #111a1a;
   background-size: 100%;
   /* border: solid 1px #9d9063; */
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    to left top,
+    #9d9063 80%,
+    transparent 90%,
+    #9d9063 80%,
+    transparent 90%
+  );
+  border-image-slice: 1;
   display: flex;
   position: auto;
   overflow: visible;
@@ -307,10 +325,24 @@ code {
     no-repeat;
   background-size: cover;
   margin: 1vw 0vw 1vw 0vw;
+  box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
   float: left;
   width: 44vw;
   height: 22vw;
-  border: #9d9063 outset 1px;
+  /* border: #9d9063 outset 1px; */
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    to left top,
+    /* #9d9063 80%,
+    transparent 90%,
+    #9d9063 80%,
+    transparent 90% */
+      #9d9063 10%,
+    transparent 30%,
+    transparent 70%,
+    #9d9063 90%
+  );
+  border-image-slice: 1;
 }
 
 /* .boss-card:hover {
@@ -752,8 +784,18 @@ code {
     /* width: 93.5vw; */
     width: 100%;
     height: 50vw;
-    border: #9d9063 outset 1px;
-    margin: 2vw 0vw 2vw 0vw;
+    /* border: #9d9063 outset 1px; */
+    border: 1px solid transparent;
+    border-image: linear-gradient(
+      to left top,
+      #9d9063 80%,
+      transparent 90%,
+      #9d9063 80%,
+      transparent 90%
+    );
+    border-image-slice: 1;
+    margin: 3vw 0vw 3vw 0vw;
+    box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
   }
 
   /* .boss-card:hover {
