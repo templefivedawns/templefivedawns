@@ -16,21 +16,7 @@ $(document).ready(function() {
 
 
 
-	$(".bossContainer").hover(function () {
-
-		$(".bossContainer").addClass("saturate");
-		$(".boss").addClass("shadow");
-
-
-} );
-
-$(".bossContainer").mouseleave(function () {
-
-	$(".bossContainer").removeClass("saturate");
-	$(".boss").removeClass("shadow");
-
-
-} );
+	
 
 
 
