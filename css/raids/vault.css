@@ -89,7 +89,7 @@ code {
 
 /* ХЭДЕР НАЧАЛО*/
 #header {
-  background: url("../img/headerempty.png") fixed no-repeat;
+  background: url("../../img/headerempty.png") fixed no-repeat;
   height: 3.6vw;
   width: auto;
   position: sticky;
@@ -189,7 +189,7 @@ code {
 .container {
   margin: 2vw 15% 2vw 15%;
   /* max-width: 1440px; */
-  background: url(../img/raids/vault-of-the-incarnates/vault-bg.png) top left
+  background: url(../../img/raids/vault-of-the-incarnates/vault-bg.png) top left
     no-repeat;
   background-color: #111a1a;
   background-size: 100%;
@@ -239,7 +239,7 @@ code {
 
 .frame-red {
   display: block;
-  background: url(../img/frame.png) no-repeat;
+  background: url(../../img/frame.png) no-repeat;
   background-size: 100%;
   height: 2.03vw;
   width: 100%;
@@ -279,8 +279,8 @@ code {
   box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
   width: 32vw;
   height: 16vw;
-  background: url("../img/raids/vault-of-the-incarnates/vault-bg.webp") center
-    center no-repeat;
+  background: url("../../img/raids/vault-of-the-incarnates/vault-bg.webp")
+    center center no-repeat;
   background-size: 150%;
   overflow: visible;
   border: 1px solid transparent;
@@ -509,7 +509,7 @@ code {
     padding: 0;
     min-width: 100%;
     overflow: auto;
-    background: url(../img/raids/vault-of-the-incarnates/vault-bg-header.png)
+    background: url(../../img/raids/vault-of-the-incarnates/vault-bg-header.png)
       top center no-repeat;
     background-size: 300%;
     background-color: #090e0e;
@@ -561,7 +561,7 @@ code {
 
   #header-mob {
     display: block;
-    background: url(../img/header480px2.png) fixed no-repeat;
+    background: url(../../img/header480px2.png) fixed no-repeat;
     background-size: 100%;
     margin: -4.5vw 0vw 0vw 0vw;
     height: 13.5vw;
@@ -625,7 +625,7 @@ code {
   /* МОБИЛЬНЫЙ ПОПАП ХЭДЕР */
   #popup-header-mob {
     display: none;
-    background: url(../img/header480px2.png) fixed no-repeat;
+    background: url(../../img/header480px2.png) fixed no-repeat;
     background-size: 100%;
     height: 13.5vw;
     padding: 0;
@@ -733,8 +733,8 @@ code {
   /* КОНЕЦ ПОПАП-МЕНЮ */
 
   .container {
-    background: url(../img/raids/vault-of-the-incarnates/vault-bg.png) top left
-      no-repeat;
+    background: url(../../img/raids/vault-of-the-incarnates/vault-bg.png) top
+      left no-repeat;
     background-color: #111a1a;
     background-size: 100%;
     margin: 0;
@@ -807,7 +807,7 @@ code {
 
   .frame-red-mob {
     display: block;
-    background: url(../img/frame-mob1.png) no-repeat center;
+    background: url(../../img/frame-mob1.png) no-repeat center;
     background-size: 100%;
     background-position: center;
     height: 8vw;
@@ -819,7 +819,7 @@ code {
 
   /* ШИРОКИЙ КРАСНЫЙ БОРДЕР ПОД ДВОЙНУЮ СТРОКУ ЗАГОЛОВКА */
   .frame-red-weight-mob {
-    background: url(../img/frame-mob.png) no-repeat center;
+    background: url(../../img/frame-mob.png) no-repeat center;
     height: 13.5vw;
     width: 100%;
     background-size: 100%;
@@ -874,26 +874,26 @@ code {
 
 @font-face {
   font-family: Montserrat;
-  src: url(../fonts/Montserrat-Light.otf);
+  src: url(../../fonts/Montserrat-Light.otf);
 }
 @font-face {
   font-family: MontserratSemiBold;
-  src: url(../fonts/Montserrat-SemiBold.ttf);
+  src: url(../../fonts/Montserrat-SemiBold.ttf);
 }
 @font-face {
   font-family: MontserratBold;
-  src: url(../fonts/Montserrat-Bold.ttf);
+  src: url(../../fonts/Montserrat-Bold.ttf);
 }
 @font-face {
   font-family: MontserratMedium;
-  src: url(../fonts/Montserrat-Medium.ttf);
+  src: url(../../fonts/Montserrat-Medium.ttf);
 }
 @font-face {
   font-family: MontserratItalic;
-  src: url(../fonts/Montserrat-Italic.ttf);
+  src: url(../../fonts/Montserrat-Italic.ttf);
 }
 
 @font-face {
   font-family: MontserratBlack;
-  src: url(../fonts/Montserrat-Black.ttf);
+  src: url(../../fonts/Montserrat-Black.ttf);
 }
