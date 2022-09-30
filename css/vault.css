@@ -242,13 +242,10 @@ code {
 .container {
   margin: 2vw 15% 2vw 15%;
   /* max-width: 1440px; */
-  /* background-color: #111a1a; */
-  background: rgb(17, 26, 26);
-  background: linear-gradient(
-    180deg,
-    rgba(17, 26, 26, 0.2) 0%,
-    rgba(17, 26, 26, 1) 50%
-  );
+  background: url(../img/raids/vault-of-the-incarnates/vault-bg.png) top left
+    no-repeat;
+  background-color: #111a1a;
+  background-size: 100%;
   /* border: solid 1px #9d9063; */
   display: flex;
   position: auto;
@@ -256,6 +253,11 @@ code {
 }
 
 #containerMain {
+  background: linear-gradient(
+    180deg,
+    rgba(17, 26, 26, 0) 0%,
+    rgba(17, 26, 26, 1) 50%
+  );
   width: 100%;
   padding: 1.5vw;
   margin: 0;
@@ -891,6 +893,10 @@ code {
   }
 
   .container {
+    background: url(../img/raids/vault-of-the-incarnates/vault-bg.png) top left
+      no-repeat;
+    background-color: #111a1a;
+    background-size: 100%;
     margin: 0;
     width: 100%;
     border: none;
@@ -903,6 +909,11 @@ code {
   }
 
   #containerMain {
+    background: linear-gradient(
+      180deg,
+      rgba(17, 26, 26, 0) 0%,
+      rgba(17, 26, 26, 1) 20%
+    );
     width: 100%;
     border: none;
     padding: 3vw;
