@@ -317,65 +317,65 @@ code {
   display: none;
 }
 
-
 /* ПРОБА */
 .bossContainer {
-	width: 20%;
-	float: left;
-	margin: 0.5vw;
-	box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
-	width: 32vw;
-	height: 16vw;
-	background:url("../img/raids/vault-of-the-incarnates/vault-bg.webp") center center no-repeat;
-	background-size: 150%;
-	overflow: visible;
-	border: 1px solid transparent;
-	border-image: linear-gradient(
-		to left top,
-		#9d9063 10%,
-		transparent 30%,
-		transparent 70%,
-		#9d9063 90%
-	);
-	border-image-slice: 1;
+  width: 20%;
+  float: left;
+  margin: 0.5vw;
+  box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
+  width: 32vw;
+  height: 16vw;
+  background: url("../img/raids/vault-of-the-incarnates/vault-bg.webp") center
+    center no-repeat;
+  background-size: 150%;
+  overflow: visible;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    to left top,
+    #9d9063 10%,
+    transparent 30%,
+    transparent 70%,
+    #9d9063 90%
+  );
+  border-image-slice: 1;
 }
 
 .boss-right {
-	float: right;
+  float: right;
 }
 
-.shadow{
-	filter: drop-shadow(0 0 10px rgba(100, 100, 100, 1));
-	filter: saturate(1.6);
+.shadow {
+  filter: drop-shadow(0 0 10px rgba(100, 100, 100, 1));
+  filter: saturate(1.6);
 }
 
 .saturate {
-	filter: saturate(1.6);
+  filter: saturate(1.6);
 }
 
 .boss {
-	width: 75%;
-	height: 85%;
-	margin: 4% 0% 0% 15%;
-	overflow: visible;
-	filter: drop-shadow(0 0 10px rgba(100, 100, 100, 1));
+  width: 75%;
+  height: 85%;
+  margin: 4% 0% 0% 15%;
+  overflow: visible;
+  filter: drop-shadow(0 0 10px rgba(100, 100, 100, 1));
 }
 
 .bossText {
-	background-color: rgba(17,26,26,0.5) ;
-	position: relative;
-	overflow: visible;
-	float: left;
-	z-index: 100;
-	width: 100%;
-	justify-content: center;
-	display: flex;
-	top: 0;
-	margin-top: -10%;
+  background-color: rgba(17, 26, 26, 0.5);
+  position: relative;
+  overflow: visible;
+  float: left;
+  z-index: 100;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  top: 0;
+  margin-top: -10%;
 }
 
 .bv2 {
-	margin: 4% 0% 0% 12%;
+  margin: 4% 0% 0% 12%;
 }
 
 /* ПРОБА */
@@ -531,68 +531,68 @@ code {
     display: none;
   }
 
-/* ПРОБА */
-.bossContainer {
-	width: 20%;
-	float: left;
-	margin: 0.5vw;
-	box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
-	width: 32vw;
-	height: 16vw;
-	background:url("../img/raids/vault-of-the-incarnates/vault-bg.webp") center center no-repeat;
-	background-size: 150%;
-	overflow: visible;
-	border: 1px solid transparent;
-	border-image: linear-gradient(
-		to left top,
-		#9d9063 10%,
-		transparent 30%,
-		transparent 70%,
-		#9d9063 90%
-	);
-	border-image-slice: 1;
-}
+  /* ПРОБА */
+  .bossContainer {
+    width: 20%;
+    float: left;
+    margin: 0.8vw 0vw 0.8vw 0vw;
+    box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
+    width: 49%;
+    height: 22vw;
+    background: url("../img/raids/vault-of-the-incarnates/vault-bg.webp") center
+      center no-repeat;
+    background-size: 150%;
+    overflow: visible;
+    border: 1px solid transparent;
+    border-image: linear-gradient(
+      to left top,
+      #9d9063 10%,
+      transparent 30%,
+      transparent 70%,
+      #9d9063 90%
+    );
+    border-image-slice: 1;
+  }
 
-.boss-right {
-	float: right;
-}
+  .boss-right {
+    float: right;
+  }
 
-.shadow{
-	filter: drop-shadow(0 0 10px rgba(100, 100, 100, 1));
-	filter: saturate(1.6);
-}
+  .shadow {
+    filter: drop-shadow(0 0 10px rgba(100, 100, 100, 1));
+    filter: saturate(1.6);
+  }
 
-.saturate {
-	filter: saturate(1.6);
-}
+  .saturate {
+    filter: saturate(1.6);
+  }
 
-.boss {
-	width: 75%;
-	height: 85%;
-	margin: 4% 0% 0% 15%;
-	overflow: visible;
-	filter: drop-shadow(0 0 10px rgba(100, 100, 100, 1));
-}
+  .boss {
+    width: 75%;
+    height: 85%;
+    margin: 4% 0% 0% 15%;
+    overflow: visible;
+    filter: drop-shadow(0 0 10px rgba(100, 100, 100, 1));
+  }
 
-.bossText {
-	background-color: rgba(17,26,26,0.5) ;
-	position: relative;
-	overflow: visible;
-	float: left;
-	z-index: 100;
-	width: 100%;
-	justify-content: center;
-	display: flex;
-	top: 0;
-	margin-top: -10%;
-}
+  .bossText {
+    background-color: rgba(17, 26, 26, 0.5);
+    position: relative;
+    overflow: visible;
+    float: left;
+    z-index: 100;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    top: 0;
+    margin-top: -10%;
+  }
 
-.bv2 {
-	margin: 4% 0% 0% 12%;
-}
+  .bv2 {
+    margin: 4% 0% 0% 12%;
+  }
 
-/* ПРОБА */
-
+  /* ПРОБА */
 }
 
 /* 480PX И МЕНЬШЕ */
@@ -853,7 +853,7 @@ code {
     box-shadow: none;
   }
 
-	.collum-l,
+  .collum-l,
   .collum-r {
     width: 100%;
     padding-top: 3vw;
@@ -861,72 +861,73 @@ code {
     text-align: left;
   }
 
-	/* СЕТКА БОССОВ */
-.bossContainer {
-	width: 100%;
-	float: none;
-	margin: 3vw 0vw 3vw 0vw;
-	box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
-	width: 100%;
-	height: 50vw;
-	background:url("../img/raids/vault-of-the-incarnates/vault-bg.webp") center center no-repeat;
-	background-size: 150%;
-	overflow: visible;
-	border: 1px solid transparent;
-	border-image: linear-gradient(
-		to left top,
-		#9d9063 10%,
-		transparent 30%,
-		transparent 70%,
-		#9d9063 90%
-	);
-	border-image-slice: 1;
-}
+  /* СЕТКА БОССОВ */
+  .bossContainer {
+    width: 100%;
+    float: none;
+    margin: 3vw 0vw 3vw 0vw;
+    box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 50vw;
+    background: url("../img/raids/vault-of-the-incarnates/vault-bg.webp") center
+      center no-repeat;
+    background-size: 150%;
+    overflow: visible;
+    border: 1px solid transparent;
+    border-image: linear-gradient(
+      to left top,
+      #9d9063 10%,
+      transparent 30%,
+      transparent 70%,
+      #9d9063 90%
+    );
+    border-image-slice: 1;
+  }
 
-.boss-right {
-	float: none;
-}
-/* СЕТКА БОССОВ */
+  .boss-right {
+    float: none;
+  }
+  /* СЕТКА БОССОВ */
 
-.divider-main {
-	display: none;
-}
+  .divider-main {
+    display: none;
+  }
 
-.divider-mob {
-	display: block;
-	width: 100%;
-	margin: 1vw 0vw 1vw 0vw;
-}
+  .divider-mob {
+    display: block;
+    width: 100%;
+    margin: 1vw 0vw 1vw 0vw;
+  }
 
-.frame-red {
-	display: none;
-}
+  .frame-red {
+    display: none;
+  }
 
-.frame-red-mob {
-	display: block;
-	background: url(../img/frame-mob1.png) no-repeat center;
-	background-size: 100%;
-	background-position: center;
-	height: 8vw;
-	width: 100%;
-	text-align: left;
-	margin: 1vw 0vw 1vw 0vw;
-	padding-top: 1.5vw;
-}
+  .frame-red-mob {
+    display: block;
+    background: url(../img/frame-mob1.png) no-repeat center;
+    background-size: 100%;
+    background-position: center;
+    height: 8vw;
+    width: 100%;
+    text-align: left;
+    margin: 1vw 0vw 1vw 0vw;
+    padding-top: 1.5vw;
+  }
 
-/* ШИРОКИЙ КРАСНЫЙ БОРДЕР ПОД ДВОЙНУЮ СТРОКУ ЗАГОЛОВКА */
-.frame-red-weight-mob {
-	background: url(../img/frame-mob.png) no-repeat center;
-	height: 13.5vw;
-	width: 100%;
-	background-size: 100%;
-}
+  /* ШИРОКИЙ КРАСНЫЙ БОРДЕР ПОД ДВОЙНУЮ СТРОКУ ЗАГОЛОВКА */
+  .frame-red-weight-mob {
+    background: url(../img/frame-mob.png) no-repeat center;
+    height: 13.5vw;
+    width: 100%;
+    background-size: 100%;
+  }
 
-.frame-red-weight-mob h2 {
-	line-height: 4.6vw;
-	margin-top: 1.5vw;
-}
-/* ШИРОКИЙ КРАСНЫЙ БОРДЕР ПОД ДВОЙНУЮ СТРОКУ ЗАГОЛОВКА */
+  .frame-red-weight-mob h2 {
+    line-height: 4.6vw;
+    margin-top: 1.5vw;
+  }
+  /* ШИРОКИЙ КРАСНЫЙ БОРДЕР ПОД ДВОЙНУЮ СТРОКУ ЗАГОЛОВКА */
 
   #containerRed {
     display: none;
