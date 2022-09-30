@@ -1,5 +1,85 @@
 $(document).ready(function() {
 
+
+// 	$(".bossContainer").hover(function () {
+
+// 		$(".bossContainer").addClass("saturate");
+// 		$(".boss").addClass("shadow");
+
+
+// } );
+
+// $(".bossContainer").mouseleave(function () {
+
+// 	$(".bossContainer").removeClass("saturate");
+// 	$(".boss").removeClass("shadow");
+
+
+// } );
+
+
+
+$(".eranog-saturate").hover(function () {
+
+	$(".eranog-saturate").addClass("saturate");
+
+
+} );
+
+$(".eranog-saturate").mouseleave(function () {
+
+$(".eranog-saturate").removeClass("saturate");
+
+
+} );
+
+$(".terros-saturate").hover(function () {
+
+	$(".terros-saturate").addClass("saturate");
+
+
+} );
+
+$(".terros-saturate").mouseleave(function () {
+
+$(".terros-saturate").removeClass("saturate");
+
+
+} );
+
+$(".council-saturate").hover(function () {
+
+	$(".council-saturate").addClass("saturate");
+
+
+} );
+
+$(".council-saturate").mouseleave(function () {
+
+$(".council-saturate").removeClass("saturate");
+
+
+} );
+
+
+$(".sennarth-saturate").hover(function () {
+
+	$(".sennarth-saturate").addClass("saturate");
+
+
+} );
+
+$(".sennarth-saturate").mouseleave(function () {
+
+$(".sennarth-saturate").removeClass("saturate");
+
+
+} );
+
+
+
+
+
 	// скролл вверх выбранного итема меню
 	$(".select").click(function(){
 		$("html,body").animate({
@@ -7,12 +87,26 @@ $(document).ready(function() {
 	}, 200);
 	});  
 	// скролл вверх выбранного итема меню
-
+	
+	// аккордеон начало
+	$(".accordion").click(function(){
+		if($(".panel").css('display') == 'none')
+		{
+			$(".panel").slideDown(200);
+		}
+		else {
+			$(".panel").slideUp(200);
+		}
+	});  
+	// аккордеон конец
+	
 	
 	$(".mobHeaderDots").click(function(){
 		
 		$(".mobHeaderDots").css("display", "none");
 		$(".mobHeaderDotsHide").css("display", "block");
+		// $("#footer-mob").css("display", "none");
+		$(".container").css("marginTop", "11vw");
 	
 	});
 	
@@ -20,6 +114,8 @@ $(document).ready(function() {
 		
 		$(".mobHeaderDots").css("display", "block");
 		$(".mobHeaderDotsHide").css("display", "none");
+		// $("#footer-mob").css("display", "block");
+		$(".container").css("marginTop", "0%");
 	
 	});
 	
@@ -93,48 +189,52 @@ $(document).ready(function() {
 	
 	});
 	
-// ХЭДЕР МЕНЮ БРАШ
+	
+	
 
-$(".WW").hover(function(){
-	$(".WWbrush").fadeIn();
-
-
-});
-
-$(".WW").mouseleave(function(){
-	$(".WWbrush").fadeOut();
-
-});
-
-
-
-
-$(".MW").hover(function(){
-	$(".MWbrush").fadeIn();
-
-
-});
-
-$(".MW").mouseleave(function(){
-	$(".MWbrush").fadeOut();
-
-});
-
-
-
-
-$(".Support").hover(function(){
-	$(".Supportbrush").fadeIn();
-
-
-});
-
-$(".Support").mouseleave(function(){
-	$(".Supportbrush").fadeOut();
-
-});
-
-// ХЭДЕР МЕНЮ БРАШ
+	
+	
+	$(".WW").hover(function(){
+		$(".WWbrush").fadeIn(100);
+	
+	
+	});
+	
+	$(".WW").mouseleave(function(){
+		$(".WWbrush").fadeOut(100);
+	
+	});
+	
+	
+	
+	
+	$(".MW").hover(function(){
+		$(".MWbrush").fadeIn(100);
+	
+	
+	});
+	
+	$(".MW").mouseleave(function(){
+		$(".MWbrush").fadeOut(100);
+	
+	});
+	
+	
+	
+	
+	$(".Support").hover(function(){
+		$(".Supportbrush").fadeIn(100);
+	
+	
+	});
+	
+	$(".Support").mouseleave(function(){
+		$(".Supportbrush").fadeOut(100);
+	
+	});
+	
+	
+	
 
 	});
 	

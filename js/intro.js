@@ -132,13 +132,13 @@ $(".mobHeaderDotsHide").click(function(){
 
 
 $(".WW").hover(function(){
-	$(".WWbrush").fadeIn();
+	$(".WWbrush").fadeIn(100);
 
 
 });
 
 $(".WW").mouseleave(function(){
-	$(".WWbrush").fadeOut();
+	$(".WWbrush").fadeOut(100);
 
 });
 
@@ -146,13 +146,13 @@ $(".WW").mouseleave(function(){
 
 
 $(".MW").hover(function(){
-	$(".MWbrush").fadeIn();
+	$(".MWbrush").fadeIn(100);
 
 
 });
 
 $(".MW").mouseleave(function(){
-	$(".MWbrush").fadeOut();
+	$(".MWbrush").fadeOut(100);
 
 });
 
@@ -160,13 +160,13 @@ $(".MW").mouseleave(function(){
 
 
 $(".Support").hover(function(){
-	$(".Supportbrush").fadeIn();
+	$(".Supportbrush").fadeIn(100);
 
 
 });
 
 $(".Support").mouseleave(function(){
-	$(".Supportbrush").fadeOut();
+	$(".Supportbrush").fadeOut(100);
 
 });
 

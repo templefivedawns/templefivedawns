@@ -13,6 +13,41 @@ $(document).ready(function() {
 	// 	$(".Slide1").css("margin-top", "5%");
 	//  });
 
+
+
+
+	$(".bossContainer").hover(function () {
+
+		$(".bossContainer").addClass("saturate");
+		$(".boss").addClass("shadow");
+
+
+} );
+
+$(".bossContainer").mouseleave(function () {
+
+	$(".bossContainer").removeClass("saturate");
+	$(".boss").removeClass("shadow");
+
+
+} );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	for (var i=0; i<5000; ++i) {
 		
 
