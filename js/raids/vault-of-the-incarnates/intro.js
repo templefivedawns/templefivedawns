@@ -1,21 +1,25 @@
 $(document).ready(function() {
 
 
-// 	$(".bossContainer").hover(function () {
+// ФИКС ЗАГОЛОВКА ГАЙДА
+$(".mobHeaderDots").click(function(){
+	
+	$(".mobHeaderDots").css("display", "none");
+	$(".mobHeaderDotsHide").css("display", "block");
+	// $("#footer-mob").css("display", "none");
+	$(".container").css("marginTop", "11vw");
 
-// 		$(".bossContainer").addClass("saturate");
-// 		$(".boss").addClass("shadow");
+});
 
+$(".mobHeaderDotsHide").click(function(){
+	
+	$(".mobHeaderDots").css("display", "block");
+	$(".mobHeaderDotsHide").css("display", "none");
+	// $("#footer-mob").css("display", "block");
+	$(".container").css("marginTop", "0%");
 
-// } );
-
-// $(".bossContainer").mouseleave(function () {
-
-// 	$(".bossContainer").removeClass("saturate");
-// 	$(".boss").removeClass("shadow");
-
-
-// } );
+});
+// ФИКС ЗАГОЛОВКА ГАЙДА
 
 
 // ---------------

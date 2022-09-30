@@ -8,6 +8,25 @@ $(document).ready(function() {
 	});  
 	// скролл вверх выбранного итема меню
 
+	// ФИКС ЗАГОЛОВКА ГАЙДА
+$(".mobHeaderDots").click(function(){
+	
+	$(".mobHeaderDots").css("display", "none");
+	$(".mobHeaderDotsHide").css("display", "block");
+	// $("#footer-mob").css("display", "none");
+	$(".container").css("marginTop", "11vw");
+
+});
+
+$(".mobHeaderDotsHide").click(function(){
+	
+	$(".mobHeaderDots").css("display", "block");
+	$(".mobHeaderDotsHide").css("display", "none");
+	// $("#footer-mob").css("display", "block");
+	$(".container").css("marginTop", "0%");
+
+});
+// ФИКС ЗАГОЛОВКА ГАЙДА
 	
 	$(".mobHeaderDots").click(function(){
 		

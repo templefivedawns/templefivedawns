@@ -21,6 +21,7 @@ $(".accordion").click(function(){
 // аккордеон конец
 
 
+// ФИКС ЗАГОЛОВКА ГАЙДА
 $(".mobHeaderDots").click(function(){
 	
 	$(".mobHeaderDots").css("display", "none");
@@ -38,6 +39,7 @@ $(".mobHeaderDotsHide").click(function(){
 	$(".container").css("marginTop", "0%");
 
 });
+// ФИКС ЗАГОЛОВКА ГАЙДА
 
 
 $(".mobHeaderDots").click(function(){
@@ -111,26 +113,6 @@ $(".mobHeaderDotsHide").click(function(){
 
 
 
-
-
-
-// $(".WW").hover(function(){
-// 	$(".WWbrush").animate({
-// 		width: "13vw"
-// }, 300);
-
-
-// });
-
-// $(".WW").mouseleave(function(){
-// 	$(".WWbrush").animate({
-// 		width: "0"
-// }, 300);
-
-
-// });
-
-
 $(".WW").hover(function(){
 	$(".WWbrush").fadeIn(100);
 
@@ -169,92 +151,5 @@ $(".Support").mouseleave(function(){
 	$(".Supportbrush").fadeOut(100);
 
 });
-
-
-
-
-
-
-// анимация попапа
-// $(".mobHeaderDots").click(function(){
-// 		$(".popup").animate({
-// 			width: "toggle"
-// 	}, 150);
-// });
-// анимация попапа
-
-// работа попапа
-// $(".mobHeaderDots").click(function(){
-// 		$(".container").toggleClass("fixed");
-// });
-
-
-// $(".mobHeaderDots").click(function(){
-// 	if($(".popup").css('display') == 'block')
-// 	{
-// 		$(".container").addClass("fixed");
-// 	}
-// 	else {
-// 		$(".container").removeClass("fixed");
-// 	}
-// });
-
-
-
-// работа попапа
-
-// трай свапа хэдера
-// $(".mobHeaderDots").click(function(){
-// 	if($("#header-mob").attr('display') == 'block')
-// 	{
-// 		$("#popup-header-mob").attr('display', 'block');
-// 		$("#header-mob").attr('display', 'none');
-// 	}
-// 	else {
-// 		$("#header-mob").attr('display', 'block');
-// 		$("#popup-header-mob").attr('display', 'none');
-// 	}
-// });
-
-// $(".mobHeaderDots").click(function(){
-// 	if($(".popup").css('display') == 'block')
-// 	{
-// 		$("#popup-header-mob").css("display", "block");
-// 		$("#header-mob").css("display", "none");
-// 	}
-// 	else if ($(".popup").css('display') == 'none') {
-// 		$("#header-mob").css("display", "block");
-// 		$("#popup-header-mob").css("display", "none");
-// 	}
-// });
-
-
-
-
-
-
-// трай свапа хэдера
-
-// скрытие попапа по попапу
-// $(".popup").click(function(){
-// 	$(".popup").css("display", "none");
-// });
-// скрытие попапа по попапу
-
-// $(".mobHeaderDots").click(function(){
-// 	if($(".popup").css('display') == 'none')
-// 	{
-// 		$(".container").css("position", "auto");
-// 		$(".popup").animate({
-// 			width: "toggle"
-// 	}, 150);
-// 	}
-// 	else {
-// 		$(".container").css("position", "fixed");
-// 		$(".popup").animate({
-// 			width: "toggle"
-// 	}, 150);
-// 	}
-// });
 
 });
