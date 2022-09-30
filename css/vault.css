@@ -6,9 +6,8 @@ body {
   padding: 0;
   min-width: 100%;
   overflow: auto;
-  background: url(../img/raids/vault-of-the-incarnates/vault-bg-header.png) top
-    no-repeat;
-  background-size: contain;
+  /* background: url(../img/raids/vault-of-the-incarnates/vault-bg-header.png) top no-repeat;
+  background-size: contain; */
   background-color: #090e0e;
 }
 
@@ -186,7 +185,7 @@ code {
 }
 /* ХЭДЕР ЗАКОНЧИЛСЯ */
 
-.containerRaid {
+/* .containerRaid {
   width: 100%;
   margin-top: 3vw;
   margin-bottom: 3.5vw;
@@ -216,22 +215,17 @@ code {
   padding: 1vw 1vw 1vw 1vw;
   text-transform: uppercase;
   font-family: MontserratBold;
-  /* border-radius: 5%; */
   border: #9d9063 outset 1px;
   color: #9d9063;
-  /* color: #00ff99; */
-  /* border: none; */
 }
 
 .bm-spec-btn {
   color: #00ff99;
 }
 
-.bm-spec-btn:hover
-/* .ww-spec-btn:hover,
-.mw-spec-btn:hover  */ {
+.bm-spec-btn:hover {
   color: #00ff99;
-}
+} */
 
 .raidInfo {
   color: #9d9063;
@@ -306,12 +300,6 @@ code {
 .boss-grid {
 }
 
-/* .vault-card {
-  float: left;
-  width: 20vw;
-  height: 30vw;
-} */
-
 .boss-card {
   background: url(../img/raids/vault-of-the-incarnates/vault-bg.webp) center
     no-repeat;
@@ -335,7 +323,7 @@ code {
   height: 20vw;
   position: absolute;
   left: 26%;
-  top: 62%;
+  top: 69%;
   max-height: 90%;
   filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.3));
   transform: translate(-50%, -50%);
@@ -346,7 +334,7 @@ code {
   position: absolute;
   width: 47.4%;
   padding: 1vw 0vw 1vw 0vw;
-  top: 75%;
+  top: 79%;
   text-align: center;
   background-color: rgb(9, 14, 14, 0.5);
   text-transform: uppercase;
@@ -357,7 +345,7 @@ code {
   height: 20vw;
   position: absolute;
   left: 75%;
-  top: 62%;
+  top: 69%;
   max-height: 90%;
   filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.3));
   transform: translate(-50%, -50%);
@@ -368,7 +356,7 @@ code {
   position: absolute;
   width: 47.4%;
   padding: 1vw 0vw 1vw 0vw;
-  top: 75%;
+  top: 79%;
   text-align: center;
   background-color: rgb(9, 14, 14, 0.4);
   text-transform: uppercase;
@@ -700,7 +688,7 @@ code {
   }
   /* МОБИЛЬНЫЙ ПОПАП ХЭДЕР */
 
-  .bm-spec-btn,
+  /* .bm-spec-btn,
   .ww-spec-btn,
   .mw-spec-btn {
     margin: 1vw 2vw 0vw 2vw;
@@ -708,22 +696,19 @@ code {
     padding: 1vw 1vw 1vw 1vw;
     text-transform: uppercase;
     font-family: MontserratBold;
-    /* border-radius: 5%; */
     width: 80%;
     border: #9d9063 outset 1px;
     color: #9d9063;
-    /* color: #00ff99; */
-    /* border: none; */
-  }
+  } */
 
   /* СЕТКА БОССОВ */
 
-  .containerRaid {
+  /* .containerRaid {
     width: 100%;
     margin-top: 8vw;
     margin-bottom: 8.5vw;
     background-color: rgb(9, 14, 14, 0.5);
-  }
+  } */
 
   .boss-card {
     background: url(../img/raids/vault-of-the-incarnates/vault-bg.webp) center
@@ -749,7 +734,7 @@ code {
     height: 45vw;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 60%;
     max-height: 90%;
     filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.3));
     transform: translate(-50%, -50%);
@@ -760,7 +745,7 @@ code {
     position: absolute;
     width: 93.5vw;
     padding: 1vw 0vw 1vw 0vw;
-    top: 56%;
+    top: 65%;
     text-align: center;
     background-color: rgb(9, 14, 14, 0.5);
     text-transform: uppercase;
@@ -771,7 +756,7 @@ code {
     height: 45vw;
     position: absolute;
     left: 50%;
-    top: 82%;
+    top: 85%;
     max-height: 90%;
     filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.3));
     transform: translate(-50%, -50%);
@@ -782,7 +767,7 @@ code {
     position: absolute;
     width: 93.5vw;
     padding: 1vw 0vw 1vw 0vw;
-    top: 88%;
+    top: 90%;
     text-align: center;
     background-color: rgb(9, 14, 14, 0.5);
     text-transform: uppercase;
