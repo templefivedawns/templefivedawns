@@ -256,7 +256,7 @@ code {
   background: linear-gradient(
     180deg,
     rgba(17, 26, 26, 0) 0%,
-    rgba(17, 26, 26, 1) 50%
+    rgba(17, 26, 26, 1) 20%
   );
   width: 100%;
   padding: 1.5vw;
@@ -306,6 +306,7 @@ code {
   background: url(../img/raids/vault-of-the-incarnates/vault-bg.webp) center
     no-repeat;
   background-size: cover;
+  margin: 1vw 0vw 1vw 0vw;
   float: left;
   width: 44vw;
   height: 22vw;
@@ -316,56 +317,87 @@ code {
   filter: saturate(1.2);
 } */
 
-.boss-card-rigth {
-  float: right;
-}
-
-.boss-card-view-1 {
+.boss-card-view {
   width: 35vw;
   height: 20vw;
   position: absolute;
-  left: 26%;
-  top: 69%;
+  /* left: 26%;
+  top: 69%; */
   max-height: 90%;
   filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.3));
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-out;
 }
 
-.boss-card-name-1 {
+.boss-card-name {
   position: absolute;
-  width: 47.4%;
+  width: 46.81%;
   padding: 1vw 0vw 1vw 0vw;
-  top: 79%;
+  /* top: 79%; */
   text-align: center;
   background-color: rgb(9, 14, 14, 0.5);
   text-transform: uppercase;
 }
 
-.boss-card-view-2 {
-  width: 30vw;
-  height: 20vw;
-  position: absolute;
+.boss-card-rigth {
+  float: right;
+}
+
+.bcv1 {
+  left: 26%;
+  top: 32%;
+}
+
+.bcn1 {
+  top: 36%;
+}
+
+.bcv2 {
   left: 75%;
-  top: 69%;
-  max-height: 90%;
-  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.3));
-  transform: translate(-50%, -50%);
-  transition: all 0.3s ease-out;
+  top: 32%;
 }
 
-.boss-card-name-2 {
-  position: absolute;
-  width: 47.4%;
-  padding: 1vw 0vw 1vw 0vw;
-  top: 79%;
-  text-align: center;
-  background-color: rgb(9, 14, 14, 0.4);
-  text-transform: uppercase;
+.bcn2 {
+  top: 36%;
 }
 
-.boss-card-view-1:hover,
-.boss-card-view-2:hover {
+.bcv3 {
+  left: 24%;
+  top: 59%;
+}
+
+.bcn3 {
+  top: 62%;
+}
+
+.bcv4 {
+  left: 76%;
+  top: 59%;
+}
+
+.bcn4 {
+  top: 62%;
+}
+
+.bcv5 {
+  left: 26%;
+  top: 85%;
+}
+
+.bcn5 {
+  top: 88%;
+}
+
+.bcv6 {
+  left: 76%;
+  top: 59%;
+}
+
+.bcn6 {
+  top: 88%;
+}
+
+.boss-card-view:hover {
   filter: drop-shadow(0 0 10px rgba(100, 100, 100, 1)) saturate(1.2);
 }
 
@@ -717,7 +749,8 @@ code {
       no-repeat;
     background-size: cover;
     float: none;
-    width: 93.5vw;
+    /* width: 93.5vw; */
+    width: 100%;
     height: 50vw;
     border: #9d9063 outset 1px;
     margin: 2vw 0vw 2vw 0vw;
@@ -728,10 +761,10 @@ code {
 } */
 
   .boss-card-rigth {
-    float: right;
+    float: none;
   }
 
-  .boss-card-view-1 {
+  .boss-card-view {
     width: 70vw;
     height: 45vw;
     position: absolute;
@@ -743,9 +776,9 @@ code {
     transition: all 0.3s ease-out;
   }
 
-  .boss-card-name-1 {
+  .boss-card-name {
     position: absolute;
-    width: 93.5vw;
+    width: 94vw;
     padding: 1vw 0vw 1vw 0vw;
     top: 65%;
     text-align: center;
@@ -753,26 +786,58 @@ code {
     text-transform: uppercase;
   }
 
-  .boss-card-view-2 {
-    width: 70vw;
-    height: 45vw;
-    position: absolute;
+  .bcv1 {
     left: 50%;
-    top: 85%;
-    max-height: 90%;
-    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.3));
-    transform: translate(-50%, -50%);
-    transition: all 0.3s ease-out;
+    top: 34%;
   }
 
-  .boss-card-name-2 {
-    position: absolute;
-    width: 93.5vw;
-    padding: 1vw 0vw 1vw 0vw;
-    top: 90%;
-    text-align: center;
-    background-color: rgb(9, 14, 14, 0.5);
-    text-transform: uppercase;
+  .bcn1 {
+    top: 37%;
+  }
+
+  .bcv2 {
+    left: 50%;
+    top: 48%;
+  }
+
+  .bcn2 {
+    top: 51%;
+  }
+
+  .bcv3 {
+    left: 50%;
+    top: 63%;
+  }
+
+  .bcn3 {
+    top: 66%;
+  }
+
+  .bcv4 {
+    left: 52%;
+    top: 78%;
+  }
+
+  .bcn4 {
+    top: 80%;
+  }
+
+  .bcv5 {
+    left: 52%;
+    top: 92%;
+  }
+
+  .bcn5 {
+    top: 94%;
+  }
+
+  .bcv6 {
+    left: 50%;
+    top: 59%;
+  }
+
+  .bcn6 {
+    top: 88%;
   }
 
   .boss-card-view-1:hover,
