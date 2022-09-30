@@ -67,18 +67,6 @@ $(".sennarth-saturate").mouseleave(function () {
 $(".sennarth-saturate").removeClass("saturate");
 } );
 // ---------------
-$(".sennarth-saturate").hover(function () {
-
-	$(".sennarth-saturate").addClass("saturate");
-
-
-} );
-
-$(".sennarth-saturate").mouseleave(function () {
-
-$(".sennarth-saturate").removeClass("saturate");
-} );
-// ---------------
 $(".dathea-saturate").hover(function () {
 
 	$(".dathea-saturate").addClass("saturate");
@@ -113,6 +101,18 @@ $(".diurna-saturate").hover(function () {
 $(".diurna-saturate").mouseleave(function () {
 
 $(".diurna-saturate").removeClass("saturate");
+} );
+// ---------------
+$(".raszageth-saturate").hover(function () {
+
+	$(".raszageth-saturate").addClass("saturate");
+
+
+} );
+
+$(".raszageth-saturate").mouseleave(function () {
+
+$(".raszageth-saturate").removeClass("saturate");
 } );
 // ---------------
 
