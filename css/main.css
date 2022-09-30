@@ -9,6 +9,21 @@ body {
 	background-color: #090e0e;
 }
 
+.popup a {
+  text-decoration: none;
+  color: #00ff99;
+}
+
+.popup p {
+  color: #9d9063;
+  font-family: Montserrat;
+  font-size: 0.7vw;
+  line-height: 1.2vw;
+  font-weight: 400;
+  /* margin: 0;
+  padding: 0; */
+}
+
 #headerContainer {
 	width: 100%;
 	overflow: hidden;
@@ -422,6 +437,11 @@ display: none;
 	src:url(../fonts/Montserrat-Italic.ttf)
 }
 
+@font-face {
+	font-family: MontserratBlack;
+	src:url(../fonts/Montserrat-Black.ttf)
+}
+
 
 
 @media only screen and (max-width: 480px) {
@@ -596,7 +616,7 @@ display: none;
 				padding: 0;
 				width: 0vw;
 				height: 100%;
-				margin: 0;
+				/* margin: 0; */
 				/* position: sticky; */
 				/* background-color: rgba(9, 14, 14, 0.7); */
 				z-index: 80;
@@ -627,22 +647,30 @@ display: none;
 				background-color: rgba(3, 19, 19, 0.7);
 				border-top: #9d9063 outset 0.01vw;
 				border-bottom: #9d9063 outset 0.01vw;
-				padding-left: 3vw;
+				/* padding-left: 3vw; */
+				padding: 0vw 0vw 0vw 3vw;
+				margin: 0;
 			}
 		
 			.popup-select-item-menu p {
 				text-transform: uppercase;
 				font-family: MontserratBlack;
-				margin-left: 0%;
+				/* margin-left: 3vw; */
 				z-index: 100;
+				line-height: 0;
+			}
+
+			.popup-select-item-submenu {
+				margin-left: 3vw;
+				
 			}
 		
 			.popup-select-item-menu p:hover {
 				color: #00ff99;
 			}
 		
-			.popup-select-item-submenu {
-				padding-left: 5vw;
+			.popup-select-item-submenu a {
+				margin-left: 5vw;
 				text-transform: capitalize;
 			}
 		
@@ -650,8 +678,21 @@ display: none;
 				color: #00ff99;
 			}
 
+			.popup p {
+				font-size: 4vw;
+				/* line-height: 6vw; */
+				/* margin-left: 5vw; */
 
+			}
 			
+			/* .popup h1 {
+				font-size: 12vw;
+			}
+		
+			.popup h2 {
+				font-size: 5vw;
+				margin-left: 2.4vw;
+			} */
 
 			.discordMob{
 				width: 6%;
