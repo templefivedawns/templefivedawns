@@ -197,12 +197,20 @@ code {
   border: 1px solid transparent;
   border-image: linear-gradient(
     to left top,
-    #9d9063 0%,
-    #9d9063 0%,
-    #9d9063 40%,
+    #9d9063 80%,
+    transparent 90%,
+    #9d9063 80%,
     transparent 90%
   );
   border-image-slice: 1;
+
+  /* border: 1px solid transparent;
+  border-image: linear-gradient(
+    180deg,
+    rgba(157, 144, 99, 0.3) 10%,
+    rgba(157, 144, 99, 1) 100%
+  );
+  border-image-slice: 1; */
 
   display: flex;
   position: auto;
