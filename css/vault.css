@@ -531,68 +531,20 @@ code {
     display: none;
   }
 
-  /* ПРОБА */
+  /* СЕТКА БОССОВ */
   .bossContainer {
     width: 20%;
     float: left;
     margin: 0.8vw 0vw 0.8vw 0vw;
-    box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
     width: 49%;
     height: 22vw;
-    background: url("../img/raids/vault-of-the-incarnates/vault-bg.webp") center
-      center no-repeat;
-    background-size: 150%;
-    overflow: visible;
-    border: 1px solid transparent;
-    border-image: linear-gradient(
-      to left top,
-      #9d9063 10%,
-      transparent 30%,
-      transparent 70%,
-      #9d9063 90%
-    );
-    border-image-slice: 1;
   }
 
   .boss-right {
     float: right;
   }
 
-  .shadow {
-    filter: drop-shadow(0 0 10px rgba(100, 100, 100, 1));
-    filter: saturate(1.6);
-  }
-
-  .saturate {
-    filter: saturate(1.6);
-  }
-
-  .boss {
-    width: 75%;
-    height: 85%;
-    margin: 4% 0% 0% 15%;
-    overflow: visible;
-    filter: drop-shadow(0 0 10px rgba(100, 100, 100, 1));
-  }
-
-  .bossText {
-    background-color: rgba(17, 26, 26, 0.5);
-    position: relative;
-    overflow: visible;
-    float: left;
-    z-index: 100;
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    top: 0;
-    margin-top: -10%;
-  }
-
-  .bv2 {
-    margin: 4% 0% 0% 12%;
-  }
-
-  /* ПРОБА */
+  /* СЕТКА БОССОВ */
 }
 
 /* 480PX И МЕНЬШЕ */
@@ -866,22 +818,8 @@ code {
     width: 100%;
     float: none;
     margin: 3vw 0vw 3vw 0vw;
-    box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 50vw;
-    background: url("../img/raids/vault-of-the-incarnates/vault-bg.webp") center
-      center no-repeat;
-    background-size: 150%;
-    overflow: visible;
-    border: 1px solid transparent;
-    border-image: linear-gradient(
-      to left top,
-      #9d9063 10%,
-      transparent 30%,
-      transparent 70%,
-      #9d9063 90%
-    );
-    border-image-slice: 1;
   }
 
   .boss-right {
