@@ -92,6 +92,48 @@ $(document).ready(function() {
 		$(".container").removeClass("fixed");
 	
 	});
+
+// ХЭДЕР МЕНЮ БРАШ
+
+$(".WW").hover(function(){
+	$(".WWbrush").fadeIn();
+
+
+});
+
+$(".WW").mouseleave(function(){
+	$(".WWbrush").fadeOut();
+
+});
+
+
+
+
+$(".MW").hover(function(){
+	$(".MWbrush").fadeIn();
+
+
+});
+
+$(".MW").mouseleave(function(){
+	$(".MWbrush").fadeOut();
+
+});
+
+
+
+
+$(".Support").hover(function(){
+	$(".Supportbrush").fadeIn();
+
+
+});
+
+$(".Support").mouseleave(function(){
+	$(".Supportbrush").fadeOut();
+
+});
+
+// ХЭДЕР МЕНЮ БРАШ
 	
 	});
-	
