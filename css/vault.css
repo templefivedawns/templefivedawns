@@ -784,6 +784,11 @@ code {
   .boss-right {
     float: none;
   }
+
+  .bossText {
+    padding: 2vw 0vw 2vw 0vw;
+    margin-top: -15%;
+  }
   /* СЕТКА БОССОВ */
 
   .divider-main {
