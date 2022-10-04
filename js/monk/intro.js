@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+
+
+
+
+
+
 // скролл вверх выбранного итема меню
 $(".select").click(function(){
 	$("html,body").animate({

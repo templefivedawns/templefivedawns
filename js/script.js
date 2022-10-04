@@ -16,15 +16,19 @@ $(document).ready(function() {
 
 
 
-	
 
 
+	$(window).resize(function(){
+		
+		var widthWindow = $( window ).width();
+		if (widthWindow > 1920)  
+		{
+			$(".container").css("maxWidth", "1485");
+			// $("body").css("justifyContent", "center");
+		}
 
 
-
-
-
-
+	});
 
 
 

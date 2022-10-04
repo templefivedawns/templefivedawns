@@ -158,6 +158,7 @@ code {
   /*логотип в хэдере*/
   float: left;
   margin-left: 14.8%;
+	/* margin-left: 384px; */
   height: 4.5vw;
   width: 4.8vw;
 }
@@ -194,7 +195,7 @@ code {
   background-size: 81%;
   margin: 2vw 15% 2vw 15%;
 
-  max-width: 1485px;
+  /* max-width: 1485px; */
 
   border: 1px solid transparent;
   border-image: linear-gradient(
@@ -432,6 +433,18 @@ code {
   .frame-red-mob {
     display: none;
   }
+
+	.Supportbrush {
+		position: absolute;
+		z-index: 50;
+		margin-top: 0.65%;
+		margin-left: 26.3%;
+		width: 8.5vw;
+		display: none;
+	}
+
+
+
 }
 
 /* 480PX И МЕНЬШЕ */
