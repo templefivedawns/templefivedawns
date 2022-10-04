@@ -6,21 +6,17 @@ body {
   padding: 0;
   min-width: 100%;
   overflow: auto;
-  /* background: url(../img/raids/vault-of-the-incarnates/vault-bg-header.png) top
-    no-repeat;
-  background-size: 94%; */
   background-color: #090e0e;
 }
 
-h1 {
+/* h1 {
   color: #9d9063;
   font-size: 2.1vw;
   font-family: MontserratBold;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: inherit;
-  /* padding-top: 0.5vw;
-	padding-bottom: 0.5vw; */
+ 
   padding: 0;
   margin: 0;
 }
@@ -45,9 +41,9 @@ h3 {
   font-weight: inherit;
   padding: 0;
   margin: 0;
-}
+} */
 
-a {
+/* a {
   text-decoration: none;
   color: #00ff99;
 }
@@ -60,7 +56,7 @@ p {
   font-weight: 400;
   margin: 0;
   padding: 0;
-}
+} */
 
 li {
   color: #9d9063;
@@ -88,117 +84,13 @@ code {
   margin: 0.5vw 0vw 0.5vw 0vw;
 }
 
-/* ХЭДЕР НАЧАЛО*/
-#header {
-  /* background: url("../img/headerempty.png") fixed no-repeat;
-  height: 3.6vw;
-  width: auto;
-  position: sticky;
-  z-index: 90;
-  top: 0;
-  background-size: contain; */
-
-  display: none;
-}
-
-#header-mob {
-  display: none;
-}
-
-#popup-header-mob {
-  display: none;
-  width: 100%;
-}
-
-.popup {
-  display: none;
-}
-
-.BMbrush {
-  position: absolute;
-  z-index: 50;
-  margin-top: 0.4%;
-  width: 7.8vw;
-}
-
-.WWbrush {
-  position: absolute;
-  z-index: 50;
-  margin-top: 0.3%;
-  margin-left: 5.5%;
-  /* width: 13vw; */
-  width: 13vw;
-  /* height: 2.5vw; */
-  display: none;
-}
-
-.MWbrush {
-  position: absolute;
-  z-index: 50;
-  margin-top: 0.3%;
-  margin-left: 17.7%;
-  width: 8.5vw;
-  display: none;
-}
-
-.Supportbrush {
-  position: absolute;
-  z-index: 50;
-  margin-top: 0.45%;
-  margin-left: 25.3%;
-  width: 10.5vw;
-  display: none;
-}
-
-.BM,
-.WW,
-.MW,
-.Support {
-  position: relative;
-  z-index: 90;
-}
-
-.logo {
-  /*логотип в хэдере*/
-  float: left;
-  margin-left: 14.8%;
-  /* margin-left: 384px; */
-  height: 4.5vw;
-  width: 4.8vw;
-}
-
-.header-right {
-  /*мейн меню хэдера*/
-  float: right;
-  margin-right: 15%;
-}
-
-.header-right a {
-  /*настройки ссылок в мейн меню хэдера*/
-  float: left;
-  font-family: MontserratBold;
-  color: #9d9063;
-  font-size: 0.8vw;
-  line-height: 55%;
-  text-align: center;
-  padding: 0.7vw 0vw 0.7vw 1vw;
-  text-decoration: none;
-  margin-top: 0.6vw;
-}
-
-.header-right a:hover {
-  color: #00ff99; /*цвет мейн меню хэдера при наведении*/
-}
-/* ХЭДЕР ЗАКОНЧИЛСЯ */
-
-/* ГОРЫ БЭКГРАУНД */
 #headerContainer {
   width: 100%;
   overflow: hidden;
 }
 
-#header-bg {
-  background: url("../img/headermain.png") center no-repeat;
+#header {
+  background: url("../img/headermain.png");
   background-size: 100%;
   width: 104%;
   right: 3.7vw;
@@ -212,25 +104,32 @@ code {
   margin-bottom: 0.6%;
 }
 
+#popup-header-mob {
+  display: none;
+  width: 100%;
+}
+
 #templefd {
   color: #9d9063;
   text-align: center;
   text-decoration: none;
   font-size: 1.7vw;
   font-family: MontserratMedium;
-  margin: 3vw 0vw 1vw 0vw;
+  margin-top: 3%;
   letter-spacing: 30%;
-  /* margin-left: 30%;
-  margin-right: 30%; */
+  margin-left: 30%;
+  margin-right: 30%;
   line-height: 0.1;
 }
-/* ГОРЫ БЭКГРАУНД */
 
-.header-right-bg {
-  overflow: auto;
-  align-content: center;
-  margin-right: 45%;
-  margin-left: 45%;
+h1 {
+  font-size: 1.7vw;
+  font-family: MontserratMedium;
+  line-height: 0.1;
+  letter-spacing: 30%;
+  color: #9d9063;
+  text-align: center;
+  text-decoration: none;
 }
 
 .discord {
@@ -249,7 +148,13 @@ code {
   position: relative;
   padding-top: 2%;
 }
-/* ГОРЫ БЭКГРАУНД */
+
+.header-right {
+  overflow: auto;
+  align-content: center;
+  margin-right: 45%;
+  margin-left: 45%;
+}
 
 .container {
   margin-left: 15%;
@@ -257,6 +162,10 @@ code {
   background-color: #111a1a;
   margin-bottom: 10%;
   display: flex;
+}
+
+.popup {
+  display: none;
 }
 
 #containerMain {
@@ -278,13 +187,42 @@ code {
 }
 
 .containerH {
+  font-family: MontserratBold;
   background-color: #112626;
   overflow: auto;
+  padding-left: 1.2%;
+  line-height: 0.4;
   border-bottom: solid 0.1vw #9d9063;
+  font-size: 0.9vw;
 }
 
-.containerH h2 {
-  margin: 0;
+.containerHMob {
+  display: none;
+}
+
+.containerHRed {
+  font-family: MontserratBold;
+  background-color: #112626;
+  overflow: auto;
+  padding-left: 5%;
+  line-height: 0.4;
+  border-bottom: solid 0.1vw #9d9063;
+  font-size: 0.9vw;
+}
+
+#containerRed {
+  background: url(../img/backgroundred.png) 100% 0 repeat;
+  background-size: 300%;
+  align-content: center;
+  font-size: 0.7vw;
+  color: #9d9063;
+  font-family: Montserrat;
+  height: auto;
+  float: right;
+  width: 20%;
+  border-bottom: solid 0.1vw #9d9063;
+  border-top: solid 0.1vw #9d9063;
+  border-right: solid 0.1vw #9d9063;
 }
 
 .Slide1 {
@@ -455,7 +393,7 @@ code {
 }
 
 .redContainerMenu {
-  background: url("../img/frame.png") no-repeat;
+  background: url("../img/frame.png");
   background-size: 100%;
   height: 2.03vw;
   width: 98%;
@@ -513,50 +451,6 @@ code {
   color: #00ff98;
 }
 
-.textBottom {
-  font-size: 0.57vw;
-  font-family: MontserratItalic;
-  text-align: center;
-  line-height: 0.5;
-  overflow: auto;
-  margin-bottom: 1.1%;
-}
-
-#containerRed {
-  background: url(../img/backgroundred.png) 100% 0 repeat;
-  background-size: 300%;
-  align-content: center;
-  font-size: 0.7vw;
-  color: #9d9063;
-  font-family: Montserrat;
-  height: auto;
-  float: right;
-  width: 20%;
-  border-bottom: solid 0.1vw #9d9063;
-  border-top: solid 0.1vw #9d9063;
-  border-right: solid 0.1vw #9d9063;
-}
-
-.containerHRed {
-  background-color: #112626;
-  overflow: auto;
-  /* padding-left: 5%; */
-  text-align: center;
-  border-bottom: solid 0.1vw #9d9063;
-}
-
-.containerHRed h2 {
-  margin: 0;
-  padding: 0;
-}
-
-#supportContainer {
-  background-color: rgba(17, 26, 26, 0.7);
-  padding-top: 3%;
-  padding-bottom: 3%;
-  border-bottom: solid 0.1vw #9d9063;
-}
-
 #textRed {
   margin-left: 40%;
   margin-right: 40%;
@@ -566,6 +460,31 @@ code {
   width: 100%;
   position: relative;
   bottom: 0;
+}
+
+#supportContainer {
+  background-color: rgba(17, 26, 26, 0.7);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-bottom: solid 0.1vw #9d9063;
+}
+
+.textBottom {
+  font-size: 0.57vw;
+  font-family: MontserratItalic;
+  text-align: center;
+  line-height: 0.5;
+  overflow: auto;
+  margin-bottom: 1.1%;
+}
+
+.header-mob-item-l {
+  display: none;
+}
+
+.discordMob,
+.boostyMob {
+  display: none;
 }
 
 /*
@@ -578,9 +497,9 @@ code {
 
 /* 1440PX И МЕНЬШЕ */
 @media only screen and (max-width: 1440px) {
-  h1 {
+  /* h1 {
     font-size: 3.3vw;
-  }
+  } */
 
   h2 {
     font-size: 2.2vw;
@@ -601,82 +520,12 @@ code {
     font-size: 1.1vw;
     line-height: 1.5vw;
   }
-
-  .logo {
-    /*логотип в хэдере*/
-    margin-left: 3vw;
-  }
-
-  .header-right {
-    /*мейн меню хэдера*/
-    margin-right: 3vw;
-  }
-
-  .container {
-    margin: 3vw 3vw 3vw 3vw;
-  }
-
-  .redContainerMenu {
-    height: 2.7vw;
-    width: 98%;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: -0.4%;
-    z-index: 1;
-    text-align: center;
-    /* font-size: 0.6vw; */
-    color: #9d9063;
-    /* font-family: MontserratBold; */
-    text-decoration: none;
-  }
-
-  .containerH {
-    background-color: #112626;
-    overflow: auto;
-    border-bottom: solid 0.1vw #9d9063;
-  }
-
-  .containerH h2 {
-    margin: 0;
-  }
-
-  .containerHRed {
-    background-color: #112626;
-    overflow: auto;
-    text-align: center;
-    border-bottom: solid 0.1vw #9d9063;
-  }
-
-  .containerHRed h2 {
-    margin: 0;
-    padding: 0;
-  }
-
-  .Supportbrush {
-    position: absolute;
-    z-index: 50;
-    margin-top: 0.65%;
-    margin-left: 26.3%;
-    width: 8.5vw;
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 480px) {
-  body {
-    margin: 0;
-    padding: 0;
-    min-width: 100%;
-    overflow: auto;
-    /* background: url(../img/raids/vault-of-the-incarnates/vault-bg.webp) top
-      center no-repeat; */
-    background-size: 150%;
-    background-color: #090e0e;
-  }
-
-  h1 {
+  /* h1 {
     font-size: 12vw;
-  }
+  } */
 
   h2 {
     font-size: 5vw;
@@ -684,8 +533,13 @@ code {
   }
 
   p {
-    font-size: 4vw;
-    line-height: 6vw;
+    font-size: 2.05vw;
+    line-height: 1vw;
+  }
+
+  h1 {
+    font-size: 3.9vw;
+    line-height: 0.5vw;
   }
 
   li {
@@ -707,85 +561,6 @@ code {
     margin: 1vw 0vw 1vw 0vw;
   }
   /* настройки <code> */
-
-  /* МОБИЛЬНЫЙ МЕЙН ХЭДЕР */
-  #header {
-    display: none;
-  }
-
-  #headerContainer {
-    display: none;
-  }
-
-  #header-mob {
-    display: block;
-    background: url(../img/header480px2.png) fixed no-repeat;
-    background-size: 100%;
-    height: 13.5vw;
-    padding: 0;
-    margin: -4.5vw 0vw 0vw 0vw;
-    width: auto;
-    position: sticky;
-    z-index: 100;
-    top: 0;
-  }
-
-  .header-mob-buttons-r {
-    padding: 0;
-    float: right;
-    margin-right: 0.5%;
-  }
-
-  .header-mob-item-l {
-    float: left;
-    /* width: 50%; */
-    height: 15.5vw;
-    margin: 0;
-    margin-left: 2.2vw;
-  }
-
-  .mobHeaderDots {
-    display: block;
-  }
-  .mobHeaderDotsHide {
-    display: none;
-  }
-
-  .header-mob-item-discord {
-    float: right;
-    /* width: 50%; */
-    height: 8vw;
-    width: 9vw;
-    margin: 1.5vw 3vw 0vw 0vw;
-    /* border-radius: 10%; */
-  }
-
-  .header-mob-item-boosty {
-    float: right;
-    /* width: 50%; */
-    height: 8vw;
-    width: 6vw;
-    margin: 1.5vw 3vw 0vw 0vw;
-  }
-
-  .logo {
-    /*логотип в хэдере*/
-    margin-left: 3vw;
-  }
-
-  .header-right {
-    /*мейн меню хэдера*/
-    margin-right: 3vw;
-    margin-top: 0.2vw;
-  }
-  /* МОБИЛЬНЫЙ МЕЙН ХЭДЕР */
-
-  .mobHeaderDots {
-    display: block;
-  }
-  .mobHeaderDotsHide {
-    display: none;
-  }
 
   /* МОБИЛЬНЫЙ ПОПАП ХЭДЕР */
   #popup-header-mob {
@@ -896,34 +671,18 @@ code {
   /* КОНЕЦ ПОПАП-МЕНЮ */
 
   .container {
-    /* background: rgb(17, 26, 26); */
-    /* background: url(../img/raids/vault-of-the-incarnates/vault-bg.png) top left no-repeat; */
-    background-color: #111a1a;
-    /* background-size: 100%; */
-    margin: 0;
-    width: 100%;
-    border: none;
-    padding: 0;
-    box-shadow: none;
-    position: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    overflow: visible;
+  }
+
+  #containerRed {
+    display: none;
   }
 
   #containerMain {
     width: 100%;
     overflow: visible;
-    border: none;
-  }
-
-  .fixed {
-    position: fixed;
-  }
-
-  .containerH {
-    display: none;
-  }
-
-  .Slide1 {
-    display: none;
   }
 
   .SlideMob {
@@ -940,11 +699,72 @@ code {
     display: block;
   }
 
-  .discord,
-  .boosty,
-  .redContainerMenu,
-  .divider {
+  .Slide1 {
     display: none;
+  }
+
+  #header {
+    background: url("../img/headermain480px.png") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    left: 0;
+    height: auto;
+    position: relative;
+    top: 0;
+    /* border-bottom: none; */
+    border-bottom: solid 0.1vw #9d9063;
+    margin-top: 3.5%;
+    overflow: auto;
+    padding-bottom: 7%;
+    margin-bottom: 1%;
+    z-index: 10;
+    display: none;
+  }
+
+  body {
+    overflow: visible;
+  }
+
+  .containerHMob {
+    background: url("../img/header480pxMAIN.png") no-repeat;
+    background-size: 100%;
+    font-family: MontserratBold;
+    /* background-color: #112626; */
+    overflow: visible;
+    /* padding-left: 1.2%;
+				line-height: 0.4; */
+    /* border-bottom: solid 0.1vw #9d9063; */
+    /* border-top: solid 0.1vw #9d9063; */
+    /* border-left: solid 0.1vw #9d9063;
+				border-right: solid 0.1vw #9d9063; */
+    font-size: 3vw;
+    height: 12.4vw;
+    position: sticky;
+    top: 0;
+    z-index: 90;
+    display: block;
+    width: auto;
+    /* margin-bottom: 1.5%; */
+    /* padding-bottom: 1.3%; */
+    color: #9d9063;
+    font-family: MontserratBold;
+    z-index: 1000;
+    margin-top: -4.5vw;
+  }
+
+  .containerHMob p {
+    float: left;
+    margin-left: 18%;
+    margin-top: 5.3%;
+    line-height: 0;
+  }
+
+  .containerH {
+    display: none;
+  }
+
+  .fixed {
+    position: fixed;
   }
 
   #templefd {
@@ -958,16 +778,13 @@ code {
     margin-left: 20%;
     margin-right: 20%;
     line-height: 0.1;
-    height: 10vw;
   }
 
-  .dividerMob {
-    width: 98%;
-    margin-top: 3%;
-    margin-bottom: 0.5%;
-    margin-left: 1%;
-    margin-right: 1%;
-    display: block;
+  .discord,
+  .boosty,
+  .redContainerMenu,
+  .divider {
+    display: none;
   }
 
   .textBottom {
@@ -980,8 +797,47 @@ code {
     margin-top: 1.1%;
   }
 
-  #containerRed {
+  .dividerMob {
+    width: 98%;
+    margin-top: 3%;
+    margin-bottom: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: block;
+  }
+
+  .header-mob-item-l {
+    float: left;
+    /* width: 50%; */
+    /* height: 9.9vw; */
+    height: 15vw;
+    margin-top: 0;
+    margin-left: 0.6%;
+    overflow: visible;
+    position: absolute;
+  }
+
+  .mobHeaderDots {
+    display: block;
+  }
+  .mobHeaderDotsHide {
     display: none;
+  }
+
+  .discordMob {
+    width: 8%;
+    display: inline;
+    float: right;
+    margin-top: 1.7%;
+    margin-right: 1%;
+  }
+
+  .boostyMob {
+    width: 6.5%;
+    display: inline;
+    float: right;
+    margin-top: 1%;
+    margin-right: 1.5%;
   }
 }
 

@@ -15,20 +15,37 @@ $(document).ready(function() {
 
 
 
+// ФИКС ЗАГОЛОВКА ГАЙДА
+$(".mobHeaderDots").click(function(){
+	
+	$(".mobHeaderDots").css("display", "none");
+	$(".mobHeaderDotsHide").css("display", "block");
+	// $("#footer-mob").css("display", "none");
+	$(".container").css("marginTop", "11vw");
+
+});
+
+$(".mobHeaderDotsHide").click(function(){
+	
+	$(".mobHeaderDots").css("display", "block");
+	$(".mobHeaderDotsHide").css("display", "none");
+	// $("#footer-mob").css("display", "block");
+	$(".container").css("marginTop", "0%");
+
+});
+// ФИКС ЗАГОЛОВКА ГАЙДА
 
 
-
-	$(window).resize(function(){
+	// $(window).resize(function(){
 		
-		var widthWindow = $( window ).width();
-		if (widthWindow > 1920)  
-		{
-			$(".container").css("maxWidth", "1485");
-			// $("body").css("justifyContent", "center");
-		}
+	// 	var widthWindow = $( window ).width();
+	// 	if (widthWindow > 1920)  
+	// 	{
+	// 		$(".container").css("maxWidth", "1485");
+	// 	}
 
 
-	});
+	// });
 
 
 
@@ -1085,9 +1102,9 @@ $(".mobHeaderDots").click(function(){
 	$(".mobHeaderDots").css("display", "none");
 	$(".mobHeaderDotsHide").css("display", "block");
 	$(".popup-header-mob-item").css("display", "block");
-	$(".discordMob").css("display", "none");
-	$(".boostyMob").css("display", "none");
-	$(".containerHMob p").css("display", "none");
+	// $(".discordMob").css("display", "none");
+	// $(".boostyMob").css("display", "none");
+	// $(".containerHMob p").css("display", "none");
 
 });
 
@@ -1095,10 +1112,10 @@ $(".mobHeaderDotsHide").click(function(){
 	
 	$(".mobHeaderDots").css("display", "block");
 	$(".mobHeaderDotsHide").css("display", "none");
-	$(".popup-header-mob-item").css("display", "none");
-	$(".discordMob").css("display", "block");
-	$(".boostyMob").css("display", "block");
-	$(".containerHMob p").css("display", "block");
+	// $(".popup-header-mob-item").css("display", "none");
+	// $(".discordMob").css("display", "block");
+	// $(".boostyMob").css("display", "block");
+	// $(".containerHMob p").css("display", "block");
 
 });
 
