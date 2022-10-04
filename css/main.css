@@ -105,11 +105,6 @@ code {
   display: none;
 }
 
-#popup-header-mob {
-  display: none;
-  width: 100%;
-}
-
 .popup {
   display: none;
 }
@@ -298,17 +293,12 @@ code {
   box-shadow: 0vw 0.33vw 0.78vw 0.1vw rgba(0, 0, 0, 0.6);
   z-index: 2;
 }
-.SlideMob {
-  width: 98%;
-  margin-top: 1%;
-  margin-left: 1%;
-  margin-right: 1%;
-  bottom: 0;
-  position: relative;
-  overflow: auto;
-  box-shadow: 0vw 0.33vw 0.78vw 0.1vw rgba(0, 0, 0, 0.6);
-  z-index: 2;
+.SlideMobBM, .SlideMobMW, .SlideMobWW {
   display: none;
+}
+
+.panelBM, .panelMW, .panelWW {
+	display: none;
 }
 
 .dropdownMenu {
@@ -713,13 +703,37 @@ code {
     display: none;
   }
 
-  #headerContainer {
-    display: none;
-  }
+	/* ГОРЫ БЭКГРАУНД */
+
+#header-bg {
+  width: 100%;
+  right: 0vw;
+  height: auto;
+  position: relative;
+  top: 0;
+  border-bottom: solid 0.1vw #9d9063;
+  margin-top: 0;
+  overflow: auto;
+margin: 0;
+padding: 0;
+}
+
+#templefd {
+  margin: 0;
+  letter-spacing: 30%;
+  /* margin-left: 30%;
+  margin-right: 30%; */
+  line-height: 0.1;
+}
+
+#templefd h1 {
+	font-size: 3vw;
+}
+/* ГОРЫ БЭКГРАУНД */
 
   #header-mob {
-    display: block;
-    background: url(../img/header480px2.png) fixed no-repeat;
+    display: none;
+    /* background: url(../img/header480px2.png) fixed no-repeat;
     background-size: 100%;
     height: 13.5vw;
     padding: 0;
@@ -727,28 +741,21 @@ code {
     width: auto;
     position: sticky;
     z-index: 100;
-    top: 0;
+    top: 0; */
   }
 
   .header-mob-buttons-r {
     padding: 0;
     float: right;
-    margin-right: 0.5%;
+    margin-right: none;
   }
 
   .header-mob-item-l {
     float: left;
     /* width: 50%; */
     height: 15.5vw;
-    margin: 0;
-    margin-left: 2.2vw;
-  }
-
-  .mobHeaderDots {
-    display: block;
-  }
-  .mobHeaderDotsHide {
-    display: none;
+    /* margin: 0; */
+    margin-left: 1%;
   }
 
   .header-mob-item-discord {
@@ -770,7 +777,7 @@ code {
 
   .logo {
     /*логотип в хэдере*/
-    margin-left: 3vw;
+    margin-left: 1%;
   }
 
   .header-right {
@@ -779,58 +786,6 @@ code {
     margin-top: 0.2vw;
   }
   /* МОБИЛЬНЫЙ МЕЙН ХЭДЕР */
-
-  .mobHeaderDots {
-    display: block;
-  }
-  .mobHeaderDotsHide {
-    display: none;
-  }
-
-  /* МОБИЛЬНЫЙ ПОПАП ХЭДЕР */
-  #popup-header-mob {
-    display: none;
-    background: url(../img/header480px2.png) fixed no-repeat;
-    background-size: 100%;
-    height: 13.5vw;
-    /* width: 200vw; */
-    padding: 0;
-    margin: 0;
-    width: auto;
-    position: fixed;
-    z-index: 100;
-    top: 0;
-  }
-
-  .popup-header-mob-buttons-r {
-    padding: 0;
-    float: right;
-    margin-right: 0.5%;
-  }
-
-  .popup-header-mob-item-l {
-    float: left;
-    /* width: 50%; */
-    height: 15.5vw;
-    margin: 0;
-    margin-left: 2.2vw;
-  }
-
-  .popup-header-mob-item {
-    float: right;
-    /* width: 50%; */
-    height: 9vw;
-    width: 9vw;
-    margin: 0.8vw 3vw 0vw 0vw;
-    border-radius: 15%;
-  }
-
-  .popup-header-right {
-    /*мейн меню хэдера*/
-    margin-right: 3vw;
-    margin-top: 0.2vw;
-  }
-  /* МОБИЛЬНЫЙ ПОПАП ХЭДЕР */
 
   /* НАЧАЛО ПОПАП-МЕНЮ */
   .popup {
@@ -844,17 +799,6 @@ code {
     /* position: sticky; */
     /* background-color: rgba(9, 14, 14, 0.7); */
     z-index: 80;
-  }
-
-  .popupBackground {
-    top: 11.1vw;
-    padding: 5vw 0vw 0vw 0vw;
-    background-color: rgba(9, 14, 14, 0.7);
-    height: 100%;
-    width: 0%;
-    position: absolute;
-    display: block;
-    z-index: 50;
   }
 
   .popup-menu {
@@ -871,7 +815,7 @@ code {
     background-color: rgba(3, 19, 19, 0.7);
     border-top: #9d9063 outset 0.01vw;
     border-bottom: #9d9063 outset 0.01vw;
-    padding-left: 3vw;
+    text-align: center;
   }
 
   .popup-select-item-menu p {
@@ -886,7 +830,7 @@ code {
   }
 
   .popup-select-item-submenu {
-    padding-left: 5vw;
+    text-align: center;
     text-transform: capitalize;
   }
 
@@ -900,10 +844,10 @@ code {
     /* background: url(../img/raids/vault-of-the-incarnates/vault-bg.png) top left no-repeat; */
     background-color: #111a1a;
     /* background-size: 100%; */
-    margin: 0;
     width: 100%;
     border: none;
     padding: 0;
+		margin: 0;
     box-shadow: none;
     position: auto;
   }
@@ -911,7 +855,7 @@ code {
   #containerMain {
     width: 100%;
     overflow: visible;
-    border: none;
+    /* border: none; */
   }
 
   .fixed {
@@ -926,9 +870,35 @@ code {
     display: none;
   }
 
-  .SlideMob {
+	/* аккордеон начало */
+	.SlideMobBM, .SlideMobMW, .SlideMobWW {
+  background-color: rgba(17, 26, 26, 0);
+  font-family: MontserratBold;
+  font-size: 1vw;
+  text-decoration: none;
+  margin: 0.4vw 0vw 0vw 0vw;
+  color: #9d9063;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+
+.SlideMobBM, .SlideMobMW, .SlideMobWW:hover {
+  color: #00ff99;
+}
+
+.panelBM, .panelMW, .panelWW {
+  display: none;
+  overflow: hidden;
+margin: 2vw 1% 2vw 1%;
+  padding: 0;
+  text-decoration: none;
+}
+
+	.SlideMobBM, .SlideMobMW, .SlideMobWW {
     width: 98%;
-    margin-top: 4.5%;
     margin-bottom: 1%;
     margin-left: 1%;
     margin-right: 1%;
@@ -939,6 +909,7 @@ code {
     z-index: 2;
     display: block;
   }
+/* аккордеон конец */
 
   .discord,
   .boosty,
