@@ -640,7 +640,7 @@ code {
   body {
     margin: 0;
     padding: 0;
-    min-width: 100%;
+    width: 100%;
     overflow: auto;
     /* background: url(../img/raids/vault-of-the-incarnates/vault-bg.webp) top
       center no-repeat; */
@@ -830,6 +830,7 @@ code {
     width: 100%;
     padding: 0;
     margin: 0;
+		border: none;
     box-shadow: none;
     position: auto;
   }
@@ -922,15 +923,18 @@ code {
     display: block;
     background-color: #111a1a;
     height: 7vw;
-		width: 100%;
+		/* width: 100%; */
     margin: 0;
     padding: 0;
     bottom: 0;
+		border-left: #9d9063 solid 2px;
+		border-right: #9d9063 solid 2px;
+		border-bottom: #9d9063 solid 2px;
   }
 
   .footer-mob-buttons {
     /* width: 100%; */
-    padding: 0;
+    padding: 0.5vw 0vw 0vw 0vw;
 		margin: 0;
     text-transform: uppercase;
 		text-align: center;
