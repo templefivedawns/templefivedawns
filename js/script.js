@@ -1,20 +1,5 @@
 $(document).ready(function() {
 
-	// $(".Slide1").hover(function(){
-	// 	for (var i=2; i<20; i++) {
-	// 	if (i%2==0) { $(".SLide1").css("margin-top", "5%"); }
-	// 	else { $(".SLide1").css("margin-top", "0"); }
-	// 	}
-		
-	//  });
-
-
-	// $(".Slide1").hover(function(){
-	// 	$(".Slide1").css("margin-top", "5%");
-	//  });
-
-
-
 // ФИКС ЗАГОЛОВКА ГАЙДА
 $(".mobHeaderDots").click(function(){
 
@@ -76,23 +61,6 @@ $(".SlideMobWW").click(function(){
 	}
 });  
 // аккордеон конец вв
-
-
-	// $(window).resize(function(){
-		
-	// 	var widthWindow = $( window ).width();
-	// 	if (widthWindow > 1920)  
-	// 	{
-	// 		$(".container").css("maxWidth", "1485");
-	// 	}
-	
-
-	// });
-
-
-
-
-
 
 
 
@@ -161,24 +129,6 @@ for (var i=0; i<5000; ++i) {
 			bottom: '0'
 	}, 800);
 	});
-
-
-
-
-
-// 	$(".first").hover(function () {
-
-// 		$(".dropdownMenu").css("visibility", "visible");
-	
-// } );
-
-// $(".first").mouseleave(function(){
-// 	$(".dropdownMenu").css("visibility", "hidden");
-// });
-
-
-
-
 
 
 
