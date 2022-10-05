@@ -40,6 +40,8 @@ $(".SlideMobBM").click(function(){
 	if($(".panelBM").css('display') == 'none')
 	{
 		$(".panelBM").slideDown(200);
+		$(".panelMW").slideUp(200);
+		$(".panelWW").slideUp(200);
 	}
 	else {
 		$(".panelBM").slideUp(200);
@@ -52,6 +54,8 @@ $(".SlideMobMW").click(function(){
 	if($(".panelMW").css('display') == 'none')
 	{
 		$(".panelMW").slideDown(200);
+		$(".panelBM").slideUp(200);
+		$(".panelWW").slideUp(200);
 	}
 	else {
 		$(".panelMW").slideUp(200);
@@ -64,6 +68,8 @@ $(".SlideMobWW").click(function(){
 	if($(".panelWW").css('display') == 'none')
 	{
 		$(".panelWW").slideDown(200);
+		$(".panelBM").slideUp(200);
+		$(".panelMW").slideUp(200);
 	}
 	else {
 		$(".panelWW").slideUp(200);
