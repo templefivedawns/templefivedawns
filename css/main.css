@@ -932,6 +932,10 @@ code {
     display: none;
   }
 
+	#twitchStreamON {
+		display: none;
+	}
+
 	/* НАЧАЛО МОБИЛЬНОГО ФУТЕРА */
   #footer {
     display: none;
