@@ -295,6 +295,8 @@ code {
 
 .containerH h2 {
   margin: 0;
+	padding-left: 0.5vw;
+	line-height: 2vw;
 }
 
 .Slide1 {
@@ -498,6 +500,7 @@ code {
 .containerHRed h2 {
   margin: 0;
   padding: 0;
+	line-height: 2vw;
 }
 
 #supportContainer {
@@ -607,32 +610,20 @@ code {
     text-decoration: none;
   }
 
-  .containerH {
-    background-color: #112626;
-    overflow: auto;
-    border-bottom: solid 0.1vw #9d9063;
-  }
-
-  .containerH h2 {
-    margin: 0;
-    font-size: 1.8vw;
-  }
-
 	.containerLinks a {
 		font-size: 0.8vw;
 	}
 
-  .containerHRed {
-    background-color: #112626;
-    overflow: auto;
-    text-align: center;
-    border-bottom: solid 0.1vw #9d9063;
+  .containerH h2 {
+		font-size: 1.8vw;
+		padding-left: 0.5vw;
+		line-height: 2vw;
   }
 
   .containerHRed h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 1.8vw;
+		font-size: 1.8vw;
+		padding-left: 0.5vw;
+		line-height: 2vw;
   }
 
   .Supportbrush {
