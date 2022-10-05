@@ -78,6 +78,11 @@ code {
   line-height: 1.2vw;
 }
 
+iframe {
+	/* border: #9d9063 solid 1px; */
+	border: none;
+}
+
 .format-code {
   background-color: #071515;
   border: #9d9063 outset 1px;
