@@ -618,6 +618,10 @@ code {
     font-size: 1.8vw;
   }
 
+	.containerLinks a {
+		font-size: 0.8vw;
+	}
+
   .containerHRed {
     background-color: #112626;
     overflow: auto;
