@@ -200,7 +200,7 @@ code {
   height: auto;
   position: relative;
   top: 0;
-  border-bottom: solid 0.1vw #9d9063;
+  border-bottom: solid 1px #9d9063;
   margin-top: 0;
   overflow: auto;
   padding-bottom: 5.6vw;
@@ -212,11 +212,8 @@ code {
   text-align: center;
   text-decoration: none;
   font-size: 1.7vw;
-  font-family: MontserratMedium;
   margin: 3vw 0vw 1vw 0vw;
   letter-spacing: 30%;
-  /* margin-left: 30%;
-  margin-right: 30%; */
   line-height: 0.1;
 }
 /* ГОРЫ БЭКГРАУНД */
@@ -247,10 +244,9 @@ code {
 /* ГОРЫ БЭКГРАУНД */
 
 .container {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin: 2vw 15% 2vw 15%;
   background-color: #111a1a;
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
   display: flex;
   border: #9d9063 solid 1px;
 }
@@ -294,7 +290,7 @@ code {
 .containerH {
   background-color: #112626;
   overflow: auto;
-  border-bottom: solid 0.1vw #9d9063;
+  border-bottom: solid 1px #9d9063;
 }
 
 .containerH h2 {
@@ -496,7 +492,7 @@ code {
   overflow: auto;
   /* padding-left: 5%; */
   text-align: center;
-  border-bottom: solid 0.1vw #9d9063;
+  border-bottom: solid 1px #9d9063;
 }
 
 .containerHRed h2 {
@@ -508,7 +504,7 @@ code {
   background-color: rgba(17, 26, 26, 0.7);
   padding-top: 3%;
   padding-bottom: 3%;
-  border-bottom: solid 0.1vw #9d9063;
+  border-bottom: solid 1px #9d9063;
 }
 
 #textRed {
@@ -521,6 +517,33 @@ code {
   position: relative;
   bottom: 0;
 }
+
+/* НАЧАЛО МЕЙН ФУТЕРА */
+#footer {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-copyr p {
+  text-align: center;
+  font-weight: 100;
+  font-family: Montserrat;
+  font-size: 0.8vw;
+}
+
+.footer-discname {
+  text-align: center;
+  margin: 1vw 0vw 2vw 0vw;
+}
+
+.footer-discname a {
+  color: #9d9063;
+}
+
+#footer-mob {
+  display: none;
+}
+/* КОНЕЦ МЕЙН ФУТЕРА */
 
 /*
 /////////
@@ -894,6 +917,43 @@ code {
   #containerRed {
     display: none;
   }
+
+	/* НАЧАЛО МОБИЛЬНОГО ФУТЕРА */
+  #footer {
+    display: none;
+  }
+
+  #footer-mob {
+    display: block;
+    background-color: #111a1a;
+    /* box-shadow: 0vw 0vw 4vw 2vw rgba(0, 0, 0, 0.6); */
+    /* border-top: #9d9063 solid 1px; */
+    height: 7vw;
+    margin: 0;
+    padding: 0;
+    /* z-index: 100; */
+    bottom: 0;
+    /* display: flex; */
+    align-items: center;
+  }
+
+  .footer-mob-buttons {
+    width: 100%;
+    display: flex;
+    /* margin: 3vw; */
+    justify-content: space-between;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    justify-content: center;
+  }
+
+  .footer-mob-buttons a {
+    color: #9d9063;
+    font-family: MontserratBold;
+  }
+  /* КОНЕЦ МОБИЛЬНОГО ФУТЕРА */
+
 }
 
 @font-face {
