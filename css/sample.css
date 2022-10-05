@@ -195,7 +195,7 @@ code {
   background-size: 81%;
   margin: 2vw 15% 2vw 15%;
 
-  /* max-width: 1485px; */
+  box-shadow: 0.31vw 0vw 0.78vw 0.1vw rgba(0, 0, 0, 0.6);
 
   border: 1px solid transparent;
   border-image: linear-gradient(
@@ -736,13 +736,6 @@ code {
   .fixed {
     position: fixed;
   }
-
-  /* .img-header {
-    background: url(../img/raids/vault-of-the-incarnates/vault-bg.webp) top left
-      no-repeat;
-    background-size: 100%;
-    width: 100%;
-  } */
 
   #containerMain {
     background: linear-gradient(
