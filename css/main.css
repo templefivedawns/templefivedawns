@@ -522,7 +522,7 @@ code {
 }
 
 .twitchStream {
-	margin: 3%;
+	margin: 3% 3% 0% 3%;
 	border: 1px solid transparent;
   border-image: linear-gradient(
     to left top,
@@ -532,6 +532,7 @@ code {
     #9d9063 90%
   );
   border-image-slice: 1;
+	box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
 }
 
 
