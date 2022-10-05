@@ -710,30 +710,19 @@ code {
   /* ГОРЫ БЭКГРАУНД */
 
   #header-bg {
-    /* background: url("../img/header480pxMAIN.png") center no-repeat; */
     background: url("../img/headermain480px.png") center no-repeat;
     background-size: 100%;
-    width: 100%;
-    /* right: 3.7vw; */
-    height: auto;
-    position: relative;
-    top: 0;
-    border-bottom: solid 0.1vw #9d9063;
-    margin-top: 0;
-    overflow: auto;
-    padding-bottom: 1.5vw;
-    /* margin-bottom: 0.6%; */
+    border: none;
+    margin: 0;
+    padding-bottom: 1.6vw;
   }
 
   #templefd {
-    margin: 0;
-    letter-spacing: 30%;
-    /* margin-left: 30%;
-  margin-right: 30%; */
-    line-height: 0.1;
+    height: 10.4vw;
   }
 
   #templefd h1 {
+    padding-top: 1vw;
     font-size: 4.5vw;
   }
   /* ГОРЫ БЭКГРАУНД */
@@ -820,8 +809,15 @@ code {
 
   .popup-select-item-menu {
     background-color: rgba(3, 19, 19, 0.7);
-    border-top: #9d9063 outset 0.01vw;
-    border-bottom: #9d9063 outset 0.01vw;
+    border: 1px solid transparent;
+    border-image: linear-gradient(
+      to left top,
+      #9d9063 10%,
+      transparent 30%,
+      transparent 70%,
+      #9d9063 90%
+    );
+    border-image-slice: 1;
     text-align: center;
   }
 
@@ -852,7 +848,6 @@ code {
     background-color: #111a1a;
     /* background-size: 100%; */
     width: 100%;
-    border: none;
     padding: 0;
     margin: 0;
     box-shadow: none;
@@ -862,7 +857,8 @@ code {
   #containerMain {
     width: 100%;
     overflow: visible;
-    /* border: none; */
+    border: #9d9063 solid 1px;
+    padding: 0vw 2vw 0vw 2vw;
   }
 
   .fixed {
@@ -881,16 +877,12 @@ code {
   .SlideMobBM,
   .SlideMobMW,
   .SlideMobWW {
+    display: block;
     background-color: rgba(17, 26, 26, 0);
-    font-family: MontserratBold;
-    font-size: 1vw;
-    text-decoration: none;
-    margin: 0.4vw 0vw 0vw 0vw;
-    color: #9d9063;
     cursor: pointer;
     width: 100%;
-    text-align: left;
     border: none;
+    margin-top: 2vw;
     outline: none;
   }
 
@@ -905,24 +897,9 @@ code {
   .panelWW {
     display: none;
     overflow: hidden;
-    margin: 2vw 1% 2vw 1%;
+    margin: 1vw 0vw 0vw 0vw;
     padding: 0;
     text-decoration: none;
-  }
-
-  .SlideMobBM,
-  .SlideMobMW,
-  .SlideMobWW {
-    width: 98%;
-    margin-bottom: 1%;
-    margin-left: 1%;
-    margin-right: 1%;
-    bottom: 0;
-    position: relative;
-    overflow: visible;
-    box-shadow: 0vw 0.33vw 0.78vw 0.1vw rgba(0, 0, 0, 0.6);
-    z-index: 2;
-    display: block;
   }
   /* аккордеон конец */
 
@@ -931,20 +908,6 @@ code {
   .redContainerMenu,
   .divider {
     display: none;
-  }
-
-  #templefd {
-    color: #9d9063;
-    text-align: center;
-    text-decoration: none;
-    font-size: 4vw;
-    font-family: MontserratMedium;
-    margin-top: 4.5%;
-    letter-spacing: 30%;
-    margin-left: 20%;
-    margin-right: 20%;
-    line-height: 0.1;
-    height: 10vw;
   }
 
   .dividerMob {
