@@ -252,6 +252,7 @@ code {
   background-color: #111a1a;
   margin-bottom: 10%;
   display: flex;
+  border: #9d9063 solid 1px;
 }
 
 #containerMain {
@@ -259,14 +260,32 @@ code {
   background-color: #111a1a;
   color: #9d9063;
   font-family: Montserrat;
+  border-right: #9d9063 solid 1px;
+
+  /* border: 1px solid transparent;
+  border-image: linear-gradient(
+    to left top,
+    #9d9063 80%,
+    transparent 90%,
+    #9d9063 80%,
+    transparent 90%
+  );
+  border-image-slice: 1; */
+
+  /* border: 1px solid transparent;
+  border-image: linear-gradient(
+    to left top,
+    #9d9063 10%,
+    transparent 30%,
+    transparent 70%,
+    #9d9063 90%
+  );
+  border-image-slice: 1; */
+
   float: left;
   align-content: center;
   overflow: visible;
   box-shadow: 0.31vw 0vw 0.78vw 0.1vw rgba(0, 0, 0, 0.6);
-  border-right: solid 0.1vw #9d9063;
-  border-top: solid 0.1vw #9d9063;
-  border-bottom: solid 0.1vw #9d9063;
-  border-left: solid 0.1vw #9d9063;
   position: relative;
   z-index: 1;
   height: auto;
@@ -470,9 +489,6 @@ code {
   height: auto;
   float: right;
   width: 20%;
-  border-bottom: solid 0.1vw #9d9063;
-  border-top: solid 0.1vw #9d9063;
-  border-right: solid 0.1vw #9d9063;
 }
 
 .containerHRed {
