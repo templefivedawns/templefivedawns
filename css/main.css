@@ -249,7 +249,7 @@ code {
   /* margin-bottom: 10%; */
   display: flex;
   border: #9d9063 solid 1px;
-	box-shadow: 0.31vw 0vw 0.78vw 0.1vw rgba(0, 0, 0, 0.6);
+  box-shadow: 0.31vw 0vw 0.78vw 0.1vw rgba(0, 0, 0, 0.6);
 }
 
 #containerMain {
@@ -296,8 +296,8 @@ code {
 
 .containerH h2 {
   margin: 0;
-	padding-left: 0.5vw;
-	line-height: 2vw;
+  padding-left: 0.5vw;
+  line-height: 2vw;
 }
 
 .Slide1 {
@@ -501,7 +501,7 @@ code {
 .containerHRed h2 {
   margin: 0;
   padding: 0;
-	line-height: 2vw;
+  line-height: 2vw;
 }
 
 #supportContainer {
@@ -522,16 +522,17 @@ code {
   bottom: 0;
 }
 
-#twitchStream1, #twitchStream2 {
-	display: block;
-	overflow: visible;
-	position: relative;
-	z-index: 5;
-	border: #9d9063 solid 1px;
-	margin: 3% 3% 0% 3%;
-	padding: 0.1%;
-	box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
-	border: 2px solid transparent;
+#twitchStream1,
+#twitchStream2 {
+  display: block;
+  overflow: visible;
+  position: relative;
+  z-index: 5;
+  border: #9d9063 solid 1px;
+  margin: 3% 3% 0% 3%;
+  padding: 0.1%;
+  box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
+  border: 2px solid transparent;
   border-image: linear-gradient(
     to left top,
     #9d9063 10%,
@@ -542,19 +543,20 @@ code {
   border-image-slice: 1;
 }
 
-#streamsName2, #streamsName1 {
-	background-color: rgba(17, 26, 26, 0.7);
-	height: 1vw;
-	width: 93%;
-	margin-left: 3.4%;
-	color: #9d9063;
+#streamsName2,
+#streamsName1 {
+  background-color: rgba(17, 26, 26, 0.7);
+  height: 1vw;
+  width: 93%;
+  margin-left: 3.4%;
+  color: #9d9063;
   font-family: Montserrat;
-	margin-top: -7.4%;
-	text-align: center;
-	overflow: visible;
-	z-index: 10;
-	position: relative;
-	/* margin: 0% 3% 0% 3%; */
+  margin-top: -7.4%;
+  text-align: center;
+  overflow: visible;
+  z-index: 10;
+  position: relative;
+  /* margin: 0% 3% 0% 3%; */
 }
 
 /* НАЧАЛО МЕЙН ФУТЕРА */
@@ -638,12 +640,12 @@ code {
 		margin-left: 18.8vw;
 	}
 
-	.header-right-bg {
-		overflow: auto;
-		align-content: center;
-		margin-right: 37%;
-		margin-left: 53%;
-	}
+  .header-right-bg {
+    overflow: auto;
+    align-content: center;
+    margin-right: 37%;
+    margin-left: 53%;
+  }
 
   .container {
     margin: 3vw 3vw 3vw 3vw;
@@ -663,20 +665,20 @@ code {
     text-decoration: none;
   }
 
-	.containerLinks a {
-		font-size: 0.8vw;
-	}
+  .containerLinks a {
+    font-size: 0.8vw;
+  }
 
   .containerH h2 {
-		font-size: 1.8vw;
-		padding-left: 0.5vw;
-		line-height: 3vw;
+    font-size: 1.8vw;
+    padding-left: 0.5vw;
+    line-height: 3vw;
   }
 
   .containerHRed h2 {
-		font-size: 1.8vw;
-		padding-left: 0.5vw;
-		line-height: 3vw;
+    font-size: 1.8vw;
+    padding-left: 0.5vw;
+    line-height: 3vw;
   }
 
   .Supportbrush {
@@ -900,7 +902,7 @@ code {
     width: 100%;
     padding: 0;
     margin: 0;
-		border: none;
+    border: none;
     box-shadow: none;
     position: auto;
   }
@@ -984,11 +986,14 @@ code {
     display: none;
   }
 
-	#twitchStream1, #twitchStream2, #streamsName2, #streamsName1 {
-	display: none;
-	}
+  #twitchStream1,
+  #twitchStream2,
+  #streamsName2,
+  #streamsName1 {
+    display: none;
+  }
 
-	/* НАЧАЛО МОБИЛЬНОГО ФУТЕРА */
+  /* НАЧАЛО МОБИЛЬНОГО ФУТЕРА */
   #footer {
     display: none;
   }
@@ -997,21 +1002,21 @@ code {
     display: block;
     background-color: #111a1a;
     height: 7vw;
-		/* width: 100%; */
+    /* width: 100%; */
     margin: 0;
     padding: 0;
     bottom: 0;
-		border-left: #9d9063 solid 2px;
-		border-right: #9d9063 solid 2px;
-		border-bottom: #9d9063 solid 2px;
+    border-left: #9d9063 solid 2px;
+    border-right: #9d9063 solid 2px;
+    border-bottom: #9d9063 solid 2px;
   }
 
   .footer-mob-buttons {
     /* width: 100%; */
     padding: 0.5vw 0vw 0vw 0vw;
-		margin: 0;
+    margin: 0;
     text-transform: uppercase;
-		text-align: center;
+    text-align: center;
   }
 
   .footer-mob-buttons a {
@@ -1019,7 +1024,6 @@ code {
     font-family: MontserratBold;
   }
   /* КОНЕЦ МОБИЛЬНОГО ФУТЕРА */
-
 }
 
 @font-face {
