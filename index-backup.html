@@ -391,17 +391,17 @@ Google tag (gtag.js) -->
     channel: "Nimscore",
 		muted: true,
   };
-  var player = new Twitch.Player("twitchStream1", options);
-  player.setVolume(0.5);
+  var player1 = new Twitch.Player("twitchStream1", options);
+  player1.setVolume(0.5);
 	
 
-	player.addEventListener(Twitch.Player.OFFLINE, function () {
+	player1.addEventListener(Twitch.Player.OFFLINE, function () {
 		$("#twitchStream1").css("display", "none");
 		$("#streamsName1").css("display", "none");
     });
-		player.addEventListener(Twitch.Player.ONLINE, function () {
+		player1.addEventListener(Twitch.Player.ONLINE, function () {
 		$("#twitchStream1").css("display", "block");
-		var nameChannel1 = player.getChannel();
+		var nameChannel1 = player1.getChannel();
 	$("#streamsName1").text(nameChannel1);
     });
 
@@ -418,14 +418,14 @@ Google tag (gtag.js) -->
     channel: "WELOVEGAMES",
 		muted: true,
   };
-  var player = new Twitch.Player("twitchStream2", options);
-  player.setVolume(0.5);
-	player.addEventListener(Twitch.Player.OFFLINE, function () {
+  var player2 = new Twitch.Player("twitchStream2", options);
+  player2.setVolume(0.5);
+	player2.addEventListener(Twitch.Player.OFFLINE, function () {
 		$("#twitchStream2").css("display", "none");
 		$("#streamsName2").css("display", "none");
     });
-	player.addEventListener(Twitch.Player.ONLINE, function () {
-		var nameChannel2 = player.getChannel();
+	player2.addEventListener(Twitch.Player.ONLINE, function () {
+		var nameChannel2 = player2.getChannel();
 	$("#streamsName2").text(nameChannel2);
 	$("#twitchStream2").css("display", "block");
     });
