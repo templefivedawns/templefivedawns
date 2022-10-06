@@ -1,26 +1,6 @@
 $(document).ready(function() {
 
-// ФИКС ЗАГОЛОВКА ГАЙДА
-$(".mobHeaderDots").click(function(){
-
-	$(".mobHeaderDots").css("display", "none");
-	$(".mobHeaderDotsHide").css("display", "block");
-	// $("#footer-mob").css("display", "none");
-	$(".container").css("marginTop", "11vw");
-
-});
-
-$(".mobHeaderDotsHide").click(function(){
-
-	$(".mobHeaderDots").css("display", "block");
-	$(".mobHeaderDotsHide").css("display", "none");
-	// $("#footer-mob").css("display", "block");
-	$(".container").css("marginTop", "0%");
-
-});
-// ФИКС ЗАГОЛОВКА ГАЙДА
-
-// аккордеон начало брю
+// моб аккордеон начало брю
 $(".SlideMobBM").click(function(){
 	if($(".panelBM").css('display') == 'none')
 	{
@@ -32,9 +12,9 @@ $(".SlideMobBM").click(function(){
 		$(".panelBM").slideUp(200);
 	}
 });  
-// аккордеон конец брю
+// моб аккордеон конец брю
 
-// аккордеон начало ткача
+// моб аккордеон начало ткача
 $(".SlideMobMW").click(function(){
 	if($(".panelMW").css('display') == 'none')
 	{
@@ -46,9 +26,9 @@ $(".SlideMobMW").click(function(){
 		$(".panelMW").slideUp(200);
 	}
 });  
-// аккордеон конец ткача
+// моб аккордеон конец ткача
 
-// аккордеон начало вв
+// моб аккордеон начало вв
 $(".SlideMobWW").click(function(){
 	if($(".panelWW").css('display') == 'none')
 	{
@@ -60,82 +40,57 @@ $(".SlideMobWW").click(function(){
 		$(".panelWW").slideUp(200);
 	}
 });  
-// аккордеон конец вв
+// моб аккордеон конец вв
 
-
-
-
-	for (var i=0; i<5000; ++i) {
-		
-
+// ПЛАВАЮЩАЯ АНИМАЦИЯ СЛАЙДА
+for (var i=0; i<5000; ++i) {
 	$(".Slide1").hover(function () {
-
 		$(this).animate({
-			bottom: '+=10'
-	}, 800);
-	$(this).animate({
-		bottom: '-=10'
-}, 800);
+			bottom: '+=10' }, 800);
+		$(this).animate({
+			bottom: '-=10' }, 800);
 } );
+}
 
-	}
-
-	$(".Slide1").mouseleave(function(){
-		$(this).stop(true, false);
-		$(this).animate({
-			bottom: '0'
-	}, 800);
-	});
-
-
-
-	$(".discord, .boosty").hover(function () {
-
-		$(this).animate({
-			bottom: '+=5'
-	}, 400);
+$(".Slide1").mouseleave(function(){
+	$(this).stop(true, false);
 	$(this).animate({
-		bottom: '-=5'
-}, 400);
+		bottom: '0' }, 800);
+});
+// ПЛАВАЮЩАЯ АНИМАЦИЯ СЛАЙДА
+
+// ПЛАВАЮЩАЯ АНИМАЦИЯ ДИСКОРДА, БУСТИ И КНОПКИ ПОДДЕРЖКИ
+$(".discord, .boosty").hover(function () {
+	$(this).animate({
+		bottom: '+=5' }, 400);
+	$(this).animate({
+		bottom: '-=5' }, 400);
 } );
 
 $(".discord, .boosty").mouseleave(function(){
 	$(this).stop(true, false);
 	$(this).animate({
-		bottom: '0'
-}, 400);
+		bottom: '0' }, 400);
 });
 
-
-
 for (var i=0; i<5000; ++i) {
-		
-
 	$(".support").hover(function () {
-
 		$(this).animate({
-			bottom: '+=5'
-	}, 500);
-	$(this).animate({
-		bottom: '-=5'
-}, 500);
+			bottom: '+=5' }, 500);
+		$(this).animate({
+			bottom: '-=5' }, 500);
 } );
+}
 
-	}
-
-	$(".support").mouseleave(function(){
-		$(this).stop(true, false);
-		$(this).animate({
-			bottom: '0'
-	}, 800);
+$(".support").mouseleave(function(){
+	$(this).stop(true, false);
+	$(this).animate({
+		bottom: '0' }, 800);
 	});
-
+// ПЛАВАЮЩАЯ АНИМАЦИЯ ДИСКОРДА, БУСТИ И КНОПКИ ПОДДЕРЖКИ
 
 
 $(".first").hover(function () {
-
-	
-
 	var widthContainer1 = $(".dropdownMenu1").outerWidth()
 	var heightContainer1 = $(".dropdownMenu1").outerHeight()
 	var marginLeft1 = $(".dropdownMenu1").css("marginLeft");
@@ -145,8 +100,6 @@ $(".first").hover(function () {
 	$(".dropdownMenuContainer1").css("width", (100 * widthContainer1 / widthWindow) + "vw");
 	$(".dropdownMenuContainer1").css("height", (100 * heightContainer1 / widthWindow) + 0.45 +"vw");
 	$(".dropdownMenuContainer1").css("marginLeft", marginLeft1);
-	
-	
 } );
 
 $(".second").hover(function () {
@@ -159,7 +112,6 @@ $(".second").hover(function () {
 	$(".dropdownMenuContainer2").css("width", (100 * widthContainer2 / widthWindow) + "vw");
 	$(".dropdownMenuContainer2").css("height", (100 * heightContainer2 / widthWindow) + 0.45 +"vw");
 	$(".dropdownMenuContainer2").css("marginLeft", marginLeft2);
-
 } );
 
 $(".third").hover(function () {
@@ -172,7 +124,6 @@ $(".third").hover(function () {
 	$(".dropdownMenuContainer3").css("width", (100 * widthContainer3 / widthWindow) + "vw");
 	$(".dropdownMenuContainer3").css("height", (100 * heightContainer3 / widthWindow) + 0.45 +"vw");
 	$(".dropdownMenuContainer3").css("marginLeft", marginLeft3);
-
 } );
 
 $(".fourth").hover(function () {
@@ -185,7 +136,6 @@ $(".fourth").hover(function () {
 	$(".dropdownMenuContainer4").css("width", (100 * widthContainer4 / widthWindow) + "vw");
 	$(".dropdownMenuContainer4").css("height", (100 * heightContainer4 / widthWindow) + 0.45 +"vw");
 	$(".dropdownMenuContainer4").css("marginLeft", marginLeft4);
-
 } );
 
 $(".fifth").hover(function () {
@@ -198,7 +148,6 @@ $(".fifth").hover(function () {
 	$(".dropdownMenuContainer5").css("width", (100 * widthContainer5 / widthWindow) + "vw");
 	$(".dropdownMenuContainer5").css("height", (100 * heightContainer5 / widthWindow) + 0.45 +"vw");
 	$(".dropdownMenuContainer5").css("marginLeft", marginLeft5);
-
 } );
 
 $(".sixth").hover(function () {
@@ -211,7 +160,6 @@ $(".sixth").hover(function () {
 	$(".dropdownMenuContainer6").css("width", (100 * widthContainer6 / widthWindow) + "vw");
 	$(".dropdownMenuContainer6").css("height", (100 * heightContainer6 / widthWindow) + 0.45 +"vw");
 	$(".dropdownMenuContainer6").css("marginLeft", marginLeft6);
-
 } );
 
 $(".seventh").hover(function () {
@@ -224,79 +172,52 @@ $(".seventh").hover(function () {
 	$(".dropdownMenuContainer7").css("width", (100 * widthContainer7 / widthWindow) + "vw");
 	$(".dropdownMenuContainer7").css("height", (100 * heightContainer7 / widthWindow) + 0.45 +"vw");
 	$(".dropdownMenuContainer7").css("marginLeft", marginLeft7);
-
 } );
 
-
-
-
 $(".first").mouseleave(function (){
-  
-if (
-
-	$('.dropdownMenuContainer1:hover').length != 0 
-
-) 
-{
-	$(".dropdownMenu1").css("display", "block");
-	
-} else {$(".dropdownMenu1").fadeOut(100);
-$(".dropdownMenuContainer1").css("display", "none");
-}
+	if (
+		$('.dropdownMenuContainer1:hover').length != 0 
+	) 
+	{
+		$(".dropdownMenu1").css("display", "block");
+	}
+	else {$(".dropdownMenu1").fadeOut(100);
+		$(".dropdownMenuContainer1").css("display", "none");
+	}
 });
 
-
-
 $(".second").mouseleave(function (){
-  
 	if (
-	
 		$('.dropdownMenuContainer2:hover').length != 0 
-	
 	) 
 	{
 		$(".dropdownMenu2").css("display", "block");
-		
 	} else {$(".dropdownMenu2").fadeOut(100);
-	$(".dropdownMenuContainer2").css("display", "none");
-	
-}
-
-	});
-
-	$(".third").mouseleave(function (){
-  
-		if (
-		
-			$('.dropdownMenuContainer3:hover').length != 0 
-		
-		) 
-		{
-			$(".dropdownMenu3").css("display", "block");
-			
-		} else {$(".dropdownMenu3").fadeOut(100);
-		$(".dropdownMenuContainer3").css("display", "none");
-		
+		$(".dropdownMenuContainer2").css("display", "none");
 	}
-	
-		});
+});
 
-		$(".fourth").mouseleave(function (){
-  
-			if (
-			
-				$('.dropdownMenuContainer4:hover').length != 0 
-			
-			) 
-			{
-				$(".dropdownMenu4").css("display", "block");
-				
-			} else {$(".dropdownMenu4").fadeOut(100);
-			$(".dropdownMenuContainer4").css("display", "none");
-			
-		}
-		
-			});
+$(".third").mouseleave(function (){
+	if (
+		$('.dropdownMenuContainer3:hover').length != 0 
+	) 
+	{
+		$(".dropdownMenu3").css("display", "block");
+	} else {$(".dropdownMenu3").fadeOut(100);
+		$(".dropdownMenuContainer3").css("display", "none");
+	}
+});
+
+$(".fourth").mouseleave(function (){
+	if (
+		$('.dropdownMenuContainer4:hover').length != 0 
+	) 
+	{
+		$(".dropdownMenu4").css("display", "block");
+	} else {$(".dropdownMenu4").fadeOut(100);
+		$(".dropdownMenuContainer4").css("display", "none");
+	}
+});
 
 			$(".fifth").mouseleave(function (){
   

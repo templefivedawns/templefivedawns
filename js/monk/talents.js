@@ -1,22 +1,24 @@
 $(document).ready(function() {
 
-	$(".btn-l").click(function(){
-		$(".tab-l").fadeIn (600);
-		$(".tab-r").fadeOut (0);
-		// $(".tab-l").attr('color', '#00ff99');
-		// $(".tab-r").attr('color', '#9d9063');
-		$(".btn-l").addClass("select");
-		$(".btn-r").removeClass("select");
+// ТАБЫ
+$(".btn-l").click(function(){
+	$(".tab-l").fadeIn (600);
+	$(".tab-r").fadeOut (0);
+	// $(".tab-l").attr('color', '#00ff99');
+	// $(".tab-r").attr('color', '#9d9063');
+	$(".btn-l").addClass("select");
+	$(".btn-r").removeClass("select");
 });
 
 $(".btn-r").click(function(){
-		$(".tab-r").fadeIn (600);
-		$(".tab-l").fadeOut (0);
-		// $(".tab-r").attr('color', '#00ff99');
-		// $(".tab-l").attr('color', '#9d9063');
-		$(".btn-r").addClass("select");
-		$(".btn-l").removeClass("select");
+	$(".tab-r").fadeIn (600);
+	$(".tab-l").fadeOut (0);
+	// $(".tab-r").attr('color', '#00ff99');
+	// $(".tab-l").attr('color', '#9d9063');
+	$(".btn-r").addClass("select");
+	$(".btn-l").removeClass("select");
 });
+// ТАБЫ
 
 // ТАЛАНТЫ
 $(".t1").click(function(){
@@ -81,7 +83,6 @@ $(".t9").click(function(){
 	$(".t6").attr('border', '#00ff99 solid 1px');
 	$(".tc1, .tc2, .tc3, .tc4, .tc5, .tc6, .tc7, .tc8").attr('border', 'none');
 });
-
 // ТАЛАНТЫ
 
 });
