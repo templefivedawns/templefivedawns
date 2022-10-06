@@ -20,7 +20,7 @@ Google tag (gtag.js) -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet" type="text/css" />		
+<link href="css/main-backup.css" rel="stylesheet" type="text/css" />		
 </head>
 
 <body>
@@ -380,11 +380,69 @@ Google tag (gtag.js) -->
 	<a href="#"><img class="support" src="img/support.png" alt="support"></a>
 </div>
 </div>
+
+
+<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="twitchStream1"></div>
+<script type="text/javascript">
+  var options = {
+    width: "100%",
+    height: "100%",
+    channel: "Nimscore",
+		muted: true,
+  };
+  var player = new Twitch.Player("twitchStream1", options);
+  player.setVolume(0.5);
+	
+
+	player.addEventListener(Twitch.Player.OFFLINE, function () {
+		$("#twitchStream1").css("display", "none");
+		$("#streamsName1").css("display", "none");
+    });
+		player.addEventListener(Twitch.Player.ONLINE, function () {
+		$("#twitchStream1").css("display", "block");
+		var nameChannel = player.getChannel();
+	$("#streamsName1").text(nameChannel);
+    });
+
+</script>
+<div id="streamsName1"></div>
+
+
+<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="twitchStream2"></div>
+<script type="text/javascript">
+  var options = {
+    width: "100%",
+    height: "100%",
+    channel: "MonsterEnergy",
+		muted: true,
+  };
+  var player = new Twitch.Player("twitchStream2", options);
+  player.setVolume(0.5);
+	player.addEventListener(Twitch.Player.OFFLINE, function () {
+		$("#twitchStream2").css("display", "none");
+		$("#streamsName1").css("display", "none");
+    });
+	player.addEventListener(Twitch.Player.ONLINE, function () {
+		var nameChannel = player.getChannel();
+	$("#streamsName2").text(nameChannel);
+	$("#twitchStream2").css("display", "block");
+    });
+
+	
+
+
+</script>
+<div id="streamsName2"></div>
+
+
+
 </div>
 <div style="clear:both"></div> 
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/script.js"></script>
+<script src="js/main-backup.js"></script>
 </body>
 </html>
