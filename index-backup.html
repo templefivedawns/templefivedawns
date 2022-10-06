@@ -401,10 +401,10 @@ Google tag (gtag.js) -->
     });
 		player1.addEventListener(Twitch.Player.ONLINE, function () {
 		$("#twitchStream1").css("display", "block");
+		$("#streamsName1").css("display", "block");
 		var nameChannel1 = player1.getChannel();
 	$("#streamsName1").text(nameChannel1);
     });
-
 </script>
 <div id="streamsName1"></div>
 
@@ -428,11 +428,8 @@ Google tag (gtag.js) -->
 		var nameChannel2 = player2.getChannel();
 	$("#streamsName2").text(nameChannel2);
 	$("#twitchStream2").css("display", "block");
+	$("#streamsName2").css("display", "block");
     });
-
-	
-
-
 </script>
 <div id="streamsName2"></div>
 
