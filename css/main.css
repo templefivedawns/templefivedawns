@@ -522,22 +522,30 @@ code {
   bottom: 0;
 }
 
-#twitchStreamON {
-	margin: 3% 3% 0% 3%;
-	padding: 0;
-	border: 1px solid transparent;
-  border-image: linear-gradient(
-    to left top,
-    #9d9063 10%,
-    transparent 30%,
-    transparent 70%,
-    #9d9063 90%
-  );
-  border-image-slice: 1;
-	box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
+#twitchStream1 {
+	display: block;
+	overflow: visible;
+	position: relative;
+	z-index: 5;
+}
+#twitchStream2 {
+	display: block;
+	overflow: visible;
+	position: relative;
+	z-index: 5;
 }
 
-
+#streamsName2, #streamsName1 {
+	background-color: rgba(17, 26, 26, 0.7);
+	height: 1vw;
+	color: #9d9063;
+  font-family: Montserrat;
+	margin-top: -8%;
+	padding-left: 2%;
+	overflow: visible;
+	z-index: 10;
+	position: relative;
+}
 
 /* НАЧАЛО МЕЙН ФУТЕРА */
 #footer {
@@ -932,8 +940,8 @@ code {
     display: none;
   }
 
-	#twitchStreamON {
-		display: none;
+	#twitchStream1, #twitchStream2, #streamsName2, #streamsName1 {
+	display: none;
 	}
 
 	/* НАЧАЛО МОБИЛЬНОГО ФУТЕРА */

@@ -449,44 +449,56 @@ Google tag (gtag.js) -->
 		</div>
 	</div>
 
-	<iframe id="twitchStreamON"
-		src="https://player.twitch.tv/?channel=naowh&parent=templefivedawns.ru&autoplay=true&muted=true"
-    height="16%"
-    width="94%"
-		frameborder="0"
-    allowfullscreen>
-</iframe>
-
-<!-- <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
-<div id="twitchStreamON"></div>
-<script type="text/javascript">
-  var options = {
-    width: "100%",
-    height: "188vw",
-    channel: "naowh",
-		muted: true,
-		autoplay: true,
-    parent: ["templefivedawns.ru"]
-  };
-  var player = new Twitch.Player("twitchStreamON", options);
-  // player.setVolume(0.3);
-	player.getChannel("naowh"):String;
-</script>
-
-<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
-<div id="twitchStreamON"></div>
-<script type="text/javascript">
-  var options = {
-    width: "100%",
-    height: "188vw",
-    channel: "Nimscore",
-		muted: true,
-		autoplay: true,
-    parent: ["templefivedawns.ru"]
-  };
-  var player = new Twitch.Player("twitchStreamON", options);
-  // player.setVolume(0.3);
-</script> -->
+	<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+	<div id="twitchStream1"></div>
+	<script type="text/javascript">
+		var options = {
+			width: "100%",
+			height: "100%",
+			channel: "Nimscore",
+			muted: true,
+		};
+		var player1 = new Twitch.Player("twitchStream1", options);
+		player1.setVolume(0.5);
+		
+	
+		player1.addEventListener(Twitch.Player.OFFLINE, function () {
+			$("#twitchStream1").css("display", "none");
+			$("#streamsName1").css("display", "none");
+			});
+			player1.addEventListener(Twitch.Player.ONLINE, function () {
+			$("#twitchStream1").css("display", "block");
+			$("#streamsName1").css("display", "block");
+			var nameChannel1 = player1.getChannel();
+		$("#streamsName1").text(nameChannel1);
+			});
+	</script>
+	<div id="streamsName1"></div>
+	
+	
+	<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+	<div id="twitchStream2"></div>
+	<script type="text/javascript">
+		var options = {
+			width: "100%",
+			height: "100%",
+			channel: "WELOVEGAMES",
+			muted: true,
+		};
+		var player2 = new Twitch.Player("twitchStream2", options);
+		player2.setVolume(0.5);
+		player2.addEventListener(Twitch.Player.OFFLINE, function () {
+			$("#twitchStream2").css("display", "none");
+			$("#streamsName2").css("display", "none");
+			});
+		player2.addEventListener(Twitch.Player.ONLINE, function () {
+			var nameChannel2 = player2.getChannel();
+		$("#streamsName2").text(nameChannel2);
+		$("#twitchStream2").css("display", "block");
+		$("#streamsName2").css("display", "block");
+			});
+	</script>
+	<div id="streamsName2"></div>
 
 </div>
 
