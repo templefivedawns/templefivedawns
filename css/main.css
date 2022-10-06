@@ -1047,6 +1047,10 @@ code {
     display: none;
   }
 
+	.chuvak {
+		display: none;
+	}
+
   #footer-mob {
     display: block;
     background-color: #111a1a;
