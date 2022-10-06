@@ -195,15 +195,15 @@ code {
 #header-bg {
   background: url("../img/headermain.png") center no-repeat;
   background-size: 100%;
-  width: 100%;
-  /* right: 3.7vw; */
+  width: 104%;
+  right: 3.6vw;
   height: auto;
   position: relative;
   top: 0;
   border-bottom: solid 1px #9d9063;
   margin-top: 0;
   overflow: auto;
-  padding-bottom: 5.6vw;
+  padding-bottom: 6vw;
   margin-bottom: 0.6%;
 }
 
@@ -627,6 +627,39 @@ code {
     /*мейн меню хэдера*/
     margin-right: 3vw;
   }
+
+	#header-bg {
+		background: url("../img/headermain.png") center no-repeat;
+		background-size: 100%;
+		width: 120%;
+		right: 18.8vw;
+		height: auto;
+		position: relative;
+		top: 0;
+		border-bottom: solid 1px #9d9063;
+		margin-top: 0;
+		overflow: auto;
+		padding-bottom: 7.6vw;
+		margin-bottom: 0.6%;
+	}
+
+	#templefd {
+		color: #9d9063;
+		text-align: center;
+		text-decoration: none;
+		font-size: 1.7vw;
+		margin: 3vw 0vw 1vw 0vw;
+		letter-spacing: 30%;
+		line-height: 0.1;
+		margin-left: 18.8vw;
+	}
+
+	.header-right-bg {
+		overflow: auto;
+		align-content: center;
+		margin-right: 37%;
+		margin-left: 53%;
+	}
 
   .container {
     margin: 3vw 3vw 3vw 3vw;
