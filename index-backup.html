@@ -401,8 +401,8 @@ Google tag (gtag.js) -->
     });
 		player.addEventListener(Twitch.Player.ONLINE, function () {
 		$("#twitchStream1").css("display", "block");
-		var nameChannel = player.getChannel();
-	$("#streamsName1").text(nameChannel);
+		var nameChannel1 = player.getChannel();
+	$("#streamsName1").text(nameChannel1);
     });
 
 </script>
@@ -425,8 +425,8 @@ Google tag (gtag.js) -->
 		$("#streamsName2").css("display", "none");
     });
 	player.addEventListener(Twitch.Player.ONLINE, function () {
-		var nameChannel = player.getChannel();
-	$("#streamsName2").text(nameChannel);
+		var nameChannel2 = player.getChannel();
+	$("#streamsName2").text(nameChannel2);
 	$("#twitchStream2").css("display", "block");
     });
 
