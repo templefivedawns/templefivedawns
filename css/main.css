@@ -522,29 +522,39 @@ code {
   bottom: 0;
 }
 
-#twitchStream1 {
+#twitchStream1, #twitchStream2 {
 	display: block;
 	overflow: visible;
 	position: relative;
 	z-index: 5;
-}
-#twitchStream2 {
-	display: block;
-	overflow: visible;
-	position: relative;
-	z-index: 5;
+	border: #9d9063 solid 1px;
+	margin: 3% 3% 0% 3%;
+	padding: 0.1%;
+	box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
+	border: 2px solid transparent;
+  border-image: linear-gradient(
+    to left top,
+    #9d9063 10%,
+    transparent 30%,
+    transparent 70%,
+    #9d9063 90%
+  );
+  border-image-slice: 1;
 }
 
 #streamsName2, #streamsName1 {
 	background-color: rgba(17, 26, 26, 0.7);
 	height: 1vw;
+	width: 93%;
+	margin-left: 3.4%;
 	color: #9d9063;
   font-family: Montserrat;
-	margin-top: -8%;
-	padding-left: 2%;
+	margin-top: -7.4%;
+	text-align: center;
 	overflow: visible;
 	z-index: 10;
 	position: relative;
+	/* margin: 0% 3% 0% 3%; */
 }
 
 /* НАЧАЛО МЕЙН ФУТЕРА */
