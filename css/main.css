@@ -723,9 +723,9 @@ code {
 	#streamsName10 {
 		background-color: rgba(17, 26, 26, 0.7);
 		height: 2vw;
-		width: 93%;
-		margin-top: -10.9%;
-		margin-left: 3.4%;
+		/* width: 93%; */
+		margin-top: 86.4%;
+		/* margin-left: 3.4%; */
 		font-size: 1.2vw;
 	}
 
