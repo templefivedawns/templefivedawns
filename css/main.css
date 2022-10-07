@@ -193,7 +193,8 @@ code {
 }
 
 #header-bg {
-  background: url("../img/headermain.png") center no-repeat;
+  /* background: url("../img/headermain.png") center no-repeat;
+
   background-size: 100%;
   width: 120%;
   right: 6.5vw;
@@ -204,25 +205,56 @@ code {
   margin-top: 0;
   overflow: auto;
   padding-bottom: 7.2vw;
-  padding-top: 0.5vw;
+  padding-top: 0.5vw; */
+
+  background: url("../img/headermain.png");
+  background-size: 120%;
+  background-position-x: -16vw;
+  width: 104%;
+  /* right: 3.7vw; */
+  height: auto;
+  position: relative;
+  top: 0;
+  border-bottom: solid 0.1vw #9d9063;
+  margin-top: 0;
+  overflow: auto;
+  padding-bottom: 7vw;
+  margin-bottom: 0.6%;
 }
 
 #templefd {
-  color: #9d9063;
+  /* color: #9d9063;
   text-align: center;
   text-decoration: none;
   font-size: 1.7vw;
   margin: 3vw 6.5vw 1vw 0vw;
+  line-height: 0.1; */
+
+  color: #9d9063;
+  text-align: center;
+  text-decoration: none;
+  /* font-size: 1.7vw; */
+  font-family: MontserratMedium;
+  margin-right: 3%;
+  margin-top: 3vw;
+  margin-bottom: 1.2vw;
   /* letter-spacing: 30%; */
+  /* margin-left: 30%;
+  margin-right: 30%; */
   line-height: 0.1;
 }
 /* ГОРЫ БЭКГРАУНД */
 
 .header-right-bg {
-  overflow: auto;
+  /* overflow: auto;
   align-content: center;
   margin-right: 48%;
-  margin-left: 42%;
+  margin-left: 42%; */
+
+  overflow: auto;
+  align-content: center;
+  margin-right: 45%;
+  margin-left: 45%;
 }
 
 .discord {
@@ -665,15 +697,15 @@ code {
 
   .logo {
     /*логотип в хэдере*/
-    margin-left: 3vw;
+    margin-left: 5%;
   }
 
   .header-right {
     /*мейн меню хэдера*/
-    margin-right: 3vw;
+    margin-right: 5%;
   }
 
-  #header-bg {
+  /* #header-bg {
     width: 120%;
     right: 16.8vw;
     padding-bottom: 7.1vw;
@@ -681,7 +713,7 @@ code {
   }
 
   #templefd {
-    margin-left: 11vw;
+    margin-left: 0%;
   }
 
   .header-right-bg {
@@ -689,7 +721,7 @@ code {
     align-content: center;
     margin-right: 41%;
     margin-left: 49%;
-  }
+  } */
 
   .container {
     margin: 3vw 5% 3vw 5%;

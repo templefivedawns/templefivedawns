@@ -182,9 +182,9 @@ code {
   margin-top: 0.6vw;
 }
 
-.header-right a:hover {
-  color: #00ff99; /*цвет мейн меню хэдера при наведении*/
-}
+/* .header-right a:hover {
+  color: #00ff99;
+} */
 /* ХЭДЕР ЗАКОНЧИЛСЯ */
 
 /* БАДИ НАЧАЛО */
