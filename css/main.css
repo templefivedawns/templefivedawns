@@ -195,16 +195,16 @@ code {
 #header-bg {
   background: url("../img/headermain.png") center no-repeat;
   background-size: 100%;
-  width: 104%;
-  right: 3.6vw;
+  width: 120%;
+  right: 6.5vw;
   height: auto;
   position: relative;
   top: 0;
   border-bottom: solid 1px #9d9063;
   margin-top: 0;
   overflow: auto;
-  padding-bottom: 6vw;
-  /* padding-top: 0.5vw; */
+  padding-bottom: 7.2vw;
+  padding-top: 0.5vw;
 }
 
 #templefd {
@@ -212,8 +212,8 @@ code {
   text-align: center;
   text-decoration: none;
   font-size: 1.7vw;
-  margin: 3vw 0vw 1vw 0vw;
-  letter-spacing: 30%;
+  margin: 3vw 6.5vw 1vw 0vw;
+  /* letter-spacing: 30%; */
   line-height: 0.1;
 }
 /* ГОРЫ БЭКГРАУНД */
@@ -221,8 +221,8 @@ code {
 .header-right-bg {
   overflow: auto;
   align-content: center;
-  margin-right: 45%;
-  margin-left: 45%;
+  margin-right: 48%;
+  margin-left: 42%;
 }
 
 .discord {
