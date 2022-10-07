@@ -204,7 +204,7 @@ code {
   margin-top: 0;
   overflow: auto;
   padding-bottom: 6vw;
-  margin-bottom: 0.6%;
+  /* padding-top: 0.5vw; */
 }
 
 #templefd {
@@ -598,6 +598,16 @@ code {
   margin: 0;
 }
 
+.design {
+  margin-bottom: 2vw;
+  text-align: center;
+}
+
+.design p {
+  font-weight: 400;
+  font-size: 0.8vw;
+}
+
 .footer-copyr p {
   text-align: center;
   font-weight: 400;
@@ -607,7 +617,7 @@ code {
 
 .footer-discname {
   text-align: center;
-  margin: 1vw 0vw 2vw 0vw;
+  margin: 1vw 0vw 1vw 0vw;
 }
 
 .footer-discname a {
@@ -665,23 +675,24 @@ code {
 
   #header-bg {
     width: 120%;
-    right: 18.8vw;
-    padding-bottom: 7.6vw;
+    right: 16.8vw;
+    padding-bottom: 7.1vw;
+    padding-top: 0.5vw;
   }
 
   #templefd {
-    margin-left: 18.8vw;
+    margin-left: 11vw;
   }
 
   .header-right-bg {
     overflow: auto;
     align-content: center;
-    margin-right: 37%;
-    margin-left: 53%;
+    margin-right: 41%;
+    margin-left: 49%;
   }
 
   .container {
-    margin: 3vw 3vw 3vw 3vw;
+    margin: 1vw 5vw 3vw 5vw;
   }
 
   .redContainerMenu {
@@ -752,8 +763,8 @@ code {
   }
 
   .chuvak {
-    height: 4.5vw;
-    width: 3vw;
+    height: 8vw;
+    width: 5vw;
     margin: 1vw;
     margin: 0vw 0vw 1vw 1vw;
   }
@@ -1084,13 +1095,11 @@ code {
     margin: 0;
     /* text-transform: uppercase; */
     text-align: center;
+    font-weight: 600;
   }
 
-  .footer-mob-buttons a {
-    color: #9d9063;
-    font-family: Montserrat;
-    /* font-size: 4vw; */
-    font-weight: 300;
+  .footer-mob-buttons p {
+    font-weight: 200;
   }
   /* КОНЕЦ МОБИЛЬНОГО ФУТЕРА */
 }
