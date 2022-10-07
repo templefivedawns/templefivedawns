@@ -1082,13 +1082,15 @@ code {
     /* width: 100%; */
     padding: 0.5vw 0vw 0vw 0vw;
     margin: 0;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
   }
 
   .footer-mob-buttons a {
     color: #9d9063;
-    font-family: MontserratBold;
+    font-family: Montserrat;
+    /* font-size: 4vw; */
+    font-weight: 300;
   }
   /* КОНЕЦ МОБИЛЬНОГО ФУТЕРА */
 }
