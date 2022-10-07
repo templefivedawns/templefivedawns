@@ -244,7 +244,7 @@ code {
 /* ГОРЫ БЭКГРАУНД */
 
 .container {
-  margin: 2vw 15% 2vw 15%;
+  margin: 3vw 15% 3vw 15%;
   background-color: #111a1a;
   /* margin-bottom: 10%; */
   display: flex;
@@ -692,7 +692,7 @@ code {
   }
 
   .container {
-    margin: 1vw 5vw 3vw 5vw;
+    margin: 3vw 5% 3vw 5%;
   }
 
   .redContainerMenu {
@@ -766,7 +766,7 @@ code {
     height: 8vw;
     width: 5vw;
     margin: 1vw;
-    margin: 0vw 0vw 1vw 1vw;
+    margin: 0vw 0vw 0vw 1vw;
   }
 }
 
