@@ -554,6 +554,12 @@ code {
   bottom: 0;
 }
 
+/* .support {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+} */
+
 #twitchStream1,
 #twitchStream2,
 #twitchStream3,
