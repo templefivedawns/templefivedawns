@@ -1038,7 +1038,8 @@ code {
 
   .frame-red-accord-bm,
   .frame-red-accord-mw,
-  .frame-red-accord-ww {
+  .frame-red-accord-ww,
+  .frame-red-mob {
     display: block;
     background: url(../img/frame-mob1.png) no-repeat center;
     background-size: 100%;
@@ -1061,6 +1062,18 @@ code {
     padding: 0;
     text-decoration: none;
   }
+
+  /* .frame-red-mob {
+		display: block;
+    background: url(../img/frame-mob1.png) no-repeat center;
+    background-size: 100%;
+    background-position: center;
+    height: 8vw;
+    width: 100%;
+    text-align: center;
+    margin: 0vw 0vw -2vw 0vw;
+    padding-top: 1.5vw;
+	} */
 
   .fixed {
     position: fixed;
