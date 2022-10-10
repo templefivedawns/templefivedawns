@@ -110,6 +110,34 @@ code {
   width: 100%;
 }
 
+.logo {
+  /*логотип в хэдере*/
+  float: left;
+  margin-left: 14.8%;
+  /* margin-left: 384px; */
+  height: 4.5vw;
+  width: 4.8vw;
+}
+
+.header-right {
+  /*мейн меню хэдера*/
+  float: right;
+  margin-right: 15%;
+}
+
+.header-right a {
+  /*настройки ссылок в мейн меню хэдера*/
+  float: left;
+  font-family: MontserratBold;
+  color: #9d9063;
+  font-size: 0.8vw;
+  line-height: 55%;
+  text-align: center;
+  padding: 0.7vw 0vw 0.7vw 1vw;
+  text-decoration: none;
+  margin-top: 0.6vw;
+}
+
 .BMbrush {
   position: absolute;
   z-index: 50;
@@ -152,34 +180,6 @@ code {
 .Support {
   position: relative;
   z-index: 90;
-}
-
-.logo {
-  /*логотип в хэдере*/
-  float: left;
-  margin-left: 14.8%;
-  /* margin-left: 384px; */
-  height: 4.5vw;
-  width: 4.8vw;
-}
-
-.header-right {
-  /*мейн меню хэдера*/
-  float: right;
-  margin-right: 15%;
-}
-
-.header-right a {
-  /*настройки ссылок в мейн меню хэдера*/
-  float: left;
-  font-family: MontserratBold;
-  color: #9d9063;
-  font-size: 0.8vw;
-  line-height: 55%;
-  text-align: center;
-  padding: 0.7vw 0vw 0.7vw 1vw;
-  text-decoration: none;
-  margin-top: 0.6vw;
 }
 
 /* .header-right a:hover {
@@ -434,7 +434,7 @@ code {
 
   .logo {
     /*логотип в хэдере*/
-    margin-left: 5%;
+    margin-left: 4.9%;
   }
 
   .header-right {

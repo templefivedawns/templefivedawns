@@ -320,6 +320,22 @@ code {
   height: auto;
 }
 
+.frame-red-mob {
+  display: none;
+}
+
+.frame-red-accord-bm,
+.frame-red-accord-mw,
+.frame-red-accord-ww {
+  display: none;
+}
+
+.panelBMstream,
+.panelMWstream,
+.panelWWstream {
+  display: none;
+}
+
 .containerH {
   background-color: #112626;
   overflow: auto;
@@ -866,7 +882,7 @@ code {
     text-align: center;
     text-decoration: none;
     font-size: 1.7vw;
-    margin: 5vw 18.8vw 2.26vw 0vw;
+    margin: 4.7vw 0vw 0vw 0vw;
     /* letter-spacing: 30%; */
     line-height: 0.1;
     height: 10.4vw;
@@ -1018,6 +1034,32 @@ code {
     overflow: visible;
     border: #9d9063 solid 2px;
     padding: 0vw 2vw 0vw 2vw;
+  }
+
+  .frame-red-accord-bm,
+  .frame-red-accord-mw,
+  .frame-red-accord-ww {
+    display: block;
+    background: url(../img/frame-mob1.png) no-repeat center;
+    background-size: 100%;
+    background-position: center;
+    height: 8vw;
+    width: 100%;
+    text-align: center;
+    margin: 0vw 0vw -2vw 0vw;
+    /* margin: 0; */
+    padding-top: 1.5vw;
+  }
+
+  .panelBMstream,
+  .panelMWstream,
+  .panelWWstream {
+    text-align: center;
+    display: none;
+    overflow: hidden;
+    margin: 2vw 0vw 0vw 0vw;
+    padding: 0;
+    text-decoration: none;
   }
 
   .fixed {

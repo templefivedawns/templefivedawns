@@ -42,6 +42,48 @@ $(".SlideMobWW").click(function(){
 });  
 // моб аккордеон конец вв
 
+// моб твич-аккордеон начало брю
+$(".frame-red-accord-bm").click(function(){
+	if($(".panelBMstream").css('display') == 'none')
+	{
+		$(".panelBMstream").slideDown(200);
+		$(".panelMWstream").slideUp(200);
+		$(".panelWWstream").slideUp(200);
+	}
+	else {
+		$(".panelBMstream").slideUp(200);
+	}
+});  
+// моб твич-аккордеон конец брю
+
+// моб твич-аккордеон начало ткача
+$(".frame-red-accord-mw").click(function(){
+	if($(".panelMWstream").css('display') == 'none')
+	{
+		$(".panelMWstream").slideDown(200);
+		$(".panelBMstream").slideUp(200);
+		$(".panelWWstream").slideUp(200);
+	}
+	else {
+		$(".panelMWstream").slideUp(200);
+	}
+});  
+// моб твич-аккордеон конец ткача
+
+// моб твич-аккордеон начало вв
+$(".frame-red-accord-ww").click(function(){
+	if($(".panelWWstream").css('display') == 'none')
+	{
+		$(".panelWWstream").slideDown(200);
+		$(".panelBMstream").slideUp(200);
+		$(".panelMWstream").slideUp(200);
+	}
+	else {
+		$(".panelWWstream").slideUp(200);
+	}
+});  
+// моб твич-аккордеон конец вв
+
 // ПЛАВАЮЩАЯ АНИМАЦИЯ СЛАЙДА
 for (var i=0; i<5000; ++i) {
 	$(".Slide1").hover(function () {
