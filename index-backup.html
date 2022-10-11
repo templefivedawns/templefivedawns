@@ -382,6 +382,9 @@ Google tag (gtag.js) -->
 </div>
 
 
+<img class="Loading" src="img/Loading.gif" alt="divider">
+
+
 <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
 <div id="twitchStream1"></div>
 <script type="text/javascript">
@@ -403,13 +406,15 @@ Google tag (gtag.js) -->
 		$("#twitchStream1").css("display", "block");
 		$("#streamsName1").css("display", "block");
 		var nameChannel1 = player1.getChannel();
+		if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" ) 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 	$("#streamsName1").text(nameChannel1);
     });
 </script>
 <div id="streamsName1"></div>
 
 
-<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+
 <div id="twitchStream2"></div>
 <script type="text/javascript">
   var options = {
@@ -426,12 +431,68 @@ Google tag (gtag.js) -->
     });
 	player2.addEventListener(Twitch.Player.ONLINE, function () {
 		var nameChannel2 = player2.getChannel();
+		if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" ) 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 	$("#streamsName2").text(nameChannel2);
 	$("#twitchStream2").css("display", "block");
 	$("#streamsName2").css("display", "block");
     });
 </script>
 <div id="streamsName2"></div>
+
+
+<div id="twitchStream3"></div>
+<script type="text/javascript">
+  var options = {
+    width: "100%",
+    height: "100%",
+    channel: "SilverName",
+		muted: true,
+  };
+  var player3 = new Twitch.Player("twitchStream3", options);
+  player3.setVolume(0.5);
+	player3.addEventListener(Twitch.Player.OFFLINE, function () {
+		$("#twitchStream3").css("display", "none");
+		$("#streamsName3").css("display", "none");
+    });
+	player3.addEventListener(Twitch.Player.ONLINE, function () {
+		var nameChannel3 = player3.getChannel();
+		if ($("#twitchStream3").css("display") == "none" && $("#twitchStream1").css("display") == "none" ) 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
+	$("#streamsName3").text(nameChannel3);
+	$("#twitchStream3").css("display", "block");
+	$("#streamsName3").css("display", "block");
+    });
+</script>
+<div id="streamsName3"></div>
+
+
+
+<div id="twitchStream4"></div>
+<script type="text/javascript">
+  var options = {
+    width: "100%",
+    height: "100%",
+    channel: "Naowh",
+		muted: true,
+  };
+  var player4 = new Twitch.Player("twitchStream4", options);
+  player4.setVolume(0.5);
+	player4.addEventListener(Twitch.Player.OFFLINE, function () {
+		$("#twitchStream4").css("display", "none");
+		$("#streamsName4").css("display", "none");
+    });
+	player4.addEventListener(Twitch.Player.ONLINE, function () {
+		var nameChannel4 = player4.getChannel();
+		if ($("#twitchStream4").css("display") == "none" && $("#twitchStream1").css("display") == "none" ) 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
+	$("#streamsName4").text(nameChannel4);
+	$("#twitchStream4").css("display", "block");
+	$("#streamsName4").css("display", "block");
+    });
+</script>
+<div id="streamsName4"></div>
+
 
 
 
