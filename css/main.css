@@ -1059,7 +1059,7 @@ code {
   }
 
   #containerMain {
-    width: 100%;
+    width: 99%;
     overflow: visible;
     border: #9d9063 solid 0.1vw;
     padding: 0vw 2vw 0vw 2vw;
