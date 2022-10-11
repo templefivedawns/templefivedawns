@@ -15,7 +15,7 @@ body {
 	position: relative;
 	z-index: 5;
 }
-#twitchStream2 {
+#twitchStream2, #twitchStream3, #twitchStream4 {
 	display: block;
 	overflow: visible;
 	position: relative;
@@ -25,7 +25,7 @@ body {
 	height:7.9vw;
 }
 
-#streamsName2, #streamsName1 {
+#streamsName2, #streamsName1, #streamsName3, #streamsName4 {
 	background-color: rgba(17, 26, 26, 0.7);
 	height: 1vw;
 	color: #9d9063;
@@ -37,7 +37,12 @@ body {
 	position: relative;
 }
 
-
+.Loading {
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+	display: block;
+}
 
 /* h1 {
   color: #9d9063;
