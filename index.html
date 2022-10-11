@@ -119,8 +119,8 @@ Google tag (gtag.js) -->
 		<p>Загрузка стримов</p>
 		<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
 
-		<div id="twitchStream1"></div>
-		<div id="streamsName1"></div>
+		<div id="twitchStreamMob1"></div>
+		<div id="streamsNameMob1"></div>
 		<script type="text/javascript">
 			var options = {
 				width: "100%",
@@ -129,22 +129,22 @@ Google tag (gtag.js) -->
 				muted: true,
 				// autoplay: false,
 			};
-			var player1 = new Twitch.Player("twitchStream1", options);
-			player1.setVolume(0.5);
-			player1.addEventListener(Twitch.Player.OFFLINE, function () {
-				$("#twitchStream1").css("display", "none");
-				$("#streamsName1").css("display", "none");
+			var playerMob1 = new Twitch.Player("twitchStreamMob1", options);
+			playerMob1.setVolume(0.5);
+			playerMob1.addEventListener(Twitch.Player.OFFLINE, function () {
+				$("#twitchStreamMob1").css("display", "none");
+				$("#streamsNameMob1").css("display", "none");
 				});
-				player1.addEventListener(Twitch.Player.ONLINE, function () {
-				$("#twitchStream1").css("display", "block");
-				$("#streamsName1").css("display", "block");
-				var nameChannel1 = player1.getChannel();
-			$("#streamsName1").text(nameChannel1);
+				playerMob1.addEventListener(Twitch.Player.ONLINE, function () {
+				$("#twitchStreamMob1").css("display", "block");
+				$("#streamsNameMob1").css("display", "block");
+				var nameChannelMob1 = playerMob1.getChannel();
+			$("#streamsNameMob1").text(nameChannelMob1);
 				});
 		</script>
 		
-		<div id="twitchStream2"></div>
-		<div id="streamsName2"></div>
+		<div id="twitchStreamMob2"></div>
+		<div id="streamsNameMob2"></div>
 		<script type="text/javascript">
 			var options = {
 				width: "100%",
@@ -153,22 +153,22 @@ Google tag (gtag.js) -->
 				muted: true,
 				autoplay: false,
 			};
-			var player2 = new Twitch.Player("twitchStream2", options);
-			player2.setVolume(0.5);
-			player2.addEventListener(Twitch.Player.OFFLINE, function () {
-				$("#twitchStream2").css("display", "none");
-				$("#streamsName2").css("display", "none");
+			var playerMob2 = new Twitch.Player("twitchStreamMob2", options);
+			playerMob2.setVolume(0.5);
+			playerMob2.addEventListener(Twitch.Player.OFFLINE, function () {
+				$("#twitchStreamMob2").css("display", "none");
+				$("#streamsNameMob2").css("display", "none");
 				});
-			player2.addEventListener(Twitch.Player.ONLINE, function () {
-				var nameChannel2 = player2.getChannel();
-			$("#streamsName2").text(nameChannel2);
-			$("#twitchStream2").css("display", "block");
-			$("#streamsName2").css("display", "block");
+			playerMob2.addEventListener(Twitch.Player.ONLINE, function () {
+				var nameChannelMob2 = playerMob2.getChannel();
+			$("#streamsNameMob2").text(nameChannelMob2);
+			$("#twitchStreamMob2").css("display", "block");
+			$("#streamsNameMob2").css("display", "block");
 				});
 		</script>
 	
-	<div id="twitchStream4"></div>
-	<div id="streamsName4"></div>
+	<div id="twitchStreamMob4"></div>
+	<div id="streamsNameMob4"></div>
 	<script type="text/javascript">
 		var options = {
 			width: "100%",
@@ -177,22 +177,22 @@ Google tag (gtag.js) -->
 			muted: true,
 			autoplay: false,
 		};
-		var player4 = new Twitch.Player("twitchStream4", options);
-		player4.setVolume(0.5);
-		player4.addEventListener(Twitch.Player.OFFLINE, function () {
-			$("#twitchStream4").css("display", "none");
-			$("#streamsName4").css("display", "none");
+		var playerMob4 = new Twitch.Player("twitchStreamMob4", options);
+		playerMob4.setVolume(0.5);
+		playerMob4.addEventListener(Twitch.Player.OFFLINE, function () {
+			$("#twitchStreamMob4").css("display", "none");
+			$("#streamsNameMob4").css("display", "none");
 			});
-		player4.addEventListener(Twitch.Player.ONLINE, function () {
-			var nameChannel4 = player4.getChannel();
-		$("#streamsName4").text(nameChannel4);
-		$("#twitchStream4").css("display", "block");
-		$("#streamsName4").css("display", "block");
+		playerMob4.addEventListener(Twitch.Player.ONLINE, function () {
+			var nameChannelMob4 = playerMob4.getChannel();
+		$("#streamsNameMob4").text(nameChannelMob4);
+		$("#twitchStreamMob4").css("display", "block");
+		$("#streamsNameMob4").css("display", "block");
 			});
 	</script>
 	
-	<div id="twitchStream7"></div>
-	<div id="streamsName7"></div>
+	<div id="twitchStreamMob7"></div>
+	<div id="streamsNameMob7"></div>
 	<script type="text/javascript">
 		var options = {
 			width: "100%",
@@ -201,22 +201,22 @@ Google tag (gtag.js) -->
 			muted: true,
 			autoplay: false,
 		};
-		var player7 = new Twitch.Player("twitchStream7", options);
-		player7.setVolume(0.5);
-		player7.addEventListener(Twitch.Player.OFFLINE, function () {
-			$("#twitchStream7").css("display", "none");
-			$("#streamsName7").css("display", "none");
+		var playerMob7 = new Twitch.Player("twitchStreamMob7", options);
+		playerMob7.setVolume(0.5);
+		playerMob7.addEventListener(Twitch.Player.OFFLINE, function () {
+			$("#twitchStreamMob7").css("display", "none");
+			$("#streamsNameMob7").css("display", "none");
 			});
-		player7.addEventListener(Twitch.Player.ONLINE, function () {
-			var nameChannel7 = player7.getChannel();
-		$("#streamsName7").text(nameChannel7);
-		$("#twitchStream7").css("display", "block");
-		$("#streamsName7").css("display", "block");
+		playerMob7.addEventListener(Twitch.Player.ONLINE, function () {
+			var nameChannelMob7 = playerMob7.getChannel();
+		$("#streamsNameMob7").text(nameChannelMob7);
+		$("#twitchStreamMob7").css("display", "block");
+		$("#streamsNameMob7").css("display", "block");
 			});
 	</script>
 	
-	<div id="twitchStream8"></div>
-	<div id="streamsName8"></div>
+	<div id="twitchStreamMob8"></div>
+	<div id="streamsNameMob8"></div>
 	<script type="text/javascript">
 		var options = {
 			width: "100%",
@@ -225,17 +225,17 @@ Google tag (gtag.js) -->
 			muted: true,
 			autoplay: false,
 		};
-		var player8 = new Twitch.Player("twitchStream8", options);
-		player8.setVolume(0.5);
-		player8.addEventListener(Twitch.Player.OFFLINE, function () {
-			$("#twitchStream8").css("display", "none");
-			$("#streamsName8").css("display", "none");
+		var playerMob8 = new Twitch.Player("twitchStreamMob8", options);
+		playerMob8.setVolume(0.5);
+		playerMob8.addEventListener(Twitch.Player.OFFLINE, function () {
+			$("#twitchStreamMob8").css("display", "none");
+			$("#streamsNameMob8").css("display", "none");
 			});
-		player8.addEventListener(Twitch.Player.ONLINE, function () {
-			var nameChannel8 = player8.getChannel();
-		$("#streamsName8").text(nameChannel8);
-		$("#twitchStream8").css("display", "block");
-		$("#streamsName8").css("display", "block");
+		playerMob8.addEventListener(Twitch.Player.ONLINE, function () {
+			var nameChannelMob8 = playerMob8.getChannel();
+		$("#streamsNameMob8").text(nameChannelMob8);
+		$("#twitchStreamMob8").css("display", "block");
+		$("#streamsNameMob8").css("display", "block");
 			});
 	</script>
 	</div>
@@ -286,8 +286,8 @@ Google tag (gtag.js) -->
 		
 			<p>Загрузка стримов</p>
 
-		<div id="twitchStream5"></div>
-		<div id="streamsName5"></div>
+		<div id="twitchStreamMob5"></div>
+		<div id="streamsNameMob5"></div>
 		<script type="text/javascript">
 			var options = {
 				width: "100%",
@@ -296,17 +296,17 @@ Google tag (gtag.js) -->
 				muted: true,
 				autoplay: false,
 			};
-			var player5 = new Twitch.Player("twitchStream5", options);
-			player5.setVolume(0.5);
-			player5.addEventListener(Twitch.Player.OFFLINE, function () {
-				$("#twitchStream5").css("display", "none");
-				$("#streamsName5").css("display", "none");
+			var playerMob5 = new Twitch.Player("twitchStreamMob5", options);
+			playerMob5.setVolume(0.5);
+			playerMob5.addEventListener(Twitch.Player.OFFLINE, function () {
+				$("#twitchStreamMob5").css("display", "none");
+				$("#streamsNameMob5").css("display", "none");
 				});
-			player5.addEventListener(Twitch.Player.ONLINE, function () {
-				var nameChannel5 = player5.getChannel();
-			$("#streamsName5").text(nameChannel5);
-			$("#twitchStream5").css("display", "block");
-			$("#streamsName5").css("display", "block");
+			playerMob5.addEventListener(Twitch.Player.ONLINE, function () {
+				var nameChannelMob5 = playerMob5.getChannel();
+			$("#streamsNameMob5").text(nameChannelMob5);
+			$("#twitchStreamMob5").css("display", "block");
+			$("#streamsNameMob5").css("display", "block");
 				});
 		</script>
 		</div>
@@ -357,8 +357,8 @@ Google tag (gtag.js) -->
 		
 			<p>Загрузка стримов</p>
 
-		<div id="twitchStream3"></div>
-		<div id="streamsName3"></div>
+		<div id="twitchStreamMob3"></div>
+		<div id="streamsNameMob3"></div>
 		<script type="text/javascript">
 			var options = {
 				width: "100%",
@@ -367,22 +367,22 @@ Google tag (gtag.js) -->
 				muted: true,
 				autoplay: false,
 			};
-			var player3 = new Twitch.Player("twitchStream3", options);
-			player3.setVolume(0.5);
-			player3.addEventListener(Twitch.Player.OFFLINE, function () {
-				$("#twitchStream3").css("display", "none");
-				$("#streamsName3").css("display", "none");
+			var playerMob3 = new Twitch.Player("twitchStreamMob3", options);
+			playerMob3.setVolume(0.5);
+			playerMob3.addEventListener(Twitch.Player.OFFLINE, function () {
+				$("#twitchStreamMob3").css("display", "none");
+				$("#streamsNameMob3").css("display", "none");
 				});
-			player3.addEventListener(Twitch.Player.ONLINE, function () {
-				var nameChannel3 = player3.getChannel();
-			$("#streamsName3").text(nameChannel3);
-			$("#twitchStream3").css("display", "block");
-			$("#streamsName3").css("display", "block");
+			playerMob3.addEventListener(Twitch.Player.ONLINE, function () {
+				var nameChannelMob3 = playerMob3.getChannel();
+			$("#streamsNameMob3").text(nameChannelMob3);
+			$("#twitchStreamMob3").css("display", "block");
+			$("#streamsNameMob3").css("display", "block");
 				});
 		</script>
 		
-		<div id="twitchStream6"></div>
-		<div id="streamsName6"></div>
+		<div id="twitchStreamMob6"></div>
+		<div id="streamsNameMob6"></div>
 		<script type="text/javascript">
 			var options = {
 				width: "100%",
@@ -391,22 +391,22 @@ Google tag (gtag.js) -->
 				muted: true,
 				autoplay: false,
 			};
-			var player6 = new Twitch.Player("twitchStream6", options);
-			player6.setVolume(0.5);
-			player6.addEventListener(Twitch.Player.OFFLINE, function () {
-				$("#twitchStream6").css("display", "none");
-				$("#streamsName6").css("display", "none");
+			var playerMob6 = new Twitch.Player("twitchStreamMob6", options);
+			playerMob6.setVolume(0.5);
+			playerMob6.addEventListener(Twitch.Player.OFFLINE, function () {
+				$("#twitchStreamMob6").css("display", "none");
+				$("#streamsNameMob6").css("display", "none");
 				});
-			player6.addEventListener(Twitch.Player.ONLINE, function () {
-				var nameChannel6 = player6.getChannel();
-			$("#streamsName6").text(nameChannel6);
-			$("#twitchStream6").css("display", "block");
-			$("#streamsName6").css("display", "block");
+			playerMob6.addEventListener(Twitch.Player.ONLINE, function () {
+				var nameChannelMob6 = playerMob6.getChannel();
+			$("#streamsNameMob6").text(nameChannelMob6);
+			$("#twitchStreamMob6").css("display", "block");
+			$("#streamsNameMob6").css("display", "block");
 				});
 		</script>
 
-<div id="twitchStream9"></div>
-<div id="streamsName9"></div>
+<div id="twitchStreamMob9"></div>
+<div id="streamsNameMob9"></div>
 <script type="text/javascript">
 	var options = {
 		width: "100%",
@@ -415,17 +415,17 @@ Google tag (gtag.js) -->
 		muted: true,
 		autoplay: false,
 	};
-	var player9 = new Twitch.Player("twitchStream9", options);
-	player9.setVolume(0.5);
-	player9.addEventListener(Twitch.Player.OFFLINE, function () {
-		$("#twitchStream9").css("display", "none");
-		$("#streamsName9").css("display", "none");
+	var playerMob9 = new Twitch.Player("twitchStream9", options);
+	playerMob9.setVolume(0.5);
+	playerMob9.addEventListener(Twitch.Player.OFFLINE, function () {
+		$("#twitchStreamMob9").css("display", "none");
+		$("#streamsNameMob9").css("display", "none");
 		});
-	player9.addEventListener(Twitch.Player.ONLINE, function () {
-		var nameChannel9 = player9.getChannel();
-	$("#streamsName9").text(nameChannel9);
-	$("#twitchStream9").css("display", "block");
-	$("#streamsName9").css("display", "block");
+	playerMob9.addEventListener(Twitch.Player.ONLINE, function () {
+		var nameChannelMob9 = playerMob9.getChannel();
+	$("#streamsNameMob9").text(nameChannelMob9);
+	$("#twitchStreamMob9").css("display", "block");
+	$("#streamsNameMob9").css("display", "block");
 		});
 </script>
 		</div>
