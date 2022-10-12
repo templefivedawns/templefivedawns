@@ -316,6 +316,7 @@ code {
   z-index: 100;
   width: 100%;
   justify-content: center;
+  text-align: center;
   display: flex;
   top: 0;
   margin-top: -10%;
@@ -323,6 +324,11 @@ code {
 
 .bv2 {
   margin: 4% 0% 0% 12%;
+}
+
+.bossText h2 {
+  font-family: MontserratBlack;
+  margin-right: 1%;
 }
 
 /* ПРОБА */
