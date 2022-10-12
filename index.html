@@ -17,7 +17,7 @@ Google tag (gtag.js) -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Храм Пяти Рассветов</title>
 <link rel="shortcut icon" href="img/LOGOtemplePage.png" type="image/x-icon">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/826a7795a2.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet" type="text/css" />		
@@ -116,7 +116,8 @@ Google tag (gtag.js) -->
 	<div class="frame-red-accord-bm"><h2>Стримы хмелеваров <i class="fa fa-caret-down"></i></h2></div>
 	<div class="panelBMstream">
 
-		<p>Загрузка стримов</p>
+		<img class="Loading" src="img/Loading.gif" alt="divider">
+	<div class="noStream"><p>В настоящее время онлайн трансляций нет...</p><i class="fa-regular fa-face-grin-beam-sweat"></i></div>
 		<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
 
 		<div id="twitchStreamMob1"></div>
@@ -134,10 +135,18 @@ Google tag (gtag.js) -->
 			playerMob1.addEventListener(Twitch.Player.OFFLINE, function () {
 				$("#twitchStreamMob1").css("display", "none");
 				$("#streamsNameMob1").css("display", "none");
+				$(".Loading").css("display", "none");
+				setTimeout(function() {
+					if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none" ) 
+		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+    }, 500);
 				});
 				playerMob1.addEventListener(Twitch.Player.ONLINE, function () {
 				$("#twitchStreamMob1").css("display", "block");
 				$("#streamsNameMob1").css("display", "block");
+				$(".noStream").css("display", "none");
+				if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none") 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 				var nameChannelMob1 = playerMob1.getChannel();
 			$("#streamsNameMob1").text(nameChannelMob1);
 				});
@@ -158,12 +167,20 @@ Google tag (gtag.js) -->
 			playerMob2.addEventListener(Twitch.Player.OFFLINE, function () {
 				$("#twitchStreamMob2").css("display", "none");
 				$("#streamsNameMob2").css("display", "none");
+				$(".Loading").css("display", "none");
+				setTimeout(function() {
+					if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none" ) 
+		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+    }, 500);
 				});
 			playerMob2.addEventListener(Twitch.Player.ONLINE, function () {
 				var nameChannelMob2 = playerMob2.getChannel();
 			$("#streamsNameMob2").text(nameChannelMob2);
 			$("#twitchStreamMob2").css("display", "block");
 			$("#streamsNameMob2").css("display", "block");
+			$(".noStream").css("display", "none");
+			if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none") 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 				});
 		</script>
 	
@@ -182,12 +199,20 @@ Google tag (gtag.js) -->
 		playerMob4.addEventListener(Twitch.Player.OFFLINE, function () {
 			$("#twitchStreamMob4").css("display", "none");
 			$("#streamsNameMob4").css("display", "none");
+			$(".Loading").css("display", "none");
+			setTimeout(function() {
+					if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none" ) 
+		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+    }, 500);
 			});
 		playerMob4.addEventListener(Twitch.Player.ONLINE, function () {
 			var nameChannelMob4 = playerMob4.getChannel();
 		$("#streamsNameMob4").text(nameChannelMob4);
 		$("#twitchStreamMob4").css("display", "block");
 		$("#streamsNameMob4").css("display", "block");
+		$(".noStream").css("display", "none");
+		if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none") 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 			});
 	</script>
 	
@@ -206,12 +231,20 @@ Google tag (gtag.js) -->
 		playerMob7.addEventListener(Twitch.Player.OFFLINE, function () {
 			$("#twitchStreamMob7").css("display", "none");
 			$("#streamsNameMob7").css("display", "none");
+			$(".Loading").css("display", "none");
+			setTimeout(function() {
+					if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none" ) 
+		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+    }, 500);
 			});
 		playerMob7.addEventListener(Twitch.Player.ONLINE, function () {
 			var nameChannelMob7 = playerMob7.getChannel();
 		$("#streamsNameMob7").text(nameChannelMob7);
 		$("#twitchStreamMob7").css("display", "block");
 		$("#streamsNameMob7").css("display", "block");
+		$(".noStream").css("display", "none");
+		if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none") 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 			});
 	</script>
 	
@@ -230,12 +263,20 @@ Google tag (gtag.js) -->
 		playerMob8.addEventListener(Twitch.Player.OFFLINE, function () {
 			$("#twitchStreamMob8").css("display", "none");
 			$("#streamsNameMob8").css("display", "none");
+			$(".Loading").css("display", "none");
+			setTimeout(function() {
+					if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none" ) 
+		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+    }, 500);
 			});
 		playerMob8.addEventListener(Twitch.Player.ONLINE, function () {
 			var nameChannelMob8 = playerMob8.getChannel();
 		$("#streamsNameMob8").text(nameChannelMob8);
 		$("#twitchStreamMob8").css("display", "block");
 		$("#streamsNameMob8").css("display", "block");
+		$(".noStream").css("display", "none");
+		if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none") 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 			});
 	</script>
 	</div>
@@ -283,8 +324,8 @@ Google tag (gtag.js) -->
 
 		<div class="frame-red-accord-mw"><h2>Стримы ТТ <i class="fa fa-caret-down"></i></h2></div>
 		<div class="panelMWstream">
-		
-			<p>Загрузка стримов</p>
+			<img class="Loading" src="img/Loading.gif" alt="divider">
+			<div class="noStream"><p>В настоящее время онлайн трансляций нет...</p><i class="fa-regular fa-face-grin-beam-sweat"></i></div>
 
 		<div id="twitchStreamMob5"></div>
 		<div id="streamsNameMob5"></div>
@@ -301,12 +342,20 @@ Google tag (gtag.js) -->
 			playerMob5.addEventListener(Twitch.Player.OFFLINE, function () {
 				$("#twitchStreamMob5").css("display", "none");
 				$("#streamsNameMob5").css("display", "none");
+				$(".Loading").css("display", "none");
+			setTimeout(function() {
+					if ($("#twitchStreamMob5").css("display") == "none" ) 
+		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+    }, 2000);
 				});
 			playerMob5.addEventListener(Twitch.Player.ONLINE, function () {
 				var nameChannelMob5 = playerMob5.getChannel();
 			$("#streamsNameMob5").text(nameChannelMob5);
 			$("#twitchStreamMob5").css("display", "block");
 			$("#streamsNameMob5").css("display", "block");
+			$(".noStream").css("display", "none");
+		if ($("#twitchStreamMob5").css("display") == "none" ) 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 				});
 		</script>
 		</div>
@@ -688,6 +737,12 @@ Google tag (gtag.js) -->
 		</div>
 	</div>
 
+
+	<img class="Loading" src="img/Loading.gif" alt="divider">
+	<div class="noStream"><p>В настоящее время онлайн трансляций нет...</p><i class="fa-regular fa-face-grin-beam-sweat"></i></div>
+	
+
+
 	<!-- <script src= "https://player.twitch.tv/js/embed/v1.js"></script> -->
 
 	<div id="twitchStream1"></div>
@@ -705,10 +760,18 @@ Google tag (gtag.js) -->
 		player1.addEventListener(Twitch.Player.OFFLINE, function () {
 			$("#twitchStream1").css("display", "none");
 			$("#streamsName1").css("display", "none");
+			$(".Loading").css("display", "none");
+			setTimeout(function() {
+				if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+    }, 500);
 			});
 			player1.addEventListener(Twitch.Player.ONLINE, function () {
 			$("#twitchStream1").css("display", "block");
 			$("#streamsName1").css("display", "block");
+			$(".noStream").css("display", "none");
+			if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 			var nameChannel1 = player1.getChannel();
 		$("#streamsName1").text(nameChannel1);
 			});
@@ -729,12 +792,20 @@ Google tag (gtag.js) -->
 		player2.addEventListener(Twitch.Player.OFFLINE, function () {
 			$("#twitchStream2").css("display", "none");
 			$("#streamsName2").css("display", "none");
+			$(".Loading").css("display", "none");
+			setTimeout(function() {
+				if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+    }, 500);
 			});
 		player2.addEventListener(Twitch.Player.ONLINE, function () {
 			var nameChannel2 = player2.getChannel();
 		$("#streamsName2").text(nameChannel2);
 		$("#twitchStream2").css("display", "block");
 		$("#streamsName2").css("display", "block");
+		$(".noStream").css("display", "none");
+		if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 			});
 	</script>
 
@@ -753,12 +824,20 @@ Google tag (gtag.js) -->
 	player3.addEventListener(Twitch.Player.OFFLINE, function () {
 		$("#twitchStream3").css("display", "none");
 		$("#streamsName3").css("display", "none");
+		$(".Loading").css("display", "none");
+		setTimeout(function() {
+				if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+    }, 500);
 		});
 	player3.addEventListener(Twitch.Player.ONLINE, function () {
 		var nameChannel3 = player3.getChannel();
 	$("#streamsName3").text(nameChannel3);
 	$("#twitchStream3").css("display", "block");
 	$("#streamsName3").css("display", "block");
+	$(".noStream").css("display", "none");
+	if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 		});
 </script>
 
@@ -777,12 +856,20 @@ Google tag (gtag.js) -->
 	player4.addEventListener(Twitch.Player.OFFLINE, function () {
 		$("#twitchStream4").css("display", "none");
 		$("#streamsName4").css("display", "none");
+		$(".Loading").css("display", "none");
+		setTimeout(function() {
+				if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+    }, 500);
 		});
 	player4.addEventListener(Twitch.Player.ONLINE, function () {
 		var nameChannel4 = player4.getChannel();
 	$("#streamsName4").text(nameChannel4);
 	$("#twitchStream4").css("display", "block");
 	$("#streamsName4").css("display", "block");
+	$(".noStream").css("display", "none");
+	if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 		});
 </script>
 
@@ -801,12 +888,20 @@ Google tag (gtag.js) -->
 	player5.addEventListener(Twitch.Player.OFFLINE, function () {
 		$("#twitchStream5").css("display", "none");
 		$("#streamsName5").css("display", "none");
+		$(".Loading").css("display", "none");
+		setTimeout(function() {
+				if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+    }, 500);
 		});
 	player5.addEventListener(Twitch.Player.ONLINE, function () {
 		var nameChannel5 = player5.getChannel();
 	$("#streamsName5").text(nameChannel5);
 	$("#twitchStream5").css("display", "block");
 	$("#streamsName5").css("display", "block");
+	$(".noStream").css("display", "none");
+	if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 		});
 </script>
 
@@ -825,12 +920,20 @@ Google tag (gtag.js) -->
 	player6.addEventListener(Twitch.Player.OFFLINE, function () {
 		$("#twitchStream6").css("display", "none");
 		$("#streamsName6").css("display", "none");
+		$(".Loading").css("display", "none");
+		setTimeout(function() {
+				if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+    }, 500);
 		});
 	player6.addEventListener(Twitch.Player.ONLINE, function () {
 		var nameChannel6 = player6.getChannel();
 	$("#streamsName6").text(nameChannel6);
 	$("#twitchStream6").css("display", "block");
 	$("#streamsName6").css("display", "block");
+	$(".noStream").css("display", "none");
+	if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 		});
 </script>
 
@@ -849,12 +952,20 @@ Google tag (gtag.js) -->
 	player7.addEventListener(Twitch.Player.OFFLINE, function () {
 		$("#twitchStream7").css("display", "none");
 		$("#streamsName7").css("display", "none");
+		$(".Loading").css("display", "none");
+		setTimeout(function() {
+				if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+    }, 500);
 		});
 	player7.addEventListener(Twitch.Player.ONLINE, function () {
 		var nameChannel7 = player7.getChannel();
 	$("#streamsName7").text(nameChannel7);
 	$("#twitchStream7").css("display", "block");
 	$("#streamsName7").css("display", "block");
+	$(".noStream").css("display", "none");
+	if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 		});
 </script>
 
@@ -873,12 +984,20 @@ Google tag (gtag.js) -->
 	player8.addEventListener(Twitch.Player.OFFLINE, function () {
 		$("#twitchStream8").css("display", "none");
 		$("#streamsName8").css("display", "none");
+		$(".Loading").css("display", "none");
+		setTimeout(function() {
+				if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+    }, 500);
 		});
 	player8.addEventListener(Twitch.Player.ONLINE, function () {
 		var nameChannel8 = player8.getChannel();
 	$("#streamsName8").text(nameChannel8);
 	$("#twitchStream8").css("display", "block");
 	$("#streamsName8").css("display", "block");
+	$(".noStream").css("display", "none");
+	if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 		});
 </script>
 
@@ -897,12 +1016,20 @@ Google tag (gtag.js) -->
 	player9.addEventListener(Twitch.Player.OFFLINE, function () {
 		$("#twitchStream9").css("display", "none");
 		$("#streamsName9").css("display", "none");
+		$(".Loading").css("display", "none");
+		setTimeout(function() {
+				if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+    }, 500);
 		});
 	player9.addEventListener(Twitch.Player.ONLINE, function () {
 		var nameChannel9 = player9.getChannel();
 	$("#streamsName9").text(nameChannel9);
 	$("#twitchStream9").css("display", "block");
 	$("#streamsName9").css("display", "block");
+	$(".noStream").css("display", "none");
+	if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" && $("#twitchStream5").css("display") == "none" && $("#twitchStream6").css("display") == "none" && $("#twitchStream7").css("display") == "none" && $("#twitchStream8").css("display") == "none" && $("#twitchStream9").css("display") == "none") 
+		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
 		});
 </script>
 
