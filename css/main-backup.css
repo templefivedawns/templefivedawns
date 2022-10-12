@@ -45,10 +45,18 @@ body {
 }
 
 .noStream {
-	font-size: 0.8vw;
+	font-size: 0.9vw;
 	text-align: center;
 	font-family: MontserratSemiBold;
 	display: none;
+	line-height: 1.8;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.fa-face-grin-beam-sweat {
+	font-size: 2vw;
+	margin-top: -2.5%;
 }
 
 /* h1 {

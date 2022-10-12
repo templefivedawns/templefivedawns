@@ -1077,9 +1077,10 @@ code {
     height: 8vw;
     width: 100%;
     text-align: center;
-    margin: 0vw 0vw -2vw 0vw;
+    margin: 0vw 0vw 5vw 0vw;
     /* margin: 0; */
     padding-top: 1.5vw;
+		
   }
 
   .panelBMstream,
