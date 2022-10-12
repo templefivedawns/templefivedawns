@@ -733,6 +733,11 @@ code {
 #footer-mob {
   display: none;
 }
+
+.aboutProject {
+	display: none;
+}
+
 /* КОНЕЦ МЕЙН ФУТЕРА */
 
 /*
@@ -1089,13 +1094,15 @@ code {
   }
 
   #containerMain {
-    width: 95.5%;
+    /* width: 95.5%; */
     overflow: visible;
     border: #9d9063 solid 0.1vw;
     padding: 0vw 2vw 0vw 2vw;
+		box-sizing: border-box;
+		width: 100%;
   }
 
-  .frame-red-accord-bm,
+  
   .frame-red-accord-mw,
   .frame-red-accord-ww,
   .frame-red-mob {
@@ -1104,9 +1111,23 @@ code {
     background-size: 100%;
     background-position: center;
     height: 8vw;
+    width: 100.1%;
+    text-align: center;
+    margin: -0.6% 0vw 0vw 0vw;
+    /* margin: 0; */
+    padding-top: 1.5vw;
+		
+  }
+
+	.frame-red-accord-bm {
+    display: block;
+    background: url(../img/frame-mob1.png) no-repeat center;
+    background-size: 100%;
+    background-position: center;
+    height: 8vw;
     width: 100%;
     text-align: center;
-    margin: 0vw 0vw 0vw 0vw;
+    margin: -0.67% 0vw 0vw 0vw;
     /* margin: 0; */
     padding-top: 1.5vw;
 		
@@ -1276,6 +1297,28 @@ code {
   }
   /* аккордеон конец */
 
+.aboutProject {
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.aboutProject p{
+font-size: 4vw;
+font-family: MontserratSemiBold;;
+}
+
+.aboutPic {
+	width: 40%;
+}
+
+
+
   .discord,
   .boosty,
   .redContainerMenu,
@@ -1326,10 +1369,11 @@ code {
     display: block;
     background-color: #111a1a;
     /* height: 7vw; */
-    width: 99.5%;
+    width: 100%;
     margin: 0;
     padding: 0;
     bottom: 0;
+		box-sizing: border-box;
     border-left: #9d9063 solid 0.1vw;
     border-right: #9d9063 solid 0.1vw;
     border-bottom: #9d9063 solid 0.1vw;
