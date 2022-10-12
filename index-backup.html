@@ -392,7 +392,7 @@ Google tag (gtag.js) -->
   var options = {
     width: "100%",
     height: "100%",
-    channel: "Nimscore",
+    channel: "nimscore",
 		muted: true,
   };
   var player1 = new Twitch.Player("twitchStream1", options);
@@ -403,12 +403,15 @@ Google tag (gtag.js) -->
 		$("#twitchStream1").css("display", "none");
 		$("#streamsName1").css("display", "none");
 		$(".Loading").css("display", "none");
-		if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" ) 
-		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+		setTimeout(function() {
+			if ($("#twitchStream2").css("display") == "block" || $("#twitchStream1").css("display") == "block" || $("#twitchStream3").css("display") == "block" || $("#twitchStream4").css("display") == "block" ) 
+		{$(".noStream").css("display", "none");} else {$(".noStream").css("display", "block");}
+    }, 500);
     });
 		player1.addEventListener(Twitch.Player.ONLINE, function () {
 		$("#twitchStream1").css("display", "block");
 		$("#streamsName1").css("display", "block");
+		$('.noStream').delay(0001).fadeOut(100);
 		var nameChannel1 = player1.getChannel();
 		if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" ) 
 		{$(".Loading").css("display", "block");} else {$(".Loading").css("display", "none");}
@@ -433,8 +436,10 @@ Google tag (gtag.js) -->
 		$("#twitchStream2").css("display", "none");
 		$("#streamsName2").css("display", "none");
 		$(".Loading").css("display", "none");
-		if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" ) 
-		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+		setTimeout(function() {
+			if ($("#twitchStream2").css("display") == "block" || $("#twitchStream1").css("display") == "block" || $("#twitchStream3").css("display") == "block" || $("#twitchStream4").css("display") == "block" ) 
+		{$(".noStream").css("display", "none");} else {$(".noStream").css("display", "block");}
+    }, 500);
     });
 	player2.addEventListener(Twitch.Player.ONLINE, function () {
 		var nameChannel2 = player2.getChannel();
@@ -443,6 +448,7 @@ Google tag (gtag.js) -->
 	$("#streamsName2").text(nameChannel2);
 	$("#twitchStream2").css("display", "block");
 	$("#streamsName2").css("display", "block");
+	$('.noStream').delay(0001).fadeOut(100);
     });
 </script>
 <div id="streamsName2"></div>
@@ -462,8 +468,10 @@ Google tag (gtag.js) -->
 		$("#twitchStream3").css("display", "none");
 		$("#streamsName3").css("display", "none");
 		$(".Loading").css("display", "none");
-		if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" ) 
-		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+		setTimeout(function() {
+			if ($("#twitchStream2").css("display") == "block" || $("#twitchStream1").css("display") == "block" || $("#twitchStream3").css("display") == "block" || $("#twitchStream4").css("display") == "block" ) 
+		{$(".noStream").css("display", "none");} else {$(".noStream").css("display", "block");}
+    }, 500);
     });
 	player3.addEventListener(Twitch.Player.ONLINE, function () {
 		var nameChannel3 = player3.getChannel();
@@ -472,6 +480,7 @@ Google tag (gtag.js) -->
 	$("#streamsName3").text(nameChannel3);
 	$("#twitchStream3").css("display", "block");
 	$("#streamsName3").css("display", "block");
+	$('.noStream').delay(0001).fadeOut(100);
     });
 </script>
 <div id="streamsName3"></div>
@@ -492,8 +501,10 @@ Google tag (gtag.js) -->
 		$("#twitchStream4").css("display", "none");
 		$("#streamsName4").css("display", "none");
 		$(".Loading").css("display", "none");
-		if ($("#twitchStream2").css("display") == "none" && $("#twitchStream1").css("display") == "none" && $("#twitchStream3").css("display") == "none" && $("#twitchStream4").css("display") == "none" ) 
-		{$(".noStream").css("display", "block");} else {$(".noStream").css("display", "none");}
+		setTimeout(function() {
+			if ($("#twitchStream2").css("display") == "block" || $("#twitchStream1").css("display") == "block" || $("#twitchStream3").css("display") == "block" || $("#twitchStream4").css("display") == "block" ) 
+		{$(".noStream").css("display", "none");} else {$(".noStream").css("display", "block");}
+    }, 500);
     });
 	player4.addEventListener(Twitch.Player.ONLINE, function () {
 		var nameChannel4 = player4.getChannel();
@@ -502,6 +513,7 @@ Google tag (gtag.js) -->
 	$("#streamsName4").text(nameChannel4);
 	$("#twitchStream4").css("display", "block");
 	$("#streamsName4").css("display", "block");
+	$('.noStream').delay(0001).fadeOut(100);
     });
 </script>
 <div id="streamsName4"></div>
