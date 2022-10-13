@@ -1034,6 +1034,8 @@ code {
     z-index: 80;
   }
 
+	
+
   .popup-menu {
     padding: 5vw 0vw 0vw 0vw;
     border-right: #9d9063 solid 0.1vw;
@@ -1045,8 +1047,8 @@ code {
   }
 
   .popup-select-item-menu {
-    background-color: rgba(9, 14, 14, 0.7);
-    border: 0.1vw solid transparent;
+    /* background-color: rgba(9, 14, 14, 0.5); */
+    /* border: 0.1vw solid transparent;
     border-image: linear-gradient(
       to left top,
       #9d9063 10%,
@@ -1054,15 +1056,73 @@ code {
       transparent 70%,
       #9d9063 90%
     );
-    border-image-slice: 1;
+    border-image-slice: 1; */
+		/* border-style: solid;
+    border-width: 0.1vw;
+		border-image: linear-gradient(to left, rgba(0, 0, 0, 0) 1%, rgb(157, 144, 99) 50%, rgba(0, 0, 0, 0) 100%) 
+              0 0 100% 0/0.5vw 0 0.5vw 0; */
     text-align: center;
+		/* border-bottom: #9d9063 solid 0.1vw; */
+		margin-left: 3%;
+
   }
+.Intro {
+	float: left;
+	margin-left: 8%;
+	height: inherit;
+	margin-top: 2.5%;
+}
+
+.Abilities {
+	margin-top: 6.5%;
+}
+
+.menuWrap {
+	border-left: #9d9063 solid 0.1vw;
+	padding-left: 5%;
+	margin-left: 3%;
+	/* border: #00ff98 solid 1px; */
+}
+
+.wrap1 {
+	margin-left: 9%;
+}
+
+	.Gradient1, .Gradient2 {
+	background-color:#071515;
+	margin-top: 1.5%;
+	/* height: 30vw; */
+	height: auto;
+	display: flex;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	border: 0.1vw solid transparent;
+	border-image: linear-gradient(
+		to left top,
+		#9d9063 10%,
+		transparent 30%,
+		transparent 70%,
+		#9d9063 90%
+	);
+	border-image-slice: 1;
+	}
+	
+	/* .Gradient2 {
+		background: rgb(17,26,26);
+	background: linear-gradient(270deg, rgba(17,26,26,1) 35%, rgba(17,38,38,1) 100%);
+
+	background-color:#071515;
+	margin-top: 1.5%;
+	} */
+
 
   .popup-select-item-menu p {
     text-transform: uppercase;
     font-family: MontserratBlack;
     margin-left: 0%;
     z-index: 100;
+		line-height: 2.2;
+		
   }
 
   .popup-select-item-menu p:hover {
@@ -1070,14 +1130,21 @@ code {
   }
 
   .popup-select-item-submenu {
-    text-align: center;
+    /* text-align: center; */
     text-transform: capitalize;
 		line-height: 2;
+		display: block;
+		margin-top: -4.5%;
+		margin-bottom: 6%;
   }
 
   .popup-select-item-submenu:hover {
     color: #00ff99;
   }
+
+	
+
+
   /* КОНЕЦ ПОПАП-МЕНЮ */
 
   .container {
@@ -1291,10 +1358,18 @@ code {
   .panelWW {
     display: none;
     overflow: hidden;
-    margin: 2vw 0vw 0vw 0vw;
+    margin: 0.5% 0vw 0vw 0vw;
     padding: 0;
     text-decoration: none;
+		width: 100%;
+		/* background: rgb(17,26,26);
+	background: linear-gradient(90deg, rgba(17,26,26,1) 35%, rgba(17,38,38,1) 100%); */
+/* border:#9d9063 solid 0.1vw;
+box-sizing: border-box; */
   }
+
+
+
   /* аккордеон конец */
 
 .aboutProject {
