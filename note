@@ -1,7 +1,8 @@
 html:
-none
+    none
 
 css:
     vault: intro, sample
 
 js:
+    vault: intro, bosses
