@@ -1081,12 +1081,14 @@ code {
 		/* background-color:#112626; */
 		/* background-color: #071515; */
 		background-color: #112626;
-		margin-top: 2%;
+		margin-top: 1%;
+		margin-bottom: 1%;
 		/* height: 30vw; */
 		height: auto;
 		display: flex;
 		padding-top: 3%;
 		padding-bottom: 3%;
+
 		border: 0.1vw solid transparent;
 		border-image: linear-gradient(
 			to left top,
@@ -1196,9 +1198,7 @@ code {
 		text-align: center;
 		display: none;
 		overflow: auto;
-		margin-left: 1%;
-		margin-right: 1%;
-		margin-top: 1.5%;
+		margin: 1.5% 1% -5%;
 		/* ВАЖНО!!! */
 		/* padding-bottom: 2%; */
 		/* ВАЖНО!!! */

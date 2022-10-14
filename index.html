@@ -246,44 +246,6 @@
 				});
 			</script>
 
-			<div id="twitchStreamMob4"></div>
-			<div id="streamsNameMob4"></div>
-			<script type="text/javascript">
-				var options = {
-					width: "100%",
-					height: "100%",
-					channel: "palbrew",
-					muted: true,
-					autoplay: false,
-				};
-				var playerMob4 = new Twitch.Player("twitchStreamMob4", options);
-				playerMob4.setVolume(0.5);
-				playerMob4.addEventListener(Twitch.Player.OFFLINE, function () {
-					$("#twitchStreamMob4").css("display", "none");
-					$("#streamsNameMob4").css("display", "none");
-					$(".LoadingMobBM").css("display", "none");
-					setTimeout(function () {
-						if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none") {
-							$(".noStreamMobBM").css("display", "block");
-						} else {
-							$(".noStreamMobBM").css("display", "none");
-						}
-					}, 1000);
-				});
-				playerMob4.addEventListener(Twitch.Player.ONLINE, function () {
-					var nameChannelMob4 = playerMob4.getChannel();
-					$("#streamsNameMob4").text(nameChannelMob4);
-					$("#twitchStreamMob4").css("display", "block");
-					$("#streamsNameMob4").css("display", "block");
-					$(".noStreamMobBM").css("display", "none");
-					if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none") {
-						$(".LoadingMobBM").css("display", "block");
-					} else {
-						$(".LoadingMobBM").css("display", "none");
-					}
-				});
-			</script>
-
 			<div id="twitchStreamMob7"></div>
 			<div id="streamsNameMob7"></div>
 			<script type="text/javascript">
@@ -313,44 +275,6 @@
 					$("#streamsNameMob7").text(nameChannelMob7);
 					$("#twitchStreamMob7").css("display", "block");
 					$("#streamsNameMob7").css("display", "block");
-					$(".noStreamMobBM").css("display", "none");
-					if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none") {
-						$(".LoadingMobBM").css("display", "block");
-					} else {
-						$(".LoadingMobBM").css("display", "none");
-					}
-				});
-			</script>
-
-			<div id="twitchStreamMob8"></div>
-			<div id="streamsNameMob8"></div>
-			<script type="text/javascript">
-				var options = {
-					width: "100%",
-					height: "100%",
-					channel: "pavilleo",
-					muted: true,
-					autoplay: false,
-				};
-				var playerMob8 = new Twitch.Player("twitchStreamMob8", options);
-				playerMob8.setVolume(0.5);
-				playerMob8.addEventListener(Twitch.Player.OFFLINE, function () {
-					$("#twitchStreamMob8").css("display", "none");
-					$("#streamsNameMob8").css("display", "none");
-					$(".LoadingMobBM").css("display", "none");
-					setTimeout(function () {
-						if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none") {
-							$(".noStreamMobBM").css("display", "block");
-						} else {
-							$(".noStreamMobBM").css("display", "none");
-						}
-					}, 1000);
-				});
-				playerMob8.addEventListener(Twitch.Player.ONLINE, function () {
-					var nameChannelMob8 = playerMob8.getChannel();
-					$("#streamsNameMob8").text(nameChannelMob8);
-					$("#twitchStreamMob8").css("display", "block");
-					$("#streamsNameMob8").css("display", "block");
 					$(".noStreamMobBM").css("display", "none");
 					if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none") {
 						$(".LoadingMobBM").css("display", "block");
@@ -462,7 +386,7 @@
 				var options = {
 					width: "100%",
 					height: "100%",
-					channel: "xrizoberilla",
+					channel: "megasett",
 					muted: true,
 					autoplay: false,
 				};
@@ -490,6 +414,82 @@
 						$(".LoadingMobMW").css("display", "block");
 					} else {
 						$(".LoadingMobMW").css("display", "none");
+					}
+				});
+			</script>
+
+			<div id="twitchStreamMob8"></div>
+			<div id="streamsNameMob8"></div>
+			<script type="text/javascript">
+				var options = {
+					width: "100%",
+					height: "100%",
+					channel: "swegglesqt",
+					muted: true,
+					autoplay: false,
+				};
+				var playerMob8 = new Twitch.Player("twitchStreamMob8", options);
+				playerMob8.setVolume(0.5);
+				playerMob8.addEventListener(Twitch.Player.OFFLINE, function () {
+					$("#twitchStreamMob8").css("display", "none");
+					$("#streamsNameMob8").css("display", "none");
+					$(".LoadingMobBM").css("display", "none");
+					setTimeout(function () {
+						if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none") {
+							$(".noStreamMobBM").css("display", "block");
+						} else {
+							$(".noStreamMobBM").css("display", "none");
+						}
+					}, 1000);
+				});
+				playerMob8.addEventListener(Twitch.Player.ONLINE, function () {
+					var nameChannelMob8 = playerMob8.getChannel();
+					$("#streamsNameMob8").text(nameChannelMob8);
+					$("#twitchStreamMob8").css("display", "block");
+					$("#streamsNameMob8").css("display", "block");
+					$(".noStreamMobBM").css("display", "none");
+					if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none") {
+						$(".LoadingMobBM").css("display", "block");
+					} else {
+						$(".LoadingMobBM").css("display", "none");
+					}
+				});
+			</script>
+
+			<div id="twitchStreamMob4"></div>
+			<div id="streamsNameMob4"></div>
+			<script type="text/javascript">
+				var options = {
+					width: "100%",
+					height: "100%",
+					channel: "mymirox",
+					muted: true,
+					autoplay: false,
+				};
+				var playerMob4 = new Twitch.Player("twitchStreamMob4", options);
+				playerMob4.setVolume(0.5);
+				playerMob4.addEventListener(Twitch.Player.OFFLINE, function () {
+					$("#twitchStreamMob4").css("display", "none");
+					$("#streamsNameMob4").css("display", "none");
+					$(".LoadingMobBM").css("display", "none");
+					setTimeout(function () {
+						if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none") {
+							$(".noStreamMobBM").css("display", "block");
+						} else {
+							$(".noStreamMobBM").css("display", "none");
+						}
+					}, 1000);
+				});
+				playerMob4.addEventListener(Twitch.Player.ONLINE, function () {
+					var nameChannelMob4 = playerMob4.getChannel();
+					$("#streamsNameMob4").text(nameChannelMob4);
+					$("#twitchStreamMob4").css("display", "block");
+					$("#streamsNameMob4").css("display", "block");
+					$(".noStreamMobBM").css("display", "none");
+					if ($("#twitchStreamMob1").css("display") == "none" && $("#twitchStreamMob2").css("display") == "none" && $("#twitchStreamMob4").css("display") == "none" && $("#twitchStreamMob7").css("display") == "none" && $("#twitchStreamMob8").css("display") == "none") {
+						$(".LoadingMobBM").css("display", "block");
+					} else {
+						$(".LoadingMobBM").css("display", "none");
 					}
 				});
 			</script>
@@ -596,7 +596,7 @@
 				var options = {
 					width: "100%",
 					height: "100%",
-					channel: "minimaledit23",
+					channel: "vspeed",
 					muted: true,
 					autoplay: false,
 				};
@@ -634,7 +634,7 @@
 				var options = {
 					width: "100%",
 					height: "100%",
-					channel: "vspeed",
+					channel: "gangam1",
 					muted: true,
 					autoplay: false,
 				};
@@ -672,7 +672,7 @@
 				var options = {
 					width: "100%",
 					height: "100%",
-					channel: "ravehww",
+					channel: "minimaledit23",
 					muted: true,
 					autoplay: false,
 				};
@@ -1019,7 +1019,7 @@
 			var options = {
 				width: "100%",
 				height: "100%",
-				channel: "saltyears",
+				channel: "vspeed",
 				muted: true,
 				autoplay: false,
 			};
@@ -1057,7 +1057,7 @@
 			var options = {
 				width: "100%",
 				height: "100%",
-				channel: "minimaledit23",
+				channel: "megasett",
 				muted: true,
 				autoplay: false,
 			};
@@ -1095,7 +1095,7 @@
 			var options = {
 				width: "100%",
 				height: "100%",
-				channel: "palbrew",
+				channel: "saltyears",
 				muted: true,
 				autoplay: false,
 			};
@@ -1133,7 +1133,7 @@
 			var options = {
 				width: "100%",
 				height: "100%",
-				channel: "xrizoberilla",
+				channel: "gangam1",
 				muted: true,
 				autoplay: false,
 			};
@@ -1171,7 +1171,7 @@
 			var options = {
 				width: "100%",
 				height: "100%",
-				channel: "vspeed",
+				channel: "swegglesqt",
 				muted: true,
 				autoplay: false,
 			};
@@ -1247,7 +1247,7 @@
 			var options = {
 				width: "100%",
 				height: "100%",
-				channel: "pavilleo",
+				channel: "minimaledit23",
 				muted: true,
 				autoplay: false,
 			};
@@ -1285,7 +1285,7 @@
 			var options = {
 				width: "100%",
 				height: "100%",
-				channel: "ravehww",
+				channel: "mymirox",
 				muted: true,
 				autoplay: false,
 			};
