@@ -891,8 +891,8 @@ code {
   .footer-mob-buttons {
     width: 100vw;
     display: flex;
-    margin: 3vw;
-    justify-content: space-between;
+    /*margin: 3vw;*/
+    /*justify-content: space-between;*/
     padding: 0;
     text-transform: uppercase;
     font-weight: 600;
@@ -901,14 +901,14 @@ code {
 
   .footer-mob-buttons a {
     color: #9d9063;
-    font-family: MontserratBold;
+    font-family: MontserratBold, sans-serif;
   }
   /* КОНЕЦ МОБИЛЬНОГО ФУТЕРА */
 }
 
 @font-face {
   font-family: Montserrat;
-  src: url(../../../fonts/Montserrat-Light.otf);
+  src: url(../../../fonts/Montserrat-Light.ttf);
 }
 @font-face {
   font-family: MontserratSemiBold;
