@@ -12,7 +12,7 @@ body {
 h1 {
   color: #9d9063;
   font-size: 2.1vw;
-  font-family: MontserratBold;
+  font-family: MontserratBold, sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: inherit;
@@ -23,18 +23,18 @@ h1 {
 h2 {
   color: #9d9063;
   font-size: 1.4vw;
-  font-family: MontserratBold;
+  font-family: MontserratBold, sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: inherit;
-  padding: 0vw 0vw 0vw 1vw;
+  padding: 0 0 0 1vw;
   margin: 0;
 }
 
 h3 {
   color: #9d9063;
   font-size: 1vw;
-  font-family: MontserratBold;
+  font-family: MontserratBold, sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: inherit;
@@ -49,7 +49,7 @@ a {
 
 p {
   color: #9d9063;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 0.7vw;
   line-height: 1.2vw;
   font-weight: 400;
@@ -59,7 +59,7 @@ p {
 
 li {
   color: #9d9063;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 0.7vw;
   line-height: 1.2vw;
   font-weight: 500;
