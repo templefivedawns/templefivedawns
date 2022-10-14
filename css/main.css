@@ -1093,9 +1093,9 @@ code {
 
 	.menuCard {
 	/* background-color:#112626; */
-	background-color: #071515;
+	/* background-color: #071515; */
 	/* background-color: #112626; */
-	margin-top: 1.5%;
+	margin-top: 2%;
 	/* height: 30vw; */
 	height: auto;
 	display: flex;
@@ -1111,8 +1111,8 @@ code {
 	);
 	border-image-slice: 1;
 
-	/* background: rgb(7,21,21);
-background: linear-gradient(90deg, rgba(7,21,21,1) 20%, rgba(17,38,38,1) 100%); */
+	background: rgb(7,21,21);
+background: linear-gradient(90deg, rgba(7,21,21,1) 20%, rgba(17,38,38,1) 100%);
 
 	}
 	
