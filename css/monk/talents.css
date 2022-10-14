@@ -2,80 +2,80 @@
 /* CSS Document */
 
 .select {
-  color: #00ff99;
+	color: #00ff99;
 }
 
 .tabs {
 }
 
 .btn-conten {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
 }
 
 .btn-l,
 .btn-r {
-  background-color: transparent;
-  font-family: MontserratBold;
-  color: #9d9063;
-  border: none;
-  margin-bottom: 1vw;
+	background-color: transparent;
+	font-family: MontserratBold, sans-serif;
+	color: #9d9063;
+	border: none;
+	margin-bottom: 1vw;
 }
 
 .btn-l {
-  color: #00ff99;
+	color: #00ff99;
 }
 
 .btn-r {
-  color: #9d9063;
+	color: #9d9063;
 }
 
 .btn-l:hover,
 .btn-r:hover {
-  color: #00ff99;
+	color: #00ff99;
 }
 
 .tabs-content {
-  width: 100%;
+	width: 100%;
 }
 
 .tab-l,
 .tab-r {
-  margin-bottom: 1vw;
-  display: flex;
-  text-align: center;
-  /* justify-content: space-evenly; */
+	margin-bottom: 1vw;
+	display: flex;
+	text-align: center;
+	/* justify-content: space-evenly; */
 }
 
 .tab-l {
-  display: block;
+	display: block;
 }
 
 .tab-r {
-  display: none;
+	display: none;
 }
 
 /* ТЛАНТЫ */
 
 .talents-tree {
-  /* border: #9d9063 solid 1px; */
+	/* border: #9d9063 solid 1px; */
 }
 
 /* ТИР 1-4 */
 
 .talentsIcon1-4 {
-  float: left;
-  width: 45%;
+	float: left;
+	width: 45%;
 }
 
 .talents-container1-4 {
-  float: right;
-  width: 45%;
+	float: right;
+	width: 45%;
 }
 
 .tc1 {
-  display: block;
+	display: block;
 }
 
 .tc2,
@@ -86,7 +86,7 @@
 .tc7,
 .tc8,
 .tc9 {
-  display: none;
+	display: none;
 }
 
 /* .row1,
@@ -105,7 +105,7 @@
 .t7,
 .t8,
 .t9 {
-  margin: 0.5vw;
+	margin: 0.5vw;
 }
 
 /* ТИР 1-4 */
@@ -117,64 +117,67 @@
 
 /* 480PX И МЕНЬШЕ */
 @media only screen and (max-width: 480px) {
-  .talentsIcon1-4 {
-    width: 100%;
-    margin: 1vw 0vw 1vw 0vw;
-  }
+	.talentsIcon1-4 {
+		width: 100%;
+		margin: 1vw 0 1vw 0;
+	}
 
-  .talents-container1-4 {
-    width: 100%;
-    margin: 1vw 0vw 1vw 0vw;
-    text-align: center;
-  }
+	.talents-container1-4 {
+		width: 100%;
+		margin: 1vw 0 1vw 0;
+		text-align: center;
+	}
 
-  .row {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-  }
+	.row {
+		width: 100%;
+		display: flex;
+		justify-content: space-evenly;
+	}
 
-  /* .td {
-    width: 1vw;
-    height: 1vw;
-  }
+	/* .td {
+		width: 1vw;
+		height: 1vw;
+	}
 
-  .talents-tabs {
-    max-width: 100%;
-  } */
+	.talents-tabs {
+		max-width: 100%;
+	} */
+	.table-talents-st {
+		max-width: 100%;
+	}
 
-  .table-talents-st {
-    max-width: 100%;
-  }
-
-  /* .table-talents-st td {
-    width: 5%;
-    height: 5%;
-  } */
+	/* .table-talents-st td {
+		width: 5%;
+		height: 5%;
+	} */
 }
 
 @font-face {
-  font-family: Montserrat;
-  src: url(../../fonts/Montserrat-Light.otf);
-}
-@font-face {
-  font-family: MontserratSemiBold;
-  src: url(../fonts/Montserrat-SemiBold.ttf);
-}
-@font-face {
-  font-family: MontserratBold;
-  src: url(../fonts/Montserrat-Bold.ttf);
-}
-@font-face {
-  font-family: MontserratMedium;
-  src: url(../fonts/Montserrat-Medium.ttf);
-}
-@font-face {
-  font-family: MontserratItalic;
-  src: url(../fonts/Montserrat-Italic.ttf);
+	font-family: Montserrat;
+	src: url(../../fonts/Montserrat-Light.ttf);
 }
 
 @font-face {
-  font-family: MontserratBlack;
-  src: url(../fonts/Montserrat-Black.ttf);
+	font-family: MontserratSemiBold;
+	src: url(../../fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: MontserratBold;
+	src: url(../../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: MontserratMedium;
+	src: url(../../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+	font-family: MontserratItalic;
+	src: url(../../fonts/Montserrat-Italic.ttf);
+}
+
+@font-face {
+	font-family: MontserratBlack;
+	src: url(../../fonts/Montserrat-Black.ttf);
 }
