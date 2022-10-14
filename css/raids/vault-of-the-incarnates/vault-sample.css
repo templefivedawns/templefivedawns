@@ -187,6 +187,7 @@ code {
     left no-repeat;
   background-color: #111a1a;
   background-size: 100%;
+
   border: 1px solid transparent;
   border-image: linear-gradient(
     to left top,
@@ -797,7 +798,7 @@ code {
     display: block;
     background: url(../../../img/header480px2.png) fixed no-repeat;
     background-size: 100%;
-    margin: -4.5vw 0vw 0vw 0vw;
+    margin: -4.5vw 0 0 0;
     height: 13.5vw;
     padding: 0;
     width: auto;
@@ -967,16 +968,14 @@ code {
   /* КОНЕЦ ПОПАП-МЕНЮ */
 
   .container {
-    background: url(../../../img/raids/vault-of-the-incarnates/vault-bg.png) top
-      left no-repeat;
-    background-color: #111a1a;
+    background: #111a1a url(../../../img/raids/vault-of-the-incarnates/vault-bg.png) no-repeat top left;
     background-size: 100%;
     margin: 0;
     width: 100%;
     border: none;
     padding: 0;
     box-shadow: none;
-    position: auto;
+    /*position: auto;*/
   }
   .fixed {
     position: fixed;
@@ -1054,9 +1053,9 @@ code {
   /* ШИРОКИЙ КРАСНЫЙ БОРДЕР ПОД ДВОЙНУЮ СТРОКУ ЗАГОЛОВКА */
   .frame-red-weight-mob {
     background: url(../../../img/frame-mob.png) no-repeat center;
+    background-size: 100%;
     height: 13.5vw;
     width: 100%;
-    background-size: 100%;
   }
 
   .frame-red-weight-mob h2 {
