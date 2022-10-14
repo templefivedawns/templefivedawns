@@ -1166,8 +1166,8 @@ code {
 	.frame-red-accord-ww,
 	.frame-red-mob {
 		display: block;
-		background-size: 100%;
 		background: url(../img/frame-mob1.png) no-repeat center;
+		background-size: 100%;
 		height: 8vw;
 		width: 100.1%;
 		text-align: center;
@@ -1179,8 +1179,8 @@ code {
 
 	.frame-red-accord-bm {
 		display: block;
-		background-size: 100%;
 		background: url(../img/frame-mob1.png) no-repeat center;
+		background-size: 100%;
 		height: 8vw;
 		width: 100%;
 		text-align: center;
