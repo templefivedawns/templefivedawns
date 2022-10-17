@@ -53,8 +53,41 @@
 	display: none;
 }
 
+/*maincontainer*/
+
+.sticky-nav-bar {
+	background-color: #111a1a;
+	top: 3.1vw;
+	position: sticky;
+	width: 103%;
+	z-index: 90;
+	padding: 0.5vw;
+	margin-left: -1.5vw;
+	margin-right: -1.5vw;
+	border-bottom: #9d9063 solid 0.1vw;
+}
+
+.sticky-menu {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 1.1vw;
+	text-transform: uppercase;
+	font-family: MontserratBlack, sans-serif;
+}
+
+.sticky-menu a {
+	color: #9d9063;
+}
+
+.sticky-menu a:hover {
+	color: #00ff98;
+}
+
+/*maincontainer*/
+
 /* 1440PX И МЕНЬШЕ */
 @media only screen and (max-width: 1440px) {
+
 }
 
 /* 480PX И МЕНЬШЕ */
