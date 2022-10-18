@@ -131,6 +131,7 @@ code {
 	z-index: 50;
 	margin-top: 0.4%;
 	width: 7.8vw;
+	display: none;
 }
 
 .WWbrush {
@@ -164,10 +165,14 @@ code {
 
 .BM,
 .WW,
-.MW,
-.Support {
+.MW
+/*.Support*/ {
 	position: relative;
 	z-index: 90;
+}
+
+.Support {
+	display: none;
 }
 
 /* .header-right a:hover {
@@ -217,7 +222,7 @@ code {
 	margin: 0;
 	float: left;
 	align-content: center;
-	overflow: auto;
+	overflow: visible;
 	box-shadow: 6px 0 15px 2px rgba(0, 0, 0, 0.6);
 	border-right: solid 0.1vw #9d9063;
 	position: relative;
@@ -481,6 +486,11 @@ code {
 	h2 {
 		font-size: 5vw;
 		margin-left: 2.4vw;
+	}
+
+	h3 {
+		font-size: 5vw;
+		padding: 0;
 	}
 
 	p {

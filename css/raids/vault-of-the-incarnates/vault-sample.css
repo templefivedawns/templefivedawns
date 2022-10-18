@@ -140,11 +140,16 @@ code {
 
 .BM,
 .WW,
-.MW,
-.Support {
+.MW
+/*.Support*/ {
   position: relative;
   z-index: 90;
 }
+
+.Support {
+  display: none;
+}
+
 /* ХЭДЕР МЕНЮ БРАШ */
 
 .logo {
