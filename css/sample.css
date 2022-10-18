@@ -68,7 +68,17 @@ code {
 
 .format-code {
 	background-color: #071515;
-	border: #9d9063 outset 0.1vw;
+
+	border: 0.1vw solid transparent;
+	border-image: linear-gradient(
+		to left top,
+		#9d9063 10%,
+		transparent 30%,
+		transparent 70%,
+		#9d9063 90%
+	);
+	border-image-slice: 1;
+
 	padding: 0.5vw;
 	color: #9d9063;
 	font-weight: 500;
