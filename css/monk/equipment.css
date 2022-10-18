@@ -1,59 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*maincontainer*/
+
 .select {
 	color: #00ff99;
 }
 
-.tabs {
+.select-bg-leg {
+	border-bottom: #9d9063 solid 0.1vw;
+	background: #071515;
 }
-
-.btn-content {
-	display: flex;
-	justify-content: space-evenly;
-	width: 100%;
-}
-
-.btn-l,
-.btn-r {
-	background-color: transparent;
-	font-family: MontserratBold, sans-serif;
-	color: #9d9063;
-	border: none;
-	margin-bottom: 1vw;
-}
-
-.btn-l {
-	color: #00ff99;
-}
-
-.btn-r {
-	color: #9d9063;
-}
-
-.btn-l:hover,
-.btn-r:hover {
-	color: #00ff99;
-}
-
-.tabs-content {
-	width: 100%;
-}
-
-.tab-l,
-.tab-r {
-	margin-bottom: 1vw;
-}
-
-.tab-l {
-	display: block;
-}
-
-.tab-r {
-	display: none;
-}
-
-/*maincontainer*/
 
 .sticky-nav-bar {
 	background-color: #111a1a;
@@ -88,6 +45,11 @@
 }
 
 /*ТАБЫ СТАТЫ*/
+
+.tabs-stat {
+	width: 100%;
+}
+
 .btn-stat-content {
 	display: flex;
 	justify-content: center;
@@ -101,23 +63,11 @@
 .btn-stat-4,
 .btn-stat-5 {
 	background-color: transparent;
-	font-family: MontserratBold, sans-serif;
+	font-family: MontserratBlack, sans-serif;
 	color: #9d9063;
 	border: none;
 	margin-bottom: 1vw;
 	text-transform: uppercase;
-}
-
-/*.btn-stat-1 {*/
-/*	color: #00ff99;*/
-/*}*/
-
-.btn-stat-1,
-.btn-stat-2,
-.btn-stat-3,
-.btn-stat-4,
-.btn-stat-5 {
-	color: #9d9063;
 }
 
 .btn-stat-1:hover,
@@ -169,10 +119,6 @@
 	text-transform: uppercase;
 }
 
-.btn-wtf1-1 {
-	color: #9d9063;
-}
-
 .btn-wtf1-1:hover {
 	color: #00ff99;
 }
@@ -201,10 +147,6 @@
 	border: none;
 	margin-bottom: 1vw;
 	text-transform: uppercase;
-}
-
-.btn-wtf2-1 {
-	color: #9d9063;
 }
 
 .btn-wtf2-1:hover {
@@ -247,10 +189,6 @@
 	padding: 0.2vw 10.5%;
 }
 
-/*.btn-stat-1 {*/
-/*	color: #00ff99;*/
-/*}*/
-
 .btn-leg-1:hover,
 .btn-leg-2:hover,
 .btn-leg-3:hover,
@@ -279,11 +217,6 @@
 .tab-leg-4 {
 	display: none;
 }
-
-.select-bg-leg {
-	border-bottom: #9d9063 solid 0.1vw;
-	background: #071515;
-}
 /*ТАБЫ ЛЕГИ*/
 
 /*ТАБЫ РАСХОДНИКИ*/
@@ -310,10 +243,6 @@
 	height: auto;
 	padding: 0.2vw 13.4%;
 }
-
-/*.btn-stat-1 {*/
-/*	color: #00ff99;*/
-/*}*/
 
 .btn-rashod-1:hover,
 .btn-rashod-2:hover,
@@ -399,10 +328,77 @@
 /* 1440PX И МЕНЬШЕ */
 @media only screen and (max-width: 1440px) {
 
+	.btn-stat-1,
+	.btn-stat-2,
+	.btn-stat-3,
+	.btn-stat-4,
+	.btn-stat-5 {
+		font-size: 1.1vw;
+		line-height: 1.5vw;
+	}
+
 }
 
 /* 480PX И МЕНЬШЕ */
 @media only screen and (max-width: 480px) {
+
+	.sticky-nav-bar {
+		top: 13.1vw;
+		width: 98.2%;
+		height: 1vw;
+		z-index: 90;
+		padding-top: 4vw;
+		padding-bottom: 2vw;
+		border-bottom: #9d9063 solid 0.1vw;
+		/*margin-bottom: 1vw;*/
+	}
+
+	.sticky-menu {
+		font-size: 2vw;
+		padding-top: 0.2vw;
+		line-height: 2vw;
+	}
+
+	.btn-stat-1,
+	.btn-stat-2,
+	.btn-stat-3,
+	.btn-stat-4,
+	.btn-stat-5 {
+		width: 100%;
+	}
+
+	.btn-stat-1 p,
+	.btn-stat-2 p,
+	.btn-stat-3 p,
+	.btn-stat-4 p,
+	.btn-stat-5 p {
+		font-size: 2vw;
+		font-family: MontserratBlack, sans-serif;
+	}
+
+	.btn-leg-1,
+	.btn-leg-2,
+	.btn-leg-3,
+	.btn-leg-4 {
+		width: 25%;
+		height: 25%;
+		padding: 0;
+		/*padding: 0.2vw 10.5%;*/
+	}
+
+	.btn-rashod-1,
+	.btn-rashod-2,
+	.btn-rashod-3 {
+		height: 100%;
+		padding: 0;
+	}
+
+	.btn-race-1,
+	.btn-race-2 {
+		height: 50%;
+		padding: 0;
+	}
+
 }
 
 @font-face {
