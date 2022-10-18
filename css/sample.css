@@ -409,6 +409,11 @@ code {
 		margin-left: 1vw;
 	}
 
+	h3 {
+		font-size: 1.4vw;
+		/*margin-left: 1vw;*/
+	}
+
 	p {
 		font-size: 1.1vw;
 		line-height: 1.5vw;
