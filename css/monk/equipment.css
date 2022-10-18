@@ -59,20 +59,24 @@
 	background-color: #111a1a;
 	top: 3.1vw;
 	position: sticky;
-	width: 103%;
+	/*width: 103.8%;*/
+	/*margin-left: -1.5vw;*/
+	/*margin-right: -1.5vw;*/
+	width: 98.2%;
+	height: 1vw;
 	z-index: 90;
 	padding: 0.5vw;
-	margin-left: -1.5vw;
-	margin-right: -1.5vw;
 	border-bottom: #9d9063 solid 0.1vw;
+	/*margin-bottom: 1vw;*/
 }
 
 .sticky-menu {
 	display: flex;
 	justify-content: space-evenly;
-	font-size: 1.1vw;
+	font-size: 0.7vw;
 	text-transform: uppercase;
 	font-family: MontserratBlack, sans-serif;
+	padding-top: 0.2vw;
 }
 
 .sticky-menu a {
@@ -82,6 +86,140 @@
 .sticky-menu a:hover {
 	color: #00ff98;
 }
+
+/*ТАБЫ СТАТЫ*/
+.btn-stat-conten {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 1vw;
+}
+
+.btn-stat-1,
+.btn-stat-2,
+.btn-stat-3,
+.btn-stat-4,
+.btn-stat-5 {
+	background-color: transparent;
+	font-family: MontserratBold, sans-serif;
+	color: #9d9063;
+	border: none;
+	margin-bottom: 1vw;
+	text-transform: uppercase;
+}
+
+/*.btn-stat-1 {*/
+/*	color: #00ff99;*/
+/*}*/
+
+.btn-stat-1,
+.btn-stat-2,
+.btn-stat-3,
+.btn-stat-4,
+.btn-stat-5 {
+	color: #9d9063;
+}
+
+.btn-stat-1:hover,
+.btn-stat-2:hover,
+.btn-stat-3:hover,
+.btn-stat-4:hover,
+.btn-stat-5:hover {
+	color: #00ff99;
+}
+
+.tabs-stat-content {
+	width: 100%;
+}
+
+.tab-stat-1,
+.tab-stat-2,
+.tab-stat-3,
+.tab-stat-4,
+.tab-stat-5 {
+	margin-bottom: 1vw;
+	text-align: center;
+}
+
+.tab-stat-1 {
+	display: block;
+}
+
+.tab-stat-2,
+.tab-stat-3,
+.tab-stat-4,
+.tab-stat-5 {
+	display: none;
+}
+/*ТАБЫ СТАТЫ*/
+
+/*ТАБЫ WTF1*/
+.btn-wtf1-conten {
+	display: flex;
+	width: 100%;
+	margin-top: 1vw;
+}
+
+.btn-wtf1-1 {
+	background-color: transparent;
+	font-family: MontserratBold, sans-serif;
+	color: #9d9063;
+	border: none;
+	margin-bottom: 1vw;
+	text-transform: uppercase;
+}
+
+.btn-wtf1-1 {
+	color: #9d9063;
+}
+
+.btn-wtf1-1:hover {
+	color: #00ff99;
+}
+
+.tabs-wtf1-content {
+	width: 100%;
+}
+
+.tab-wtf1-1 {
+	display: none;
+	margin-bottom: 1vw;
+}
+/*ТАБЫ WTF1*/
+
+/*ТАБЫ WTF2*/
+.btn-wtf2-conten {
+	display: flex;
+	width: 100%;
+	margin-top: 1vw;
+}
+
+.btn-wtf2-1 {
+	background-color: transparent;
+	font-family: MontserratBold, sans-serif;
+	color: #9d9063;
+	border: none;
+	margin-bottom: 1vw;
+	text-transform: uppercase;
+}
+
+.btn-wtf2-1 {
+	color: #9d9063;
+}
+
+.btn-wtf2-1:hover {
+	color: #00ff99;
+}
+
+.tabs-wtf2-content {
+	width: 100%;
+}
+
+.tab-wtf2-1 {
+	display: none;
+	margin-bottom: 1vw;
+}
+/*ТАБЫ WTF2*/
 
 /*maincontainer*/
 

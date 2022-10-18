@@ -97,6 +97,14 @@ $(document).ready(function () {
 //фиксация контейнера на троеточие от прокрутки при открытом поп-ап меню
 
 //краски бэкграунда в десктоп хэдере
+	$(".BM").hover(function () {
+		$(".BMbrush").fadeIn(100);
+	});
+
+	$(".BM").mouseleave(function () {
+		$(".BMbrush").fadeOut(100);
+	});
+
 	$(".WW").hover(function () {
 		$(".WWbrush").fadeIn(100);
 	});
