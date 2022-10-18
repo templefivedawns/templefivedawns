@@ -12,33 +12,40 @@
 	background: #071515;
 }
 
+.scroll-sticky-bar-bg {
+	background: #031313;
+	border-bottom: #9d9063 solid 0.1vw;
+}
+
 .leg-format-note {
-	font-size: 0.6vw;
+	font-size: 0.5vw;
 	font-weight: 100;
 }
 
+.acnhor-nav-bar {
+	position: absolute;
+	height: 16vw;
+	display: none;
+}
+
 .sticky-nav-bar {
-	background-color: #111a1a;
+	/*background: none;*/
 	top: 3.1vw;
 	position: sticky;
-	/*width: 103.8%;*/
-	/*margin-left: -1.5vw;*/
-	/*margin-right: -1.5vw;*/
-	width: 98.2%;
+	width: 100%;
 	height: 1vw;
 	z-index: 90;
-	padding: 0.5vw;
-	border-bottom: #9d9063 solid 0.1vw;
-	/*margin-bottom: 1vw;*/
+	padding: 0.5vw 0 0.5vw 0;
+
 }
 
 .sticky-menu {
 	display: flex;
 	justify-content: space-evenly;
-	font-size: 0.7vw;
+	/*font-size: 0.7vw;*/
 	text-transform: uppercase;
 	font-family: MontserratBlack, sans-serif;
-	padding-top: 0.2vw;
+	/*padding-top: 0.2vw;*/
 }
 
 .sticky-menu a {
@@ -67,11 +74,18 @@
 .btn-stat-3,
 .btn-stat-4,
 .btn-stat-5 {
-	background-color: transparent;
-	font-family: MontserratBlack, sans-serif;
-	color: #9d9063;
+	background: none;
 	border: none;
-	margin-bottom: 1vw;
+	margin-bottom: 0.8vw;
+
+}
+
+.btn-stat-1 p,
+.btn-stat-2 p,
+.btn-stat-3 p,
+.btn-stat-4 p,
+.btn-stat-5 p {
+	font-family: MontserratBlack, sans-serif;
 	text-transform: uppercase;
 }
 
@@ -173,7 +187,7 @@
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
-	margin-top: 1vw;
+	/*margin-top: 1vw;*/
 	margin-bottom: 1vw;
 	background-color: #112626;
 }
@@ -333,9 +347,19 @@
 /* 1440PX И МЕНЬШЕ */
 @media only screen and (max-width: 1440px) {
 
+	.sticky-nav-bar {
+		top: 3.1vw;
+		width: 100%;
+		height: 1vw;
+		padding: 0.5vw 0 0.9vw 0;
+	}
+
+	.sticky-menu {
+		font-size: 1.1vw;
+	}
+
 	.leg-format-note {
 		font-size: 0.8vw;
-		font-weight: 100;
 	}
 
 	.btn-stat-1,
@@ -345,6 +369,22 @@
 	.btn-stat-5 {
 		font-size: 1.1vw;
 		line-height: 1.5vw;
+	}
+
+	.btn-leg-1,
+	.btn-leg-2,
+	.btn-leg-3,
+	.btn-leg-4 {
+		background: transparent;
+		font-family: MontserratBold, sans-serif;
+		color: #9d9063;
+		border: none;
+		/*margin-bottom: 1vw;*/
+		text-transform: uppercase;
+		/*border: #9d9063 solid 0.1vw;*/
+		border-bottom: #111a1a solid 0.1vw;
+		height: auto;
+		padding: 0.2vw 9.6%;
 	}
 
 }
