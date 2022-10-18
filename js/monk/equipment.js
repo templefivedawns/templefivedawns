@@ -1,25 +1,15 @@
 $(document).ready(function() {
 
 
-	// ТАБЫ
-	$(".btn-l").click(function(){
-		$(".tab-l").fadeIn (600);
-		$(".tab-r").fadeOut (0);
-		// $(".tab-l").attr('color', '#00ff99');
-		// $(".tab-r").attr('color', '#9d9063');
-		$(".btn-l").addClass("select");
-		$(".btn-r").removeClass("select");
+	var menu = $(".sticky-nav-bar");
+	$(window).scroll(function() {
+		var top = $(this).scrollTop();
+		if ( top > $(".acnhor-nav-bar").outerHeight() ) {
+			$(".sticky-nav-bar").addClass("scroll-sticky-bar-bg");
+		} else if ( top < $(".acnhor-nav-bar").outerHeight() ) {
+			$(".sticky-nav-bar").removeClass("scroll-sticky-bar-bg");
+		}
 	});
-	
-	$(".btn-r").click(function(){
-		$(".tab-r").fadeIn (600);
-		$(".tab-l").fadeOut (0);
-		// $(".tab-r").attr('color', '#00ff99');
-		// $(".tab-l").attr('color', '#9d9063');
-		$(".btn-r").addClass("select");
-		$(".btn-l").removeClass("select");
-	});
-	// ТАБЫ
 
 	//ТАБЫ СТАТЫ
 	$(".btn-stat-1").click(function(){
