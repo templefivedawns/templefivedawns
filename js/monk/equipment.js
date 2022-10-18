@@ -20,11 +20,11 @@ $(document).ready(function() {
 		$(".tab-stat-5").fadeOut (0);
 		// $(".tab-l").attr('color', '#00ff99');
 		// $(".tab-r").attr('color', '#9d9063');
-		$(".btn-stat-1").addClass("select");
-		$(".btn-stat-2").removeClass("select");
-		$(".btn-stat-3").removeClass("select");
-		$(".btn-stat-4").removeClass("select");
-		$(".btn-stat-5").removeClass("select");
+		$(".btn-stat-1").addClass("select-tab");
+		$(".btn-stat-2").removeClass("select-tab");
+		$(".btn-stat-3").removeClass("select-tab");
+		$(".btn-stat-4").removeClass("select-tab");
+		$(".btn-stat-5").removeClass("select-tab");
 	});
 
 	$(".btn-stat-2").click(function(){
@@ -35,11 +35,11 @@ $(document).ready(function() {
 		$(".tab-stat-5").fadeOut (0);
 		// $(".tab-l").attr('color', '#00ff99');
 		// $(".tab-r").attr('color', '#9d9063');
-		$(".btn-stat-2").addClass("select");
-		$(".btn-stat-1").removeClass("select");
-		$(".btn-stat-3").removeClass("select");
-		$(".btn-stat-4").removeClass("select");
-		$(".btn-stat-5").removeClass("select");
+		$(".btn-stat-2").addClass("select-tab");
+		$(".btn-stat-1").removeClass("select-tab");
+		$(".btn-stat-3").removeClass("select-tab");
+		$(".btn-stat-4").removeClass("select-tab");
+		$(".btn-stat-5").removeClass("select-tab");
 	});
 
 	$(".btn-stat-3").click(function(){
@@ -50,11 +50,11 @@ $(document).ready(function() {
 		$(".tab-stat-5").fadeOut (0);
 		// $(".tab-l").attr('color', '#00ff99');
 		// $(".tab-r").attr('color', '#9d9063');
-		$(".btn-stat-3").addClass("select");
-		$(".btn-stat-2").removeClass("select");
-		$(".btn-stat-1").removeClass("select");
-		$(".btn-stat-4").removeClass("select");
-		$(".btn-stat-5").removeClass("select");
+		$(".btn-stat-3").addClass("select-tab");
+		$(".btn-stat-2").removeClass("select-tab");
+		$(".btn-stat-1").removeClass("select-tab");
+		$(".btn-stat-4").removeClass("select-tab");
+		$(".btn-stat-5").removeClass("select-tab");
 	});
 
 	$(".btn-stat-4").click(function(){
@@ -65,11 +65,11 @@ $(document).ready(function() {
 		$(".tab-stat-5").fadeOut (0);
 		// $(".tab-l").attr('color', '#00ff99');
 		// $(".tab-r").attr('color', '#9d9063');
-		$(".btn-stat-4").addClass("select");
-		$(".btn-stat-2").removeClass("select");
-		$(".btn-stat-3").removeClass("select");
-		$(".btn-stat-1").removeClass("select");
-		$(".btn-stat-5").removeClass("select");
+		$(".btn-stat-4").addClass("select-tab");
+		$(".btn-stat-2").removeClass("select-tab");
+		$(".btn-stat-3").removeClass("select-tab");
+		$(".btn-stat-1").removeClass("select-tab");
+		$(".btn-stat-5").removeClass("select-tab");
 	});
 
 	$(".btn-stat-5").click(function(){
@@ -80,17 +80,17 @@ $(document).ready(function() {
 		$(".tab-stat-1").fadeOut (0);
 		// $(".tab-l").attr('color', '#00ff99');
 		// $(".tab-r").attr('color', '#9d9063');
-		$(".btn-stat-5").addClass("select");
-		$(".btn-stat-2").removeClass("select");
-		$(".btn-stat-3").removeClass("select");
-		$(".btn-stat-4").removeClass("select");
-		$(".btn-stat-1").removeClass("select");
+		$(".btn-stat-5").addClass("select-tab");
+		$(".btn-stat-2").removeClass("select-tab");
+		$(".btn-stat-3").removeClass("select-tab");
+		$(".btn-stat-4").removeClass("select-tab");
+		$(".btn-stat-1").removeClass("select-tab");
 	});
 	//ТАБЫ СТАТЫ
 
 	//ТАБ WTF1
 	$(".btn-wtf1-1").click(function(){
-		if ($(".tab-wtf1-1").css('display') == 'none') {
+		if ($(".tab-wtf1-1").css('display') === 'none') {
 			$(".tab-wtf1-1").slideDown(200);
 			$(".tab-wtf2-1").slideUp(200);
 		} else {
@@ -101,7 +101,7 @@ $(document).ready(function() {
 
 //ТАБ WTF2
 	$(".btn-wtf2-1").click(function(){
-		if ($(".tab-wtf2-1").css('display') == 'none') {
+		if ($(".tab-wtf2-1").css('display') === 'none') {
 			$(".tab-wtf2-1").slideDown(200);
 			$(".tab-wtf1-1").slideUp(200);
 		} else {
