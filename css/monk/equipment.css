@@ -67,10 +67,6 @@
 	margin-bottom: 0.8vw;
 }
 
-.select-tab {
-	color: #00ff99;
-}
-
 .btn-stat-1 p,
 .btn-stat-2 p,
 .btn-stat-3 p,
@@ -80,11 +76,15 @@
 	text-transform: uppercase;
 }
 
-.btn-stat-1:hover,
-.btn-stat-2:hover,
-.btn-stat-3:hover,
-.btn-stat-4:hover,
-.btn-stat-5:hover {
+.btn-stat-1 p:hover,
+.btn-stat-2 p:hover,
+.btn-stat-3 p:hover,
+.btn-stat-4 p:hover,
+.btn-stat-5 p:hover {
+	color: #00ff99;
+}
+
+.select-tab {
 	color: #00ff99;
 }
 
@@ -198,11 +198,6 @@
 	padding: 0.2vw 10.5% 0 10.5%;
 }
 
-.select-bg-leg {
-	background: #0A1313;
-	border-bottom: #9d9063 solid 0.1vw;
-}
-
 .btn-leg-1:hover,
 .btn-leg-2:hover,
 .btn-leg-3:hover,
@@ -247,21 +242,23 @@
 .btn-rashod-2,
 .btn-rashod-3 {
 	background: transparent;
-	font-family: MontserratBold, sans-serif;
-	color: #9d9063;
 	border: none;
-	/*margin-bottom: 1vw;*/
-	text-transform: uppercase;
-	/*border: #9d9063 solid 0.1vw;*/
 	border-bottom: #111a1a solid 0.1vw;
 	height: auto;
 	padding: 0.2vw 13.4%;
 }
 
+.btn-rashod-1 p,
+.btn-rashod-2 p,
+.btn-rashod-3 p {
+	font-family: MontserratBlack, sans-serif;
+	text-transform: uppercase;
+}
+
 .btn-rashod-1:hover,
 .btn-rashod-2:hover,
 .btn-rashod-3:hover {
-	background: #071515;
+	background: #0A1313;
 }
 
 .tabs-rashod-content {
@@ -298,15 +295,16 @@
 .btn-race-1,
 .btn-race-2 {
 	background: transparent;
-	font-family: MontserratBold, sans-serif;
-	color: #9d9063;
 	border: none;
-	/*margin-bottom: 1vw;*/
-	text-transform: uppercase;
-	/*border: #9d9063 solid 0.1vw;*/
 	border-bottom: #111a1a solid 0.1vw;
 	height: auto;
 	padding: 0.2vw 23.1%;
+}
+
+.btn-race-1 p,
+.btn-race-2 p {
+	font-family: MontserratBlack, sans-serif;
+	text-transform: uppercase;
 }
 
 /*.btn-stat-1 {*/
@@ -315,7 +313,7 @@
 
 .btn-race-1:hover,
 .btn-race-2:hover {
-	background: #071515;
+	background: #0A1313;
 }
 
 .tabs-race-content {
@@ -336,6 +334,11 @@
 	display: none;
 }
 /*ТАБЫ РАСЫ*/
+
+.select-bg-leg {
+	background: #0A1313;
+	border-bottom: #9d9063 solid 0.1vw;
+}
 
 /*maincontainer*/
 
@@ -366,6 +369,19 @@
 	.btn-leg-3,
 	.btn-leg-4 {
 		padding: 0.4vw 9.51% 0 9.51%;
+	}
+
+	.btn-rashod-1,
+	.btn-rashod-2,
+	.btn-rashod-3 {
+		height: auto;
+		padding: 0.6vw 11.4% 0.6vw 11.4%;
+	}
+
+	.btn-race-1,
+	.btn-race-2 {
+
+		padding: 0.6vw 22.2% 0.6vw 22.2%;
 	}
 
 }

@@ -20,11 +20,11 @@ $(document).ready(function() {
 		$(".tab-stat-5").fadeOut (0);
 		// $(".tab-l").attr('color', '#00ff99');
 		// $(".tab-r").attr('color', '#9d9063');
-		$(".btn-stat-1").addClass("select-tab");
-		$(".btn-stat-2").removeClass("select-tab");
-		$(".btn-stat-3").removeClass("select-tab");
-		$(".btn-stat-4").removeClass("select-tab");
-		$(".btn-stat-5").removeClass("select-tab");
+		$(".btn-stat-1 p").addClass("select-tab");
+		$(".btn-stat-2 p").removeClass("select-tab");
+		$(".btn-stat-3 p").removeClass("select-tab");
+		$(".btn-stat-4 p").removeClass("select-tab");
+		$(".btn-stat-5 p").removeClass("select-tab");
 	});
 
 	$(".btn-stat-2").click(function(){
@@ -35,11 +35,11 @@ $(document).ready(function() {
 		$(".tab-stat-5").fadeOut (0);
 		// $(".tab-l").attr('color', '#00ff99');
 		// $(".tab-r").attr('color', '#9d9063');
-		$(".btn-stat-2").addClass("select-tab");
-		$(".btn-stat-1").removeClass("select-tab");
-		$(".btn-stat-3").removeClass("select-tab");
-		$(".btn-stat-4").removeClass("select-tab");
-		$(".btn-stat-5").removeClass("select-tab");
+		$(".btn-stat-2 p").addClass("select-tab");
+		$(".btn-stat-1 p").removeClass("select-tab");
+		$(".btn-stat-3 p").removeClass("select-tab");
+		$(".btn-stat-4 p").removeClass("select-tab");
+		$(".btn-stat-5 p").removeClass("select-tab");
 	});
 
 	$(".btn-stat-3").click(function(){
@@ -50,11 +50,11 @@ $(document).ready(function() {
 		$(".tab-stat-5").fadeOut (0);
 		// $(".tab-l").attr('color', '#00ff99');
 		// $(".tab-r").attr('color', '#9d9063');
-		$(".btn-stat-3").addClass("select-tab");
-		$(".btn-stat-2").removeClass("select-tab");
-		$(".btn-stat-1").removeClass("select-tab");
-		$(".btn-stat-4").removeClass("select-tab");
-		$(".btn-stat-5").removeClass("select-tab");
+		$(".btn-stat-3 p").addClass("select-tab");
+		$(".btn-stat-2 p").removeClass("select-tab");
+		$(".btn-stat-1 p").removeClass("select-tab");
+		$(".btn-stat-4 p").removeClass("select-tab");
+		$(".btn-stat-5 p").removeClass("select-tab");
 	});
 
 	$(".btn-stat-4").click(function(){
@@ -65,11 +65,11 @@ $(document).ready(function() {
 		$(".tab-stat-5").fadeOut (0);
 		// $(".tab-l").attr('color', '#00ff99');
 		// $(".tab-r").attr('color', '#9d9063');
-		$(".btn-stat-4").addClass("select-tab");
-		$(".btn-stat-2").removeClass("select-tab");
-		$(".btn-stat-3").removeClass("select-tab");
-		$(".btn-stat-1").removeClass("select-tab");
-		$(".btn-stat-5").removeClass("select-tab");
+		$(".btn-stat-4 p").addClass("select-tab");
+		$(".btn-stat-2 p").removeClass("select-tab");
+		$(".btn-stat-3 p").removeClass("select-tab");
+		$(".btn-stat-1 p").removeClass("select-tab");
+		$(".btn-stat-5 p").removeClass("select-tab");
 	});
 
 	$(".btn-stat-5").click(function(){
@@ -80,11 +80,11 @@ $(document).ready(function() {
 		$(".tab-stat-1").fadeOut (0);
 		// $(".tab-l").attr('color', '#00ff99');
 		// $(".tab-r").attr('color', '#9d9063');
-		$(".btn-stat-5").addClass("select-tab");
-		$(".btn-stat-2").removeClass("select-tab");
-		$(".btn-stat-3").removeClass("select-tab");
-		$(".btn-stat-4").removeClass("select-tab");
-		$(".btn-stat-1").removeClass("select-tab");
+		$(".btn-stat-5 p").addClass("select-tab");
+		$(".btn-stat-2 p").removeClass("select-tab");
+		$(".btn-stat-3 p").removeClass("select-tab");
+		$(".btn-stat-4 p").removeClass("select-tab");
+		$(".btn-stat-1 p").removeClass("select-tab");
 	});
 	//ТАБЫ СТАТЫ
 

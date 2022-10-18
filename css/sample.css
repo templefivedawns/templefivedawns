@@ -89,6 +89,10 @@ code {
 	margin: 0.5vw 0 0.5vw 0;
 }
 
+.hide-content {
+	display: none;
+}
+
 /* ХЭДЕР НАЧАЛО*/
 #header {
 	background: url("../img/headerempty.png") fixed no-repeat;
