@@ -8,7 +8,7 @@
 .tabs {
 }
 
-.btn-conten {
+.btn-content {
 	display: flex;
 	justify-content: space-evenly;
 	width: 100%;
@@ -88,7 +88,7 @@
 }
 
 /*ТАБЫ СТАТЫ*/
-.btn-stat-conten {
+.btn-stat-content {
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -154,7 +154,7 @@
 /*ТАБЫ СТАТЫ*/
 
 /*ТАБЫ WTF1*/
-.btn-wtf1-conten {
+.btn-wtf1-content {
 	display: flex;
 	width: 100%;
 	margin-top: 1vw;
@@ -188,7 +188,7 @@
 /*ТАБЫ WTF1*/
 
 /*ТАБЫ WTF2*/
-.btn-wtf2-conten {
+.btn-wtf2-content {
 	display: flex;
 	width: 100%;
 	margin-top: 1vw;
@@ -220,6 +220,179 @@
 	margin-bottom: 1vw;
 }
 /*ТАБЫ WTF2*/
+
+/*ТАБЫ ЛЕГИ*/
+.btn-leg-content {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	background-color: #112626;
+}
+
+.btn-leg-1,
+.btn-leg-2,
+.btn-leg-3,
+.btn-leg-4 {
+	background: transparent;
+	font-family: MontserratBold, sans-serif;
+	color: #9d9063;
+	border: none;
+	/*margin-bottom: 1vw;*/
+	text-transform: uppercase;
+	/*border: #9d9063 solid 0.1vw;*/
+	border-bottom: #111a1a solid 0.1vw;
+	height: auto;
+	padding: 0.2vw 10.5%;
+}
+
+/*.btn-stat-1 {*/
+/*	color: #00ff99;*/
+/*}*/
+
+.btn-leg-1:hover,
+.btn-leg-2:hover,
+.btn-leg-3:hover,
+.btn-leg-4:hover {
+	background: #071515;
+}
+
+.tabs-leg-content {
+	width: 100%;
+}
+
+.tab-leg-1,
+.tab-leg-2,
+.tab-leg-3,
+.tab-leg-4 {
+	margin-bottom: 1vw;
+	text-align: center;
+}
+
+.tab-leg-1 {
+	display: block;
+}
+
+.tab-leg-2,
+.tab-leg-3,
+.tab-leg-4 {
+	display: none;
+}
+
+.select-bg-leg {
+	border-bottom: #9d9063 solid 0.1vw;
+	background: #071515;
+}
+/*ТАБЫ ЛЕГИ*/
+
+/*ТАБЫ РАСХОДНИКИ*/
+.btn-rashod-content {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	background-color: #112626;
+}
+
+.btn-rashod-1,
+.btn-rashod-2,
+.btn-rashod-3 {
+	background: transparent;
+	font-family: MontserratBold, sans-serif;
+	color: #9d9063;
+	border: none;
+	/*margin-bottom: 1vw;*/
+	text-transform: uppercase;
+	/*border: #9d9063 solid 0.1vw;*/
+	border-bottom: #111a1a solid 0.1vw;
+	height: auto;
+	padding: 0.2vw 13.4%;
+}
+
+/*.btn-stat-1 {*/
+/*	color: #00ff99;*/
+/*}*/
+
+.btn-rashod-1:hover,
+.btn-rashod-2:hover,
+.btn-rashod-3:hover {
+	background: #071515;
+}
+
+.tabs-rashod-content {
+	width: 100%;
+}
+
+.tab-rashod-1,
+.tab-rashod-2,
+.tab-rashod-3 {
+	margin-bottom: 1vw;
+	text-align: left;
+}
+
+.tab-rashod-1 {
+	display: block;
+}
+
+.tab-rashod-2,
+.tab-rashod-3 {
+	display: none;
+}
+/*ТАБЫ РАСХОДНИКИ*/
+
+/*ТАБЫ РАСЫ*/
+.btn-race-content {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	background-color: #112626;
+}
+
+.btn-race-1,
+.btn-race-2 {
+	background: transparent;
+	font-family: MontserratBold, sans-serif;
+	color: #9d9063;
+	border: none;
+	/*margin-bottom: 1vw;*/
+	text-transform: uppercase;
+	/*border: #9d9063 solid 0.1vw;*/
+	border-bottom: #111a1a solid 0.1vw;
+	height: auto;
+	padding: 0.2vw 23.1%;
+}
+
+/*.btn-stat-1 {*/
+/*	color: #00ff99;*/
+/*}*/
+
+.btn-race-1:hover,
+.btn-race-2:hover {
+	background: #071515;
+}
+
+.tabs-race-content {
+	width: 100%;
+}
+
+.tab-race-1,
+.tab-race-2 {
+	margin-bottom: 1vw;
+	text-align: left;
+}
+
+.tab-race-1 {
+	display: block;
+}
+
+.tab-race-2 {
+	display: none;
+}
+/*ТАБЫ РАСЫ*/
 
 /*maincontainer*/
 
