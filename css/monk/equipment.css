@@ -9,7 +9,7 @@
 }
 
 .leg-format-note {
-	font-size: 0.5vw;
+	font-size: 0.6vw;
 	font-weight: 100;
 }
 
@@ -26,7 +26,6 @@
 	height: 1vw;
 	z-index: 90;
 	padding: 0.5vw 0 0.5vw 0;
-
 }
 
 .sticky-menu {
@@ -195,7 +194,7 @@
 	text-transform: uppercase;
 	border-bottom: #111a1a solid 0.1vw;
 	height: auto;
-	padding: 0.2vw 10.5% 0 10.5%;
+	padding: 0.35vw 10.5% 0.2vw 10.5%;
 }
 
 .btn-leg-1:hover,
@@ -245,7 +244,7 @@
 	border: none;
 	border-bottom: #111a1a solid 0.1vw;
 	height: auto;
-	padding: 0.2vw 13.4%;
+	padding: 0.2vw 12.3%;
 }
 
 .btn-rashod-1 p,
@@ -298,7 +297,7 @@
 	border: none;
 	border-bottom: #111a1a solid 0.1vw;
 	height: auto;
-	padding: 0.2vw 23.1%;
+	padding: 0.2vw 22.4%;
 }
 
 .btn-race-1 p,
