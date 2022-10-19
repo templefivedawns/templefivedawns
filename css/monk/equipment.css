@@ -509,20 +509,12 @@
 	display: none;
 	}
 
-	/*.btn-stat-1,*/
-	/*.btn-stat-2,*/
-	/*.btn-stat-3,*/
-	/*.btn-stat-4,*/
-	/*.btn-stat-5 {*/
-	/*	display: flex;*/
-	/*}*/
-
 	.btn-stat-1 p,
 	.btn-stat-2 p,
 	.btn-stat-3 p,
 	.btn-stat-4 p,
 	.btn-stat-5 p {
-		font-size: 2.1vw;
+		font-size: 2vw;
 		font-family: MontserratBlack, sans-serif;
 	}
 
