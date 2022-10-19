@@ -182,15 +182,15 @@ code {
 
 .BM,
 .WW,
-.MW
-/*.Support*/ {
+.MW,
+.Support {
 	position: relative;
 	z-index: 90;
 }
 
-.Support {
-	display: none;
-}
+/*.Support {*/
+/*	display: none;*/
+/*}*/
 
 /* .header-right a:hover {
   color: #00ff99;
