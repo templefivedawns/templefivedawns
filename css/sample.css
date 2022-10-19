@@ -2,14 +2,14 @@
 /* CSS Document */
 
 body {
-	background: #111a1a url(../img/coolpictureGreen2.png) no-repeat top center;
-	background-size: 100%;
+	/*background: #111a1a url(../img/coolpictureGreen2.png) no-repeat top center;*/
+	/*background-size: 100%;*/
 	margin: 0;
 	padding: 0;
 	min-width: 100%;
 	overflow: auto;
 	/*background-color: #090e0e;*/
-	/*background-color: #0A1313;*/
+	background-color: #0A1313;
 }
 
 h1, h2, h3 {
@@ -201,7 +201,7 @@ code {
 
 /* БАДИ НАЧАЛО */
 .container {
-	/*background: #111a1a url(../img/coolpictureGreen.png) no-repeat top left;*/
+	background: #111a1a url(../img/coolpictureGreen3.png) no-repeat top left;
 	background-size: 81%;
 	margin: 3vw 15% 3vw 15%;
 
@@ -231,11 +231,12 @@ code {
 }
 
 #containerMain {
-	background: linear-gradient(
-		180deg,
-		rgba(17, 26, 26, 0.1) 0%,
-		rgba(17, 26, 26, 1) 20%
-	);
+	/*background: linear-gradient(*/
+	/*	180deg,*/
+	/*	rgba(17, 26, 26, 0.1) 0%,*/
+	/*	rgba(17, 26, 26, 1) 20%*/
+	/*);*/
+	background-color: rgba(17, 26, 26, 0.3);
 	width: 79.9%;
 	padding: 1.5vw;
 	margin: 0;
