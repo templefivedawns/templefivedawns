@@ -204,7 +204,6 @@ code {
 	background: #111a1a url(../img/coolpictureGreen4.png) no-repeat top left;
 	background-size: 81%;
 	margin: 3vw 15% 3vw 15%;
-
 	box-shadow: 0.31vw 0 0.78vw 0.1vw rgba(0, 0, 0, 0.6);
 
 	border: 0.1vw solid transparent;
@@ -217,16 +216,7 @@ code {
 	);
 	border-image-slice: 1;
 
-	/* border: 1px solid transparent;
-	border-image: linear-gradient(
-		180deg,
-		rgba(157, 144, 99, 0.3) 10%,
-		rgba(157, 144, 99, 1) 100%
-	);
-	border-image-slice: 1; */
-
 	display: flex;
-	/*position: auto;*/
 	overflow: visible;
 }
 
@@ -307,10 +297,8 @@ code {
 /* ПРАВОЕ МЕНЮ НАВИГАЦИИ НАЧАЛО */
 .nav-bar {
 	background: #111a1a;
-	/* z-index: 0; */
 	position: sticky;
 	top: 3.1vw;
-	/* border-bottom: #9d9063 solid 1px; */
 	width: 100%;
 }
 
