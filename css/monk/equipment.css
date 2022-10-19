@@ -558,7 +558,8 @@
 		padding: 1.4vw 9.5% 1vw 9.5%;
 	}
 
-	.btn-race-content {
+	.btn-race-content,
+	.btn-race2-content {
 		margin-bottom: 5vw;
 	}
 
