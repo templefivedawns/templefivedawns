@@ -169,8 +169,6 @@ $(document).ready(function() {
 		$(".tab-rashod-1").fadeIn (600);
 		$(".tab-rashod-2").fadeOut (0);
 		$(".tab-rashod-3").fadeOut (0);
-		// $(".tab-l").attr('color', '#00ff99');
-		// $(".tab-r").attr('color', '#9d9063');
 		$(".btn-rashod-1").addClass("select-bg-leg");
 		$(".btn-rashod-2").removeClass("select-bg-leg");
 		$(".btn-rashod-3").removeClass("select-bg-leg");
@@ -180,8 +178,6 @@ $(document).ready(function() {
 		$(".tab-rashod-2").fadeIn (600);
 		$(".tab-rashod-1").fadeOut (0);
 		$(".tab-rashod-3").fadeOut (0);
-		// $(".tab-l").attr('color', '#00ff99');
-		// $(".tab-r").attr('color', '#9d9063');
 		$(".btn-rashod-2").addClass("select-bg-leg");
 		$(".btn-rashod-1").removeClass("select-bg-leg");
 		$(".btn-rashod-3").removeClass("select-bg-leg");
@@ -191,8 +187,6 @@ $(document).ready(function() {
 		$(".tab-rashod-3").fadeIn (600);
 		$(".tab-rashod-2").fadeOut (0);
 		$(".tab-rashod-1").fadeOut (0);
-		// $(".tab-l").attr('color', '#00ff99');
-		// $(".tab-r").attr('color', '#9d9063');
 		$(".btn-rashod-3").addClass("select-bg-leg");
 		$(".btn-rashod-2").removeClass("select-bg-leg");
 		$(".btn-rashod-1").removeClass("select-bg-leg");
@@ -203,19 +197,56 @@ $(document).ready(function() {
 	$(".btn-race-1").click(function(){
 		$(".tab-race-1").fadeIn (600);
 		$(".tab-race-2").fadeOut (0);
-		// $(".tab-l").attr('color', '#00ff99');
-		// $(".tab-r").attr('color', '#9d9063');
+		$(".tab-race-3").fadeOut (0);
 		$(".btn-race-1").addClass("select-bg-leg");
 		$(".btn-race-2").removeClass("select-bg-leg");
+		$(".btn-race-3").removeClass("select-bg-leg");
 	});
 
 	$(".btn-race-2").click(function(){
 		$(".tab-race-2").fadeIn (600);
 		$(".tab-race-1").fadeOut (0);
-		// $(".tab-l").attr('color', '#00ff99');
-		// $(".tab-r").attr('color', '#9d9063');
+		$(".tab-race-3").fadeOut (0);
 		$(".btn-race-2").addClass("select-bg-leg");
 		$(".btn-race-1").removeClass("select-bg-leg");
+		$(".btn-race-3").removeClass("select-bg-leg");
+	});
+
+	$(".btn-race-3").click(function(){
+		$(".tab-race-3").fadeIn (600);
+		$(".tab-race-2").fadeOut (0);
+		$(".tab-race-1").fadeOut (0);
+		$(".btn-race-3").addClass("select-bg-leg");
+		$(".btn-race-2").removeClass("select-bg-leg");
+		$(".btn-race-1").removeClass("select-bg-leg");
+	});
+
+	// ВТОРАЯ ВКЛАДКА
+	$(".btn-race2-1").click(function(){
+		$(".tab-race2-1").fadeIn (600);
+		$(".tab-race2-2").fadeOut (0);
+		$(".tab-race2-3").fadeOut (0);
+		$(".btn-race2-1").addClass("select-bg-leg");
+		$(".btn-race2-2").removeClass("select-bg-leg");
+		$(".btn-race2-3").removeClass("select-bg-leg");
+	});
+
+	$(".btn-race2-2").click(function(){
+		$(".tab-race2-2").fadeIn (600);
+		$(".tab-race2-1").fadeOut (0);
+		$(".tab-race2-3").fadeOut (0);
+		$(".btn-race2-2").addClass("select-bg-leg");
+		$(".btn-race2-1").removeClass("select-bg-leg");
+		$(".btn-race2-3").removeClass("select-bg-leg");
+	});
+
+	$(".btn-race2-3").click(function(){
+		$(".tab-race2-3").fadeIn (600);
+		$(".tab-race2-2").fadeOut (0);
+		$(".tab-race2-1").fadeOut (0);
+		$(".btn-race2-3").addClass("select-bg-leg");
+		$(".btn-race2-2").removeClass("select-bg-leg");
+		$(".btn-race2-1").removeClass("select-bg-leg");
 	});
 	//ТАБЫ РАСЫ
 

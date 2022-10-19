@@ -2,23 +2,26 @@ $(document).ready(function() {
 
 
 // ТАБЫ
-$(".btn-l").click(function(){
-	$(".tab-l").fadeIn (600);
-	$(".tab-r").fadeOut (0);
-	// $(".tab-l").attr('color', '#00ff99');
-	// $(".tab-r").attr('color', '#9d9063');
-	$(".btn-l").addClass("select");
-	$(".btn-r").removeClass("select");
-});
+	$(".btn-rotation-1").click(function(){
+		$(".tab-rotation-1").fadeIn (600);
+		$(".tab-rotation-2").fadeOut (0);
+		$(".btn-rotation-1").addClass("select-bg-leg");
+		$(".btn-rotation-2").removeClass("select-bg-leg");
+	});
 
-$(".btn-r").click(function(){
-	$(".tab-r").fadeIn (600);
-	$(".tab-l").fadeOut (0);
-	// $(".tab-r").attr('color', '#00ff99');
-	// $(".tab-l").attr('color', '#9d9063');
-	$(".btn-r").addClass("select");
-	$(".btn-l").removeClass("select");
-});
+	$(".btn-rotation-2").click(function(){
+		$(".tab-rotation-2").fadeIn (600);
+		$(".tab-rotation-1").fadeOut (0);
+		$(".btn-rotation-2").addClass("select-bg-leg");
+		$(".btn-rotation-1").removeClass("select-bg-leg");
+	});
+
+	$(".btn-rotation-3").click(function(){
+		$(".tab-rotation-3").fadeIn (600);
+		$(".tab-rotation-2").fadeOut (0);
+		$(".btn-rotation-3").addClass("select-bg-leg");
+		$(".btn-rotation-2").removeClass("select-bg-leg");
+	});
 // ТАБЫ
 
 });
