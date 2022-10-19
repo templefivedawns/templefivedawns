@@ -445,14 +445,6 @@
 		font-size: 0.9vw;
 	}
 
-	.btn-stat-1,
-	.btn-stat-2,
-	.btn-stat-3,
-	.btn-stat-4,
-	.btn-stat-5 {
-		font-size: 1.1vw;
-	}
-
 	.btn-leg-1,
 	.btn-leg-2,
 	.btn-leg-3,
@@ -517,14 +509,13 @@
 	display: none;
 	}
 
-	.btn-stat-1,
-	.btn-stat-2,
-	.btn-stat-3,
-	.btn-stat-4,
-	.btn-stat-5 {
-		/*width: 100%;*/
-		display: flex;
-	}
+	/*.btn-stat-1,*/
+	/*.btn-stat-2,*/
+	/*.btn-stat-3,*/
+	/*.btn-stat-4,*/
+	/*.btn-stat-5 {*/
+	/*	display: flex;*/
+	/*}*/
 
 	.btn-stat-1 p,
 	.btn-stat-2 p,
