@@ -198,7 +198,7 @@
 	color: #9d9063;
 	border: none;
 	text-transform: uppercase;
-	border-bottom: #111a1a solid 0.1vw;
+	border-bottom: transparent solid 0.1vw;
 	height: auto;
 	padding: 0.35vw 10.4% 0.2vw 10.4%;
 }
@@ -252,7 +252,7 @@
 	color: #9d9063;
 	border: none;
 	text-transform: uppercase;
-	border-bottom: #111a1a solid 0.1vw;
+	border-bottom: transparent solid 0.1vw;
 	height: auto;
 	padding: 0.35vw 14.55% 0.2vw 14.55%;
 }

@@ -22,7 +22,7 @@
 	color: #9d9063;
 	border: none;
 	text-transform: uppercase;
-	border-bottom: #111a1a solid 0.1vw;
+	border-bottom: transparent solid 0.1vw;
 	height: auto;
 	padding: 0.35vw 22.9% 0.2vw 22.9%;
 }
