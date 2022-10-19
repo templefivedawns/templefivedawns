@@ -201,7 +201,7 @@ code {
 
 /* БАДИ НАЧАЛО */
 .container {
-	background: #111a1a url(../img/coolpictureGreen3.png) no-repeat top left;
+	background: #111a1a url(../img/coolpictureGreen4.png) no-repeat top left;
 	background-size: 81%;
 	margin: 3vw 15% 3vw 15%;
 
@@ -236,7 +236,7 @@ code {
 	/*	rgba(17, 26, 26, 0.1) 0%,*/
 	/*	rgba(17, 26, 26, 1) 20%*/
 	/*);*/
-	background-color: rgba(17, 26, 26, 0.3);
+	background-color: rgba(17, 26, 26, 0.6);
 	width: 79.9%;
 	padding: 1.5vw;
 	margin: 0;
