@@ -13,6 +13,11 @@
 	font-weight: 100;
 }
 
+.leg-format-note a {
+	font-size: 0.6vw;
+	font-weight: 100;
+}
+
 .acnhor-nav-bar {
 	position: absolute;
 	height: 16vw;
@@ -20,6 +25,7 @@
 }
 
 .sticky-nav-bar {
+	display: block;
 	top: 3.1vw;
 	position: sticky;
 	width: 100%;
@@ -290,7 +296,7 @@
 
 .collum-alliance-in {
 	background-color: rgba(17, 26, 26, 0.8);
-	height: 15vw;
+	min-height: 15vw;
 }
 
 .collum-horde {
@@ -302,11 +308,12 @@
 	border-left: #9d9063 solid 0.1vw;
 	margin-bottom: 1vw;
 	margin-top: 1vw;
+	border-top: none;
 }
 
 .collum-horde-in {
 	background-color: rgba(17, 26, 26, 0.8);
-	height: 15vw;
+	min-height: 15vw;
 }
 
 /*ТАБЫ РАСЫ*/
@@ -434,6 +441,10 @@
 		font-size: 0.9vw;
 	}
 
+	.leg-format-note a {
+		font-size: 0.9vw;
+	}
+
 	.btn-stat-1,
 	.btn-stat-2,
 	.btn-stat-3,
@@ -475,7 +486,7 @@
 	}
 
 	.collum-alliance-in {
-		height: 22vw;
+		min-height: 22vw;
 	}
 
 	.collum-horde {
@@ -486,7 +497,7 @@
 	}
 
 	.collum-horde-in {
-		height: 22vw;
+		min-height: 22vw;
 	}
 
 }
@@ -494,21 +505,16 @@
 /* 480PX И МЕНЬШЕ */
 @media only screen and (max-width: 480px) {
 
-	.sticky-nav-bar {
-		top: 13.1vw;
-		width: 98.2%;
-		height: 1vw;
-		z-index: 90;
-		padding-top: 4vw;
-		padding-bottom: 2vw;
-		border-bottom: #9d9063 solid 0.1vw;
-		/*margin-bottom: 1vw;*/
+	.leg-format-note {
+		font-size: 3vw;
 	}
 
-	.sticky-menu {
-		font-size: 2vw;
-		padding-top: 0.2vw;
-		line-height: 2vw;
+	.leg-format-note a {
+		font-size: 3vw;
+	}
+
+	.sticky-nav-bar {
+	display: none;
 	}
 
 	.btn-stat-1,
@@ -516,7 +522,8 @@
 	.btn-stat-3,
 	.btn-stat-4,
 	.btn-stat-5 {
-		width: 100%;
+		/*width: 100%;*/
+		display: flex;
 	}
 
 	.btn-stat-1 p,
@@ -524,32 +531,71 @@
 	.btn-stat-3 p,
 	.btn-stat-4 p,
 	.btn-stat-5 p {
-		font-size: 2vw;
+		font-size: 2.1vw;
 		font-family: MontserratBlack, sans-serif;
+	}
+
+	.btn-leg-content {
+		margin-bottom: 5vw;
 	}
 
 	.btn-leg-1,
 	.btn-leg-2,
 	.btn-leg-3,
 	.btn-leg-4 {
-		width: 25%;
-		height: 25%;
-		padding: 0;
-		/*padding: 0.2vw 10.5%;*/
+		/*width: 25%;*/
+		/*height: 25%;*/
+		padding: 1.4vw 5.4% 1vw 5.4%;
+	}
+
+	.btn-rashod-content {
+		margin-bottom: 5vw;
 	}
 
 	.btn-rashod-1,
 	.btn-rashod-2,
 	.btn-rashod-3 {
-		height: 100%;
-		padding: 0;
+		padding: 1.4vw 9.5% 1vw 9.5%;
+	}
+
+	.btn-race-content {
+		margin-bottom: 5vw;
+	}
+
+	.collum-alliance {
+		background-size: 50vw;
+		width: 100%;
+		margin-bottom: 1vw;
+		margin-top: 1vw;
+	}
+
+	.collum-alliance-in {
+		min-height: 75vw;
+		border-bottom: #9d9063 solid 0.1vw;
+	}
+
+	.collum-horde {
+		background-size: 50vw;
+		width: 100%;
+		margin-bottom: 1vw;
+		margin-top: 1vw;
+		border-left: none;
+		/*border-top: #9d9063 solid 0.1vw;*/
+	}
+
+	.collum-horde-in {
+		min-height: 15vw;
 	}
 
 	.btn-race-1,
-	.btn-race-2 {
-		height: 50%;
-		padding: 0;
+	.btn-race-2,
+	.btn-race-3,
+	.btn-race2-1,
+	.btn-race2-2,
+	.btn-race2-3{
+		padding: 1.4vw 9.5% 1vw 9.5%;
 	}
+
 
 }
 
