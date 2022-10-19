@@ -101,6 +101,24 @@ $(document).ready(function () {
 		$(".BMbrush").fadeIn(100);
 	});
 
+	// $(".BM").hover(function () {
+	// 	if ($(".BMbrush").css('display') == 'none') {
+	// 		$(".BMbrush").fadeIn(100);
+	// 	} else {
+	// 		$(".BMbrush").fadeIn(100);
+	// 	}
+	// });
+
+
+
+	// $(".BM").mouseleave(function () {
+	// 	if ($(".BMbrush").css('display') == 'block') {
+	// 		$(".BMbrush").fadeOut(100);
+	// 		} else {
+	// 			$(".BMbrush").fadeIn(100);
+	// 	}
+	// });
+
 	$(".BM").mouseleave(function () {
 		$(".BMbrush").fadeOut(100);
 	});
