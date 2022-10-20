@@ -73,6 +73,7 @@ $(document).ready(function () {
 		$(".mobHeaderDots").css("display", "block");
 		$(".mobHeaderDotsHide").css("display", "none");
 		$(".container").removeClass("fixed");
+		$(".container").css("marginTop", "0%");
 
 		$(".popup").animate({
 			width: "0%"
