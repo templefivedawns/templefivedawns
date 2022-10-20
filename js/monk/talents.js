@@ -21,67 +21,19 @@ $(document).ready(function () {
 // ТАБЫ
 
 // ТАЛАНТЫ
-	$(".t1").click(function () {
-		$(".tc1").fadeIn(600);
-		$(".tc2, .tc3, .tc4, .tc5, .tc6, .tc7, .tc8, .tc9").fadeOut(0);
-		$(".t1").attr('border', '#00ff99 solid 1px');
-		$(".tc2, .tc3, .tc4, .tc5, .tc6, .tc7, .tc8, .tc9").attr('border', 'none');
+// 	tt4 tt11 tc1
+
+	$(".tt4").click(function () {
+		$(".tc1").text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
+			"Pellentesque fringilla, nisi eu cursus interdum, nulla augue pulvinar nunc, " +
+			"sed molestie ligula sem a magna. Nulla mi nibh, mollis ut est vitae, rutrum imperdiet magna. " +
+			"Vestibulum in vulputate eros. Curabitur non.");
 	});
 
-	$(".t2").click(function () {
-		$(".tc2").fadeIn(600);
-		$(".tc1, .tc3, .tc4, .tc5, .tc6, .tc7, .tc8, .tc9").fadeOut(0);
-		$(".t2").attr('border', '#00ff99 solid 1px');
-		$(".tc1, .tc3, .tc4, .tc5, .tc6, .tc7, .tc8, .tc9").attr('border', 'none');
-	});
-
-	$(".t3").click(function () {
-		$(".tc3").fadeIn(600);
-		$(".tc1, .tc2, .tc4, .tc5, .tc6, .tc7, .tc8, .tc9").fadeOut(0);
-		$(".t3").attr('border', '#00ff99 solid 1px');
-		$(".tc1, .tc2, .tc4, .tc5, .tc6, .tc7, .tc8, .tc9").attr('border', 'none');
-	});
-
-	$(".t4").click(function () {
-		$(".tc4").fadeIn(600);
-		$(".tc1, .tc2, .tc3, .tc5, .tc6, .tc7, .tc8, .tc9").fadeOut(0);
-		$(".t4").attr('border', '#00ff99 solid 1px');
-		$(".tc1, .tc2, .tc3, .tc5, .tc6, .tc7, .tc8, .tc9").attr('border', 'none');
-	});
-
-	$(".t5").click(function () {
-		$(".tc5").fadeIn(600);
-		$(".tc1, .tc2, .tc3, .tc4, .tc6, .tc7, .tc8, .tc9").fadeOut(0);
-		$(".t5").attr('border', '#00ff99 solid 1px');
-		$(".tc1, .tc2, .tc3, .tc4, .tc6, .tc7, .tc8, .tc9").attr('border', 'none');
-	});
-
-	$(".t6").click(function () {
-		$(".tc6").fadeIn(600);
-		$(".tc1, .tc2, .tc3, .tc4, .tc5, .tc7, .tc8, .tc9").fadeOut(0);
-		$(".t6").attr('border', '#00ff99 solid 1px');
-		$(".tc1, .tc2, .tc3, .tc4, .tc5, .tc7, .tc8, .tc9").attr('border', 'none');
-	});
-
-	$(".t7").click(function () {
-		$(".tc7").fadeIn(600);
-		$(".tc1, .tc2, .tc3, .tc4, .tc5, .tc6, .tc8, .tc9").fadeOut(0);
-		$(".t6").attr('border', '#00ff99 solid 1px');
-		$(".tc1, .tc2, .tc3, .tc4, .tc5, .tc6, .tc8, .tc9").attr('border', 'none');
-	});
-
-	$(".t8").click(function () {
-		$(".tc8").fadeIn(600);
-		$(".tc1, .tc2, .tc3, .tc4, .tc5, .tc6, .tc7, .tc9").fadeOut(0);
-		$(".t6").attr('border', '#00ff99 solid 1px');
-		$(".tc1, .tc2, .tc3, .tc4, .tc5, .tc6, .tc7, .tc9").attr('border', 'none');
-	});
-
-	$(".t9").click(function () {
-		$(".tc9").fadeIn(600);
-		$(".tc1, .tc2, .tc3, .tc4, .tc5, .tc6, .tc7, .tc8").fadeOut(0);
-		$(".t6").attr('border', '#00ff99 solid 1px');
-		$(".tc1, .tc2, .tc3, .tc4, .tc5, .tc6, .tc7, .tc8").attr('border', 'none');
+	$(".tt11").click(function () {
+		$(".tc1").text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
+			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
 	});
 // ТАЛАНТЫ
 

@@ -57,59 +57,29 @@
 }
 
 /* ТЛАНТЫ */
-
-.talents-tree {
-	/* border: #9d9063 solid 1px; */
-}
-
 /* ТИР 1-4 */
-
-.talentsIcon1-4 {
-	float: left;
-	width: 45%;
-}
-
-.talents-container1-4 {
-	float: right;
-	width: 45%;
-}
 
 .tc1 {
-	display: block;
+	color: #9d9063;
+	font-family: Montserrat, sans-serif;
+	font-size: 1.1vw;
+	font-weight: 500;
 }
 
-.tc2,
-.tc3,
-.tc4,
-.tc5,
-.tc6,
-.tc7,
-.tc8,
-.tc9 {
-	display: none;
+.tc1-4 {
+	max-width: 67%;
 }
 
-/* .row1,
-.row2,
-.row3 {
-  display: flex;
-  justify-content: space-evenly;
-} */
-
-.t1,
-.t2,
-.t3,
-.t4,
-.t5,
-.t6,
-.t7,
-.t8,
-.t9 {
-	margin: 0.5vw;
+.talents-tabs {
+	width: 39%;
 }
 
-/* ТИР 1-4 */
-/* ТЛАНТЫ */
+/* ТAЛАНТЫ */
+
+
+.active-tal {
+	border: #00FF99 solid 0.1vw;
+}
 
 /* 1440PX И МЕНЬШЕ */
 @media only screen and (max-width: 1440px) {
