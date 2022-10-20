@@ -21,17 +21,75 @@ $(document).ready(function () {
 // ТАБЫ
 
 // ТАЛАНТЫ
-// 	tt4 tt11 tc1
+// 	tt4 tt11 tc1 tn1
 
-	$(".tt4").click(function () {
-		$(".tc1").text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
+	$("#tt1").click(function () {
+		$("#tn1").text("keg smash");
+		$("#tc1").text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
 			"Pellentesque fringilla, nisi eu cursus interdum, nulla augue pulvinar nunc, " +
 			"sed molestie ligula sem a magna. Nulla mi nibh, mollis ut est vitae, rutrum imperdiet magna. " +
 			"Vestibulum in vulputate eros. Curabitur non.");
 	});
 
-	$(".tt11").click(function () {
-		$(".tc1").text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
+	$("#tt2").click(function () {
+		$("#tn1").text("stagger");
+		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+	});
+
+	$("#tt3").click(function () {
+		$("#tn1").text("Purifying Brew");
+		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+	});
+
+	$("#tt4").click(function () {
+		$("#tn1").text("Shuffle");
+		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+	});
+
+	$("#tt5").click(function () {
+		$("#tn1").text("Hit Scheme");
+		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+	});
+
+	$("#tt6").click(function () {
+		$("#tn1").text("gift of the ox");
+		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+	});
+
+	$("#tt7").click(function () {
+		$("#tn1").text("Healing elixir");
+		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+	});
+
+	$("#tt8").click(function () {
+		$("#tn1").text("Quick Sip");
+		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+	});
+
+	$("#tt9").click(function () {
+		$("#tn1").text("Rushing Jade Wind");
+		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+	});
+
+	$("#tt10").click(function () {
+		$("#tn1").text("Special Delivery");
+		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
 			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
 	});
