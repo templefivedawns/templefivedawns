@@ -112,6 +112,11 @@
 	width: 100%;
 }
 
+.talents-tabs-in {
+	background: url("../../img/talentsBackground.png") no-repeat center top;
+	background-size: 100%;
+}
+
 .talents-monk-in {
 	position: relative;
 	user-select: none;
