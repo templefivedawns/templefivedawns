@@ -211,39 +211,11 @@
 
 /* 480PX И МЕНЬШЕ */
 @media only screen and (max-width: 480px) {
-	.talentsIcon1-4 {
-		width: 100%;
-		margin: 1vw 0 1vw 0;
+
+	.talents-tabs-in {
+		flex-flow: row wrap;
 	}
 
-	.talents-container1-4 {
-		width: 100%;
-		margin: 1vw 0 1vw 0;
-		text-align: center;
-	}
-
-	.row {
-		width: 100%;
-		display: flex;
-		justify-content: space-evenly;
-	}
-
-	/* .td {
-		width: 1vw;
-		height: 1vw;
-	}
-
-	.talents-tabs {
-		max-width: 100%;
-	} */
-	.table-talents-st {
-		max-width: 100%;
-	}
-
-	/* .table-talents-st td {
-		width: 5%;
-		height: 5%;
-	} */
 }
 
 @font-face {
