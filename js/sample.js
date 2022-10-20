@@ -99,54 +99,72 @@ $(document).ready(function () {
 
 //краски бэкграунда в десктоп хэдере
 	$(".BM").hover(function () {
-		$(".BMbrush").fadeIn(100);
-	});
-
-	// $(".BM").hover(function () {
-	// 	if ($(".BMbrush").css('display') == 'none') {
-	// 		$(".BMbrush").fadeIn(100);
-	// 	} else {
-	// 		$(".BMbrush").fadeIn(100);
-	// 	}
-	// });
-
-
-
-	// $(".BM").mouseleave(function () {
-	// 	if ($(".BMbrush").css('display') == 'block') {
-	// 		$(".BMbrush").fadeOut(100);
-	// 		} else {
-	// 			$(".BMbrush").fadeIn(100);
-	// 	}
-	// });
-
-	$(".BM").mouseleave(function () {
-		$(".BMbrush").fadeOut(100);
+		if ($(".BMbrush").css('display') === 'none') {
+			$(".BMbrush").fadeIn(100);
+			$(".BM").mouseleave(function () {
+				$(".BMbrush").fadeOut(100);
+			});
+		}
 	});
 
 	$(".WW").hover(function () {
-		$(".WWbrush").fadeIn(100);
-	});
-
-	$(".WW").mouseleave(function () {
-		$(".WWbrush").fadeOut(100);
+		if ($(".WWbrush").css('display') === 'none') {
+			$(".WWbrush").fadeIn(100);
+			$(".WW").mouseleave(function () {
+				$(".WWbrush").fadeOut(100);
+			});
+		}
 	});
 
 	$(".MW").hover(function () {
-		$(".MWbrush").fadeIn(100);
-	});
-
-	$(".MW").mouseleave(function () {
-		$(".MWbrush").fadeOut(100);
+		if ($(".MWbrush").css('display') === 'none') {
+			$(".MWbrush").fadeIn(100);
+			$(".MW").mouseleave(function () {
+				$(".MWbrush").fadeOut(100);
+			});
+		}
 	});
 
 	$(".Support").hover(function () {
-		$(".Supportbrush").fadeIn(100);
+		if ($(".Supportbrush").css('display') === 'none') {
+			$(".Supportbrush").fadeIn(100);
+			$(".Support").mouseleave(function () {
+				$(".Supportbrush").fadeOut(100);
+			});
+		}
 	});
 
-	$(".Support").mouseleave(function () {
-		$(".Supportbrush").fadeOut(100);
-	});
+	// 	$(".BM").hover(function () {
+	// 		$(".BMbrush").fadeIn(100);
+	// 	});
+
+	// $(".BM").mouseleave(function () {
+	// 	$(".BMbrush").fadeOut(100);
+	// });
+
+	// $(".WW").hover(function () {
+	// 	$(".WWbrush").fadeIn(100);
+	// });
+	//
+	// $(".WW").mouseleave(function () {
+	// 	$(".WWbrush").fadeOut(100);
+	// });
+	//
+	// $(".MW").hover(function () {
+	// 	$(".MWbrush").fadeIn(100);
+	// });
+	//
+	// $(".MW").mouseleave(function () {
+	// 	$(".MWbrush").fadeOut(100);
+	// });
+	//
+	// $(".Support").hover(function () {
+	// 	$(".Supportbrush").fadeIn(100);
+	// });
+	//
+	// $(".Support").mouseleave(function () {
+	// 	$(".Supportbrush").fadeOut(100);
+	// });
 //краски бэкграунда в десктоп хэдере
 
 });

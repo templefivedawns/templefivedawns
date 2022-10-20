@@ -109,6 +109,7 @@ code {
   z-index: 50;
   margin-top: 0.4%;
   width: 7.8vw;
+  display: none;
 }
 
 .WWbrush {
@@ -147,9 +148,9 @@ code {
   z-index: 90;
 }
 
-/*.Support {*/
-/*  display: none;*/
-/*}*/
+.active {
+  display: block;
+}
 /* ХЭДЕР МЕНЮ БРАШ */
 
 .logo {

@@ -135,7 +135,7 @@ code {
 .header-right a {
 	/*настройки ссылок в мейн меню хэдера*/
 	float: left;
-	font-family: MontserratBold, sans-serif;
+	font-family: MontserratBlack, sans-serif;
 	color: #9d9063;
 	font-size: 0.8vw;
 	line-height: 55%;
@@ -157,7 +157,7 @@ code {
 	position: absolute;
 	z-index: 50;
 	margin-top: 0.3%;
-	margin-left: 5.5%;
+	margin-left: 5.8%;
 	/* width: 13vw; */
 	width: 13vw;
 	/* height: 2.5vw; */
@@ -168,7 +168,7 @@ code {
 	position: absolute;
 	z-index: 50;
 	margin-top: 0.3%;
-	margin-left: 17.7%;
+	margin-left: 18.3%;
 	width: 8.5vw;
 	display: none;
 }
@@ -182,9 +182,9 @@ code {
 	display: none;
 }
 
-/*.active {*/
-/*	display: block;*/
-/*}*/
+.active {
+	display: block;
+}
 
 .BM,
 .WW,
@@ -230,7 +230,7 @@ code {
 	/*	rgba(17, 26, 26, 0.1) 0%,*/
 	/*	rgba(17, 26, 26, 1) 20%*/
 	/*);*/
-	background-color: rgba(17, 26, 26, 0.6);
+	background-color: rgba(17, 26, 26, 0.7);
 	width: 79.9%;
 	padding: 1.5vw;
 	margin: 0;
@@ -472,12 +472,9 @@ code {
 	}
 
 	.Supportbrush {
-		position: absolute;
-		z-index: 50;
-		margin-top: 0.65%;
-		margin-left: 26.3%;
-		width: 8.5vw;
-		display: none;
+		margin-top: 0.39%;
+		margin-left: 26.1%;
+		width: 10.8vw;
 	}
 
 	.chuvak {
