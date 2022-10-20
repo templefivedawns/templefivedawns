@@ -121,7 +121,6 @@
 	display: grid;
 	grid-template-columns: repeat(18, 1fr);
 	grid-template-rows: repeat(10, 1fr);
-	/*position: absolute;*/
 	top: 0;
 	left: 0;
 	right: 0;
@@ -142,39 +141,69 @@
 	user-select: none;
 }
 
-.talents-spec-grid {
+.talents-spec-grid1-4 {
 	display: grid;
 	grid-template-columns: repeat(17, 1fr);
-	grid-template-rows: repeat(10, 1fr);
-	/*position: absolute;*/
+	grid-template-rows: repeat(4, 1fr);
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 }
 
-/*СПЕК МОНАХА*/
-
-#tt9 {
-	/*position: absolute;*/
-	/*right: 4.5vw;*/
-	/*top: 11.5vw;*/
-	z-index: 0;
-	margin-left: 1.5vw;
+.talents-spec-grid5-7,
+.talents-spec-grid8-10 {
+	display: grid;
+	grid-template-columns: repeat(17, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
-#tt10 {
+
+.talents-spec-grid5-7,
+.talents-spec-grid8-10 {
+	border-top: #9d9063 solid 0.1vw;
+}
+
+#tt9,
+#tt20,
+#tt24,
+#tt25,
+#tt28,
+#tt31,
+#tt35,
+#tt47,
+#tt50 {
+	z-index: 0;
+	margin-left: 0.8vw;
+	/*margin-top: -0.6vw;*/
+}
+
+#tt10,
+#tt21,
+#tt26,
+#tt29,
+#tt32,
+#tt34,
+#tt36,
+#tt48,
+#tt51 {
 	z-index: 1;
 }
-
-/* ТAЛАНТЫ */
-
-
-
+/*СПЕК МОНАХА*/
 .active-tal {
 	background-color: #0A1313;
 	border: #9d9063 solid 0.1vw;
 	margin: 0.4vw;
 }
+
+.tt-border-placeholder {
+	border: transparent solid 0.1vw;
+	margin: 0.4vw;
+}
+/* ТAЛАНТЫ */
 
 /* 1440PX И МЕНЬШЕ */
 @media only screen and (max-width: 1440px) {
