@@ -153,7 +153,9 @@
 #tt50,
 #ttm20,
 #ttm25,
-#ttm27 {
+#ttm27,
+#tt-placeholder5,
+#tt-placeholder6 {
 	z-index: 0;
 	margin-left: 0.8vw;
 	/*margin-top: -0.6vw;*/
