@@ -25,9 +25,10 @@ $(document).ready(function () {
 
 	$("#tt1").click(function () {
 		let name1 = "keg smash"
-		let name2 = $("#tn1").outerText
+		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
 		} else {
 			$(".row1-tc").css("display", "block");
 			$("#tn1").text("keg smash");
