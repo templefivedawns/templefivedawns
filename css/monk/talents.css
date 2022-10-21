@@ -58,16 +58,28 @@
 
 /* ТAЛАНТЫ */
 .talents-tabs {
+	background: url("../../img/talentsBackground.png") no-repeat left top;
+	/*background-size: cover;*/
 	display: flex;
 	flex-flow: column nowrap;
+	box-shadow: 0.31vw 0 0.78vw 0.1vw rgba(0, 0, 0, 0.6);
+	border: 0.2vw solid transparent;
+	border-image: linear-gradient(
+		to left top,
+		#9d9063 80%,
+		transparent 90%,
+		#9d9063 80%,
+		transparent 90%
+	);
+	border-image-slice: 1;
 }
 
 .talents-tabs-in {
+	background-color: rgba(17, 26, 26, 0.2);
 	display: flex;
 	flex-flow: row nowrap;
-	padding: 10px;
-	margin: 10px;
-	gap: 20px;
+	padding: 1.5vw;
+	gap: 1.5vw;
 	justify-content: center;
 }
 
