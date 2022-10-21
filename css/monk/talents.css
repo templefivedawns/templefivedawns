@@ -256,6 +256,40 @@
 		box-shadow: 0 0 0.6vw 0.3vw rgba(0, 0, 0, 0.6);
 	}
 
+	#tn1,
+	#tn2,
+	#tn3,
+	#tn4,
+	#tn5,
+	#tn6 {
+		color: #9d9063;
+		font-family: MontserratBlack, sans-serif;
+		font-size: 5vw;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	#tc1,
+	#tc2,
+	#tc3,
+	#tc4,
+	#tc5,
+	#tc6 {
+		color: #9d9063;
+		font-family: Montserrat, sans-serif;
+		font-size: 4vw;
+		font-weight: 500;
+	}
+
+	.row1-tc,
+	.row2-tc,
+	.row3-tc,
+	.row4-tc,
+	.row5-tc,
+	.row6-tc {
+		margin-bottom: 6vw;
+	}
+
 }
 
 @font-face {
