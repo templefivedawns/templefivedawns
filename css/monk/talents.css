@@ -250,15 +250,8 @@
 
 	.talents-tabs {
 		background: none;
-		border: 0.2vw solid transparent;
-		border-image: linear-gradient(
-			to left top,
-			#9d9063 80%,
-			transparent 90%,
-			#9d9063 80%,
-			transparent 90%
-		);
-		border-image-slice: 1;
+		border: none;
+		box-shadow: none;
 	}
 
 	.talents-tabs-in {
@@ -266,14 +259,28 @@
 	}
 
 	.talents-spec {
-		margin-top: 10vw;
+		/*margin-top: 1vw;*/
+		padding-top: 4vw;
+		border-top: #9d9063 solid 0.1vw;
 	}
 
 	.active-tal {
 		background-color: #0A1313;
 		border: #9d9063 solid 0.1vw;
 		margin: 1.4vw 0.6vw 1.4vw 0.6vw;
-		box-shadow: 0 0 0.6vw 0.3vw rgba(0, 0, 0, 0.6);
+		box-shadow: 0 0 0.6vw 0.6vw rgba(0, 0, 0, 0.6);
+	}
+
+	.green-tal {
+		background-color: #00FF99;
+	}
+
+	.yellow-tal {
+		background-color: #fff468;
+	}
+
+	.red-tal {
+		background-color: #f23f4d;
 	}
 
 	#tn1,
@@ -307,7 +314,7 @@
 	.row4-tc,
 	.row5-tc,
 	.row6-tc {
-		margin-bottom: 6vw;
+		/*margin-bottom: 6vw;*/
 	}
 
 }
