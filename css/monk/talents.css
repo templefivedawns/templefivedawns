@@ -56,39 +56,6 @@
 	display: none;
 }
 
-/* ТЛАНТЫ */
-/* ТИР 1-4 */
-
-#tn1 {
-	color: #9d9063;
-	font-family: MontserratBlack, sans-serif;
-	font-size: 1.4vw;
-	text-transform: uppercase;
-	/*border: #9d9063 solid 0.1vw;*/
-	text-align: center;
-}
-
-#tc1 {
-	color: #9d9063;
-	font-family: Montserrat, sans-serif;
-	font-size: 1.1vw;
-	font-weight: 500;
-	/*border: #00FF99 solid 0.1vw;*/
-}
-
-/*th {*/
-/*	color: #9d9063;*/
-/*	font-family: MontserratBlack, sans-serif;*/
-/*	font-size: 1.1vw;*/
-/*}*/
-
-/*.talents-tabs {*/
-/*	width: 39%;*/
-/*}*/
-/* ТAЛАНТЫ */
-
-
-
 /* ТAЛАНТЫ */
 .talents-tabs {
 	display: flex;
@@ -104,7 +71,33 @@
 	justify-content: center;
 }
 
-/*ОБЩИЕ МОНАХА*/
+#tn1,
+#tn2,
+#tn3,
+#tn4,
+#tn5,
+#tn6 {
+	color: #9d9063;
+	font-family: MontserratBlack, sans-serif;
+	font-size: 1.4vw;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#tc1,
+#tc2,
+#tc3,
+#tc4,
+#tc5,
+#tc6 {
+	color: #9d9063;
+	font-family: Montserrat, sans-serif;
+	font-size: 1.1vw;
+	font-weight: 500;
+}
+
+/*СПЕК МОНАХА*/
+.talents-spec,
 .talents-monk {
 	flex: 1;
 	position: relative;
@@ -112,41 +105,14 @@
 	width: 100%;
 }
 
-.talents-tabs-in {
-	/*background: url("../../img/talentsBackground.png") no-repeat center top;*/
-	background-size: 100%;
-}
-
+.talents-spec-in,
 .talents-monk-in {
 	position: relative;
 	user-select: none;
 }
 
-.talents-monk-grid {
-	display: grid;
-	grid-template-columns: repeat(18, 1fr);
-	grid-template-rows: repeat(10, 1fr);
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-/*ОБЩИЕ МОНАХА*/
-
-/*СПЕК МОНАХА*/
-.talents-spec {
-	flex: 1;
-	position: relative;
-	max-width: 800px;
-	width: 100%;
-}
-
-.talents-spec-in {
-	position: relative;
-	user-select: none;
-}
-
-.talents-spec-grid1-4 {
+.talents-spec-grid1-4,
+.talents-monk-grid1-4 {
 	display: grid;
 	grid-template-columns: repeat(17, 1fr);
 	grid-template-rows: repeat(4, 1fr);
@@ -157,7 +123,9 @@
 }
 
 .talents-spec-grid5-7,
-.talents-spec-grid8-10 {
+.talents-spec-grid8-10,
+.talents-monk-grid5-7,
+.talents-monk-grid8-10 {
 	display: grid;
 	grid-template-columns: repeat(17, 1fr);
 	grid-template-rows: repeat(3, 1fr);
@@ -168,19 +136,24 @@
 }
 
 .talents-spec-grid5-7,
-.talents-spec-grid8-10 {
+.talents-spec-grid8-10,
+.talents-monk-grid5-7,
+.talents-monk-grid8-10 {
 	border-top: #9d9063 solid 0.1vw;
 }
 
 #tt9,
 #tt20,
-#tt24,
+#tt23,
 #tt25,
 #tt28,
 #tt31,
 #tt35,
 #tt47,
-#tt50 {
+#tt50,
+#ttm20,
+#ttm25,
+#ttm27 {
 	z-index: 0;
 	margin-left: 0.8vw;
 	/*margin-top: -0.6vw;*/
@@ -189,15 +162,20 @@
 #tt10,
 #tt21,
 #tt26,
+#tt24,
 #tt29,
 #tt32,
 #tt34,
 #tt36,
 #tt48,
-#tt51 {
+#tt51,
+#ttm21,
+#ttm26,
+#ttm28 {
 	z-index: 1;
 }
 /*СПЕК МОНАХА*/
+
 .active-tal {
 	background-color: #0A1313;
 	border: #9d9063 solid 0.1vw;
@@ -207,6 +185,18 @@
 .tt-border-placeholder {
 	border: transparent solid 0.1vw;
 	margin: 0.4vw;
+}
+
+.inner {
+	border: #9d9063 solid 0.1vw;
+	/*transform: rotate(45deg);*/
+}
+
+.inner-background1 {
+	background-position: left center;
+	transform-origin: right center;
+	width: 50%;
+	z-index: 10;
 }
 /* ТAЛАНТЫ */
 
