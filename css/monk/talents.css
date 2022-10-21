@@ -228,8 +228,32 @@
 /* 480PX И МЕНЬШЕ */
 @media only screen and (max-width: 480px) {
 
+	.talents-tabs {
+		background: none;
+		border: 0.2vw solid transparent;
+		border-image: linear-gradient(
+			to left top,
+			#9d9063 80%,
+			transparent 90%,
+			#9d9063 80%,
+			transparent 90%
+		);
+		border-image-slice: 1;
+	}
+
 	.talents-tabs-in {
 		flex-flow: row wrap;
+	}
+
+	.talents-spec {
+		margin-top: 10vw;
+	}
+
+	.active-tal {
+		background-color: #0A1313;
+		border: #9d9063 solid 0.1vw;
+		margin: 1.4vw 0.6vw 1.4vw 0.6vw;
+		box-shadow: 0 0 0.6vw 0.3vw rgba(0, 0, 0, 0.6);
 	}
 
 }
