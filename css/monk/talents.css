@@ -155,7 +155,10 @@
 #ttm25,
 #ttm27,
 #tt-placeholder5,
-#tt-placeholder6 {
+#tt-placeholder6,
+#ttm20,
+#ttm25,
+#ttm27 {
 	z-index: 0;
 	margin-left: 0.8vw;
 	/*margin-top: -0.6vw;*/
@@ -171,6 +174,9 @@
 #tt36,
 #tt48,
 #tt51,
+#ttm21,
+#ttm26,
+#ttm28,
 #ttm21,
 #ttm26,
 #ttm28 {
