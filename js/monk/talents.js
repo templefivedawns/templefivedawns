@@ -39,7 +39,7 @@ $(document).ready(function () {
 	});
 
 	$("#tt2").click(function () {
-		let name1 = "keg smash"
+		let name1 = "stagger"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
@@ -54,7 +54,7 @@ $(document).ready(function () {
 	});
 
 	$("#tt3").click(function () {
-		let name1 = "keg smash"
+		let name1 = "Purifying Brew"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
@@ -69,7 +69,7 @@ $(document).ready(function () {
 	});
 
 	$("#tt4").click(function () {
-		let name1 = "keg smash"
+		let name1 = "Shuffle"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
@@ -84,7 +84,7 @@ $(document).ready(function () {
 	});
 
 	$("#tt5").click(function () {
-		let name1 = "keg smash"
+		let name1 = "Hit Scheme"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
@@ -99,7 +99,7 @@ $(document).ready(function () {
 	});
 
 	$("#tt6").click(function () {
-		let name1 = "keg smash"
+		let name1 = "gift of the ox"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
@@ -114,7 +114,7 @@ $(document).ready(function () {
 	});
 
 	$("#tt7").click(function () {
-		let name1 = "keg smash"
+		let name1 = "Healing elixir"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
@@ -129,15 +129,22 @@ $(document).ready(function () {
 	});
 
 	$("#tt8").click(function () {
-		$(".row1-tc").css("display", "block");
-		$("#tn1").text("Quick Sip");
-		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
-			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
-			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		let name1 = "Quick Sip"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").css("display", "block");
+			$("#tn1").text("Quick Sip");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
 	});
 
 	$("#tt9").click(function () {
-		let name1 = "keg smash"
+		let name1 = "Rushing Jade Wind"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
@@ -152,13 +159,13 @@ $(document).ready(function () {
 	});
 
 	$("#tt10").click(function () {
-		let name1 = "keg smash"
+		let name1 = "Special Delivery"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
-			$(".row1-tc").css("display", "none");
+			$(".row1-tc").fadeOut (0);
 			$("#tn1").text("none")
 		} else {
-			$(".row1-tc").css("display", "block");
+			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("Special Delivery");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
