@@ -29,7 +29,6 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
-			$(".row3-tc").css("display", "none");
 			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("keg smash");
@@ -46,7 +45,6 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
-			$(".row3-tc").css("display", "none");
 			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("stagger");
@@ -63,7 +61,6 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
-			$(".row3-tc").css("display", "none");
 			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("Purifying Brew");
@@ -80,7 +77,6 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
-			$(".row3-tc").css("display", "none");
 			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("Shuffle");
@@ -97,7 +93,6 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
-			$(".row3-tc").css("display", "none");
 			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("Hit Scheme");
@@ -114,7 +109,6 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
-			$(".row3-tc").css("display", "none");
 			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("gift of the ox");
@@ -131,7 +125,6 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
-			$(".row3-tc").css("display", "none");
 			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("Healing elixir");
@@ -148,7 +141,6 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
-			$(".row3-tc").css("display", "none");
 			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("Quick Sip");
@@ -165,7 +157,6 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
-			$(".row3-tc").css("display", "none");
 			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("Rushing Jade Wind");
@@ -182,7 +173,6 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
-			$(".row3-tc").css("display", "none");
 			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("Special Delivery");
@@ -201,7 +191,6 @@ $(document).ready(function () {
 			$(".row2-tc").css("display", "none");
 			$("#tn2").text("none")
 		} else {
-			$(".row3-tc").css("display", "none");
 			$(".row1-tc").css("display", "none");
 			$(".row2-tc").fadeIn (600);
 			$("#tn2").text("celestial flames");
@@ -215,16 +204,15 @@ $(document).ready(function () {
 // 	ТАЛАНТЫ ХМЕЛЕВАРА 8-10
 	$("#tt49").click(function () {
 		let name1 = "stormstout's last keg"
-		let name2 = $("#tn3").text()
+		let name2 = $("#tn2").text()
 		if (name1 === name2) {
-			$(".row3-tc").css("display", "none");
-			$("#tn3").text("none")
-		} else {
 			$(".row2-tc").css("display", "none");
+			$("#tn2").text("none")
+		} else {
 			$(".row1-tc").css("display", "none");
-			$(".row3-tc").fadeIn (600);
-			$("#tn3").text("stormstout's last keg");
-			$("#tc3").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+			$(".row2-tc").fadeIn (600);
+			$("#tn2").text("stormstout's last keg");
+			$("#tc2").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
 		}
