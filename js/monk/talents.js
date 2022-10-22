@@ -39,51 +39,93 @@ $(document).ready(function () {
 	});
 
 	$("#tt2").click(function () {
-		$(".row1-tc").css("display", "block");
-		$("#tn1").text("stagger");
-		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
-			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
-			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		let name1 = "keg smash"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").css("display", "block");
+			$("#tn1").text("stagger");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
 	});
 
 	$("#tt3").click(function () {
-		$(".row1-tc").css("display", "block");
-		$("#tn1").text("Purifying Brew");
-		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
-			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
-			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		let name1 = "keg smash"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").css("display", "block");
+			$("#tn1").text("Purifying Brew");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
 	});
 
 	$("#tt4").click(function () {
-		$(".row1-tc").css("display", "block");
-		$("#tn1").text("Shuffle");
-		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
-			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
-			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		let name1 = "keg smash"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").css("display", "block");
+			$("#tn1").text("Shuffle");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
 	});
 
 	$("#tt5").click(function () {
-		$(".row1-tc").css("display", "block");
-		$("#tn1").text("Hit Scheme");
-		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
-			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
-			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		let name1 = "keg smash"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").css("display", "block");
+			$("#tn1").text("Hit Scheme");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
 	});
 
 	$("#tt6").click(function () {
-		$(".row1-tc").css("display", "block");
-		$("#tn1").text("gift of the ox");
-		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
-			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
-			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		let name1 = "keg smash"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").css("display", "block");
+			$("#tn1").text("gift of the ox");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
 	});
 
 	$("#tt7").click(function () {
-		$(".row1-tc").css("display", "block");
-		$("#tn1").text("Healing elixir");
-		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
-			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
-			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		let name1 = "keg smash"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").css("display", "block");
+			$("#tn1").text("Healing elixir");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
 	});
 
 	$("#tt8").click(function () {
@@ -95,19 +137,33 @@ $(document).ready(function () {
 	});
 
 	$("#tt9").click(function () {
-		$(".row1-tc").css("display", "block");
-		$("#tn1").text("Rushing Jade Wind");
-		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
-			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
-			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		let name1 = "keg smash"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").css("display", "block");
+			$("#tn1").text("Rushing Jade Wind");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
 	});
 
 	$("#tt10").click(function () {
-		$(".row1-tc").css("display", "block");
-		$("#tn1").text("Special Delivery");
-		$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
-			"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
-			"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		let name1 = "keg smash"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").css("display", "block");
+			$("#tn1").text("Special Delivery");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
 	});
 // ТАЛАНТЫ
 
