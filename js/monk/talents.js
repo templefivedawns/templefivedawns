@@ -21,8 +21,7 @@ $(document).ready(function () {
 // ТАБЫ
 
 // ТАЛАНТЫ
-// 	tt4 tt11 tc1 tn1
-
+// 	ТАЛАНТЫ ХМЕЛЕВАРА 1-4
 	$("#tt1").click(function () {
 		let name1 = "keg smash"
 		let name2 = $("#tn1").text()
@@ -192,10 +191,9 @@ $(document).ready(function () {
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
 		}
 	});
+// 	ТАЛАНТЫ ХМЕЛЕВАРА 1-4
 
-
-
-
+// 	ТАЛАНТЫ ХМЕЛЕВАРА 5-7
 	$("#tt11").click(function () {
 		let name1 = "celestial flames"
 		let name2 = $("#tn2").text()
@@ -212,11 +210,9 @@ $(document).ready(function () {
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
 		}
 	});
+// 	ТАЛАНТЫ ХМЕЛЕВАРА 5-7
 
-
-
-
-
+// 	ТАЛАНТЫ ХМЕЛЕВАРА 8-10
 	$("#tt49").click(function () {
 		let name1 = "stormstout's last keg"
 		let name2 = $("#tn3").text()
@@ -233,6 +229,7 @@ $(document).ready(function () {
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
 		}
 	});
+// 	ТАЛАНТЫ ХМЕЛЕВАРА 8-10
 // ТАЛАНТЫ
 
 });
