@@ -91,7 +91,7 @@
 #double-tal {
 	z-index: 2;
 	text-align: center;
-	color: #f23f4d;
+	color: #fff468;
 	padding-top: 0.3vw;
 	font-size: 1.4vw;
 	pointer-events: none;
@@ -104,6 +104,11 @@
 	font-size: 2vw;
 	pointer-events: all;
 	z-index: 3;
+}
+
+#talents-swap-spec:hover,
+#talents-swap-monk:hover {
+	cursor: pointer;
 }
 
 #tn1,

@@ -24,6 +24,7 @@ $(document).ready(function () {
 // 	ТАЛАНТЫ ХМЕЛЕВАРА 1-4
 	$("#talents-swap-spec").click(function () {
 		if ($("#tt10").css('display') === 'block') {
+			$("#talents-swap-spec").css("color", "#fff468");
 			$("#tt10").css("display", "none");
 			$("#tt21").css("display", "none");
 			$("#tt26").css("display", "none");
@@ -34,6 +35,7 @@ $(document).ready(function () {
 			$("#tt48").css("display", "none");
 			$("#tt51").css("display", "none");
 		} else {
+			$("#talents-swap-spec").css("color", "#00FF99");
 			$("#tt10").css("display", "block");
 			$("#tt21").css("display", "block");
 			$("#tt26").css("display", "block");
@@ -48,10 +50,12 @@ $(document).ready(function () {
 
 	$("#talents-swap-monk").click(function () {
 		if ($("#ttm21").css('display') === 'block') {
+			$("#talents-swap-monk").css("color", "#fff468");
 			$("#ttm21").css("display", "none");
 			$("#ttm26").css("display", "none");
 			$("#ttm28").css("display", "none");
 		} else {
+			$("#talents-swap-monk").css("color", "#00FF99");
 			$("#ttm21").css("display", "block");
 			$("#ttm26").css("display", "block");
 			$("#ttm28").css("display", "block");
