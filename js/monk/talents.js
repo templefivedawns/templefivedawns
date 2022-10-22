@@ -22,7 +22,7 @@ $(document).ready(function () {
 
 // ТАЛАНТЫ
 // 	ТАЛАНТЫ ХМЕЛЕВАРА 1-4
-	$("#talents-swap").click(function () {
+	$("#talents-swap-spec").click(function () {
 		if ($("#tt10").css('display') === 'block') {
 			$("#tt10").css("display", "none");
 			$("#tt21").css("display", "none");
@@ -43,6 +43,18 @@ $(document).ready(function () {
 			$("#tt36").css("display", "block");
 			$("#tt48").css("display", "block");
 			$("#tt51").css("display", "block");
+		}
+	});
+
+	$("#talents-swap-monk").click(function () {
+		if ($("#ttm21").css('display') === 'block') {
+			$("#ttm21").css("display", "none");
+			$("#ttm26").css("display", "none");
+			$("#ttm28").css("display", "none");
+		} else {
+			$("#ttm21").css("display", "block");
+			$("#ttm26").css("display", "block");
+			$("#ttm28").css("display", "block");
 		}
 	});
 // , "#tt21", "#tt26", "#tt24",

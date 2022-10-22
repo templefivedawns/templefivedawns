@@ -92,15 +92,16 @@
 	z-index: 2;
 	text-align: center;
 	color: #f23f4d;
-	padding-top: 0.6vw;
-	font-size: 2.4vw;
+	padding-top: 0.3vw;
+	font-size: 1.4vw;
 	pointer-events: none;
 }
 
-#talents-swap {
+#talents-swap-spec,
+#talents-swap-monk {
 	text-align: center;
 	color: #00FF99;
-	font-size: 3vw;
+	font-size: 2vw;
 	pointer-events: all;
 	z-index: 3;
 }
@@ -221,13 +222,13 @@
 .active-tal {
 	/*background-color: #0A1313;*/
 	/*border: #9d9063 solid 0.1vw;*/
-	margin: 0.4vw 0.4vw 0.4vw 0.4vw;
-	box-shadow: 0 0 0.6vw 0.3vw rgba(0, 0, 0, 0.6);
+	margin: 0.15vw 0.2vw 0.15vw 0.2vw;
+	box-shadow: 0 0 0.4vw 0.1vw rgba(0, 0, 0, 0.6);
 }
 
 .tt-border-placeholder {
 	/*border: transparent solid 0.1vw;*/
-	margin: 0.4vw 0.4vw 0.4vw 0.4vw;
+	margin: 0.15vw 0.2vw 0.15vw 0.2vw;
 }
 
 .green-tal {
@@ -277,7 +278,8 @@
 		font-size: 2.4vw;
 	}
 
-	#talents-swap {
+	#talents-swap-spec,
+	#talents-swap-monk {
 		font-size: 3vw;
 	}
 
@@ -360,7 +362,8 @@
 		font-size: 8vw;
 	}
 
-	#talents-swap {
+	#talents-swap-spec,
+	#talents-swap-monk {
 		font-size: 10vw;
 	}
 
