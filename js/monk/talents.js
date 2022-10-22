@@ -48,6 +48,7 @@ $(document).ready(function () {
 		}
 	});
 
+	
 	$("#talents-swap-monk").click(function () {
 		if ($("#ttm21").css('display') === 'block') {
 			$("#talents-swap-monk").css("color", "#fff468");
