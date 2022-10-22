@@ -212,6 +212,27 @@ $(document).ready(function () {
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
 		}
 	});
+
+
+
+
+
+	$("#tt49").click(function () {
+		let name1 = "stormstout's last keg"
+		let name2 = $("#tn3").text()
+		if (name1 === name2) {
+			$(".row3-tc").css("display", "none");
+			$("#tn3").text("none")
+		} else {
+			$(".row2-tc").css("display", "none");
+			$(".row1-tc").css("display", "none");
+			$(".row3-tc").fadeIn (600);
+			$("#tn3").text("stormstout's last keg");
+			$("#tc3").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
 // ТАЛАНТЫ
 
 });
