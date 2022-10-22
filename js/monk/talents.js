@@ -30,6 +30,8 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
+			$(".row3-tc").css("display", "none");
+			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("keg smash");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
@@ -45,6 +47,8 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
+			$(".row3-tc").css("display", "none");
+			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("stagger");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
@@ -60,6 +64,8 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
+			$(".row3-tc").css("display", "none");
+			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("Purifying Brew");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
@@ -75,6 +81,8 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
+			$(".row3-tc").css("display", "none");
+			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("Shuffle");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
@@ -90,6 +98,8 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
+			$(".row3-tc").css("display", "none");
+			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("Hit Scheme");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
@@ -105,6 +115,8 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
+			$(".row3-tc").css("display", "none");
+			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("gift of the ox");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
@@ -120,6 +132,8 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
+			$(".row3-tc").css("display", "none");
+			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("Healing elixir");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
@@ -135,6 +149,8 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
+			$(".row3-tc").css("display", "none");
+			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("Quick Sip");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
@@ -150,6 +166,8 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
+			$(".row3-tc").css("display", "none");
+			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("Rushing Jade Wind");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
@@ -165,9 +183,31 @@ $(document).ready(function () {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
+			$(".row3-tc").css("display", "none");
+			$(".row2-tc").css("display", "none");
 			$(".row1-tc").fadeIn (600);
 			$("#tn1").text("Special Delivery");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+
+
+
+	$("#tt11").click(function () {
+		let name1 = "celestial flames"
+		let name2 = $("#tn2").text()
+		if (name1 === name2) {
+			$(".row2-tc").css("display", "none");
+			$("#tn2").text("none")
+		} else {
+			$(".row3-tc").css("display", "none");
+			$(".row1-tc").css("display", "none");
+			$(".row2-tc").fadeIn (600);
+			$("#tn2").text("celestial flames");
+			$("#tc2").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
 		}
