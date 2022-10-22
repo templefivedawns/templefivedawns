@@ -300,21 +300,71 @@
 		flex-flow: row wrap;
 	}
 
+	.talents-monk {
+		background: url("../../img/talentsBackground.png") no-repeat left top;
+		background-size: cover;
+		border: 0.1vw solid transparent;
+		border-image: linear-gradient(
+			to left top,
+			#9d9063 80%,
+			transparent 90%,
+			#9d9063 80%,
+			transparent 90%
+		);
+		border-image-slice: 1;
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+		box-shadow: 0 0 0.6vw 0.6vw rgba(0, 0, 0, 0.6);
+	}
+
 	.talents-spec {
+		background: url("../../img/talentsBackground.png") no-repeat right top;
+		background-size: cover;
 		margin-top: 4vw;
-		padding-top: 5vw;
-		border-top: #9d9063 solid 0.1vw;
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+		border: 0.1vw solid transparent;
+		border-image: linear-gradient(
+			to left top,
+			#9d9063 80%,
+			transparent 90%,
+			#9d9063 80%,
+			transparent 90%
+		);
+		border-image-slice: 1;
+		box-shadow: 0 0 0.6vw 0.6vw rgba(0, 0, 0, 0.6);
+	}
+
+	#tt9,
+	#tt20,
+	#tt23,
+	#tt25,
+	#tt28,
+	#tt31,
+	#tt35,
+	#tt47,
+	#tt50,
+	#ttm20,
+	#ttm25,
+	#ttm27,
+	#tt-placeholder5,
+	#tt-placeholder6,
+	#ttm20,
+	#ttm25,
+	#ttm27 {
+		margin-left: 1.6vw;
+		/*margin-top: -0.6vw;*/
 	}
 
 	.active-tal {
 		/*background-color: #0A1313;*/
 		/*border: #9d9063 solid 0.1vw;*/
-		margin: 1.4vw 0.6vw 1.4vw 0.6vw;
+		margin: 0.6vw 0.6vw 0.6vw 0.6vw;
 		box-shadow: 0 0 0.6vw 0.6vw rgba(0, 0, 0, 0.6);
 	}
 
 	.tt-border-placeholder {
-		margin: 1.4vw 0.6vw 1.4vw 0.6vw;
+		margin: 0.6vw 0.6vw 0.6vw 0.6vw;
 	}
 
 	.green-tal {
