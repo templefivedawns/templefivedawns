@@ -22,6 +22,34 @@ $(document).ready(function () {
 
 // ТАЛАНТЫ
 // 	ТАЛАНТЫ ХМЕЛЕВАРА 1-4
+	$("#talents-swap").click(function () {
+		if ($("#tt10").css('display') === 'block') {
+			$("#tt10").css("display", "none");
+			$("#tt21").css("display", "none");
+			$("#tt26").css("display", "none");
+			$("#tt24").css("display", "none");
+			$("#tt29").css("display", "none");
+			$("#tt32").css("display", "none");
+			$("#tt36").css("display", "none");
+			$("#tt48").css("display", "none");
+			$("#tt51").css("display", "none");
+		} else {
+			$("#tt10").css("display", "block");
+			$("#tt21").css("display", "block");
+			$("#tt26").css("display", "block");
+			$("#tt24").css("display", "block");
+			$("#tt29").css("display", "block");
+			$("#tt32").css("display", "block");
+			$("#tt36").css("display", "block");
+			$("#tt48").css("display", "block");
+			$("#tt51").css("display", "block");
+		}
+	});
+// , "#tt21", "#tt26", "#tt24",
+// 		"#tt29", "#tt32", "#tt34", "#tt36",
+// 		"#tt48", "#tt51", "#tt21", "#tt25",
+// 		"#tt28"
+
 	$("#tt1").click(function () {
 		let name1 = "keg smash"
 		let name2 = $("#tn1").text()

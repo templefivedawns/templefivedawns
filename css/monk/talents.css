@@ -88,6 +88,23 @@
 	justify-content: center;
 }
 
+#double-tal {
+	z-index: 2;
+	text-align: center;
+	color: #f23f4d;
+	padding-top: 0.6vw;
+	font-size: 2.4vw;
+	pointer-events: none;
+}
+
+#talents-swap {
+	text-align: center;
+	color: #00FF99;
+	font-size: 3vw;
+	pointer-events: all;
+	z-index: 3;
+}
+
 #tn1,
 #tn2,
 #tn3,
@@ -165,27 +182,23 @@
 	/*border-top: #9d9063 solid 0.1vw;*/
 }
 
-#tt9,
-#tt20,
-#tt23,
-#tt25,
-#tt28,
-#tt31,
-#tt35,
-#tt47,
-#tt50,
-#ttm20,
-#ttm25,
-#ttm27,
-#tt-placeholder5,
-#tt-placeholder6,
-#ttm20,
-#ttm25,
-#ttm27 {
-	z-index: 0;
-	margin-left: 0.8vw;
-	/*margin-top: -0.6vw;*/
-}
+/*#tt9,*/
+/*#tt20,*/
+/*#tt23,*/
+/*#tt25,*/
+/*#tt28,*/
+/*#tt31,*/
+/*#tt35,*/
+/*#tt47,*/
+/*#tt50,*/
+/*#ttm20,*/
+/*#ttm25,*/
+/*#ttm27,*/
+/*#tt-placeholder5,*/
+/*#tt-placeholder6 {*/
+/*	z-index: 0;*/
+/*	margin-left: 0.8vw;*/
+/*}*/
 
 #tt10,
 #tt21,
@@ -199,11 +212,9 @@
 #tt51,
 #ttm21,
 #ttm26,
-#ttm28,
-#ttm21,
-#ttm26,
 #ttm28 {
 	z-index: 1;
+	display: block;
 }
 /*СПЕК МОНАХА*/
 
@@ -259,6 +270,15 @@
 	#tc3,
 	#tc4 {
 		font-size: 1.1vw;
+	}
+
+	#double-tal {
+		padding-top: 0.6vw;
+		font-size: 2.4vw;
+	}
+
+	#talents-swap {
+		font-size: 3vw;
 	}
 
 	.active-tal {
@@ -335,26 +355,34 @@
 		box-shadow: 0 0 0.6vw 0.6vw rgba(0, 0, 0, 0.6);
 	}
 
-	#tt9,
-	#tt20,
-	#tt23,
-	#tt25,
-	#tt28,
-	#tt31,
-	#tt35,
-	#tt47,
-	#tt50,
-	#ttm20,
-	#ttm25,
-	#ttm27,
-	#tt-placeholder5,
-	#tt-placeholder6,
-	#ttm20,
-	#ttm25,
-	#ttm27 {
-		margin-left: 1.6vw;
-		/*margin-top: -0.6vw;*/
+	#double-tal {
+		padding-top: 1.8vw;
+		font-size: 8vw;
 	}
+
+	#talents-swap {
+		font-size: 10vw;
+	}
+
+	/*#tt9,*/
+	/*#tt20,*/
+	/*#tt23,*/
+	/*#tt25,*/
+	/*#tt28,*/
+	/*#tt31,*/
+	/*#tt35,*/
+	/*#tt47,*/
+	/*#tt50,*/
+	/*#ttm20,*/
+	/*#ttm25,*/
+	/*#ttm27,*/
+	/*#tt-placeholder5,*/
+	/*#tt-placeholder6,*/
+	/*#ttm20,*/
+	/*#ttm25,*/
+	/*#ttm27 {*/
+	/*	margin-left: 1.6vw;*/
+	/*}*/
 
 	.active-tal {
 		/*background-color: #0A1313;*/
