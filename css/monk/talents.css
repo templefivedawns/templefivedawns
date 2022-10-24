@@ -65,6 +65,7 @@
 	filter: grayscale(100%);
 	position: absolute;
 	transform-origin: left center;
+	pointer-events: none;
 }
 /*КОННЕКТОРЫ*/
 
@@ -113,7 +114,6 @@
 	text-align: center;
 	color: #00FF99;
 	font-size: 2vw;
-	pointer-events: all;
 	z-index: 3;
 }
 
