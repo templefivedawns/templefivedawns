@@ -405,18 +405,18 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 /* 480PX И МЕНЬШЕ */
 @media only screen and (max-width: 480px) {
 
-	.wowhead-tooltip > #tt1,
-	#tt2,
-	#tt3,
-	#tt4,
-	#tt5,
-	#tt6,
-	#tt7,
-	#tt8,
-	#tt9,
-	#tt10 {
-		display: none;
-	}
+	/*.wowhead-tooltip > #tt1,*/
+	/*#tt2,*/
+	/*#tt3,*/
+	/*#tt4,*/
+	/*#tt5,*/
+	/*#tt6,*/
+	/*#tt7,*/
+	/*#tt8,*/
+	/*#tt9,*/
+	/*#tt10 {*/
+	/*	display: none;*/
+	/*}*/
 
 	.btn-rotation-content {
 		margin-bottom: 5vw;
