@@ -249,9 +249,9 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 
 .active-tal {
 	background-color: #9d9063;
-	/*border: #9d9063 solid 0.1vw;*/
 	margin: 0.15vw 0.2vw 0.15vw 0.2vw;
 	box-shadow: 0 0 0.4vw 0.1vw rgba(0, 0, 0, 0.6);
+	filter: grayscale(100%);
 }
 
 .tt-border-placeholder {
@@ -261,18 +261,22 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 
 .green-tal {
 	background-color: #00FF99;
+	filter: none;
 }
 
 .yellow-tal {
 	background-color: #fff468;
+	filter: none;
 }
 
 .red-tal {
 	background-color: #f23f4d;
+	filter: none;
 }
 
 .pick-tal {
 	background-color: rgba(255,209,0,0.8);
+	filter: none;
 }
 
 .inner {
