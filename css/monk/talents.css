@@ -101,7 +101,9 @@
 	justify-content: center;
 }
 
-#double-tal {
+#double-tal,
+#rdouble-tal,
+#mdouble-tal {
 	z-index: 2;
 	text-align: center;
 	color: #fff468;
@@ -111,7 +113,11 @@
 }
 
 #talents-swap-spec,
-#talents-swap-monk {
+#talents-swap-monk,
+#rtalents-swap-spec,
+#rtalents-swap-monk,
+#mtalents-swap-spec,
+#mtalents-swap-monk {
 	text-align: center;
 	color: #00FF99;
 	font-size: 2vw;
@@ -119,7 +125,11 @@
 }
 
 #talents-swap-spec:hover,
-#talents-swap-monk:hover {
+#talents-swap-monk:hover,
+#rtalents-swap-spec:hover,
+#rtalents-swap-monk:hover,
+#mtalents-swap-spec:hover,
+#mtalents-swap-monk:hover {
 	cursor: pointer;
 }
 
@@ -213,7 +223,35 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 #tt51,
 #ttm21,
 #ttm26,
-#ttm28 {
+#ttm28,
+
+#rtt10,
+#rtt21,
+#rtt26,
+#rtt24,
+#rtt29,
+#rtt32,
+#rtt34,
+#rtt36,
+#rtt48,
+#rtt51,
+#rttm21,
+#rttm26,
+#rttm28,
+
+#mtt10,
+#mtt21,
+#mtt26,
+#mtt24,
+#mtt29,
+#mtt32,
+#mtt34,
+#mtt36,
+#mtt48,
+#mtt51,
+#mttm21,
+#mttm26,
+#mttm28 {
 	z-index: 1;
 	display: block;
 }
@@ -270,7 +308,11 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 	}
 
 	#talents-swap-spec,
-	#talents-swap-monk {
+	#talents-swap-monk,
+	#rtalents-swap-spec,
+	#rtalents-swap-monk,
+	#mtalents-swap-spec,
+	#mtalents-swap-monk {
 		font-size: 2.6vw;
 	}
 
@@ -312,13 +354,19 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 		margin: 0.5vw;
 	}
 
-	#double-tal {
+	#double-tal,
+	#rdouble-tal,
+	#mdouble-tal {
 		padding-top: 0.8vw;
 		font-size: 2.4vw;
 	}
 
 	#talents-swap-spec,
-	#talents-swap-monk {
+	#talents-swap-monk,
+	#rtalents-swap-spec,
+	#rtalents-swap-monk,
+	#mtalents-swap-spec,
+	#mtalents-swap-monk {
 		font-size: 4vw;
 	}
 
@@ -360,7 +408,11 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 	}
 
 	#talents-swap-spec,
-	#talents-swap-monk {
+	#talents-swap-monk,
+	#rtalents-swap-spec,
+	#rtalents-swap-monk,
+	#mtalents-swap-spec,
+	#mtalents-swap-monk {
 		font-size: 4vw;
 	}
 
@@ -427,13 +479,19 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 		width: 100%;
 	}
 
-	#double-tal {
+	#double-tal,
+	#rdouble-tal,
+	#mdouble-tal {
 		padding-top: 2.4vw;
 		font-size: 8vw;
 	}
 
 	#talents-swap-spec,
-	#talents-swap-monk {
+	#talents-swap-monk,
+	#rtalents-swap-spec,
+	#rtalents-swap-monk,
+	#mtalents-swap-spec,
+	#mtalents-swap-monk {
 		font-size: 13vw;
 	}
 

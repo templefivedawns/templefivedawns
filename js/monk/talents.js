@@ -24,7 +24,7 @@ $(document).ready(function () {
 // ТАБЫ
 
 // ТАЛАНТЫ
-// 	ТАЛАНТЫ ХМЕЛЕВАРА 1-4
+	// СВАП
 	$("#talents-swap-spec").click(function () {
 		if ($("#tt10").css('display') === 'block') {
 			$("#talents-swap-spec").css("color", "#fff468");
@@ -51,7 +51,6 @@ $(document).ready(function () {
 		}
 	});
 
-	
 	$("#talents-swap-monk").click(function () {
 		if ($("#ttm21").css('display') === 'block') {
 			$("#talents-swap-monk").css("color", "#fff468");
@@ -65,11 +64,89 @@ $(document).ready(function () {
 			$("#ttm28").css("display", "block");
 		}
 	});
-// , "#tt21", "#tt26", "#tt24",
-// 		"#tt29", "#tt32", "#tt34", "#tt36",
-// 		"#tt48", "#tt51", "#tt21", "#tt25",
-// 		"#tt28"
 
+	$("#rtalents-swap-spec").click(function () {
+		if ($("#rtt10").css('display') === 'block') {
+			$("#rtalents-swap-spec").css("color", "#fff468");
+			$("#rtt10").css("display", "none");
+			$("#rtt21").css("display", "none");
+			$("#rtt26").css("display", "none");
+			$("#rtt24").css("display", "none");
+			$("#rtt29").css("display", "none");
+			$("#rtt32").css("display", "none");
+			$("#rtt36").css("display", "none");
+			$("#rtt48").css("display", "none");
+			$("#rtt51").css("display", "none");
+		} else {
+			$("#rtalents-swap-spec").css("color", "#00FF99");
+			$("#rtt10").css("display", "block");
+			$("#rtt21").css("display", "block");
+			$("#rtt26").css("display", "block");
+			$("#rtt24").css("display", "block");
+			$("#rtt29").css("display", "block");
+			$("#rtt32").css("display", "block");
+			$("#rtt36").css("display", "block");
+			$("#rtt48").css("display", "block");
+			$("#rtt51").css("display", "block");
+		}
+	});
+
+	$("#rtalents-swap-monk").click(function () {
+		if ($("#rttm21").css('display') === 'block') {
+			$("#rtalents-swap-monk").css("color", "#fff468");
+			$("#rttm21").css("display", "none");
+			$("#rttm26").css("display", "none");
+			$("#rttm28").css("display", "none");
+		} else {
+			$("#rtalents-swap-monk").css("color", "#00FF99");
+			$("#rttm21").css("display", "block");
+			$("#rttm26").css("display", "block");
+			$("#rttm28").css("display", "block");
+		}
+	});
+
+	$("#mtalents-swap-spec").click(function () {
+		if ($("#mtt10").css('display') === 'block') {
+			$("#mtalents-swap-spec").css("color", "#fff468");
+			$("#mtt10").css("display", "none");
+			$("#mtt21").css("display", "none");
+			$("#mtt26").css("display", "none");
+			$("#mtt24").css("display", "none");
+			$("#mtt29").css("display", "none");
+			$("#mtt32").css("display", "none");
+			$("#mtt36").css("display", "none");
+			$("#mtt48").css("display", "none");
+			$("#mtt51").css("display", "none");
+		} else {
+			$("#mtalents-swap-spec").css("color", "#00FF99");
+			$("#mtt10").css("display", "block");
+			$("#mtt21").css("display", "block");
+			$("#mtt26").css("display", "block");
+			$("#mtt24").css("display", "block");
+			$("#mtt29").css("display", "block");
+			$("#mtt32").css("display", "block");
+			$("#mtt36").css("display", "block");
+			$("#mtt48").css("display", "block");
+			$("#mtt51").css("display", "block");
+		}
+	});
+
+	$("#mtalents-swap-monk").click(function () {
+		if ($("#mttm21").css('display') === 'block') {
+			$("#mtalents-swap-monk").css("color", "#fff468");
+			$("#mttm21").css("display", "none");
+			$("#mttm26").css("display", "none");
+			$("#mttm28").css("display", "none");
+		} else {
+			$("#mtalents-swap-monk").css("color", "#00FF99");
+			$("#mttm21").css("display", "block");
+			$("#mttm26").css("display", "block");
+			$("#mttm28").css("display", "block");
+		}
+	});
+// СВАП
+
+	// 	ТАЛАНТЫ ХМЕЛЕВАРА 1-4
 	$("#tt1").click(function () {
 		let name1 = "keg smash"
 		let name2 = $("#tn1").text()
