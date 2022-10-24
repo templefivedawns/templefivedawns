@@ -307,13 +307,13 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 	}
 
 	#double-tal {
-		padding-top: 0.6vw;
+		padding-top: 0.8vw;
 		font-size: 2.4vw;
 	}
 
 	#talents-swap-spec,
 	#talents-swap-monk {
-		font-size: 3.4vw;
+		font-size: 4vw;
 	}
 
 	.talents-tabs-in {
@@ -417,13 +417,13 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 	}
 
 	#double-tal {
-		padding-top: 1.8vw;
+		padding-top: 2.4vw;
 		font-size: 8vw;
 	}
 
 	#talents-swap-spec,
 	#talents-swap-monk {
-		font-size: 11.6vw;
+		font-size: 13vw;
 	}
 
 	.row1-tc,
