@@ -5,6 +5,7 @@
 	color: #00ff99;
 }
 
+/*ТАБЫ*/
 .btn-rotation-content {
 	display: flex;
 	justify-content: space-around;
@@ -54,6 +55,7 @@
 	background: #0A1313;
 	border-bottom: #9d9063 solid 0.1vw;
 }
+/*ТАБЫ*/
 
 /* 1440PX И МЕНЬШЕ */
 @media only screen and (max-width: 1440px) {
