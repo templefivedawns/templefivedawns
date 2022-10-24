@@ -101,9 +101,7 @@
 	justify-content: center;
 }
 
-#double-tal,
-#rdouble-tal,
-#mdouble-tal {
+#double-tal {
 	z-index: 2;
 	text-align: center;
 	color: #fff468;
@@ -113,11 +111,7 @@
 }
 
 #talents-swap-spec,
-#talents-swap-monk,
-#rtalents-swap-spec,
-#rtalents-swap-monk,
-#mtalents-swap-spec,
-#mtalents-swap-monk {
+#talents-swap-monk {
 	text-align: center;
 	color: #00FF99;
 	font-size: 2vw;
@@ -125,11 +119,7 @@
 }
 
 #talents-swap-spec:hover,
-#talents-swap-monk:hover,
-#rtalents-swap-spec:hover,
-#rtalents-swap-monk:hover,
-#mtalents-swap-spec:hover,
-#mtalents-swap-monk:hover {
+#talents-swap-monk:hover {
 	cursor: pointer;
 }
 
@@ -258,7 +248,7 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 /*СПЕК МОНАХА*/
 
 .active-tal {
-	/*background-color: #0A1313;*/
+	background-color: #9d9063;
 	/*border: #9d9063 solid 0.1vw;*/
 	margin: 0.15vw 0.2vw 0.15vw 0.2vw;
 	box-shadow: 0 0 0.4vw 0.1vw rgba(0, 0, 0, 0.6);
@@ -279,6 +269,10 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 
 .red-tal {
 	background-color: #f23f4d;
+}
+
+.pick-tal {
+	background-color: rgba(255,209,0,0.8);
 }
 
 .inner {
@@ -308,11 +302,7 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 	}
 
 	#talents-swap-spec,
-	#talents-swap-monk,
-	#rtalents-swap-spec,
-	#rtalents-swap-monk,
-	#mtalents-swap-spec,
-	#mtalents-swap-monk {
+	#talents-swap-monk {
 		font-size: 2.6vw;
 	}
 
@@ -354,19 +344,13 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 		margin: 0.5vw;
 	}
 
-	#double-tal,
-	#rdouble-tal,
-	#mdouble-tal {
+	#double-tal {
 		padding-top: 0.8vw;
 		font-size: 2.4vw;
 	}
 
 	#talents-swap-spec,
-	#talents-swap-monk,
-	#rtalents-swap-spec,
-	#rtalents-swap-monk,
-	#mtalents-swap-spec,
-	#mtalents-swap-monk {
+	#talents-swap-monk {
 		font-size: 4vw;
 	}
 
@@ -408,11 +392,7 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 	}
 
 	#talents-swap-spec,
-	#talents-swap-monk,
-	#rtalents-swap-spec,
-	#rtalents-swap-monk,
-	#mtalents-swap-spec,
-	#mtalents-swap-monk {
+	#talents-swap-monk {
 		font-size: 4vw;
 	}
 
@@ -427,7 +407,7 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 
 	.btn-rotation-1,
 	.btn-rotation-2 {
-		padding: 1.4vw 18% 1vw 18%;
+		padding: 1.4vw 17% 1vw 17%;
 	}
 
 	.talents-tabs {
@@ -479,19 +459,13 @@ margin: 0.2vw 0.1vw 0.2vw 0.1vw;
 		width: 100%;
 	}
 
-	#double-tal,
-	#rdouble-tal,
-	#mdouble-tal {
+	#double-tal {
 		padding-top: 2.4vw;
 		font-size: 8vw;
 	}
 
 	#talents-swap-spec,
-	#talents-swap-monk,
-	#rtalents-swap-spec,
-	#rtalents-swap-monk,
-	#mtalents-swap-spec,
-	#mtalents-swap-monk {
+	#talents-swap-monk {
 		font-size: 13vw;
 	}
 
