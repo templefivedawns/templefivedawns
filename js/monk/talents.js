@@ -1000,6 +1000,21 @@ $(document).ready(function () {
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
 		}
 	});
+
+	$("#ttm12").click(function () {
+		let name1 = "изящество журавля"
+		let name2 = $("#tn2").text()
+		if (name1 === name2) {
+			$(".row2-tc").css("display", "none");
+			$("#tn2").text("none")
+		} else {
+			$(".row2-tc").fadeIn (600);
+			$("#tn2").text("изящество журавля");
+			$("#tc2").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
 // 	ТАЛАНТЫ МОНАХА 1-5
 
 // ТАЛАНТЫ
