@@ -68,14 +68,14 @@ $(document).ready(function () {
 
 	// 	ТАЛАНТЫ ХМЕЛЕВАРА 1-5
 	$("#tt1").click(function () {
-		let name1 = "keg smash"
+		let name1 = "удар бочонком"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
 			$(".row1-tc").fadeIn (600);
-			$("#tn1").text("keg smash");
+			$("#tn1").text("удар бочонком");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
@@ -83,14 +83,14 @@ $(document).ready(function () {
 	});
 
 	$("#tt2").click(function () {
-		let name1 = "stagger"
+		let name1 = "Пошатывание"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
 			$(".row1-tc").fadeIn (600);
-			$("#tn1").text("stagger");
+			$("#tn1").text("Пошатывание");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
@@ -98,14 +98,14 @@ $(document).ready(function () {
 	});
 
 	$("#tt3").click(function () {
-		let name1 = "Purifying Brew"
+		let name1 = "Очищающий отвар"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
 			$(".row1-tc").fadeIn (600);
-			$("#tn1").text("Purifying Brew");
+			$("#tn1").text("Очищающий отвар");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
@@ -113,14 +113,14 @@ $(document).ready(function () {
 	});
 
 	$("#tt4").click(function () {
-		let name1 = "Shuffle"
+		let name1 = "Скрытые резервы"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
 			$(".row1-tc").fadeIn (600);
-			$("#tn1").text("Shuffle");
+			$("#tn1").text("Скрытые резервы");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
@@ -128,14 +128,14 @@ $(document).ready(function () {
 	});
 
 	$("#tt5").click(function () {
-		let name1 = "Hit Scheme"
+		let name1 = "План удара"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
 			$(".row1-tc").fadeIn (600);
-			$("#tn1").text("Hit Scheme");
+			$("#tn1").text("План удара");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
@@ -143,14 +143,14 @@ $(document).ready(function () {
 	});
 
 	$("#tt6").click(function () {
-		let name1 = "gift of the ox"
+		let name1 = "Дар быка"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
 			$(".row1-tc").fadeIn (600);
-			$("#tn1").text("gift of the ox");
+			$("#tn1").text("Дар быка");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
@@ -158,14 +158,14 @@ $(document).ready(function () {
 	});
 
 	$("#tt7").click(function () {
-		let name1 = "Healing elixir"
+		let name1 = "Целебный эликсир"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
 			$(".row1-tc").fadeIn (600);
-			$("#tn1").text("Healing elixir");
+			$("#tn1").text("Целебный эликсир");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
@@ -173,14 +173,14 @@ $(document).ready(function () {
 	});
 
 	$("#tt8").click(function () {
-		let name1 = "Quick Sip"
+		let name1 = "Быстрый глоток"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
 			$(".row1-tc").fadeIn (600);
-			$("#tn1").text("Quick Sip");
+			$("#tn1").text("Быстрый глоток");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
@@ -188,14 +188,14 @@ $(document).ready(function () {
 	});
 
 	$("#tt9").click(function () {
-		let name1 = "Rushing Jade Wind"
+		let name1 = "Порыв нефритового ветра"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
 			$(".row1-tc").fadeIn (600);
-			$("#tn1").text("Rushing Jade Wind");
+			$("#tn1").text("Порыв нефритового ветра");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
@@ -203,14 +203,104 @@ $(document).ready(function () {
 	});
 
 	$("#tt10").click(function () {
-		let name1 = "Special Delivery"
+		let name1 = "Особая доставка"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
 			$(".row1-tc").fadeIn (600);
-			$("#tn1").text("Special Delivery");
+			$("#tn1").text("Особая доставка");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt11").click(function () {
+		let name1 = "Небесное пламя"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("Небесное пламя");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt12").click(function () {
+		let name1 = "божественный отвар"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("божественный отвар");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt13").click(function () {
+		let name1 = "Пошатывающие атаки"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("Пошатывающие атаки");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt14").click(function () {
+		let name1 = "грациозный отскок"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("грациозный отскок");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt15").click(function () {
+		let name1 = "дзен-медиация"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("дзен-медиация");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt16").click(function () {
+		let name1 = "столкновение"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("столкновение");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
@@ -219,32 +309,525 @@ $(document).ready(function () {
 // 	ТАЛАНТЫ ХМЕЛЕВАРА 1-5
 
 // 	ТАЛАНТЫ ХМЕЛЕВАРА 6-10
-	$("#tt11").click(function () {
-		let name1 = "celestial flames"
+	$("#tt17").click(function () {
+		let name1 = "пламенное дыхание"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
 			$(".row1-tc").fadeIn (600);
-			$("#tn1").text("celestial flames");
+			$("#tn1").text("пламенное дыхание");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
 		}
 	});
 
-
-
-	$("#tt49").click(function () {
-		let name1 = "stormstout's last keg"
+	$("#tt18").click(function () {
+		let name1 = "улучшенный божественный отвар"
 		let name2 = $("#tn1").text()
 		if (name1 === name2) {
 			$(".row1-tc").css("display", "none");
 			$("#tn1").text("none")
 		} else {
 			$(".row1-tc").fadeIn (600);
-			$("#tn1").text("stormstout's last keg");
+			$("#tn1").text("улучшенный божественный отвар");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt19").click(function () {
+		let name1 = "улучшенный очищающий отвар"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("улучшенный очищающий отвар");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt20").click(function () {
+		let name1 = "мирный дух"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("мирный дух");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt21").click(function () {
+		let name1 = "Императорский напиток Гая Плина"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("Императорский напиток Гая Плина");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt22").click(function () {
+		let name1 = "фундаментальные наблюдения"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("фундаментальные наблюдения");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt23").click(function () {
+		let name1 = "текучие движения"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("текучие движения");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt24").click(function () {
+		let name1 = "ботфорты для боя с тенью"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("ботфорты для боя с тенью");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt25").click(function () {
+		let name1 = "обжигающий отвар"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("обжигающий отвар");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt26").click(function () {
+		let name1 = "сила сальсалабима"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("сила сальсалабима");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt27").click(function () {
+		let name1 = "укрепляющий отвар"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("укрепляющий отвар");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt28").click(function () {
+		let name1 = "корпусом работай!"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("корпусом работай!");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt29").click(function () {
+		let name1 = "отвар черного быка"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("отвар черного быка");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt30").click(function () {
+		let name1 = "призыв нюцзао, черного быка"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("призыв нюцзао, черного быка");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt31").click(function () {
+		let name1 = "уроки нюцзао"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("уроки нюцзао");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt32").click(function () {
+		let name1 = "упрощенный репепт"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("упрощенный репепт");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt33").click(function () {
+		let name1 = "возможная нестабильность"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("возможная нестабильность");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt34").click(function () {
+		let name1 = "лапой по лицу"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("лапой по лицу");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt35").click(function () {
+		let name1 = "отвар драконьего пламени"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("отвар драконьего пламени");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt36").click(function () {
+		let name1 = "обугленные страсти"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("обугленные страсти");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt37").click(function () {
+		let name1 = "высокая стойкость"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("высокая стойкость");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt38").click(function () {
+		let name1 = "прогулка с быком"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("прогулка с быком");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt39").click(function () {
+		let name1 = "нокаутирующая верткость"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("нокаутирующая верткость");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt40").click(function () {
+		let name1 = "верткость хмелевара"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("верткость хмелевара");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt41").click(function () {
+		let name1 = "контрудар"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("контрудар");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt42").click(function () {
+		let name1 = "отвар из костяной пыли"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("отвар из костяной пыли");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt43").click(function () {
+		let name1 = "призыв нюцзао, черного быка"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("призыв нюцзао, черного быка");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt44").click(function () {
+		let name1 = "взрывной бочонок"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("взрывной бочонок");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt45").click(function () {
+		let name1 = "серия нокаутов"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("серия нокаутов");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt46").click(function () {
+		let name1 = "оружие ордена"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("оружие ордена");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt47").click(function () {
+		let name1 = "затухание"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("затухание");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt48").click(function () {
+		let name1 = "благодатный хмель"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("благодатный хмель");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt49").click(function () {
+		let name1 = "последний бочонок буйного портера"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("последний бочонок буйного портера");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt50").click(function () {
+		let name1 = "призыв к оружию"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("призыв к оружию");
+			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
+				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
+				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
+		}
+	});
+
+	$("#tt51").click(function () {
+		let name1 = "порыв ци"
+		let name2 = $("#tn1").text()
+		if (name1 === name2) {
+			$(".row1-tc").css("display", "none");
+			$("#tn1").text("none")
+		} else {
+			$(".row1-tc").fadeIn (600);
+			$("#tn1").text("порыв ци");
 			$("#tc1").text("Lorem ipsum dolor sit amet, onsectetur adipiscing elit. " +
 				"Cras consequat volutpat viverra. Etiam fringilla quam nunc, quis dapibus sem accumsan nec. " +
 				"Praesent a maximus tortor, congue commodo turpis. Sed pharetra.");
@@ -418,7 +1001,7 @@ $(document).ready(function () {
 		}
 	});
 // 	ТАЛАНТЫ МОНАХА 1-5
-	
+
 // ТАЛАНТЫ
 
 });

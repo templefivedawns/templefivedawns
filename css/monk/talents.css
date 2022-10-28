@@ -354,7 +354,7 @@
 	#tn2,
 	#tn3,
 	#tn4 {
-		font-size: 2.2vw;
+		font-size: 1.6vw;
 	}
 
 	#tc1,
@@ -497,18 +497,18 @@
 	}
 
 	#double-tal {
-		padding-top: 3.4vw;
+		padding-top: 3.5vw;
 		font-size: 6vw;
 	}
 
 	#icon-left {
 		margin-left: -10%;
-		margin-right: 18%;
+		margin-right: 19%;
 	}
 
 	#icon-right {
 		margin-right: -10%;
-		margin-left: 18%;
+		margin-left: 19%;
 	}
 
 	#talents-swap-spec,
