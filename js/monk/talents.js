@@ -66,6 +66,15 @@ $(document).ready(function () {
 	});
 // СВАП
 
+	// let tt1 = document.querySelector('#tt1');
+	// $(window).resize(function() {
+	// 	if ($(window).width() < 480) {
+	// 		tt1.setAttribute("data-disable-wowhead-tooltip", "true")
+	// 	} else {
+	// 		tt1.setAttribute("data-disable-wowhead-tooltip", "false")
+	// 	}
+	// });
+
 	// 	ТАЛАНТЫ ХМЕЛЕВАРА 1-4
 	$("#tt1").click(function () {
 		let name1 = "keg smash"

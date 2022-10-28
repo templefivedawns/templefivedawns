@@ -111,9 +111,19 @@
 	z-index: 2;
 	text-align: center;
 	color: #fff468;
-	padding-top: 0.3vw;
-	font-size: 1.4vw;
+	padding-top: 0.6vw;
+	font-size: 0.7vw;
 	pointer-events: none;
+}
+
+#icon-left {
+	margin-left: -10%;
+	margin-right: 24%;
+}
+
+#icon-right {
+	margin-right: -10%;
+	margin-left: 24%;
 }
 
 #talents-swap-spec,
@@ -204,7 +214,19 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	/*border-top: #9d9063 solid 0.1vw;*/
+}
+
+.talents-spec-grid1-5,
+.talents-spec-grid6-10,
+.talents-monk-grid1-5,
+.talents-monk-grid6-10 {
+	display: grid;
+	grid-template-columns: repeat(17, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 #tt10,
@@ -350,8 +372,18 @@
 	}
 
 	#double-tal {
-		padding-top: 0.8vw;
-		font-size: 2.4vw;
+		padding-top: 1.1vw;
+		font-size: 1.8vw;
+	}
+
+	#icon-left {
+		margin-left: -10%;
+		margin-right: 19%;
+	}
+
+	#icon-right {
+		margin-right: -10%;
+		margin-left: 19%;
 	}
 
 	#talents-swap-spec,
@@ -405,6 +437,10 @@
 	.btn-rotation-content {
 		margin-bottom: 5vw;
 	}
+
+	/*#tt1[data-disable-wowhead-tooltip] {*/
+	/*	content: attr(data-disable-wowhead-tooltip, true);*/
+	/*}*/
 
 	.btn-rotation-1,
 	.btn-rotation-2 {
@@ -461,8 +497,18 @@
 	}
 
 	#double-tal {
-		padding-top: 2.4vw;
-		font-size: 8vw;
+		padding-top: 3.4vw;
+		font-size: 6vw;
+	}
+
+	#icon-left {
+		margin-left: -10%;
+		margin-right: 18%;
+	}
+
+	#icon-right {
+		margin-right: -10%;
+		margin-left: 18%;
 	}
 
 	#talents-swap-spec,
