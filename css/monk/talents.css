@@ -8,17 +8,17 @@
 /*ТАБЫ*/
 .btn-rotation-content {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	width: 100%;
 	/*padding-top: 0vw;*/
 	/*margin-top: 1vw;*/
 	margin-bottom: 1vw;
-	background-color: #112626;
+	/*background-color: rgba(17, 38, 38, 0.7);*/
 }
 
 .btn-rotation-1,
 .btn-rotation-2 {
-	background: none;
+	/*background: none;*/
 	font-family: MontserratBold, sans-serif;
 	color: #9d9063;
 	border: none;
@@ -26,11 +26,21 @@
 	border-bottom: transparent solid 0.1vw;
 	height: auto;
 	padding: 0.35vw 22.9% 0.2vw 22.9%;
+	background-color: rgba(17, 38, 38, 0.4);
+	box-shadow: 0 0 0.78vw 0.4vw rgba(0, 0, 0, 0.4);
 }
+
+/*.btn-rotation-1 {*/
+/*	margin-right: 4%;*/
+/*}*/
+
+/*.btn-rotation-2 {*/
+/*	margin-left: 4%;*/
+/*}*/
 
 .btn-rotation-1:hover,
 .btn-rotation-2:hover {
-	background: #0a1313;
+	background-color: rgba(10, 19, 19, 0.6);
 }
 
 .tabs-rotation-content {
@@ -52,8 +62,9 @@
 }
 
 .select-bg-leg {
-	background: #0a1313;
+	background-color: rgba(10, 19, 19, 0.6);
 	border-bottom: #9d9063 solid 0.1vw;
+	z-index: 1;
 }
 /*ТАБЫ*/
 
@@ -352,7 +363,7 @@
 @media only screen and (max-width: 1440px) {
 	.btn-rotation-1,
 	.btn-rotation-2 {
-		padding: 0.6vw 22.1% 0.35vw 22.1%;
+		padding: 0.6vw 21.7% 0.35vw 21.7%;
 	}
 
 	#tn1,
