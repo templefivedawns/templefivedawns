@@ -275,15 +275,19 @@
 }
 /*СПЕК МОНАХА*/
 
-.active-tal {
+.iconmedium {
 	background-color: #9d9063;
 	margin: 0.15vw 0.2vw 0.15vw 0.2vw;
 	box-shadow: 0 0 0.4vw 0.1vw rgba(0, 0, 0, 0.6);
 	filter: grayscale(100%);
 }
 
-.tt-border-placeholder {
-	margin: 0.15vw 0.2vw 0.15vw 0.2vw;
+.active-tal {
+
+}
+
+#placeholder {
+	visibility: hidden;
 }
 
 .green-tal {
@@ -389,8 +393,8 @@
 
 	#talents-swap-spec,
 	#talents-swap-monk {
-		padding-top: 0.85vw;
-		font-size: 2.4vw;
+		/*padding-top: 0.85vw;*/
+		font-size: 4vw;
 	}
 
 	.talents-tabs-in {
@@ -403,15 +407,13 @@
 		width: 100%;
 	}
 
-	.active-tal {
-		/*background-color: #0A1313;*/
-		/*border: #9d9063 solid 0.1vw;*/
+	.iconmedium {
 		margin: 0.4vw;
 		box-shadow: 0 0 0.4vw 0.2vw rgba(0, 0, 0, 0.6);
 	}
 
-	.tt-border-placeholder {
-		margin: 0.4vw;
+	.active-tal {
+
 	}
 }
 
@@ -525,15 +527,13 @@
 		margin: 2vw;
 	}
 
-	.active-tal {
-		/*background-color: #0A1313;*/
-		/*border: #9d9063 solid 0.1vw;*/
+	.iconmedium {
 		margin: 1.4vw 0.6vw 1.4vw 0.6vw;
 		box-shadow: 0 0 0.6vw 0.6vw rgba(0, 0, 0, 0.6);
 	}
 
-	.tt-border-placeholder {
-		margin: 1.4vw 0.6vw 1.4vw 0.6vw;
+	.active-tal {
+
 	}
 
 	.green-tal {
