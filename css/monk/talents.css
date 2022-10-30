@@ -158,7 +158,7 @@
 #tn4 {
 	color: #9d9063;
 	font-family: MontserratBlack, sans-serif;
-	font-size: 1.4vw;
+	font-size: 0.8vw;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -178,7 +178,7 @@
 .row2-tc,
 .row3-tc,
 .row4-tc {
-	background-color: rgba(17, 26, 26, 0.6);
+	/*background-color: rgba(17, 26, 26, 0.4);*/
 	padding: 1.5% 1.5% 3% 1.5%;
 	display: none;
 	margin: 0.2vw 0.1vw 0.2vw 0.1vw;
