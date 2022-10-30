@@ -201,7 +201,7 @@
 	text-transform: uppercase;
 	/*border-bottom: transparent solid 0.1vw;*/
 	height: auto;
-	padding: 0.35vw 10.4% 0.2vw 10.4%;
+	padding: 0.35vw 10.2% 0.2vw 10.2%;
 	border: transparent solid 0.1vw;
 }
 
@@ -244,7 +244,7 @@
 	/*padding-top: 0vw;*/
 	/*margin-top: 1vw;*/
 	margin-bottom: 1vw;
-	background-color: #112626;
+	/*background-color: #112626;*/
 }
 
 .btn-rashod-1,
@@ -253,17 +253,16 @@
 	background: none;
 	font-family: MontserratBold, sans-serif;
 	color: #9d9063;
-	border: none;
 	text-transform: uppercase;
-	border-bottom: transparent solid 0.1vw;
 	height: auto;
-	padding: 0.35vw 14.55% 0.2vw 14.55%;
+	padding: 0.35vw 14.4% 0.2vw 14.4%;
+	border: transparent solid 0.1vw;
 }
 
 .btn-rashod-1:hover,
 .btn-rashod-2:hover,
 .btn-rashod-3:hover {
-	background: #0A1313;
+	border-bottom: #9d9063 solid 0.1vw;
 }
 
 .tabs-rashod-content {
@@ -287,6 +286,7 @@
 }
 /*ТАБЫ РАСХОДНИКИ*/
 
+/*ТАБЫ РАСЫ*/
 .collum-alliance {
 	background: url("../../img/alliance.png") no-repeat center center;
 	background-size: 12vw;
@@ -319,7 +319,6 @@
 	min-height: 15vw;
 }
 
-/*ТАБЫ РАСЫ*/
 .btn-race-content {
 	display: flex;
 	justify-content: space-around;
@@ -336,17 +335,16 @@
 	background: none;
 	font-family: MontserratBold, sans-serif;
 	color: #9d9063;
-	border: none;
 	text-transform: uppercase;
-	border-bottom: transparent solid 0.1vw;
 	height: auto;
-	padding: 0.35vw 2% 0.2vw 2%;
+	padding: 0.35vw 12.2% 0.2vw 12.2%;
+	border: transparent solid 0.1vw;
 }
 
 .btn-race-1:hover,
 .btn-race-2:hover,
 .btn-race-3:hover {
-	background: #0A1313;
+	border-bottom: #9d9063 solid 0.1vw;
 }
 
 .tabs-race-content {
@@ -388,17 +386,16 @@
 	background: none;
 	font-family: MontserratBold, sans-serif;
 	color: #9d9063;
-	border: none;
 	text-transform: uppercase;
-	border-bottom: transparent solid 0.1vw;
 	height: auto;
-	padding: 0.35vw 2% 0.2vw 2%;
+	padding: 0.35vw 12.2% 0.2vw 12.2%;
+	border: transparent solid 0.1vw;
 }
 
 .btn-race2-1:hover,
 .btn-race2-2:hover,
 .btn-race2-3:hover {
-	background: #0A1313;
+	border-bottom: #9d9063 solid 0.1vw;
 }
 
 .tabs-race2-content {
@@ -425,7 +422,7 @@
 
 .select-bg-leg {
 	background-color: rgba(10, 19, 19, 0.6);
-	box-shadow: 0 0 0.78vw 0.4vw rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 0.4vw 0.1vw rgba(0, 0, 0, 0.4);
 	border: #9d9063 solid 0.1vw;
 }
 
@@ -465,13 +462,13 @@
 	.btn-race-1,
 	.btn-race-2,
 	.btn-race-3 {
-		padding: 0.6vw 2% 0.35vw 2%;
+		padding: 0.6vw 10.9% 0.35vw 10.9%;
 	}
 
 	.btn-race2-1,
 	.btn-race2-2,
 	.btn-race2-3 {
-		padding: 0.6vw 2% 0.35vw 2%;
+		padding: 0.6vw 10.85% 0.35vw 10.85%;
 	}
 
 	.collum-alliance {

@@ -25,7 +25,7 @@
 	text-transform: uppercase;
 	border-bottom: transparent solid 0.1vw;
 	height: auto;
-	padding: 0.35vw 22.9% 0.2vw 22.9%;
+	padding: 0.35vw 22.6% 0.2vw 22.6%;
 	background-color: rgba(17, 38, 38, 0.4);
 	box-shadow: 0 0 0.78vw 0.4vw rgba(0, 0, 0, 0.4);
 }
@@ -475,7 +475,7 @@
 	}
 
 	.talents-monk {
-		background: url("../../img/talentsBackground.png") no-repeat left top;
+		background: url("../../img/monk_brewmaster-bg.jpg") no-repeat center top;
 		background-size: cover;
 		border: 0.1vw solid transparent;
 		border-image: linear-gradient(
@@ -494,7 +494,7 @@
 	}
 
 	.talents-spec {
-		background: url("../../img/talentsBackground.png") no-repeat right top;
+		background: url("../../img/monk_brewmaster-bg.jpg") no-repeat right top;
 		background-size: cover;
 		padding-top: 2vw;
 		padding-bottom: 2vw;

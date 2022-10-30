@@ -225,12 +225,12 @@ code {
 }
 
 #containerMain {
-	/*background: linear-gradient(*/
-	/*	180deg,*/
-	/*	rgba(17, 26, 26, 0.1) 0%,*/
-	/*	rgba(17, 26, 26, 1) 20%*/
-	/*);*/
-	background-color: rgba(17, 26, 26, 0.7);
+	background: linear-gradient(
+		180deg,
+		rgba(17, 26, 26, 0.1) 0px,
+		rgba(17, 26, 26, 1) 300px
+	);
+	/*background-color: rgba(17, 26, 26, 0.7);*/
 	width: 79.9%;
 	padding: 1.5vw;
 	margin: 0;
@@ -457,6 +457,14 @@ code {
 
 	.container {
 		margin: 3vw 5% 3vw 5%;
+	}
+
+	#containerMain {
+		background: linear-gradient(
+			180deg,
+			rgba(17, 26, 26, 0.1) 0px,
+			rgba(17, 26, 26, 1) 200px
+		);
 	}
 
 	.frame-red {
@@ -779,12 +787,12 @@ code {
 	}
 
 	#containerMain {
-		background-color: rgba(17, 26, 26, 0.2);
-		/*background: linear-gradient(*/
-		/*	180deg,*/
-		/*	rgba(17, 26, 26, 0) 0%,*/
-		/*	rgba(17, 26, 26, 1) 5%*/
-		/*);*/
+		/*background-color: rgba(17, 26, 26, 0.2);*/
+		background: linear-gradient(
+			180deg,
+			rgba(17, 26, 26, 0.1) 0px,
+			rgba(17, 26, 26, 1) 250px
+		);
 		width: 100%;
 		border: none;
 		padding: 3vw;
