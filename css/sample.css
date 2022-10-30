@@ -2,14 +2,14 @@
 /* CSS Document */
 
 body {
-	/*background: #111a1a url(../img/coolpictureGreen2.png) no-repeat top center;*/
-	/*background-size: 100%;*/
+	background: #0A1313 url(../img/coolpicturetrokes2.png) no-repeat top 3vw center;
+	background-size: contain;
 	margin: 0;
 	padding: 0;
 	min-width: 100%;
 	overflow: auto;
 	/*background-color: #090e0e;*/
-	background-color: #0A1313;
+	/*background-color: #0A1313;*/
 }
 
 h1, h2, h3 {
@@ -205,8 +205,8 @@ code {
 
 /* БАДИ НАЧАЛО */
 .container {
-	background: #111a1a url(../img/coolpictureGreen4.png) no-repeat top left;
-	background-size: 81%;
+	/*background: #111a1a url(../img/coolpictureGreen4.png) no-repeat top left;*/
+	/*background-size: 81%;*/
 	margin: 3vw 15% 3vw 15%;
 	box-shadow: 0.31vw 0 0.78vw 0.1vw rgba(0, 0, 0, 0.6);
 
@@ -487,14 +487,12 @@ code {
 /* 480PX И МЕНЬШЕ */
 @media only screen and (max-width: 480px) {
 	body {
+		background: #0A1313 url(../img/coolpicturetrokes2.png) no-repeat top 11vw center;
+		background-size: 100%;
 		margin: 0;
 		padding: 0;
 		min-width: 100%;
 		overflow: auto;
-		/* background: url(../img/raids/vault-of-the-incarnates/vault-bg.webp) top
-			center no-repeat; */
-		/*background-size: 150%;*/
-		background-color: #090e0e;
 	}
 
 	h1 {
@@ -771,7 +769,7 @@ code {
 	.container {
 		/* background: rgb(17, 26, 26); */
 		/*background: #111a1a url(../img/coolpictureGreen4.png) no-repeat top left;*/
-		background-size: 100%;
+		/*background-size: 100%;*/
 		margin: 0;
 		width: 100%;
 		border: none;
