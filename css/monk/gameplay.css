@@ -20,18 +20,17 @@
 .btn-rotation-2 {
 	font-family: MontserratBold, sans-serif;
 	color: #9d9063;
-	border: none;
 	text-transform: uppercase;
-	border-bottom: transparent solid 0.1vw;
 	height: auto;
-	padding: 0.35vw 22.9% 0.2vw 22.9%;
-	background-color: rgba(17, 38, 38, 0.4);
-	box-shadow: 0 0 0.78vw 0.4vw rgba(0, 0, 0, 0.4);
+	padding: 0.35vw 22.7% 0.2vw 22.7%;
+	background-color: transparent;
+	/*box-shadow: 0 0 0.78vw 0.4vw rgba(0, 0, 0, 0.4);*/
+	border: transparent solid 0.1vw;
 }
 
 .btn-rotation-1:hover,
 .btn-rotation-2:hover {
-	background-color: rgba(10, 19, 19, 0.6);
+	border-bottom: #9d9063 solid 0.1vw;
 }
 
 .tabs-rotation-content {
@@ -54,17 +53,16 @@
 
 .select-bg-leg {
 	background-color: rgba(10, 19, 19, 0.6);
-	border-bottom: #9d9063 solid 0.1vw;
-	z-index: 1;
+	box-shadow: 0 0 0.4vw 0.1vw rgba(0, 0, 0, 0.4);
+	border: #9d9063 solid 0.1vw;
 }
 /*ТАБЫ*/
 
 /* 1440PX И МЕНЬШЕ */
 @media only screen and (max-width: 1440px) {
-
 	.btn-rotation-1,
 	.btn-rotation-2 {
-		padding: 0.6vw 22.1% 0.35vw 22.1%;
+		padding: 0.6vw 22% 0.35vw 22%;
 	}
 
 }
@@ -78,7 +76,7 @@
 
 	.btn-rotation-1,
 	.btn-rotation-2 {
-		padding: 1.4vw 18% 1vw 18%;
+		padding: 1.4vw 17.7% 1vw 17.7%;
 	}
 
 }
