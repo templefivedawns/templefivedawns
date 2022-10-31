@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background: #0A1313 url(../img/coolpicturetrokesBright.png) no-repeat top 3vw center;
+	background: #0A1313 url(../img/coolpicturetrokes5.png) no-repeat top 3vw center;
 	background-size: contain;
 	margin: 0;
 	padding: 0;
@@ -300,10 +300,11 @@ code {
 
 /* ПРАВОЕ МЕНЮ НАВИГАЦИИ НАЧАЛО */
 .nav-bar {
-	background: #031313;
+	background: rgba(3, 19, 19, 0.9);
 	position: sticky;
 	top: 3.1vw;
 	width: 100%;
+	border-bottom: #9d9063 solid 0.1vw;
 }
 
 .select-item-menu {
