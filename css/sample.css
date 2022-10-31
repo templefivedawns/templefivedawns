@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background: #061313 url(../img/coolpicturetrokesBright.png) no-repeat top 3vw center;
+	background: #0A1313 url(../img/coolpicturetrokesBright.png) no-repeat top 3vw center;
 	background-size: contain;
 	margin: 0;
 	padding: 0;
@@ -410,6 +410,17 @@ code {
 /////////
 */
 
+/* 1920PX И МЕНЬШЕ */
+@media only screen and (max-width: 1920px) {
+	#containerMain {
+		background: linear-gradient(
+			180deg,
+			rgba(3, 19, 19, 0.1) 0px,
+			rgba(3, 19, 19, 1) 220px
+		);
+	}
+}
+
 /* 1440PX И МЕНЬШЕ */
 @media only screen and (max-width: 1440px) {
 	h1 {
@@ -495,7 +506,7 @@ code {
 /* 480PX И МЕНЬШЕ */
 @media only screen and (max-width: 480px) {
 	body {
-		background: #031313 url(../img/coolpicturetrokesBright.png) no-repeat top 11vw center;
+		background: #0A1313 url(../img/coolpicturetrokesBright.png) no-repeat top 11vw center;
 		background-size: 130%;
 	}
 
