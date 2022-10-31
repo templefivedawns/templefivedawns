@@ -61,7 +61,7 @@
 }
 
 .select-bg-leg {
-	background-color: rgba(6, 19, 19, 0.6);
+	background-color: #032121;
 	box-shadow: 0 0 0.4vw 0.1vw rgba(0, 0, 0, 0.4);
 	border: #9d9063 solid 0.1vw;
 }
@@ -325,6 +325,11 @@
 
 /* 1920PX И МЕНЬШЕ */
 @media only screen and (max-width: 1920px) {
+	.btn-rotation-1,
+	.btn-rotation-2 {
+		padding: 0.6vw 21.6% 0.35vw 21.6%;
+	}
+
 	.talents-tabs-in {
 		gap: 10vw;
 	}

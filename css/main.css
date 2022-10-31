@@ -83,7 +83,7 @@ code {
 }
 
 .format-code {
-	background-color: #071515;
+	background-color: #032121;
 	border: #9d9063 outset 0.1vw;
 	padding: 0.5vw;
 	color: #9d9063;
@@ -302,8 +302,6 @@ code {
 
 .container {
 	margin: 0.5vw 15% 3vw 15%;
-	background-color: #111a1a;
-	/* margin-bottom: 10%; */
 	display: flex;
 	border: #9d9063 solid 0.1vw;
 	box-shadow: 0.31vw 0 0.78vw 0.1vw rgba(0, 0, 0, 0.6);
@@ -311,31 +309,10 @@ code {
 
 #containerMain {
 	width: 79.9%;
-	background-color: #111a1a;
+	background-color: #031313;
 	color: #9d9063;
 	font-family: Montserrat, sans-serif;
 	border-right: #9d9063 solid 0.1vw;
-
-	/* border: 1px solid transparent;
-	border-image: linear-gradient(
-		to left top,
-		#9d9063 80%,
-		transparent 90%,
-		#9d9063 80%,
-		transparent 90%
-	);
-	border-image-slice: 1; */
-
-	/* border: 1px solid transparent;
-	border-image: linear-gradient(
-		to left top,
-		#9d9063 10%,
-		transparent 30%,
-		transparent 70%,
-		#9d9063 90%
-	);
-	border-image-slice: 1; */
-
 	float: left;
 	align-content: center;
 	overflow: visible;
@@ -356,7 +333,7 @@ code {
 }
 
 .containerH {
-	background-color: #112626;
+	background-color: #032121;
 	overflow: auto;
 	border-bottom: solid 0.1vw #9d9063;
 }
@@ -395,7 +372,7 @@ code {
 .dropdownMenuII,
 .dropdownMenuIII {
 	position: absolute;
-	background-color: #111a1a;
+	background-color: #031313;
 	border: solid 0.1vw #9d9063;
 	z-index: 3;
 	display: none;
@@ -540,6 +517,12 @@ code {
 	margin-bottom: 1.1%;
 }
 
+.seventh,
+.seventhII,
+.seventhIII {
+	pointer-events: none;
+}
+
 #containerRed {
 	background: url(../img/backgroundred.png) 100% 0 repeat;
 	background-size: 300%;
@@ -553,7 +536,7 @@ code {
 }
 
 .containerHRed {
-	background-color: #112626;
+	background-color: #032121;
 	overflow: auto;
 	/* padding-left: 5%; */
 	text-align: center;
@@ -567,7 +550,7 @@ code {
 }
 
 #supportContainer {
-	background-color: rgba(17, 26, 26, 0.7);
+	background-color: rgba(3, 19, 19, 0.6);
 	padding-top: 3%;
 	padding-bottom: 3%;
 	border-bottom: solid 0.1vw #9d9063;
@@ -629,11 +612,11 @@ code {
 #streamsName9,
 #streamsName10 {
 	display: none;
-	background-color: rgba(17, 26, 26, 0.7);
+	background-color: #032121;
 	height: 1vw;
 	width: 94%;
 	color: #9d9063;
-	font-family: Montserrat, sans-serif;
+	font-family: MontserratBlack, sans-serif;
 	text-align: center;
 	overflow: visible;
 	z-index: 2;
@@ -663,14 +646,14 @@ code {
 }
 
 .noStream p {
-	font-size: 0.9vw;
+	font-size: 0.7vw;
 	text-align: center;
 	font-family: MontserratSemiBold, sans-serif;
 	line-height: 1.8;
 }
 
 .fa-face-grin-beam-sweat {
-	font-size: 1.9vw;
+	font-size: 1.2vw;
 	margin-top: 3.5%;
 }
 
@@ -876,7 +859,7 @@ code {
 		padding: 0;
 		width: 100%;
 		overflow: auto;
-		background-color: #090e0e;
+		background-color: #0A1313;
 	}
 
 	h1 {
@@ -1026,7 +1009,7 @@ code {
 	.popup-menu {
 		padding: 5vw 0 0 0;
 		border-right: #9d9063 solid 0.1vw;
-		background-color: #090e0e;
+		background-color: #0A1313;
 		width: 100%;
 		height: 100%;
 		margin: 0;
@@ -1078,7 +1061,7 @@ code {
 	.menuCard {
 		/* background-color:#112626; */
 		/* background-color: #071515; */
-		background-color: #112626;
+		background-color: #032121;
 		margin-top: 1%;
 		margin-bottom: 1%;
 		/* height: 30vw; */
@@ -1123,7 +1106,6 @@ code {
 	}
 
 	.popup-select-item-submenu {
-		/* text-align: center; */
 		text-transform: capitalize;
 		line-height: 2.5;
 		display: block;
@@ -1140,16 +1122,12 @@ code {
 
 	/* КОНЕЦ ПОПАП-МЕНЮ */
 	.container {
-		/* background: rgb(17, 26, 26); */
-		/* background: url(../img/raids/vault-of-the-incarnates/vault-bg.png) top left no-repeat; */
-		background-color: #111a1a;
-		/* background-size: 100%; */
+		background-color: #031313;
 		width: 100%;
 		padding: 0;
 		margin: 0;
 		border: none;
 		box-shadow: none;
-		/*position: auto;*/
 	}
 
 	#containerMain {
@@ -1236,11 +1214,11 @@ code {
 	#streamsNameMob9,
 	#streamsNameMob10 {
 		display: none;
-		background-color: rgba(9, 14, 14, 0.7);
+		background-color: #032121;
 		height: 7vw;
 		width: 97.9%;
 		color: #9d9063;
-		font-family: Montserrat, sans-serif;
+		font-family: MontserratBlack, sans-serif;
 		text-align: center;
 		overflow: visible;
 		z-index: 2;
@@ -1398,7 +1376,7 @@ code {
 
 	#footer-mob {
 		display: block;
-		background-color: #111a1a;
+		background-color: #031313;
 		/* height: 7vw; */
 		width: 100%;
 		margin: 0;

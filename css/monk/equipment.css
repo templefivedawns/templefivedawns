@@ -421,12 +421,38 @@
 /*ТАБЫ РАСЫ*/
 
 .select-bg-leg {
-	background-color: rgba(6, 19, 19, 0.6);
+	background-color: #032121;
 	box-shadow: 0 0 0.4vw 0.1vw rgba(0, 0, 0, 0.4);
 	border: #9d9063 solid 0.1vw;
 }
 
 /*maincontainer*/
+/* 1920PX И МЕНЬШЕ */
+@media only screen and (max-width: 1920px) {
+
+	.btn-leg-1,
+	.btn-leg-2,
+	.btn-leg-3,
+	.btn-leg-4 {
+		padding: 0.6vw 9.5% 0.35vw 9.5%;
+	}
+
+	.btn-rashod-1,
+	.btn-rashod-2,
+	.btn-rashod-3 {
+		padding: 0.6vw 13.6% 0.35vw 13.6%;
+	}
+
+	.btn-race-1,
+	.btn-race-2,
+	.btn-race-3,
+	.btn-race2-1,
+	.btn-race2-2,
+	.btn-race2-3{
+		padding: 0.6vw 10.9% 0.35vw 10.9%;
+	}
+
+}
 
 /* 1440PX И МЕНЬШЕ */
 @media only screen and (max-width: 1440px) {
