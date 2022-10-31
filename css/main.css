@@ -1337,25 +1337,11 @@ code {
 	/* аккордеон конец */
 	.aboutProject {
 		width: 40%;
-		margin: 3% 30%;
+		padding: 3% 30% 3% 30%;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-
-		border: 0.1vw solid transparent;
-		border-image: linear-gradient(
-			to left top,
-			#9d9063 10%,
-			transparent 30%,
-			transparent 70%,
-			#9d9063 90%
-		);
-		border-image-slice: 1;
-
-		/* border-bottom: #9d9063 solid 0.1vw;
-		padding-bottom: 2.5%;
-		padding-right: 1%; */
-		background-color: rgba(9, 14, 14, 0.5);
+		margin-bottom: -5vw;
 	}
 
 	.aboutProject p {
