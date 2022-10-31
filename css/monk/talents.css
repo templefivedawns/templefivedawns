@@ -61,7 +61,7 @@
 }
 
 .select-bg-leg {
-	background-color: rgba(10, 19, 19, 0.6);
+	background-color: rgba(6, 19, 19, 0.6);
 	box-shadow: 0 0 0.4vw 0.1vw rgba(0, 0, 0, 0.4);
 	border: #9d9063 solid 0.1vw;
 }
@@ -93,20 +93,7 @@
 	display: flex;
 	flex-flow: column nowrap;
 	box-shadow: 0 0 0.78vw 0.4vw rgba(0, 0, 0, 0.6);
-	/*border: 0.1vw solid transparent;*/
-	/*border-image: linear-gradient(*/
-	/*	to left top,*/
-	/*	#9d9063 80%,*/
-	/*	transparent 90%,*/
-	/*	#9d9063 80%,*/
-	/*	transparent 90%*/
-	/*);*/
-	/*border-image-slice: 1;*/
 	border: #9d9063 solid 0.1vw;
-
-	/*border-top: 2px solid #9d9063;*/
-	/*border-right: 2px solid #9d9063;*/
-	/*border-left: 2px solid #9d9063;*/
 }
 
 .talents-tabs-in {
