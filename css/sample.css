@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background: #0A1313 url(../img/coolpicturetrokesBright.png) no-repeat top 3vw center;
+	background: #061313 url(../img/coolpicturetrokesBright.png) no-repeat top 3vw center;
 	background-size: contain;
 	margin: 0;
 	padding: 0;
@@ -72,7 +72,7 @@ code {
 }
 
 .format-code {
-	background-color: #0A1313;
+	background-color: #061313;
 
 	border: 0.1vw solid transparent;
 	border-image: linear-gradient(
@@ -227,8 +227,8 @@ code {
 #containerMain {
 	background: linear-gradient(
 		180deg,
-		rgba(17, 26, 26, 0.1) 0px,
-		rgba(17, 26, 26, 1) 300px
+		rgba(3, 19, 19, 0.1) 0px,
+		rgba(3, 19, 19, 1) 300px
 	);
 	/*background-color: rgba(17, 26, 26, 0.7);*/
 	width: 79.9%;
@@ -300,14 +300,14 @@ code {
 
 /* ПРАВОЕ МЕНЮ НАВИГАЦИИ НАЧАЛО */
 .nav-bar {
-	background: #111a1a;
+	background: #031313;
 	position: sticky;
 	top: 3.1vw;
 	width: 100%;
 }
 
 .select-item-menu {
-	background-color: rgba(3, 19, 19, 0.7);
+	background-color: #061313;
 	position: relative;
 	padding: 0;
 	margin: 0;
@@ -462,8 +462,8 @@ code {
 	#containerMain {
 		background: linear-gradient(
 			180deg,
-			rgba(17, 26, 26, 0.1) 0px,
-			rgba(17, 26, 26, 1) 200px
+			rgba(3, 19, 19, 0.1) 0px,
+			rgba(3, 19, 19, 1) 200px
 		);
 	}
 
@@ -495,7 +495,7 @@ code {
 /* 480PX И МЕНЬШЕ */
 @media only screen and (max-width: 480px) {
 	body {
-		background: #0A1313 url(../img/coolpicturetrokesBright.png) no-repeat top 11vw center;
+		background: #031313 url(../img/coolpicturetrokesBright.png) no-repeat top 11vw center;
 		background-size: 130%;
 	}
 
@@ -688,7 +688,7 @@ code {
 	.popup-menu {
 		padding: 5vw 0 0 0;
 		border-right: #9d9063 solid 0.1vw;
-		background-color: #090e0e;
+		background-color: #031313;
 		width: 100%;
 		height: 100%;
 		margin: 0;
@@ -696,7 +696,7 @@ code {
 	}
 
 	.popup-select-item-menu {
-		background-color: rgba(3, 19, 19, 0.7);
+		background-color: #061313;
 		border-top: #9d9063 outset 0.01vw;
 		border-bottom: #9d9063 outset 0.01vw;
 		padding-left: 3vw;
@@ -790,8 +790,8 @@ code {
 		/*background-color: rgba(17, 26, 26, 0.2);*/
 		background: linear-gradient(
 			180deg,
-			rgba(17, 26, 26, 0.1) 0px,
-			rgba(17, 26, 26, 1) 250px
+			rgba(3, 19, 19, 0.1) 0px,
+			rgba(3, 19, 19, 1) 250px
 		);
 		width: 100%;
 		border: none;
@@ -814,7 +814,7 @@ code {
 
 	#footer-mob {
 		display: block;
-		background-color: #111a1a;
+		background-color: #031313;
 		/* box-shadow: 0vw 0vw 4vw 2vw rgba(0, 0, 0, 0.6); */
 		border-top: #9d9063 solid 0.1vw;
 		height: 7vw;
