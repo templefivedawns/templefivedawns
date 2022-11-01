@@ -76,6 +76,11 @@ li {
 	padding: 0;
 }
 
+wb {
+	color: #bbb192;
+	font-family: MontserratBold, sans-serif;
+}
+
 code {
 	font-family: Montserrat, sans-serif;
 	font-size: 0.7vw;
