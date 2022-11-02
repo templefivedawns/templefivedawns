@@ -1,5 +1,27 @@
 $(document).ready(function () {
 
+	$('body,html').scrollTop(0);
+	$("a.scroll-to").on("click","a", function (event) {
+		event.preventDefault();
+		var id  = $(this).attr('href'),
+			top = $(id).offset().top -50;
+		$('body,html').animate({scrollTop: top}, 2500);
+	});
+	var hash = location.hash;
+	if($(hash).length){
+		var top = $(hash).offset().top -50;
+		$('body,html').animate({scrollTop: top}, 2500);
+	}
+
+	// $('body,html').scrollTop(0);
+	// $("a.scroll-to").on("click", function(e){
+	// 	e.preventDefault();
+	// 	var anchor = $(this).attr('href');
+	// 	$('html, body').stop().animate({
+	// 		scrollTop: $(anchor).offset().top - 60
+	// 	}, 800);
+	// });
+
 // скролл вверх выбранного итема меню
 	$(".select").click(function () {
 		$("html,body").animate({

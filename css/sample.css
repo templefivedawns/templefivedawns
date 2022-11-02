@@ -38,6 +38,12 @@ h3 {
 	padding: 0;
 }
 
+h3 a {
+	font-size: 1vw;
+	font-family: MontserratBold, sans-serif;
+	padding: 0;
+}
+
 a {
 	text-decoration: none;
 	color: #00ff99;
@@ -442,6 +448,10 @@ wb {
 		font-size: 1.4vw;
 	}
 
+	h3 a {
+		font-size: 1.4vw;
+	}
+
 	a {
 		font-size: 1.1vw;
 		line-height: 1.5vw;
@@ -528,6 +538,10 @@ wb {
 	h3 {
 		font-size: 5vw;
 		padding: 0;
+	}
+
+	h3 a {
+		font-size: 5vw;
 	}
 
 	a {
@@ -662,7 +676,7 @@ wb {
 		height: 9vw;
 		width: 9vw;
 		margin: 0.8vw 3vw 0 0;
-		border-radius: 15%;
+		/*border-radius: 15%;*/
 	}
 
 	.logo {
