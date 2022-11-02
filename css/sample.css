@@ -291,6 +291,10 @@ wb {
 	margin: 0.2vw 0 0.2vw 0;
 }
 
+.img-html {
+	max-width: 100%;
+}
+
 .frame-red-mob {
 	display: none;
 }

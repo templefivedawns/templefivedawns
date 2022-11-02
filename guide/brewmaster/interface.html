@@ -161,22 +161,45 @@
 			<br>/cast Вызов
 			<br>/targetlasttarget</code></div>
 		<br>
-		<p><a href="https://ru.wowhead.com/spell=116670/">вивик</a> по маусоверу.</p>
-		<li>Если под мышкой не будет цели, то <a href="https://ru.wowhead.com/spell=116670/">вивик</a> применится к вам.
+		<p>Применение <a href="https://ru.wowhead.com/spell=325216">некро</a> под себя.
+		<li>Всегда будет разливать <a href="https://ru.wowhead.com/spell=325216">некро</a> под вашего
+			персонажа по центру, без необходимости кликать мышкой.
 		</li>
-		<div class="format-code"><code>#showtooltip Оживить
-			<br>/cast [target=mouseover,help,nodead][]Оживить</code></div>
+		<div class="format-code"><code>#showtooltip
+			<br>/cast [@player] отвар из костяной пыли</code></div>
 		<br>
-		<p><a href="https://ru.wowhead.com/spell=115098/">чи вейв</a> в себя/союзника/противника.</p>
-		<li>Этот макрос заставит <a href="https://ru.wowhead.com/spell=115098/">чи вейв</a>
-			сначала исцелить вас и только потом уже улететь дальше. При зажатом <wb>ctrl</wb>
-			<a href="https://ru.wowhead.com/spell=115098/">чи вейв</a> нанесет урон противнику или исцелит выбранного
-			союзника, в зависимости от вашей текущей выбранной цели.
+		<p>Применение <a href="https://ru.wowhead.com/spell=325216">некро</a> под курсор.
+		<li>Всегда будет разливать <a href="https://ru.wowhead.com/spell=325216">некро</a> под вашим курсором,
+			без необходимости кликать мышкой.
 		</li>
-		<div class="format-code"><code>#showtooltip Волна ци
-			<br>/use [nomod, @player] Волна ци
-			<br>/use [mod:ctrl] Волна ци</code></div>
+		<div class="format-code"><code>#showtooltip
+			<br>/cast [@cursor] отвар из костяной пыли</code></div>
 		<br>
+		<p>Снятие с себя эффекта <a href="https://ru.wowhead.com/spell=1022">боп</a></p>
+		<li>Снимает с вас <a href="https://ru.wowhead.com/spell=1022">боп</a>, который вам иногда будут
+			давать чтобы сбросить с вас негативные эффекты. <a href="https://ru.wowhead.com/spell=1022">боп</a> сбрасывает
+			с вас агро и противники перестают вас атаковать, поэтому его важно моментально снять, чтобы противники
+			не убили другого игрока.
+		</li>
+		<div class="format-code"><code>#showtooltip благословение защиты
+			<br>/cancelaura благословение защиты</code></div>
+		<br>
+		<p>Снятие с себя эффекта <a href="https://ru.wowhead.com/spell=116847">ветер</a></p>
+		<li>Нажатие с зажатым <wb>shift</wb> снимет с вас эффект <a href="https://ru.wowhead.com/spell=116847">ветер</a>.
+			Это иногда полезно, чтобы не взять случайно лишних противников в подземельях или других активностях.
+			Обычное нажатие активирует на вас <a href="https://ru.wowhead.com/spell=116847">ветер</a>.
+		</li>
+		<div class="format-code"><code>#showtooltip
+			<br>/cast [nomod] порыв нефритового ветра
+			<br>/cancelaura [mod:shift] порыв нефритового ветра</code></div>
+		<div class="divider">
+			<img class="divider-main"
+					 src="../../img/divider.png"
+					 alt="divider">
+			<img class="divider-mob"
+					 src="../../img/divider-mob.png"
+					 alt="divider-mob">
+		</div>
 		<p>Все в одном: экстренное исцеление. (при взятом таланте <a href="https://ru.wowhead.com/spell=115175/">нитка</a>)</p>
 		<li>При обычном нажатии применяется <a href="https://ru.wowhead.com/spell=322101/">устранение</a>.
 			Зажимая <wb>shift</wb> вы начнете применять в себя <a href="https://ru.wowhead.com/spell=115175/">нитка</a>,
@@ -188,19 +211,35 @@
 			<br>/use [mod:shift, @player] успокаивающий туман
 			<br>/use [mod:alt, @player] оживить</code></div>
 		<br>
+		<p><a href="https://ru.wowhead.com/spell=115098/">чи вейв</a> в себя/союзника/противника.</p>
+		<li>Этот макрос заставит <a href="https://ru.wowhead.com/spell=115098/">чи вейв</a>
+			сначала исцелить вас и только потом уже улететь дальше. При зажатом <wb>ctrl</wb>
+			<a href="https://ru.wowhead.com/spell=115098/">чи вейв</a> нанесет урон противнику или исцелит выбранного
+			союзника, в зависимости от вашей текущей выбранной цели.
+		</li>
+		<div class="format-code"><code>#showtooltip Волна ци
+			<br>/use [nomod, @player] Волна ци
+			<br>/use [mod:ctrl] Волна ци</code></div>
+		<br>
+		<p><a href="https://ru.wowhead.com/spell=116670/">вивик</a> по маусоверу.</p>
+		<li>Если под мышкой не будет цели, то <a href="https://ru.wowhead.com/spell=116670/">вивик</a> применится к вам.
+		</li>
+		<div class="format-code"><code>#showtooltip Оживить
+			<br>/cast [target=mouseover,help,nodead][]Оживить</code></div>
+		<br>
 		<p><a href="https://ru.wowhead.com/spell=115450/">диспел</a> по маусоверу.</p>
 		<li>Если под мышкой не будет цели, то <a href="https://ru.wowhead.com/spell=115450/">диспел</a> применится к вам.
 		</li>
 		<div class="format-code"><code>#showtooltip Детоксикация
-			<br>/cast [target=mouseover,help,nodead][]Детоксикация;Детоксикация</code></div>
-		<br>
-		<p><a href="https://ru.wowhead.com/spell=116841">рвение</a> по маусоверу.</p>
-		<li>Если под мышкой не будет цели, то <a href="https://ru.wowhead.com/spell=116841">Тигриное рвение</a> применится к
-			вам.
-		</li>
-		<div class="format-code"><code>#showtooltip Тигриное рвение
-			<br>/cast [target=mouseover,help,nodead][]Тигриное рвение</code></div>
-		<br>
+			<br>/cast [target=mouseover,help,nodead][]Детоксикация;Дет оксикация</code></div>
+		<div class="divider">
+			<img class="divider-main"
+					 src="../../img/divider.png"
+					 alt="divider">
+			<img class="divider-mob"
+					 src="../../img/divider-mob.png"
+					 alt="divider-mob">
+		</div>
 		<p><a href="https://ru.wowhead.com/spell=101643">копия</a> и <a href="https://ru.wowhead.com/spell=119996">перенос</a>
 			на одну кнопку.</p>
 		<li>Просто нажатие поменяет вас с копией местами, а нажатие с зажатым <wb>shift</wb> установит вашу копию.
@@ -209,24 +248,20 @@
 			<br>/cast [nomod] трансцендентность: перенос
 			<br>/cast [mod:shift] трансцендентность</code></div>
 		<br>
-		<p>Снятие с себя эффекта <a href="https://ru.wowhead.com/spell=116847">ветер</a></p>
-		<li>Нажатие с зажатым <wb>shift</wb> снимет с вас эффект <a href="https://ru.wowhead.com/spell=116847">ветер</a>.
-			Это иногда полезно, чтобы не взять случайно лишних противников в подземельях или других активностях.
-			Обычное нажатие активирует на вас <a href="https://ru.wowhead.com/spell=116847">ветер</a>.
+		<p><a href="https://ru.wowhead.com/spell=116841">рвение</a> по маусоверу.</p>
+		<li>Если под мышкой не будет цели, то <a href="https://ru.wowhead.com/spell=116841">Тигриное рвение</a> применится к
+			вам.
 		</li>
-		<div class="format-code"><code>#showtooltip
-			<br>/cast [nomod] порыв нефритового ветра
-			<br>/cancelaura [mod:shift] порыв нефритового ветра</code></div>
-		<br>
-		<p>Снятие с себя эффекта <a href="https://ru.wowhead.com/spell=1022">боп</a></p>
-		<li>Снимает с вас <a href="https://ru.wowhead.com/spell=1022">боп</a>, который вам иногда будут
-			давать чтобы сбросить с вас негативные эффекты. <a href="https://ru.wowhead.com/spell=1022">боп</a> сбрасывает
-			с вас агро и противники перестают вас атаковать, поэтому его важно моментально снять, чтобы противники
-			не убили другого игрока.
-		</li>
-		<div class="format-code"><code>#showtooltip благословение защиты
-			<br>/cancelaura благословение защиты</code></div>
-		<br>
+		<div class="format-code"><code>#showtooltip Тигриное рвение
+			<br>/cast [target=mouseover,help,nodead][]Тигриное рвение</code></div>
+		<div class="divider">
+			<img class="divider-main"
+					 src="../../img/divider.png"
+					 alt="divider">
+			<img class="divider-mob"
+					 src="../../img/divider-mob.png"
+					 alt="divider-mob">
+		</div>
 		<p>Пассивное применение PvP-таланта <a href="https://ru.wowhead.com/spell=202335">дабл бочка</a></p>
 		<li>Утилити макрос для открытого мира, который автоматически будет применять PvP-талант
 			<a href="https://ru.wowhead.com/spell=202335">дабл бочка</a>, когда это возможно. Просто используйте
@@ -236,20 +271,6 @@
 		<div class="format-code"><code>#showtooltip удар бочонком
 			<br>/cast пара бочек
 			<br>/cast удар бочонком</code></div>
-		<br>
-		<p>Применение <a href="https://ru.wowhead.com/spell=325216">некро</a> под себя.
-		<li>Всегда будет разливать <a href="https://ru.wowhead.com/spell=325216">некро</a> под вашего
-		персонажа по центру, без необходимости кликать мышкой.
-		</li>
-		<div class="format-code"><code>#showtooltip
-			<br>/cast [@player] отвар из костяной пыли</code></div>
-		<br>
-		<p>Применение <a href="https://ru.wowhead.com/spell=325216">некро</a> под курсор.
-		<li>Всегда будет разливать <a href="https://ru.wowhead.com/spell=325216">некро</a> под вашим курсором,
-		без необходимости кликать мышкой.
-		</li>
-		<div class="format-code"><code>#showtooltip
-			<br>/cast [@cursor] отвар из костяной пыли</code></div>
 		<br>
 		<p>Ставит метку черепа на вашу текущую цель.
 		<li>Танку крайне важно направлять урон своей группы в нужные цели. Для этого используются метки.
@@ -318,6 +339,8 @@
 		своей массовости и популярности, каждый встречный сможет помочь вам в их решении. Один раз поняв философию
 		ElvUI и разобравшись с найтроками, вы больше не сможете играть без него, т.к. будет ощущение, что вы играете
 		вслепую, не видя ничего, что происходит вокруг вас.</li>
+		<li><a href="https://www.curseforge.com/wow/addons/addonskins">AddOnSkins</a> - это дополнение к ElvUI, которое стилизует все
+		остальные аддоны под внешний вид ElvUI.</li>
 		<li><a href="https://ru.wowhead.com/guides/elvui-addon-setup-customization#buffs-and-debuffs-options-general">Гайд Wowhead ENG</a></li>
 		<li><a href="https://wowmoon.ru/world-of-warcraft/addony-wow/elvui-ustanovka-i-nastrojka/">Гайд RU</a></li>
 		<li>Cайт <a href="https://wago.io/elvui/classes/monk/brewmaster">Wago.io</a> позволяет находить и копировать себе понравившиеся профили.</li>
@@ -414,20 +437,21 @@
 			чтобы найти то, что лучше всего соответствует вашим потребностям.</p>
 		<br>
 		<li><a href="https://wago.io/VJQ3RMoFf">Сборка от Llarold</a></li>
-		<img src="https://wow.zamimg.com/uploads/guide/images/26564.jpg">
+		<img class="img-html" src="https://wow.zamimg.com/uploads/guide/images/26564.jpg">
 		<p>Она отслеживает все важные моменты:
 			готовность/время восстановления способностей, время действия/готовность <a href="https://ru.wowhead.com/spell=322507"></a>,
-			готовность <a href="https://ru.wowhead.com/spell=119585"></a>, значение <a href="https://ru.wowhead.com/spell=1150697"></a>,
-			Удар бочонком, Удар восходящего солнца, Серия нокаутов, Порыв нефритового ветра, Целебный эликсир и т.д.
+			готовность <a href="https://ru.wowhead.com/spell=119582"></a>, значение <a href="https://ru.wowhead.com/spell=115069"></a>,
+			<a href="https://ru.wowhead.com/spell=121253"></a>, <a href="https://ru.wowhead.com/spell=107428"></a>,
+			<a href="https://ru.wowhead.com/spell=196736"></a>, <a href="https://ru.wowhead.com/spell=116847"></a>, <a href="https://ru.wowhead.com/spell=122281"></a> и т.д.
 		<br><wb>Внимание:</wb> в сборке присутствуют различные звуки уведомлений. Измените или отключите звуки по мере необходимости.
-		<br><p>Либо любой другой набор аур от Afenar, Luxthos, Ipse и т.д. которые позволяют отслеживать ваши способности.</p>
+		<br>Также, вы можете выбрать любой другой набор аур от Afenar, Luxthos, Ipse и т.д. которые позволяют отслеживать ваши способности.</p>
 		<br>
-		<li><a href="https://wago.io/EyFJoziKf">Внешние защитные способности для танков</a></li>
-		<img src="https://wow.zamimg.com/uploads/screenshots/normal/761373.jpg">
+		<li><a href="https://wago.io/EyFJoziKf">Внешние защитные способности</a></li>
+		<img class="img-html" src="https://wow.zamimg.com/uploads/screenshots/normal/761373.jpg">
 		<p>Это группа аур, которая отслеживает длительность активных на вас внешних защитных способностей от ваших
 			союзников. Это динамическая группа, то есть она начинается слева и растет вправо, и ее ширина будет изменяться
 			в зависимости от количества наложенных на вас защитных способностей (обычно 1-3 иконки максимум).
-			<br><wb>Внимание:</wb> здесь используются звуки воздушного рога, указывающие на окончание времени действия
+			<br><wb>Внимание:</wb> здесь используются звуки, указывающие на окончание времени действия
 			на вас защитных способностей. Измените или отключите звуки по мере необходимости.</p>
 		<br>
 		<li><a href="https://wago.io/NormalStagger">Отслеживание пошатывания</a></li>
@@ -436,7 +460,7 @@
 			ограничение 1000%. Это аура позволяет обойти это ограничение стандартного интерфейса.</p>
 		<br>
 		<li><a href="https://wago.io/eQeA3xlzY">Здоровье Статуи Черного Быка</a></li>
-		<img src="https://media.wago.io/screenshots/eQeA3xlzY/5d2cc303e83bb16c0c4589dd.jpg">
+		<img class="img-html" src="https://media.wago.io/screenshots/eQeA3xlzY/5d2cc303e83bb16c0c4589dd.jpg">
 		<p>Эту, либо любую другую понравившуюся вам ауру,
 			которая отображает здоровье вашей статуи.</p>
 		<br>
