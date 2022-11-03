@@ -8,14 +8,14 @@
 /*ИНТЕРАКТИВНЫЕ ПРИОРИТЕТЫ ОПЕНЕР*/
 .fa-xmark {
 	color: #9d9063;
-	font-size: 1.3vw;
+	font-size: 1vw;
 	margin: 0;
 	padding: 0;
 }
 
 .fa-check {
 	color: #9d9063;
-	font-size: 0.9vw;
+	font-size: 0.7vw;
 	margin: 0;
 	padding: 0;
 }
@@ -86,82 +86,6 @@
 	bottom: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-.rotation_switches {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-}
-
-th p {
-	font-family: MontserratBlack, sans-serif;
-	text-transform: uppercase;
-}
-
-.tr2 {
-	background-color: #031919;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-.rotation_switches tbody {
-	display: table-row-group;
-	vertical-align: middle;
-	border: #9d9063 solid 0.1vw;
-	width: 63.6%;
-}
-
-tr {
-	display: table-row;
-	vertical-align: inherit;
-	border-color: inherit;
-}
-
-th {
-	background-color: #032121;
-	font-family: Montserrat, sans-serif;
-	font-size: 1.1vw;
-	padding: 1% 1%;
-	vertical-align: middle;
-}
-
-.td1 {
-	width: 50%;
-}
-
-.rotation_switches td {
-	padding: 3px 5px;
-	width: 50%;
-	font-family: Montserrat, sans-serif;
-	font-size: 1.1vw;
-}
-
-.rb1,
-.rb2,
-.rb3,
-.rb4,
-.srb1,
-.srb2 {
-	width: 100%;
-}
-
-#opener-rotation {
-	padding-left: 1.5vw;
-	padding-right: 1.5vw;
-}
-
 .rp-hide {
 	display: none;
 }
@@ -180,7 +104,9 @@ th {
 }
 
 .btn-rotation-1,
-.btn-rotation-2 {
+.btn-rotation-2,
+.btn-rotation-3,
+.btn-rotation-4 {
 	font-family: MontserratBold, sans-serif;
 	color: #9d9063;
 	text-transform: uppercase;
@@ -192,7 +118,9 @@ th {
 }
 
 .btn-rotation-1:hover,
-.btn-rotation-2:hover {
+.btn-rotation-2:hover,
+.btn-rotation-3:hover,
+.btn-rotation-4:hover {
 	border-bottom: #9d9063 solid 0.1vw;
 }
 
@@ -201,16 +129,20 @@ th {
 }
 
 .tab-rotation-1,
-.tab-rotation-2 {
+.tab-rotation-2,
+.tab-rotation-3,
+.tab-rotation-4 {
 	margin-bottom: 1vw;
 	text-align: left;
 }
 
-.tab-rotation-1 {
+.tab-rotation-1,
+.tab-rotation-3 {
 	display: block;
 }
 
-.tab-rotation-2 {
+.tab-rotation-2,
+.tab-rotation-4 {
 	display: none;
 }
 
@@ -224,7 +156,9 @@ th {
 /* 1920PX И МЕНЬШЕ */
 @media only screen and (max-width: 1920px) {
 	.btn-rotation-1,
-	.btn-rotation-2 {
+	.btn-rotation-2,
+	.btn-rotation-3,
+	.btn-rotation-4 {
 		padding: 0.6vw 22% 0.35vw 22%;
 	}
 
@@ -232,8 +166,25 @@ th {
 
 /* 1440PX И МЕНЬШЕ */
 @media only screen and (max-width: 1440px) {
+	.fa-xmark {
+		color: #9d9063;
+		font-size: 1.3vw;
+		margin: 0;
+		padding: 0;
+	}
+
+	.fa-check {
+		color: #9d9063;
+		font-size: 0.9vw;
+		margin: 0;
+		padding: 0;
+	}
+
+
 	.btn-rotation-1,
-	.btn-rotation-2 {
+	.btn-rotation-2,
+	.btn-rotation-3,
+	.btn-rotation-4 {
 		padding: 0.6vw 21.8% 0.35vw 21.8%;
 	}
 
@@ -298,21 +249,14 @@ th {
 		width: 100%;
 	}
 
-
-
-
-
-
-	#opener-rotation {
-		padding: 3vw;
-	}
-
 	.btn-rotation-content {
 		margin-bottom: 5vw;
 	}
 
 	.btn-rotation-1,
-	.btn-rotation-2 {
+	.btn-rotation-2,
+	.btn-rotation-3,
+	.btn-rotation-4 {
 		padding: 1.4vw 17.3% 1vw 17.3%;
 	}
 
