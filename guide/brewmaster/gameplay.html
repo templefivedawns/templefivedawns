@@ -33,6 +33,7 @@
 	<link href="../../css/sample.css"
 				rel="stylesheet"
 				type="text/css"/>
+	<script src="https://kit.fontawesome.com/826a7795a2.js" crossorigin="anonymous"></script>
 	<script>const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};</script>
 	<script src="https://wow.zamimg.com/widgets/power.js"></script>
 </head>
@@ -144,55 +145,217 @@
 			<div class="frame-red"><h2>Приоритеты способностей</h2></div>
 			<div class="frame-red-mob"><h2>Приоритеты способностей</h2></div>
 		</div>
-		<p>Талблицы приоритетов способностей интерактивные и показывают приоритет способностей в зависимости от выбранных конкретно вами талантов.
+		<p>Таблицы приоритетов способностей интерактивные и показывают приоритет способностей в зависимости от выбранных конкретно вами талантов.
 		Выбирайте таланты, с которыми играете конкретно вы и приоритеты будут подстраиваться под ваш выбор.</p>
 		<br>
-		<h3>Начало боя (опенер)</h3>
-		<br>
-		<p>Выберите свои таланты:</p>
-		<div class="entity-list-toggle"
-				 data-initialized="true"
-				 data-for>
-			<div class="entity-list-toggle-controls">
-				<div class="entity-list-toggle-option fa fa-fw fa-check"
-						 id="wowhead-guid-1667427982070-1667427985000-977576978-3"
-						 data-prevent-select-start="true"
-						 data-entity-list-show="1">
-					<a href="https://ru.wowhead.com/spell=116847"
-						 class="icontiny"
-						 data-entity="spell"
-						 data-entity-has-icon="true"
-						 target="_blank"
-						 style>
-						<img src="https://wow.zamimg.com/images/wow/icons/tiny/ability_monk_rushingjadewind.gif"
-								 loading="lazy"
-								 style="vertical-align: middle;">
-						<span class="tinyicontxt">Порыв нефритового ветра</span>
-					</a>
+		<div class="rotation-tabs">
+			<div class="rotation-tabs-in">
+				<div class="rotation-monk">
+					<div class="rotation-header">
+						<p align="center">АКТИВНЫЕ ТАЛАНТЫ</p>
+					</div>
+					<div class="rotation-monk-in">
+						<!--						ТАЛАНТЫ МОНАХА 1-5-->
+						<div class="rotation-monk-grid">
+							<div class="rb1 fa-solid fa-xmark"
+									 style="grid-column: 1 / 6; grid-row: 1 / 2;">
+								<a href="https://ru.wowhead.com/spell=123986"
+									 onclick="return false;">чи бурст</a>
+							</div>
+
+							<div class="rb2 fa-solid fa-xmark"
+									 style="grid-column: 1 / 6; grid-row: 2 / 3;">
+								<a href="https://ru.wowhead.com/spell=115098"
+									 onclick="return false;">чи вейв</a>
+							</div>
+
+							<div class="rb3 fa-solid fa-xmark"
+									 style="grid-column: 1 / 6; grid-row: 3 / 4;">
+								<a href="https://ru.wowhead.com/spell=116847"
+									 onclick="return false;">ветер</a>
+							</div>
+
+							<div class="rb4 fa-solid fa-xmark"
+									 style="grid-column: 1 / 6; grid-row: 4 / 5;">
+								<a href="https://ru.wowhead.com/spell=388686"
+									 onclick="return false;">статуя тигра</a>
+							</div>
+
+							<div class="rb5 fa-solid fa-xmark"
+									 style="grid-column: 1 / 6; grid-row: 5 / 6;">
+								<a href="https://ru.wowhead.com/spell=115399"
+									 onclick="return false;">отвар быка</a>
+							</div>
+
+							<div class="rb6 fa-solid fa-xmark"
+									 style="grid-column: 1 / 6; grid-row: 6 / 7;">
+								<a href="https://ru.wowhead.com/spell=386276"
+									 onclick="return false;">бондаст брю</a>
+							</div>
+
+							<div class="rb7 fa-solid fa-xmark"
+									 style="grid-column: 1 / 6; grid-row: 7 / 8;">
+								<a href="https://ru.wowhead.com/spell=325153"
+									 onclick="return false;">кега</a>
+							</div>
+
+							<div class="rb8 fa-solid fa-xmark"
+									 style="grid-column: 1 / 6; grid-row: 8 / 9;">
+								<a href="https://ru.wowhead.com/spell=387184"
+									 onclick="return false;">оружие ордена</a>
+							</div>
+
+
+
+<!--							<a id="ttm1"-->
+<!--								 style="grid-column: 5 / 6; grid-row: 1 / 2;"-->
+<!--								 data-disable-wowhead-tooltip="true"-->
+<!--								 href="https://www.wowhead.com/ru/spell=115175"-->
+<!--								 target="blank"-->
+<!--								 data-wh-icon-size="medium"-->
+<!--								 data-wh-rename-link="false"-->
+<!--								 class="switch-link"-->
+<!--								 data-wh-icon-added="true"-->
+<!--								 onclick="return false;">-->
+<!--								<span class="iconmedium active-tal green-tal">-->
+<!--									<del>-->
+<!--										<ins-->
+<!--											style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/large/ability_monk_soothingmists.jpg&quot;);">-->
+<!--										</ins>-->
+<!--									</del>-->
+<!--								</span>-->
+<!--							</a>-->
+						</div>
+						<!--						ТАЛАНТЫ 1-5-->
+
+					</div>
+				</div>
+
+				<div class="rotation-spec">
+					<div class="rotation-header">
+						<p align="center">ПАССИВНЫЕ ТАЛАНТЫ</p>
+					</div>
+					<div class="rotation-spec-in">
+						<!--						ТАЛАНТЫ СПЕКА 1-5-->
+						<div class="rotation-spec-grid">
+
+							<div class="rb9 fa-solid fa-xmark"
+									 style="grid-column: 1 / 6; grid-row: 1 / 2;">
+								<a href="https://ru.wowhead.com/spell=387219"
+									 onclick="return false;">прогулка с быком</a>
+							</div>
+
+							<div class="rb10 fa-solid fa-xmark"
+									 style="grid-column: 1 / 6; grid-row: 2 / 3;">
+								<a href="https://ru.wowhead.com/spell=196730"
+									 onclick="return false;">доставка</a>
+							</div>
+
+							<div class="rb11 fa-solid fa-xmark"
+									 style="grid-column: 1 / 6; grid-row: 3 / 4;">
+								<a href="https://ru.wowhead.com/spell=383698"
+									 onclick="return false;">скалдинг брю</a>
+							</div>
+
+							<div class="rb12 fa-solid fa-xmark"
+									 style="grid-column: 1 / 6; grid-row: 4 / 5;">
+								<a href="https://ru.wowhead.com/spell=386965"
+									 onclick="return false;">чарред</a>
+							</div>
+
+							<div class="rb13 fa-solid fa-xmark"
+									 style="grid-column: 1 / 6; grid-row: 5 / 6;">
+								<a href="https://ru.wowhead.com/spell=383707"
+									 onclick="return false;">бадл бочка</a>
+							</div>
+
+
+
+
+
+
+<!--							<a id="tt1"-->
+<!--								 style="grid-column: 9 / 10; grid-row: 1 / 2;"-->
+<!--								 data-disable-wowhead-tooltip="false"-->
+<!--								 href="https://www.wowhead.com/ru/spell=121253"-->
+<!--								 target="blank"-->
+<!--								 data-wh-icon-size="medium"-->
+<!--								 data-wh-rename-link="false"-->
+<!--								 class="switch-link"-->
+<!--								 data-wh-icon-added="true"-->
+<!--								 onclick="return false;">-->
+<!--								<span class="iconmedium active-tal">-->
+<!--									<del>-->
+<!--										<ins-->
+<!--											style="background-image: url(&quot;https://wow.zamimg.com/images/wow/icons/large/achievement_brewery_2.jpg&quot;);">-->
+<!--										</ins>-->
+<!--									</del>-->
+<!--								</span>-->
+<!--							</a>-->
+						</div>
+						<!--						ТАЛАНТЫ СПЕКА 1-5-->
+					</div>
 				</div>
 			</div>
 		</div>
-
+<br>
+		<h3>Начало боя (опенер)</h3>
 		<ol id="opener-rotation"
 				class="entity-list">
-			<li data-entity-list-item-shown="false"
-					data-entity-list-item-shown-method="direct"
-					data-animate="true">
-				<div data-markup-content-target="1">
-					пре-каст
-					<a href="https://ru.wowhead.com/spell=116847"
-						 class="icontiny"
-						 data-entity="spell"
-						 data-entity-has-icon="true">
-						<img src="https://wow.zamimg.com/images/wow/icons/tiny/ability_monk_rushingjadewind.gif"
-								 loading="lazy"
-								 style="vertical-align: middle;">
-						<span class="tinyicontxt">Порыв нефритового ветра</span>
-					</a>
-					 перед пулом.
-				</div>
-			</li>
+			<li class="rp1 rp-hide">Пре-каст <a href="https://ru.wowhead.com/spell=116847"></a> перед пулом;</li>
+			<li class="rp2">Используйте <a href="https://ru.wowhead.com/spell=121253"></a>;</li>
+			<li class="rp3 rp-hide"><a href="https://ru.wowhead.com/spell=386276"></a>;</li>
+			<li class="rp4 rp-hide"><a href="https://ru.wowhead.com/spell=387184"></a>;</li>
+			<li class="rp5 rp-hide">Используйте <a href="https://ru.wowhead.com/spell=121253"></a> снова;</li>
+			<li class="rp6 rp-hide"><a href="https://ru.wowhead.com/spell=325153"></a>;</li>
+			<li class="rp7"><a href="https://ru.wowhead.com/spell=132578"></a>;</li>
+			<li class="rp8"><a href="https://ru.wowhead.com/spell=388686"></a>;</li>
+			<li class="rp9"><a href="https://ru.wowhead.com/spell=107428"></a>;</li>
+			<li class="rp10">Используйте <a href="https://ru.wowhead.com/spell=121253"></a> снова;</li>
+			<li class="rp11">Продолжайте обычную ротацию.</li>
 		</ol>
+
+		<div class="divider">
+			<img class="divider-main"
+					 src="../../img/divider.png"
+					 alt="divider">
+			<img class="divider-mob"
+					 src="../../img/divider-mob.png"
+					 alt="divider-mob">
+		</div>
+
+		<h3>Одна цель (СТ)</h3>
+		<br>
+		<p>Выберите свои таланты:</p>
+		<div class="list-toggle">
+			<div class="list-toggle-in">
+
+				<div class="srb1 fa-solid fa-xmark">
+					<a href="https://ru.wowhead.com/spell=116847"
+						 onclick="return false;">ветер</a>
+				</div>
+				<div class="srb2 fa-solid fa-xmark">
+					<a href="https://ru.wowhead.com/spell=386965"
+						 onclick="return false;">чарред</a>
+				</div>
+
+			</div>
+		</div>
+
+		<ol id="st-rotation"
+				class="entity-list">
+			<li class="srp1">Используйте свои атакующие кулдауны. Их буквально слишком много, чтобы описать их
+				все здесь. Просто используйте их на старте боя и потом активируйте их по мере восстановления;</li>
+			<li class="srp2">Используйте <a href="https://ru.wowhead.com/spell=121253"></a> по откату;</li>
+			<li class="srp3">Используйте <a href="https://ru.wowhead.com/spell=322101"></a> если вам нужно лечение;</li>
+			<li class="srp4">Используйте <a href="https://ru.wowhead.com/spell=107428"></a> по откату;</li>
+			<li class="srp5">Используйте <a href="https://ru.wowhead.com/spell=100784"></a> по откату;</li>
+			<li class="srp6 rp-hide">Постоянно поддерживайте на себе <a href="https://ru.wowhead.com/spell=116847"></a>;</li>
+			<li class="srp7">Используйте <a href="https://ru.wowhead.com/spell=115181"></a> для заполнения пробелов ротации;</li>
+			<li class="srp8 rp-hide">Используйте <a href="https://ru.wowhead.com/spell=101546">крейн</a> для заполнения пробелов ротации.</li>
+			<li class="srp9">Используйте <a href="https://ru.wowhead.com/spell=100780">лапа</a> для заполнения пробелов ротации.</li>
+		</ol>
+
 
 
 		<!-- ТАБЫ -->
