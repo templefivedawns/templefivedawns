@@ -267,7 +267,7 @@ th {
 		border: #9d9063 solid 0.1vw;
 		box-shadow: 0 0 0.6vw 0.6vw rgba(0, 0, 0, 0.6);
 		flex-flow: row wrap;
-		gap: 40%;
+		gap: 100%;
 	}
 
 	.rotation-header p {
