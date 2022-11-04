@@ -36,6 +36,7 @@ $(document).ready(function() {
 			$(".rp1").fadeIn(600); //опенер
 			$(".ssrp6").fadeIn(600); //симпл ст
 			$(".asrp1").fadeIn(600); //ast
+			$(".smrp6").fadeIn(600); //smrp
 
 			$(".rb3").removeClass("fa-xmark");
 			$(".rb3").addClass("fa-check");
@@ -43,6 +44,7 @@ $(document).ready(function() {
 			$(".rp1").fadeOut(200);
 			$(".ssrp6").fadeOut(200);
 			$(".asrp1").fadeOut(200);
+			$(".smrp6").fadeOut(200);
 
 			$(".rb3").removeClass("fa-check");
 			$(".rb3").addClass("fa-xmark");
@@ -156,13 +158,13 @@ $(document).ready(function() {
 	});
 
 	$(".rb11").click(function(){ //обжигающий отвар
-		if ($(".asrp22").css('display') == 'none') {
-			$(".asrp22").fadeIn(600); //аст
+		if ($(".asrp10").css('display') == 'none') {
+			$(".asrp10").fadeIn(600); //аст
 
 			$(".rb11").removeClass("fa-xmark");
 			$(".rb11").addClass("fa-check");
 		} else {
-			$(".asrp22").fadeOut(200);
+			$(".asrp10").fadeOut(200);
 
 			$(".rb11").removeClass("fa-check");
 			$(".rb11").addClass("fa-xmark");
