@@ -91,7 +91,6 @@
 }
 /*ИНТЕРАКТИВНЫЕ ПРИОРИТЕТЫ ОПЕНЕР*/
 
-
 /*ТАБЫ*/
 .btn-rotation-content {
 	display: flex;
@@ -161,7 +160,6 @@
 	.btn-rotation-4 {
 		padding: 0.6vw 22% 0.35vw 22%;
 	}
-
 }
 
 /* 1440PX И МЕНЬШЕ */
@@ -180,19 +178,16 @@
 		padding: 0;
 	}
 
-
 	.btn-rotation-1,
 	.btn-rotation-2,
 	.btn-rotation-3,
 	.btn-rotation-4 {
 		padding: 0.6vw 21.8% 0.35vw 21.8%;
 	}
-
 }
 
 /* 480PX И МЕНЬШЕ */
 @media only screen and (max-width: 480px) {
-
 	.fa-xmark {
 		color: #9d9063;
 		font-size: 5vw;
@@ -257,9 +252,8 @@
 	.btn-rotation-2,
 	.btn-rotation-3,
 	.btn-rotation-4 {
-		padding: 1.4vw 17.3% 1vw 17.3%;
+		padding: 1.4vw 16.5% 1vw 16.5%;
 	}
-
 }
 
 @font-face {
