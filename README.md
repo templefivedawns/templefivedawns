@@ -1,2 +1,2 @@
 # templefivedawns.ru
-dev-версия сайта с руководствами классового дискорд-сервера монахов World of Warcraft
+dev-версия сайта классового дискорд-сервера монахов World of Warcraft!
