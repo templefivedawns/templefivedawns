@@ -1,0 +1,939 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  overflow: auto;
+  background-color: #0A1313;
+}
+
+h1 {
+  color: #9d9063;
+  font-size: 2.1vw;
+  font-family: MontserratBold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  color: #9d9063;
+  font-size: 1.4vw;
+  font-family: MontserratBold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: inherit;
+  padding: 0vw 0vw 0vw 1vw;
+  margin: 0;
+}
+
+h3 {
+  color: #9d9063;
+  font-size: 1vw;
+  font-family: MontserratBold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #00ff99;
+}
+
+p {
+  color: #9d9063;
+  font-family: Montserrat;
+  font-size: 0.7vw;
+  line-height: 1.2vw;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: #9d9063;
+  font-family: Montserrat;
+  font-size: 0.7vw;
+  line-height: 1.2vw;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: Montserrat;
+  font-size: 0.7vw;
+  line-height: 1.2vw;
+}
+
+.format-code {
+  background-color: #071515;
+  border: #9d9063 outset 1px;
+  padding: 0.5vw;
+  color: #9d9063;
+  font-weight: 500;
+  font-size: 0.7vw;
+  margin: 0.5vw 0vw 0.5vw 0vw;
+}
+
+/* ХЭДЕР НАЧАЛО*/
+#header {
+  background: url("../../../img/headerempty.png") fixed no-repeat;
+  height: 3.6vw;
+  width: auto;
+  position: sticky;
+  z-index: 90;
+  top: 0;
+  background-size: contain;
+  /* РАЗОБРАТЬСЯ С МАКСИМАЛЬНОЙ ШИРИНОЙ ХЭДЕРА 1440PX */
+}
+
+#header-mob {
+  display: none;
+}
+
+#popup-header-mob {
+  display: none;
+}
+
+/* ХЭДЕР МЕНЮ БРАШ */
+.BMbrush {
+  position: absolute;
+  z-index: 50;
+  margin-top: 0.4%;
+  width: 7.8vw;
+  display: none;
+}
+
+.WWbrush {
+  position: absolute;
+  z-index: 50;
+  margin-top: 0.3%;
+  margin-left: 5.5%;
+  width: 13vw;
+  display: none;
+}
+
+.MWbrush {
+  position: absolute;
+  z-index: 50;
+  margin-top: 0.3%;
+  margin-left: 17.7%;
+  width: 8.5vw;
+  display: none;
+}
+
+.Supportbrush {
+  position: absolute;
+  z-index: 50;
+  margin-top: 0.45%;
+  margin-left: 25.3%;
+  width: 10.5vw;
+  display: none;
+}
+
+.BM,
+.WW,
+.MW,
+.Support
+{
+  position: relative;
+  z-index: 90;
+}
+
+.active {
+  display: block;
+}
+/* ХЭДЕР МЕНЮ БРАШ */
+
+.logo {
+  /*логотип в хэдере*/
+  float: left;
+  margin-left: 14.8%;
+  height: 4.5vw;
+  width: 4.8vw;
+}
+
+.header-right {
+  /*мейн меню хэдера*/
+  float: right;
+  margin-right: 15%;
+}
+
+.header-right a {
+  /*настройки ссылок в мейн меню хэдера*/
+  float: left;
+  font-family: MontserratBold;
+  color: #9d9063;
+  font-size: 0.8vw;
+  line-height: 55%;
+  text-align: center;
+  padding: 0.7vw 0vw 0.7vw 1vw;
+  text-decoration: none;
+  margin-top: 0.6vw;
+}
+
+/*.header-right a:hover {*/
+/*  color: #00ff99;*/
+/*}*/
+/* ХЭДЕР ЗАКОНЧИЛСЯ */
+
+/* НАСТРОЙКИ БАДИ НАЧАЛО */
+.container {
+  margin: 3vw 15% 3vw 15%;
+  /* max-width: 1440px; */
+  background: url(../../../img/raids/vault-of-the-incarnates/vault-bg.png) top
+    left no-repeat;
+  background-color: #111a1a;
+  background-size: 100%;
+
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    to left top,
+    #9d9063 80%,
+    transparent 90%,
+    #9d9063 80%,
+    transparent 90%
+  );
+  border-image-slice: 1;
+  display: flex;
+  position: auto;
+  overflow: visible;
+}
+
+#containerMain {
+  background: linear-gradient(
+    180deg,
+    rgba(17, 26, 26, 0) 0%,
+    rgba(17, 26, 26, 1) 20%
+  );
+  width: 100%;
+  padding: 1.5vw;
+  margin: 0;
+  float: left;
+  align-content: center;
+  overflow: auto;
+  box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 1;
+  height: auto;
+}
+
+.divider-main {
+  display: block;
+  width: 100%;
+  margin: 0.4vw 0vw 0.4vw 0vw;
+}
+
+.divider-mob {
+  display: none;
+}
+
+.frame-red {
+  display: block;
+  background: url(../../../img/frame.png) no-repeat;
+  background-size: 100%;
+  height: 2.03vw;
+  width: 100%;
+  text-align: left;
+  margin: 0.2vw 0vw 0.2vw 0vw;
+}
+
+.frame-red-mob {
+  display: none;
+}
+
+.popup {
+  display: none;
+}
+
+.raidInfo {
+  color: #9d9063;
+  background-color: rgb(9, 14, 14, 0.4);
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    to left top,
+    #9d9063 10%,
+    transparent 30%,
+    transparent 70%,
+    #9d9063 90%
+  );
+  border-image-slice: 1;
+  margin: 0vw 0vw 0vw 0vw;
+  padding: 1vw;
+}
+
+/* ПРОБА */
+.bossContainer {
+  width: 20%;
+  float: left;
+  margin: 0.5vw;
+  box-shadow: 6px 0px 15px 2px rgba(0, 0, 0, 0.6);
+  width: 32vw;
+  height: 16vw;
+  background: url("../../../img/raids/vault-of-the-incarnates/vault-bg.webp")
+    center center no-repeat;
+  background-size: 150%;
+  overflow: visible;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    to left top,
+    #9d9063 10%,
+    transparent 30%,
+    transparent 70%,
+    #9d9063 90%
+  );
+  border-image-slice: 1;
+}
+
+.boss-right {
+  float: right;
+}
+
+.shadow {
+  filter: drop-shadow(0 0 10px rgba(100, 100, 100, 1));
+  filter: saturate(1.6);
+}
+
+.saturate {
+  filter: saturate(1.6);
+}
+
+.boss {
+  width: 75%;
+  height: 85%;
+  margin: 4% 0% 0% 15%;
+  overflow: visible;
+  filter: drop-shadow(0 0 10px rgba(100, 100, 100, 1));
+}
+
+.bossText {
+  background-color: rgba(17, 26, 26, 0.7);
+  padding: 0.5vw 0vw 0.5vw 0vw;
+  position: relative;
+  overflow: visible;
+  float: left;
+  z-index: 100;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  top: 0;
+  margin-top: -10%;
+}
+
+.bv2 {
+  margin: 4% 0% 0% 12%;
+}
+
+.bossText h2 {
+  font-family: MontserratBlack;
+  margin-right: 1%;
+}
+
+/* ПРОБА */
+
+/* #containerRed {
+  background: url(../img/backgroundred.png) 100% 0 repeat;
+  background-size: 300%;
+  align-content: center;
+  height: auto;
+  float: right;
+  width: 20%;
+  overflow: visible;
+} */
+
+/* ПРАВОЕ МЕНЮ НАВИГАЦИИ НАЧАЛО */
+.nav-bar {
+  background: #111a1a;
+  z-index: 50;
+  position: sticky;
+  top: 3.1vw;
+  border-bottom: #9d9063 solid 1px;
+  width: 100%;
+}
+
+.select-item-menu {
+  background-color: rgba(3, 19, 19, 0.7);
+  position: relative;
+  padding: 0;
+  margin: 0;
+  border: #9d9063 outset 0.01vw;
+}
+
+.select-item-menu p:hover {
+  color: #00ff99;
+}
+
+.select-item-menu p {
+  text-transform: uppercase;
+  font-family: MontserratBlack;
+  margin-left: 5%;
+}
+
+.select-item-submenu {
+  margin-left: 6%;
+  padding: 0;
+  padding-left: 0.4vw;
+}
+
+.select-item-submenu:hover {
+  color: #00ff99;
+}
+
+.select-item-menu:hover {
+  color: #00ff99;
+}
+
+/*цвет и скролл вверх выбранного итема меню*/
+.select p {
+  color: #00ff99;
+}
+
+.select:hover {
+  cursor: pointer;
+}
+/*цвет и скролл вверх выбранного итема меню*/
+/* ПРАВОЕ МЕНЮ НАВИГАЦИИ КОНЕЦ */
+/* БАДИ КОНЕЦ */
+
+/* НАЧАЛО МЕЙН ФУТЕРА */
+
+.chuvak {
+  display: flex;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  height: 6vw;
+  width: 4vw;
+  margin: 1vw;
+  /* filter: drop-shadow(0 0 10px rgb(143, 11, 11));
+  filter: saturate(1.6); */
+}
+
+#footer {
+  padding: 0;
+  margin: 0;
+}
+
+.design {
+  margin-bottom: 2vw;
+  text-align: center;
+}
+
+.design p {
+  font-weight: 400;
+  font-size: 0.8vw;
+}
+
+.footer-copyr p {
+  text-align: center;
+  font-weight: 100;
+  font-family: Montserrat;
+  font-size: 0.8vw;
+}
+
+.footer-discname {
+  text-align: center;
+  margin: 1vw 0vw 1vw 0vw;
+}
+
+.footer-discname a {
+  color: #9d9063;
+}
+
+#footer-mob {
+  display: none;
+}
+/* КОНЕЦ МЕЙН ФУТЕРА */
+
+/*
+/////////
+/////////
+АДАПТАЦИЯ
+/////////
+/////////
+*/
+
+/* 1440PX И МЕНЬШЕ */
+@media only screen and (max-width: 1440px) {
+  h1 {
+    font-size: 3.3vw;
+  }
+
+  h2 {
+    font-size: 2.2vw;
+    margin-left: 1vw;
+  }
+
+  p {
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+  }
+
+  li {
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+  }
+
+  code {
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+  }
+
+  .logo {
+    /*логотип в хэдере*/
+    margin-left: 4.9%;
+  }
+
+  .header-right {
+    /*мейн меню хэдера*/
+    margin-right: 5%;
+  }
+
+  .container {
+    margin: 3vw 5% 3vw 5%;
+  }
+
+  .frame-red {
+    height: 2.7vw;
+    width: 100%;
+    text-align: left;
+    margin: 0.2vw 0vw 1vw 0vw;
+    /* padding-top: 0.5vw; */
+  }
+
+  .frame-red-mob {
+    display: none;
+  }
+
+  /* СЕТКА БОССОВ */
+  .bossContainer {
+    width: 20%;
+    float: left;
+    margin: 0.8vw 0vw 0.8vw 0vw;
+    width: 49%;
+    height: 22vw;
+  }
+
+  .boss-right {
+    float: right;
+  }
+
+  /* СЕТКА БОССОВ */
+
+  .chuvak {
+    height: 8vw;
+    width: 5vw;
+    margin: 1vw;
+    margin: 0vw 0vw 0vw 1vw;
+  }
+}
+
+/* 480PX И МЕНЬШЕ */
+@media only screen and (max-width: 480px) {
+  body {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    overflow: auto;
+    background: url(../../../img/raids/vault-of-the-incarnates/vault-bg-header.png)
+      top center no-repeat;
+    background-size: 300%;
+    background-color: #090e0e;
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+
+  h2 {
+    font-size: 5vw;
+    margin-left: 2.4vw;
+  }
+
+  h3 {
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+
+  p {
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+
+  li {
+    font-size: 3.5vw;
+    line-height: 6vw;
+  }
+
+  code {
+    font-size: 3.5vw;
+    line-height: 6vw;
+  }
+
+  /* настройки <code> */
+  .format-code {
+    padding: 2vw;
+    color: #9d9063;
+    font-weight: 500;
+    font-size: 3vw;
+    margin: 1vw 0vw 1vw 0vw;
+  }
+  /* настройки <code> */
+
+  /* МОБИЛЬНЫЙ МЕЙН ХЭДЕР */
+  #header {
+    display: none;
+  }
+
+  #header-mob {
+    display: block;
+    background: url(../../../img/header480px2.png) fixed no-repeat;
+    background-size: 100%;
+    margin: -4.5vw 0vw 0vw 0vw;
+    height: 13.5vw;
+    padding: 0;
+    width: auto;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+  }
+
+  .header-mob-buttons-r {
+    padding: 0;
+    float: right;
+    margin-right: 0.5%;
+  }
+
+  .header-mob-item-l {
+    float: left;
+    /* width: 50%; */
+    height: 15.5vw;
+    margin: 0;
+    margin-left: 2.2vw;
+  }
+
+  .mobHeaderDots {
+    display: block;
+  }
+  .mobHeaderDotsHide {
+    display: none;
+  }
+
+  .header-mob-item-discord {
+    float: right;
+    /* width: 50%; */
+    height: 8vw;
+    width: 9vw;
+    margin: 1.5vw 3vw 0vw 0vw;
+    /* border-radius: 10%; */
+  }
+
+  .header-mob-item-boosty {
+    float: right;
+    /* width: 50%; */
+    height: 8vw;
+    width: 6vw;
+    margin: 1.5vw 3vw 0vw 0vw;
+  }
+
+  .logo {
+    /*логотип в хэдере*/
+    margin-left: 3vw;
+  }
+
+  .header-right {
+    /*мейн меню хэдера*/
+    margin-right: 3vw;
+    margin-top: 0.2vw;
+  }
+  /* МОБИЛЬНЫЙ МЕЙН ХЭДЕР */
+
+  /* МОБИЛЬНЫЙ ПОПАП ХЭДЕР */
+  #popup-header-mob {
+    display: none;
+    background: url(../../../img/header480px2.png) fixed no-repeat;
+    background-size: 100%;
+    height: 13.5vw;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+  }
+
+  .popup-header-mob-buttons-r {
+    padding: 0;
+    float: right;
+    margin-right: 0.5%;
+  }
+
+  .popup-header-mob-item-l {
+    float: left;
+    /* width: 50%; */
+    height: 15.5vw;
+    margin: 0;
+    margin-left: 2.2vw;
+  }
+
+  .popup-header-mob-item {
+    float: right;
+    /* width: 50%; */
+    height: 9vw;
+    width: 9vw;
+    margin: 0.8vw 3vw 0vw 0vw;
+    border-radius: 15%;
+  }
+
+  .logo {
+    /*логотип в хэдере*/
+    margin-left: 3vw;
+  }
+
+  .popup-header-right {
+    /*мейн меню хэдера*/
+    margin-right: 3vw;
+    margin-top: 0.2vw;
+  }
+  /* МОБИЛЬНЫЙ ПОПАП ХЭДЕР */
+
+  /* НАЧАЛО ПОПАП-МЕНЮ */
+  .popup {
+    top: 11.1vw;
+    display: block;
+    position: absolute;
+    padding: 0;
+    width: 0vw;
+    height: 100%;
+    margin: 0;
+    z-index: 80;
+  }
+
+  .popupBackground {
+    top: 11.1vw;
+    padding: 5vw 0vw 0vw 0vw;
+    background-color: rgba(9, 14, 14, 0.7);
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    display: block;
+    z-index: 50;
+  }
+
+  .popup-menu {
+    padding: 5vw 0vw 0vw 0vw;
+    border-right: #9d9063 solid 1px;
+    background-color: #090e0e;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: none;
+  }
+
+  .popup-select-item-menu {
+    background-color: rgba(3, 19, 19, 0.7);
+    border-top: #9d9063 outset 0.01vw;
+    border-bottom: #9d9063 outset 0.01vw;
+    padding-left: 3vw;
+  }
+
+  .popup-select-item-menu p {
+    text-transform: uppercase;
+    font-family: MontserratBlack;
+    margin-left: 0%;
+    z-index: 100;
+  }
+
+  .popup-select-item-menu p:hover {
+    color: #00ff99;
+  }
+
+  .popup-select-item-submenu {
+    padding-left: 5vw;
+    text-transform: capitalize;
+  }
+
+  .popup-select-item-submenu:hover {
+    color: #00ff99;
+  }
+  /* КОНЕЦ ПОПАП-МЕНЮ */
+
+  .container {
+    background: url(../../../img/raids/vault-of-the-incarnates/vault-bg.png) top
+      left no-repeat;
+    background-color: #111a1a;
+    background-size: 100%;
+    margin: 0;
+    width: 100%;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    position: auto;
+  }
+  .fixed {
+    position: fixed;
+  }
+
+  #containerMain {
+    background: linear-gradient(
+      180deg,
+      rgba(17, 26, 26, 0) 0%,
+      rgba(17, 26, 26, 1) 20%
+    );
+    width: 100%;
+    border: none;
+    padding: 3vw;
+    box-shadow: none;
+  }
+
+  .collum-l,
+  .collum-r {
+    width: 100%;
+    padding-top: 3vw;
+    margin: 0;
+    text-align: left;
+  }
+
+  .raidInfo {
+    padding: 3vw;
+  }
+
+  /* СЕТКА БОССОВ */
+  .bossContainer {
+    width: 100%;
+    float: none;
+    margin: 3vw 0vw 3vw 0vw;
+    width: 100%;
+    height: 50vw;
+  }
+
+  .boss-right {
+    float: none;
+  }
+
+  .bossText {
+    padding: 2vw 0vw 2vw 0vw;
+    margin-top: -15%;
+  }
+  /* СЕТКА БОССОВ */
+
+  .divider-main {
+    display: none;
+  }
+
+  .divider-mob {
+    display: block;
+    width: 100%;
+    margin: 1vw 0vw 1vw 0vw;
+  }
+
+  .frame-red {
+    display: none;
+  }
+
+  .frame-red-mob {
+    display: block;
+    background: url(../../../img/frame-mob1.png) no-repeat center;
+    background-size: 100%;
+    background-position: center;
+    height: 8vw;
+    width: 100%;
+    text-align: left;
+    margin: 1vw 0vw 1vw 0vw;
+    padding-top: 1.5vw;
+  }
+
+  /* ШИРОКИЙ КРАСНЫЙ БОРДЕР ПОД ДВОЙНУЮ СТРОКУ ЗАГОЛОВКА */
+  .frame-red-weight-mob {
+    background: url(../../../img/frame-mob.png) no-repeat center;
+    background-size: 100%;
+    height: 13.5vw;
+    width: 100%;
+  }
+
+  .frame-red-weight-mob h2 {
+    line-height: 4.6vw;
+    margin-top: 1.5vw;
+  }
+  /* ШИРОКИЙ КРАСНЫЙ БОРДЕР ПОД ДВОЙНУЮ СТРОКУ ЗАГОЛОВКА */
+
+  #containerRed {
+    display: none;
+  }
+
+  /* НАЧАЛО МОБИЛЬНОГО ФУТЕРА */
+  #footer {
+    display: none;
+  }
+
+  .chuvak {
+    display: none;
+  }
+
+  #footer-mob {
+    display: block;
+    background-color: #111a1a;
+    /* box-shadow: 0vw 0vw 4vw 2vw rgba(0, 0, 0, 0.6); */
+    border-top: #9d9063 solid 1px;
+    height: 7vw;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-mob-buttons {
+    width: 100vw;
+    display: flex;
+    /*margin: 3vw;*/
+    /*justify-content: space-between;*/
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    justify-content: center;
+  }
+
+  .footer-mob-buttons a {
+    color: #9d9063;
+    font-family: MontserratBold, sans-serif;
+  }
+  /* КОНЕЦ МОБИЛЬНОГО ФУТЕРА */
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../../../fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: MontserratSemiBold;
+  src: url(../../../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: MontserratBold;
+  src: url(../../../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: MontserratMedium;
+  src: url(../../../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: MontserratItalic;
+  src: url(../../../fonts/Montserrat-Italic.ttf);
+}
+
+@font-face {
+  font-family: MontserratBlack;
+  src: url(../../../fonts/Montserrat-Black.ttf);
+}

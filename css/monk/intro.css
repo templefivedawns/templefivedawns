@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fa-caret-down {
+	padding-left: 0.4vw;
+}
+
+/* аккордеон начало */
+.accordion {
+	background-color: rgba(17, 26, 26, 0);
+	font-family: MontserratBold, sans-serif;
+	font-size: 1vw;
+	text-decoration: none;
+	margin: 0.4vw 0 0 0;
+	color: #9d9063;
+	cursor: pointer;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+}
+
+.accordion:hover {
+	color: #00ff99;
+}
+
+.panel {
+	display: none;
+	overflow: hidden;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	padding: 0;
+	text-decoration: none;
+}
+
+/* аккордеон конец */
+
+/* 1440PX И МЕНЬШЕ */
+@media only screen and (max-width: 1440px) {
+}
+
+/* 480PX И МЕНЬШЕ */
+@media only screen and (max-width: 480px) {
+	.fa-caret-down {
+		padding-left: 1vw;
+	}
+
+	.accordion {
+		font-size: 4vw;
+	}
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../../fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+	font-family: MontserratSemiBold;
+	src: url(../../fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: MontserratBold;
+	src: url(../../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: MontserratMedium;
+	src: url(../../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+	font-family: MontserratItalic;
+	src: url(../../fonts/Montserrat-Italic.ttf);
+}
+
+@font-face {
+	font-family: MontserratBlack;
+	src: url(../../fonts/Montserrat-Black.ttf);
+}

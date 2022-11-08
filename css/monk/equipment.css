@@ -1,0 +1,637 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*maincontainer*/
+
+.scroll-sticky-bar-bg {
+	background: #061313;
+	border-bottom: #9d9063 solid 0.1vw;
+}
+
+.leg-format-note {
+	font-size: 0.6vw;
+	font-weight: 100;
+}
+
+.leg-format-note a {
+	font-size: 0.6vw;
+	font-weight: 100;
+}
+
+.acnhor-nav-bar {
+	position: absolute;
+	height: 16vw;
+	display: none;
+}
+
+.sticky-nav-bar {
+	display: block;
+	top: 3.1vw;
+	position: sticky;
+	width: 100%;
+	height: 1vw;
+	z-index: 90;
+	padding: 0.5vw 0 0.5vw 0;
+}
+
+.sticky-menu {
+	display: flex;
+	justify-content: space-evenly;
+	text-transform: uppercase;
+	font-family: MontserratBlack, sans-serif;
+}
+
+.sticky-menu a {
+	color: #9d9063;
+}
+
+.sticky-menu a:hover {
+	color: #00ff98;
+}
+
+/*ТАБЫ СТАТЫ*/
+
+.tabs-stat {
+	width: 100%;
+}
+
+.btn-stat-content {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 1vw;
+}
+
+.btn-stat-1,
+.btn-stat-2,
+.btn-stat-3,
+.btn-stat-4,
+.btn-stat-5 {
+	background: none;
+	border: none;
+	margin-bottom: 0.8vw;
+}
+
+.btn-stat-1 p,
+.btn-stat-2 p,
+.btn-stat-3 p,
+.btn-stat-4 p,
+.btn-stat-5 p {
+	font-family: MontserratBlack, sans-serif;
+	text-transform: uppercase;
+}
+
+.btn-stat-1 p:hover,
+.btn-stat-2 p:hover,
+.btn-stat-3 p:hover,
+.btn-stat-4 p:hover,
+.btn-stat-5 p:hover {
+	color: #00ff99;
+}
+
+.select-tab {
+	color: #00ff99;
+}
+
+.tabs-stat-content {
+	width: 100%;
+}
+
+.tab-stat-1,
+.tab-stat-2,
+.tab-stat-3,
+.tab-stat-4,
+.tab-stat-5 {
+	margin-bottom: 1vw;
+	text-align: center;
+}
+
+.tab-stat-1 {
+	display: block;
+}
+
+.tab-stat-2,
+.tab-stat-3,
+.tab-stat-4,
+.tab-stat-5 {
+	display: none;
+}
+/*ТАБЫ СТАТЫ*/
+
+/*ТАБЫ WTF1*/
+.btn-wtf1-content {
+	display: flex;
+	width: 100%;
+	margin-top: 1vw;
+}
+
+.btn-wtf1-1 {
+	background-color: transparent;
+	font-family: MontserratBold, sans-serif;
+	color: #9d9063;
+	border: none;
+	margin-bottom: 1vw;
+	text-transform: uppercase;
+}
+
+.btn-wtf1-1:hover {
+	color: #00ff99;
+}
+
+.tabs-wtf1-content {
+	width: 100%;
+}
+
+.tab-wtf1-1 {
+	display: none;
+	margin-bottom: 1vw;
+}
+/*ТАБЫ WTF1*/
+
+/*ТАБЫ WTF2*/
+.btn-wtf2-content {
+	display: flex;
+	width: 100%;
+	margin-top: 1vw;
+}
+
+.btn-wtf2-1 {
+	background-color: transparent;
+	font-family: MontserratBold, sans-serif;
+	color: #9d9063;
+	border: none;
+	margin-bottom: 1vw;
+	text-transform: uppercase;
+}
+
+.btn-wtf2-1:hover {
+	color: #00ff99;
+}
+
+.tabs-wtf2-content {
+	width: 100%;
+}
+
+.tab-wtf2-1 {
+	display: none;
+	margin-bottom: 1vw;
+}
+/*ТАБЫ WTF2*/
+
+/*ТАБЫ ЛЕГИ*/
+.btn-leg-content {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	/*padding-top: 0vw;*/
+	/*margin-top: 1vw;*/
+	margin-bottom: 1vw;
+	/*background-color: #112626;*/
+	/*box-shadow: 0 0 0.78vw 0.4vw rgba(0, 0, 0, 0.4);*/
+}
+
+.btn-leg-1,
+.btn-leg-2,
+.btn-leg-3,
+.btn-leg-4 {
+	background: none;
+	font-family: MontserratBold, sans-serif;
+	color: #9d9063;
+	/*border: none;*/
+	text-transform: uppercase;
+	/*border-bottom: transparent solid 0.1vw;*/
+	height: auto;
+	padding: 0.35vw 10.2% 0.2vw 10.2%;
+	border: transparent solid 0.1vw;
+}
+
+.btn-leg-1:hover,
+.btn-leg-2:hover,
+.btn-leg-3:hover,
+.btn-leg-4:hover {
+	border-bottom: #9d9063 solid 0.1vw;
+	/*background-color: rgba(10, 19, 19, 0.6);*/
+}
+
+.tabs-leg-content {
+	width: 100%;
+}
+
+.tab-leg-1,
+.tab-leg-2,
+.tab-leg-3,
+.tab-leg-4 {
+	margin-bottom: 1vw;
+	text-align: center;
+}
+
+.tab-leg-1 {
+	display: block;
+}
+
+.tab-leg-2,
+.tab-leg-3,
+.tab-leg-4 {
+	display: none;
+}
+/*ТАБЫ ЛЕГИ*/
+
+/*ТАБЫ РАСХОДНИКИ*/
+.btn-rashod-content {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	/*padding-top: 0vw;*/
+	/*margin-top: 1vw;*/
+	margin-bottom: 1vw;
+	/*background-color: #112626;*/
+}
+
+.btn-rashod-1,
+.btn-rashod-2,
+.btn-rashod-3 {
+	background: none;
+	font-family: MontserratBold, sans-serif;
+	color: #9d9063;
+	text-transform: uppercase;
+	height: auto;
+	padding: 0.35vw 14.4% 0.2vw 14.4%;
+	border: transparent solid 0.1vw;
+}
+
+.btn-rashod-1:hover,
+.btn-rashod-2:hover,
+.btn-rashod-3:hover {
+	border-bottom: #9d9063 solid 0.1vw;
+}
+
+.tabs-rashod-content {
+	width: 100%;
+}
+
+.tab-rashod-1,
+.tab-rashod-2,
+.tab-rashod-3 {
+	margin-bottom: 1vw;
+	text-align: left;
+}
+
+.tab-rashod-1 {
+	display: block;
+}
+
+.tab-rashod-2,
+.tab-rashod-3 {
+	display: none;
+}
+/*ТАБЫ РАСХОДНИКИ*/
+
+/*ТАБЫ РАСЫ*/
+.collum-alliance {
+	background: url("../../img/alliance.png") no-repeat center center;
+	background-size: 12vw;
+	float: left;
+	width: 49.9%;
+	text-align: center;
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+}
+
+.collum-alliance-in {
+	background-color: rgba(3, 19, 19, 0.8);
+	min-height: 15vw;
+}
+
+.collum-horde {
+	background: url("../../img/horde.png") no-repeat center center;
+	background-size: 12vw;
+	float: right;
+	width: 49.9%;
+	text-align: center;
+	border-left: #9d9063 solid 0.1vw;
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+	border-top: none;
+}
+
+.collum-horde-in {
+	background-color: rgba(3, 19, 19, 0.8);
+	min-height: 15vw;
+}
+
+.btn-race-content {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	/*padding-top: 0vw;*/
+	/*margin-top: 1vw;*/
+	margin-bottom: 1vw;
+	/*background-color: #112626;*/
+}
+
+.btn-race-1,
+.btn-race-2,
+.btn-race-3 {
+	background: none;
+	font-family: MontserratBold, sans-serif;
+	color: #9d9063;
+	text-transform: uppercase;
+	height: auto;
+	padding: 0.35vw 12.2% 0.2vw 12.2%;
+	border: transparent solid 0.1vw;
+}
+
+.btn-race-1:hover,
+.btn-race-2:hover,
+.btn-race-3:hover {
+	border-bottom: #9d9063 solid 0.1vw;
+}
+
+.tabs-race-content {
+	width: 100%;
+}
+
+.tab-race-1,
+.tab-race-2,
+.tab-race-3 {
+	margin-bottom: 1vw;
+	text-align: left;
+	padding-right: 1vw;
+}
+
+.tab-race-1 {
+	display: block;
+}
+
+.tab-race-2,
+.tab-race-3 {
+	display: none;
+}
+
+/*ВТОРАЯ ВКЛАДКА*/
+
+.btn-race2-content {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	/*padding-top: 0vw;*/
+	/*margin-top: 1vw;*/
+	margin-bottom: 1vw;
+	/*background-color: #112626;*/
+}
+
+.btn-race2-1,
+.btn-race2-2,
+.btn-race2-3 {
+	background: none;
+	font-family: MontserratBold, sans-serif;
+	color: #9d9063;
+	text-transform: uppercase;
+	height: auto;
+	padding: 0.35vw 12.2% 0.2vw 12.2%;
+	border: transparent solid 0.1vw;
+}
+
+.btn-race2-1:hover,
+.btn-race2-2:hover,
+.btn-race2-3:hover {
+	border-bottom: #9d9063 solid 0.1vw;
+}
+
+.tabs-race2-content {
+	width: 100%;
+}
+
+.tab-race2-1,
+.tab-race2-2,
+.tab-race2-3 {
+	margin-bottom: 1vw;
+	text-align: left;
+	padding-left: 1vw;
+}
+
+.tab-race2-1 {
+	display: block;
+}
+
+.tab-race2-2,
+.tab-race2-3 {
+	display: none;
+}
+/*ТАБЫ РАСЫ*/
+
+.select-bg-leg {
+	background-color: #032121;
+	box-shadow: 0 0 0.4vw 0.1vw rgba(0, 0, 0, 0.4);
+	border: #9d9063 solid 0.1vw;
+}
+
+/*maincontainer*/
+/* 1920PX И МЕНЬШЕ */
+@media only screen and (max-width: 1920px) {
+
+	.btn-leg-1,
+	.btn-leg-2,
+	.btn-leg-3,
+	.btn-leg-4 {
+		padding: 0.6vw 9.5% 0.35vw 9.5%;
+	}
+
+	.btn-rashod-1,
+	.btn-rashod-2,
+	.btn-rashod-3 {
+		padding: 0.6vw 13.6% 0.35vw 13.6%;
+	}
+
+	.btn-race-1,
+	.btn-race-2,
+	.btn-race-3,
+	.btn-race2-1,
+	.btn-race2-2,
+	.btn-race2-3{
+		padding: 0.6vw 10.9% 0.35vw 10.9%;
+	}
+
+}
+
+/* 1440PX И МЕНЬШЕ */
+@media only screen and (max-width: 1440px) {
+
+	.sticky-nav-bar {
+		top: 3.1vw;
+		width: 100%;
+		height: 1vw;
+		padding: 0.5vw 0 0.9vw 0;
+	}
+
+	.leg-format-note {
+		font-size: 0.9vw;
+	}
+
+	.leg-format-note a {
+		font-size: 0.9vw;
+	}
+
+	.btn-leg-1,
+	.btn-leg-2,
+	.btn-leg-3,
+	.btn-leg-4 {
+		padding: 0.6vw 9.3% 0.35vw 9.3%;
+	}
+
+	.btn-rashod-1,
+	.btn-rashod-2,
+	.btn-rashod-3 {
+		padding: 0.6vw 13.5% 0.35vw 13.5%;
+	}
+
+	.btn-race-1,
+	.btn-race-2,
+	.btn-race-3,
+	.btn-race2-1,
+	.btn-race2-2,
+	.btn-race2-3{
+		padding: 0.6vw 10.45% 0.35vw 10.45%;
+	}
+
+	.collum-alliance {
+		background-size: 16vw;
+		width: 49.9%;
+		margin-bottom: 1vw;
+		margin-top: 1vw;
+	}
+
+	.collum-alliance-in {
+		min-height: 22vw;
+	}
+
+	.collum-horde {
+		background-size: 16vw;
+		width: 49.9%;
+		margin-bottom: 1vw;
+		margin-top: 1vw;
+	}
+
+	.collum-horde-in {
+		min-height: 22vw;
+	}
+
+}
+
+/* 480PX И МЕНЬШЕ */
+@media only screen and (max-width: 480px) {
+
+	.leg-format-note {
+		font-size: 3vw;
+	}
+
+	.leg-format-note a {
+		font-size: 3vw;
+	}
+
+	.sticky-nav-bar {
+	display: none;
+	}
+
+	.btn-stat-1 p,
+	.btn-stat-2 p,
+	.btn-stat-3 p,
+	.btn-stat-4 p,
+	.btn-stat-5 p {
+		font-size: 2vw;
+	}
+
+	.btn-leg-content {
+		margin-bottom: 5vw;
+	}
+
+	.btn-leg-1,
+	.btn-leg-2,
+	.btn-leg-3,
+	.btn-leg-4 {
+		/*width: 25%;*/
+		/*height: 25%;*/
+		padding: 1.4vw 4.65% 1vw 4.65%;
+	}
+
+	.btn-rashod-content {
+		margin-bottom: 5vw;
+	}
+
+	.btn-rashod-1,
+	.btn-rashod-2,
+	.btn-rashod-3 {
+		padding: 1.4vw 8.9% 1vw 8.9%;
+	}
+
+	.btn-race-content,
+	.btn-race2-content {
+		margin-bottom: 5vw;
+	}
+
+	.collum-alliance {
+		background-size: 50vw;
+		width: 100%;
+		margin-bottom: 1vw;
+		margin-top: 1vw;
+	}
+
+	.collum-alliance-in {
+		min-height: 75vw;
+		border-bottom: #9d9063 solid 0.1vw;
+	}
+
+	.collum-horde {
+		background-size: 50vw;
+		width: 100%;
+		margin-bottom: 1vw;
+		margin-top: 1vw;
+		border-left: none;
+		/*border-top: #9d9063 solid 0.1vw;*/
+	}
+
+	.collum-horde-in {
+		min-height: 75vw;
+	}
+
+	.btn-race-1,
+	.btn-race-2,
+	.btn-race-3,
+	.btn-race2-1,
+	.btn-race2-2,
+	.btn-race2-3{
+		padding: 1.4vw 8.9% 1vw 8.9%;
+	}
+
+
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../../fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+	font-family: MontserratSemiBold;
+	src: url(../../fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: MontserratBold;
+	src: url(../../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: MontserratMedium;
+	src: url(../../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+	font-family: MontserratItalic;
+	src: url(../../fonts/Montserrat-Italic.ttf);
+}
+
+@font-face {
+	font-family: MontserratBlack;
+	src: url(../../fonts/Montserrat-Black.ttf);
+}

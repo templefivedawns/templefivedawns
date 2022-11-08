@@ -1,0 +1,17 @@
+{
+  "short_name": "templefivedawns.ru",
+  "name": "templefivedawns.ru",
+  "description": "templefivedawns.ru - ресурс, посвященный монахам World of Warcraft!",
+  "icons": [
+    {
+      "src": "https://templefivedawns.ru/img/logonorm1.png",
+      "type": "image/png",
+      "sizes": "680x680"
+    }
+  ],
+  "scope": "/",
+  "start_url": "/",
+  "background_color": "#0a1313",
+  "theme_color": "#111a1a",
+  "display": "Browser"
+}
